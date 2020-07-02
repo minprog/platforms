@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/minprog/platform-flask.git
+	branch = main
+	commit = 04918cf571e198c8ad3f8be7e524e9517da09056
+	parent = febeefc609283122dffa643329b8d02372e52ba4
+	method = merge
+	cmdver = 0.4.1
