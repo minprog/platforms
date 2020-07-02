@@ -3,8 +3,6 @@ short_name: Platform
 language: nl
 
 links:
-    '[book] Reference': https://man.cs50.io/
-    '[terminal] IDE': https://ide.cs50.io/
     '[question-square] Forum': https://us.edstem.org/courses/341
     '[camera-video] Assistentie': https://calendly.com/mprog-parttime/assistentie
 
