@@ -1,11 +1,6 @@
-# Parttime Web App Studio <br><small>Studiewijzer, Lente 2020</small>
+# Programmeerplatform: Web Apps<br><small>Studiewijzer Parttime, Herfst 2020</small>
 
 > "This course picks up where Harvard College’s CS50 leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Flask, Django, and Bootstrap. Topics include database design, scalability, security, and user experience. Through hands-on projects, students learn to write and use APIs, create interactive UIs, and leverage cloud services like GitHub and Heroku. By semester’s end, students emerge with knowledge and experience in principles, languages, and tools that empower them to design and deploy applications on the Internet." --- CSCI S-33a at Harvard.
-
-
-## Docenten
-
-Je docenten zijn Martijn Stegeman (coördinator), Rebecca Davidsson en Jasper den Duijf.
 
 
 ## Voorkennis
@@ -13,42 +8,65 @@ Je docenten zijn Martijn Stegeman (coördinator), Rebecca Davidsson en Jasper de
 Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze cursus start.
 
 
+## Docenten en contact
+
+Je docenten zijn Martijn Stegeman (coördinator), ....
+
+- Voor vragen over de stof, hulp met programmeren, technische ondersteuning, plaats je zoveel mogelijk een vraag op [Ed](https://us.edstem.org/courses/365).
+- Als je niet weet hoe je een vraag moet stellen of je weet niet hoe je moet beginnen met iets, maak dan een afspraak voor video-assistentie via [Calendly](http://calendly.com/app-studio/assistentie).
+- Voor vragen over regeltjes, het maken van persoonlijke afspraken en het op de hoogte houden van de docenten over het later inleveren stuur je een mail naar <help@mprog.nl>.
+
+
 ## Verwachtingen
 
 Om de cursus tot een goed einde te brengen, verwachten we dat je:
 
-1. minimaal vier goedwerkende websites volgens onze beschrijving implementeert en inlevert,
+1. vier goedwerkende websites volgens onze beschrijving implementeert en inlevert,
 1. de websites verbetert op basis van gevraagde en ongevraagde feedback,
 1. actief deelneemt aan de werkgroepen,
-1. regelmatig vragen stelt aan de assistenten en docenten, en
+1. regelmatig vragen stelt aan de assistenten en docenten,
+1. vragen beantwoordt van andere studenten,
 1. actief deelneemt aan onderlinge code reviews.
+
+
+## Werkgroepen
+
+Werkgroepen zijn bijeenkomsten van zo'n 30--60 minuten met je mentor. In de werkgroepen krijg je de kans om samen de voortgang te bespreken, tips uit te wisselen over het aanpakken van problemen en om je medestudenten en mentor beter te leren kennen. Aanwezigheid is verplicht.
+
+| Werkgroep | Mentor | 1e            | 2e              | Link |  
+| --------- | ------ | ------------- | --------------- | ---- |  
+| A         |        | dinsdag 10:00 | vrijdag 10:00   |      |  
+| B         |        | dinsdag 10:00 | donderdag 11:00 |      |  
+| C         |        | dinsdag 10:00 | donderdag 10:00 |      |  
+| D         |        | maandag 10:00 | donderdag 10:00 |      |  
+| E         |        | dinsdag 10:00 | donderdag 10:00 |      |  
 
 
 ## Eindcijfer
 
-Let op dat je minimaal aan bovenstaande verwachtingen moet voldoen om een eindcijfer te kunnen halen. Voor de **opdrachten** kun je punten verdienen, tot een maximum van 30 voor de cursus. Je programma's worden kritisch bekeken en op basis hiervan krijg je punten voor de kwaliteit van de inzending. Vóór die tijd heb je uitgebreid feedback gekregen en gevraagd.
+Let op dat je ten minste aan bovenstaande verwachtingen moet voldoen om een eindcijfer te kunnen halen. Voor de vier **opdrachten** kun je punten verdienen, tot een maximum van 24 voor de cursus. Je programma's worden kritisch bekeken en op basis hiervan krijg je punten voor de kwaliteit van de inzending. Vóór die tijd heb je uitgebreid feedback gekregen en gevraagd.
 
 
 ## Kalender
 
 Voor de **opdrachten** gelden de volgende deadlines voor het werkend inleveren (volgens de gegeven specificaties). Daarnaast is de portfolio-deadline vermeld voor het inleveren van de verbeterde versies van deze projecten.
 
-| Opdracht  | Naam      | Duur    | Deadline             |  
-| --------- | --------- | ------- | -------------------- |  
-| Project 0 | Homepage  | 1 week  | woensdag 12 februari |  
-| Project 1 | Blog      | 1 week  | woensdag 19 februari |  
-| Project 2 | Books     | 2 weken | woensdag  4 maart    |  
-| Project 3 | Pizza     | 3 weken | woensdag 25 maart    |  
-| Portfolio |           |         | woensdag 25 maart    |  
+| Opdracht  | Duur        | Deadline           |  
+| --------- | ----------- | ------------------ |  
+| Homepage  | 3 werkdagen | woensdag 1 april   |  
+| Blog      | 3 werkdagen | maandag 6 april    |  
+| Books     | 6 werkdagen | dinsdag 14 april   |  
+| Pizza     | 7 werkdagen | donderdag 23 april |  
+| Portfolio | 1 werkdag   | vrijdag 24 april   |  
 
 
-## Becijfering van projecten 0--3
+## Becijfering van de projecten
 
 Om punten te krijgen voor elk project moet je na afronding de code committen en pushen naar GitHub, en de opdracht laten aftekenen. Aftekenen betekent dat de code daarna in principe klaar is voor beoordeling. Het aftekenen is ook een logisch moment om feedback te vragen aan de assistent, hoewel dit ook op andere momenten kan.
 
-Je moet vóór de definitieve beoordeling nog een code review doen met een medestudent, waarbij je elkaar advies en feedback geeft op het project, en dan met name de code zelf. Hiervoor wordt een dag aangewezen. De samenvatting van de feedback die je *krijgt* moet je zelf noteren en in de repository achterlaten in een bestand genaamd `REVIEW.md`.
+Je moet vóór de definitieve beoordeling nog een code review doen met een medestudent, waarbij je elkaar advies en feedback geeft op het project, en dan met name de code zelf. Hiervoor wordt een systeem aangeboden. De samenvatting van de feedback die je *krijgt* en wat je er mee *doet* moet je zelf noteren en in de repository achterlaten in een bestand genaamd `REVIEW.md`.
 
-De eindbeoordeling zal plaatsvinden na de laatste deadline van de projecten. Hiervoor wordt een speciale "portfolio"-deadline aangewezen (zie boven). Elk project krijgt een score op basis van het volgende schema:
+De eindbeoordeling zal plaatsvinden na de laatste deadline van de projecten. Hiervoor wordt een speciale "portfolio"-deadline aangewezen (zie boven, en ook deze deadline is niet hard). Elk project krijgt een score op basis van het volgende schema:
 
 | ptn | omschrijving                                                                      |  
 | :-: | --------------------------------------------------------------------------------- |  
@@ -60,7 +78,7 @@ De eindbeoordeling zal plaatsvinden na de laatste deadline van de projecten. Hie
 |  1  | Er is duidelijk aandacht besteed aan het project, maar het werkt niet echt.       |  
 |  0  | Niet ingestuurd of echt incompleet.                                               |  
 
-In alle gevallen is er ruimte voor kleine fouten en vergissingen. Alle projecten van 0--4 wegen even zwaar in het eindcijfer.
+In alle gevallen is er ruimte voor kleine fouten en vergissingen. Alle projecten wegen even zwaar in het eindcijfer.
 
 
 ## Samenwerken
@@ -90,7 +108,7 @@ Wat betreft fraude en plagiaat volgen we in deze cursus de richtlijnen van de Un
 
 ## Herkansen
 
-Het vak bestaat uit een hoeveelheid projecten die binnen de gestelde tijd afgemaakt moeten worden. Red je het niet binnen de tijd, dan kun je doorgaans het vak afmaken in een later semester. De projecten worden echter niet *standaard* overgezet. Je moet altijd zelf contact opnemen vóór de start van een nieuwe editie van het vak om afspraken te maken over het meenemen van de oude opdrachten en het verder afmaken van de resterende.
+Het vak bestaat uit een hoeveelheid projecten die binnen de gestelde tijd afgemaakt moeten worden. Red je het niet binnen de tijd, dan kun je doorgaans het vak niet eerder afmaken dan in een later semester. De andere projecten worden echter niet *standaard* overgezet. Je moet altijd zelf contact opnemen vóór de start van een nieuwe editie van het vak om afspraken te maken over het meenemen van de al ingeleverde opdrachten en het verder afmaken van de resterende.
 
 
 ## Dankbetuiging/Acknowledgements
