@@ -19,10 +19,10 @@ How to:
 
 Be sure to have:
 
-- Prepared yourself using the video lectures
-- Created a GitHub repository via GitHub Classroom
+- prepared yourself using the video lectures, and
+- created a GitHub repository via GitHub Classroom.
 
-### Your First Webpage
+## Your First Webpage
 
 Okay, let's add a simple webpage to your repository. First, on your working repository page (https://github.com/uva-webapps/homepage-username), click on the green "Clone or download" button. Copy the "Clone with HTTPS" link to your clipboard (if familiar with SSH, you can use that instead).
 

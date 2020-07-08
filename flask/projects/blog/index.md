@@ -19,6 +19,13 @@ How to:
 
 ## Preparations
 
+Be sure to have:
+
+- prepared yourself using the video lectures, and
+- created a GitHub repository via GitHub Classroom.
+
+## Understanding Jekyll
+
 For this project, you'll be using Jekyll, which is a **static site generator**. It allows you to define some logic using a programming language called Liquid, write templates in HTML, add layout using CSS, and write "blog posts" using Markdown. Mike Dane provides a short introduction:
 
 ![embed](https://www.youtube.com/embed/T1itpPvFWHI)

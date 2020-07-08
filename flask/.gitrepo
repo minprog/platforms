@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/minprog/platform-flask.git
 	branch = main
-	commit = 29674c1e42ff9624c8c67e83b56aef0472f3d382
-	parent = 444bbb43afea6d86a9eedb20b85e04228a430e0e
+	commit = f409cb6321c453ee72df4e4ac132fe409852ce31
+	parent = 7bae9e120bdb325c4d916730c41383084eddf17a
 	method = merge
 	cmdver = 0.4.1

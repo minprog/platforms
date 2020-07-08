@@ -1,4 +1,4 @@
-# Pizza (Flask)
+# Pizza
 
 ## Objectives
 
@@ -26,12 +26,10 @@ been placed.
 
 ## Preparations
 
-Before your do anything else, watch and understand these video lectures:
+Be sure to have:
 
-- Lecture 4b, [ORMs](/lectures/orms)
-- Lecture 5, [Javascript](/lectures/javascript)
-
-If you have any questions about the lectures, please post a question!
+- prepared yourself using the video lectures, and
+- created a GitHub repository via GitHub Classroom.
 
 ## Milestones
 
@@ -41,57 +39,7 @@ We recommend that you try to meet the following milestones in order:
 * Complete the Shopping Cart and Placing an Order steps.
 * Complete the Viewing Orders and Personal Touch steps.
 
-## Getting Started
-
-### GitHub Classroom
-
-1. [Click here](https://classroom.github.com/a/lxxupyvk) to go to the GitHub Classroom page for starting the assignment.
-2. Click the green "Accept this assignment" button. This will create a GitHub repository for your project. Recall that a git repository is just a location where your code will be stored and which can be used to keep track of changes you make to your code over time.
-3. Click on the link that follows "Your assignment has been created here", which will direct you to the GitHub repository page for your project. It may take a few seconds for GitHub to finish creating your repository.
-4. Now, you should be looking at a GitHub repository titled uva-webapps/pizzaf-username, where username is your GitHub username. This will be the repository to which you will push all of your code while working on your project.
-5. Submit the link to your project's GitHub repository below.
-
-
-### PostgreSQL
-
-For this project, you'll need to set up a PostgreSQL database to use with our
-application. It's possible to set up PostgreSQL locally on your own computer,
-but for this project, we'll use a database hosted by
-[Heroku](https://www.heroku.com/), an online web hosting service.
-
-1. Navigate to [https://www.heroku.com/](https://www.heroku.com/), and create
-   an account if you don't already have one.
-2. On Heroku's Dashboard, click "New" and choose "Create new app."
-3. Give your app a name, and click "Create app."
-4. On your app's "Overview" page, click the "Configure Add-ons" button.
-5. In the "Add-ons" section of the page, type in and select "Heroku Postgres."
-6. Choose the "Hobby Dev - Free" plan, which will give you access to a free
-   PostgreSQL database that will support up to 10,000 rows of data. Click
-   "Provision."
-7. Now, click the "Heroku Postgres :: Database" link.
-8. You should now be on your database's overview page. Click on "Settings", and
-   then "View Credentials." This is the information you'll need to log into your
-   database. You can access the database via
-   [Adminer](https://adminer.cs50.net/), filling in the server (the "Host" in
-   the credentials list), your username (the "User"), your password, and the
-   name of the database, all of which you can find on the Heroku credentials
-   page.
-   At Adminer you can use "SQL opdracht"/"SQL command" to try out a query.
-
-> Note: in this assignment, you should not use Adminer to create database tables etc! You are supposed to use migrations, on which you can find more information below.
-
-Alternatively, if you install
-[PostgreSQL](https://www.postgresql.org/download/) on your own computer, you
-should be able to run `psql URI` on the command line, where the `URI` is
-the link provided in the Heroku credentials list.
-
-> Note: if Adminer gives you errors, this is because CS50's version is not compatible with Postgres 12. You can create a Postgres 11 database on Heroku using the following command (which requires the installation of the Heroku CLI):
-> 
->     heroku addons:create heroku-postgresql --version=11 --app=YOUR_APP_NAME_ON_HEROKU
->
-> But first try creating and using the database according to the instructions above!
-
-### Kickstarting the project
+## Kickstarting the project
 
 - Open "Git Bash" on Windows or the "Terminal" on macOS or Linux.
 
@@ -120,7 +68,7 @@ the link provided in the Heroku credentials list.
 - If you navigate to the URL provided by `flask`, you should see the text `"Pinocchio's: TODO"`!
 
 
-### Your first migration
+## Your first migration
 
 - Your `application.py` already `import`s the Flask "migrations" plugin. This plugin will use the **Alembic** system to generate your database structure for you, as derived from the models that you create. To get started, `models.py` already contains one model for storing `User` names. Take a look at `models.py` before you go on!
 
@@ -145,7 +93,7 @@ the link provided in the Heroku credentials list.
 - One thing to pay attention to, is that generating migrations often works very well, but some changes can't be derived automatically. For example, if you decide to rename your `users` table to `userinfo`, then run `flask db migrate`, you will find that the migration first deletes (all data in the) users table and then create a new table called `userinfo`. But it isn't necessary to delete the table in that case! SQL (and SQLAlchemy) have methods to rename tables. You can change the migration to replace the remove/add combo by a rename command. See the [Alembic operations reference](https://alembic.sqlalchemy.org/en/latest/ops.html) for more information.
 
 
-### Integrating the admin section
+## Integrating the admin section
 
 Flask comes with many optional plugins. One of those is `flask-admin`, which generates pages to edit data in the database. Such a generic admin interface can be very useful when starting up a project. Going on, you might decide to create more specialized pages that allow users to add or delete data, but it's great that you don't have to until later! Let's add an admin page for the `User` model.
 
@@ -236,6 +184,7 @@ you meet the requirements laid out in the above specification!
 
 > A special note: your neighbor might choose to implement additional features, and you might think that those parts are mandatory to implement. This may not be true! So, before you implement the same features, always take a good look at the requirements above and decide if you really want to implement it the same way!
 
+
 ## Implementation details
 
 The following remarks place a few constraints on your project's implementation:
@@ -271,6 +220,4 @@ different types of toppings, or something else entirely!
 
 ## How to Submit
 
-You should have submitted the link to your generated repository already when starting!
-
-Example: `https://github.com/uva-webapps/pizza-username`
+You have submitted your repository's URL while starting the project. Now that you're done, make sure your `README.md` is fully up to date, everything has been pushed to GitHub, and then you're ready to finalize your portfolio!
