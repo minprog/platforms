@@ -1,6 +1,6 @@
 name: flask-pizza
 content:
-    Colleges:
+    Videocolleges:
         Lecture 4a (ORMS): ../../lectures/orms
         Lecture 5 (Javascript): ../../lectures/javascript
     Project:

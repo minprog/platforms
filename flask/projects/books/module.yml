@@ -1,6 +1,6 @@
 name: flask-books
 content:
-    Colleges:
+    Videocolleges:
         Lecture 2 (Flask): ../../lectures/flask
         Lecture 3 (SQL): ../../lectures/sql
     Project:
