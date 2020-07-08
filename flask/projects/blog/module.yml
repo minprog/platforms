@@ -1,2 +1,4 @@
-Project:
+name: flask-blog
+content:
+    Project:
     Create your blog: ../../projects/blog

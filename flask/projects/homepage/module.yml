@@ -1,0 +1,8 @@
+name: flask-homepage
+content:
+    Colleges:
+        Lecture 0 (Git): ../../lectures/git
+        Lecture 1 (HTML): ../../lectures/html
+    Project:
+        Prepare your project: start
+        Your very first homepage: .
