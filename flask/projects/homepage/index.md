@@ -101,6 +101,4 @@ subject to the following requirements:
 
 ## How to Submit
 
-You should have submitted your repository's URL while starting the project, in the "Starting the project" section, above!
-
-Example: `https://github.com/uva-webapps/homepage-username`
+You have submitted your repository's URL while starting the project. Now that you're done, make sure your `README.md` is fully up to date, everything has been pushed to GitHub, and then continue to the next project!
