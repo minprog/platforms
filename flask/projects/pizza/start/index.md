@@ -1,4 +1,4 @@
-# Homepage: Getting Started
+# Pizza: Getting Started
 
 ## GitHub Classroom
 
