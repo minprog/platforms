@@ -1,4 +1,5 @@
 name: flask-blog
 content:
     Project:
-    Create your blog: ../../projects/blog
+        Start je project: start
+        Maak een blog van je homepage met Jekyll: .
