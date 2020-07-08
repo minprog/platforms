@@ -1,0 +1,6 @@
+name: flask-install
+content:
+    Installeer Git, Sass en Python:
+        Installeer op Windows: windows
+        Installeer op macOS: macos
+        Installeer op Linux: linux
