@@ -36,37 +36,35 @@ Be sure to have:
 
 ### Python and Flask
 
-Make sure you installed Python (Instruction for [Windows](/install/windows) and [macOS](/install/macos)).
-
 To try running your first Flask
 application:
 
-Open "Git Bash" on Windows or the "Terminal" on macOS or Linux.
+1. Open "Git Bash" on Windows or the "Terminal" on macOS or Linux.
 
-`cd` to a directory where you want to put your project.
+2. `cd` to a directory where you want to put your project.
 
-Clone your `uva-webapps/books-username` repository from GitHub and navigate into this directory.
+3. Clone your `uva-webapps/books-username` repository from GitHub and navigate into this directory.
 
-Run
+4. Run
 
-    $ pip3 install -r requirements.txt
+        $ pip3 install -r requirements.txt
 
-to make sure all of the necessary Python packages (Flask and SQLAlchemy, for instance) are installed.
+    to make sure all of the necessary Python packages (Flask and SQLAlchemy, for instance) are installed.
 
-Run
+5. Run
 
-    $ export FLASK_APP=application.py
+        $ export FLASK_APP=application.py
 
-to the environment variable `FLASK_APP` to be `application.py`.
+    to the environment variable `FLASK_APP` to be `application.py`.
 
 
-You may optionally want to set the environment variable `FLASK_DEBUG` to `1`, which will activate Flask's debugger and will automatically reload your web application whenever you save a change to a file.
+6. You may optionally want to set the environment variable `FLASK_DEBUG` to `1`, which will activate Flask's debugger and will automatically reload your web application whenever you save a change to a file.
 
-Set the environment variable `DATABASE_URL` to be the URI of your database, which you should be able to see from the credentials page on Heroku.
+7. Set the environment variable `DATABASE_URL` to be the URI of your database, which you should be able to see from the credentials page on Heroku.
 
-Run `flask run` to start up your Flask application.
-If you navigate to the URL provided by `flask`, you should see the text
-   `"Project 1: TODO"`!
+8. Run `flask run` to start up your Flask application. If you now navigate to the URL provided by `flask`, you should see the text
+
+    `"Project 1: TODO"`!
 
 ### Goodreads API
 
@@ -82,18 +80,17 @@ Goodreads is a popular book review website, and we'll be using their API in this
 3. You should then see your API key. (For this project, we'll care only about the
    "key", not the "secret".)
 4. You can now use that API key to make requests to the Goodreads API,
-   documented [here](https://www.goodreads.com/api/index). In particular, Python
-   code like the below
+   documented [here](https://www.goodreads.com/api/index).
 
-        import requests
-        res = requests.get("https://www.goodreads.com/book/review_counts.json", params={"key": "KEY", "isbns": "9781632168146"})
-        print(res.json())
+In particular, Python code like the below
 
+    import requests
+    res = requests.get("https://www.goodreads.com/book/review_counts.json", params={"key": "KEY", "isbns": "9781632168146"})
+    print(res.json())
 
 where `KEY` is your API key, will give you the review and rating data for the
 book with the provided ISBN number. In particular, you might see something like
 this dictionary:
-
 
     {'books': [{
             'id': 29207858,
@@ -108,7 +105,6 @@ this dictionary:
             'average_rating': '4.04'
         }]
     }
-
 
 Note that `work_ratings_count` here is the number of ratings that this
 particular book has received, and `average_rating` is the book's average score
@@ -166,8 +162,8 @@ requirements:
             "average_score": 5.0
         }
 
-  If the requested ISBN number isn't in your
-  database, your website should return a 404 error.
+    If the requested ISBN number isn't in your
+    database, your website should return a 404 error.
 * You should be using raw SQL commands (as via SQLAlchemy's `execute` method) in
   order to make database queries. You should not use the SQLAlchemy ORM (if
   familiar with it) for this project.
@@ -183,7 +179,7 @@ you meet the requirements laid out in the above specification!
 
 ## Hints
 
-- [Adminer](https://adminer.cs50.net) can be user to try out SQL-statements.
+- [CS50 Adminer](https://adminer.cs50.net) can be used to try out SQL-statements.
 - At minimum, you'll probably want at least one table to keep track of users,
   one table to keep track of books, and one table to keep track of reviews. But
   you're not limited to just these tables, if you think others would be helpful!
