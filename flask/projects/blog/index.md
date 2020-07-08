@@ -106,15 +106,6 @@ It's nice to preview your Jekyll site before you push your `gh-pages` branch to 
 
 The filter will prepend your site's `url` value to a link. The value of `url` can be defined in your site's config file.
 
-## Create your Jekyll project
-
-8. Start creating your Jekyll project inside your clone of the `uva-webprog/blog-username` directory:
-
-		# creates a jekyll project in the 'current' directory
-		jekyll new .
-
-To create your blog, it might be instructive to follow the step-by-step instructions on [Convert an HTML site to Jekyll](https://jekyllrb.com/tutorials/convert-site-to-jekyll/). However, keep in mind the requirements while making your site! You'll need to have a rough idea of what you're working towards.
-
 ## Requirements
 
 Based on your earlier "Homepage" project, create a Jekyll-based website for yourself or some other
@@ -145,8 +136,14 @@ to you, subject to the following requirements:
   staff should know about your project.
 * Also in `README.md`, prominently feature a link to the live GitHub Pages version of your blog.
 
+## To get started
+
+Create a brand new Jekyll project inside your clone of the `uva-webprog/blog-username` directory:
+
+	jekyll new .
+
+Tip: to create your blog, it might be instructive to follow the step-by-step instructions on [Convert an HTML site to Jekyll](https://jekyllrb.com/tutorials/convert-site-to-jekyll/). However, while making your site, keep in mind the requirements below! You'll need to have a rough idea of what you're working towards.
+
 ## How to Submit
 
-You should have submitted your repository's URL while starting the project, in the "Starting the project" section, above!
-
-Example: `https://github.com/uva-webapps/blog-username`
+You have submitted your repository's URL while starting the project. Now that you're done, make sure your `README.md` is fully up to date, everything has been pushed to GitHub, and then continue to the next project!
