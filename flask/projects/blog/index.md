@@ -31,11 +31,11 @@ For this project, you'll be using Jekyll, which is a **static site generator**. 
 ![embed](https://www.youtube.com/embed/T1itpPvFWHI)
 
 > All of these languages serve their own purposes. It's quite a bit of work to master all of these, but it will eventually allow you to write each of the parts of your website more easily. We call this **separation of concerns**: your project is separated in multiple parts, each having a specific purpose.
-> 
+>
 > In the case of creating web pages with HTML, we usually include separate files written in the languages CSS and Javascript. Their purposes are also separate: HTML is for writing content and some layout, CSS is for specifying layout rules, and Javascript is for defining user interactions.
 >
 > In Jekyll, we acknowledge that HTML is sometimes used for layout purposes, and we separate out the content into Markdown files, simplifying writing content even more. HTML is only used for layout and defining components on the website. So, more separation of concerns!
-> 
+>
 > Separating these parts will allow you to keep track of each more easily. As your programming projects grow, this becomes more and more important.
 
 Jekyll is able to take your files and from those generate a HTML/CSS-based website that may be put online. Even better, you can put your Jekyll website on GitHub, make changes, and GitHub Pages will put it online for you.
@@ -104,11 +104,11 @@ Note that Jekyll has [built-in support for SCSS](https://jekyllrb.com/docs/asset
 It's nice to preview your Jekyll site before you push your `gh-pages` branch to GitHub (which may sometimes be a bit slow to pick up changes). However, you may run into problems getting your internal links right, because on GitHub, your site will live inside a directory, while on your computer, it will not. In order to assure your site builds properly, you should use the `relative_url` filter for your links:
 
     For styles with static names:
-    
+
       <link href="{{ "/assets/css/style.css" | relative_url }}" rel="stylesheet">
-    
+
     For documents/pages whose URLs can change:
-    
+
       [{{ page.title }}]("{{ page.url | relative_url }}")
 
 The filter will prepend your site's `url` value to a link. The value of `url` can be defined in your site's config file.
@@ -132,10 +132,10 @@ to you, subject to the following requirements:
   at least once, and the `.class` selector at least once.
 * Your stylesheet(s) must include at least one mobile-responsive `@media` query,
   such that something about the styling changes for smaller screens.
-* You must use Bootstrap 4 on your website, taking advantage of at least one
-  Bootstrap [component](https://getbootstrap.com/docs/4.3/components/),
+* You must use Bootstrap 4.5 on your website, taking advantage of at least one
+  Bootstrap [component](https://getbootstrap.com/docs/4.5/components/),
   and using at least two Bootstrap columns for layout purposes using
-  Bootstrap's [grid model](https://getbootstrap.com/docs/4.3/layout/grid/).
+  Bootstrap's [grid model](https://getbootstrap.com/docs/4.5/layout/grid/).
 * Your stylesheets must use at least one SCSS variable, at least one example of
   SCSS nesting, and at least one use of SCSS inheritance.
 * In `README.md`, include a short writeup describing your project, what's
