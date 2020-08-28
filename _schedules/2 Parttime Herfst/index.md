@@ -12,6 +12,7 @@ Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze 
 
 Coördinator is Martijn Stegeman en je mentor is Marijn Doeve.
 
+- Voor snelle connecties tussen studenten is er Slack. Maak een account via de [uitnodiging](https://join.slack.com/t/progplatform2020fall/signup).
 - Voor vragen over de stof, hulp met programmeren, technische ondersteuning, plaats je zoveel mogelijk een vraag op [Ed](https://us.edstem.org/courses/2471).
 - Als je niet weet hoe je een vraag moet stellen of je weet niet hoe je moet beginnen met iets, maak dan een afspraak voor video-assistentie via [Calendly](https://calendly.com/app-studio/assistentie).
 - Voor vragen over regeltjes, het maken van persoonlijke afspraken en het op de hoogte houden van de docenten over het later inleveren stuur je een mail naar <help@mprog.nl>.
@@ -46,14 +47,14 @@ Voor de opdrachten gelden de volgende **deadlines** voor het werkend inleveren (
 | -------- | ------- | ---------------- | ------------------ | ------------------------------------------------ |
 | Search   | 1 week  | ma  7 sep        | wo  9 sep          | [start](https://classroom.github.com/a/52tE--l8) |
 | Wiki     | 1 week  | ma 14 sep        | wo 16 sep          | [start](https://classroom.github.com/a/HCD9nsk6) |
-| Commerce | 1 weken | ma 28 sep        | wo 30 sep          | [start](https://classroom.github.com/a/ZBMBwaa0) |
-| Mail     | 1 weken | ma 12 okt        | wo 14 okt          | [start](https://classroom.github.com/a/ktkcpRaC) |
-| Network  | 1 weken | ma 26 okt        | wo 28 okt          | [start](https://classroom.github.com/a/AYIfLw76) |
+| Commerce | 2 weken | ma 28 sep        | wo 30 sep          | [start](https://classroom.github.com/a/ZBMBwaa0) |
+| Mail     | 2 weken | ma 12 okt        | wo 14 okt          | [start](https://classroom.github.com/a/ktkcpRaC) |
+| Network  | 2 weken | ma 26 okt        | wo 28 okt          | [start](https://classroom.github.com/a/AYIfLw76) |
 
 
 ## Werkwijze
 
-Voor elk project doe je enkele onderdelen met een partner. Zorg dus dat je niet direct in je eentje aan de slag gaat! Dit zijn de fases die je doorloopt voor elk project:
+Voor elk project (behalve "Search") doe je enkele onderdelen met een partner. Zorg dus dat je niet alvast in je eentje aan de slag gaat! Dit zijn de fases die je doorloopt voor elk project:
 
 1. Basisontwerp op papier/diagram, met partner
 2. Implementatie van het project, individueel
