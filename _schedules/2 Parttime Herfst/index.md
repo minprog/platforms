@@ -35,6 +35,9 @@ Let op dat je ten minste aan bovenstaande verwachtingen moet voldoen om een eind
 
 ## Kalender
 
+> Let op! De deadlines worden nog enigszins aangepast aan de grootte van de opdrachten. Hou de mededelingen hierover in de gaten.
+{:.bg-warning}
+
 Voor de opdrachten gelden de volgende **deadlines** voor het werkend inleveren (volgens de gegeven specificaties) en het verbeterd inleveren (na de code review). Dit is een uiterste deadline, waarbij het verstandig is om hierop enigszins voor te lopen.
 
 Daarnaast is de portfolio-deadline vermeld voor het inleveren van de verbeterde versies van deze projecten.
