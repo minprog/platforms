@@ -21,25 +21,11 @@ Coördinator is Martijn Stegeman en je mentor is Marijn Doeve.
 
 Om de cursus tot een goed einde te brengen, verwachten we dat je:
 
-1. vier goedwerkende websites volgens onze beschrijving implementeert en inlevert,
+1. vijf goedwerkende websites volgens onze beschrijving implementeert en inlevert,
 1. de websites verbetert op basis van gevraagde en ongevraagde feedback,
-1. actief deelneemt aan de werkgroepen,
-1. regelmatig vragen stelt aan de assistenten en docenten,
-1. vragen beantwoordt van andere studenten,
-1. actief deelneemt aan onderlinge code reviews.
-
-
-## Werkgroepen
-
-Werkgroepen zijn bijeenkomsten van zo'n 30--60 minuten met je mentor. In de werkgroepen krijg je de kans om samen de voortgang te bespreken, tips uit te wisselen over het aanpakken van problemen en om je medestudenten en mentor beter te leren kennen. Aanwezigheid is verplicht.
-
-| Werkgroep | Mentor | 1e            | 2e              | Link |  
-| --------- | ------ | ------------- | --------------- | ---- |  
-| A         |        | dinsdag 10:00 | vrijdag 10:00   |      |  
-| B         |        | dinsdag 10:00 | donderdag 11:00 |      |  
-| C         |        | dinsdag 10:00 | donderdag 10:00 |      |  
-| D         |        | maandag 10:00 | donderdag 10:00 |      |  
-| E         |        | dinsdag 10:00 | donderdag 10:00 |      |  
+1. regelmatig vragen stelt aan je mentor,
+1. vragen beantwoordt van andere studenten op Ed,
+1. voor elk project deelneemt aan de ontwerpfase en onderlinge code reviews.
 
 
 ## Eindcijfer
@@ -59,6 +45,18 @@ Voor de **opdrachten** gelden de volgende deadlines voor het werkend inleveren (
 | Mail      | 1 weken | maandag 12 oktober   | [start](https://classroom.github.com/a/ktkcpRaC) |
 | Network   | 1 weken | maandag 26 oktober   | [start](https://classroom.github.com/a/AYIfLw76) |
 | Portfolio |         | maandag 26 oktober   |                                                  |
+
+
+## Werkwijze
+
+Voor elk project doe je enkele onderdelen met een partner. Zorg dus dat je niet direct in je eentje aan de slag gaat! Dit zijn de fases die je doorloopt voor elk project:
+
+1. Basisontwerp op papier/diagram, met partner
+2. Implementatie van het project, individueel
+3. Code review, met partner
+
+Voor het basisontwerp worden per project punten aangegeven die je moet meenemen. Dat kan bijvoorbeeld het ontwerp van de database zijn, of juist het ontwerp van de verschillende "schermen" waaruit de applicatie zal bestaan. Je vindt deze punten binnenkort op deze plek.
+
 
 ## Becijfering van de projecten
 
