@@ -51,14 +51,14 @@ Let op dat je ten minste aan bovenstaande verwachtingen moet voldoen om een eind
 
 Voor de **opdrachten** gelden de volgende deadlines voor het werkend inleveren (volgens de gegeven specificaties). Daarnaast is de portfolio-deadline vermeld voor het inleveren van de verbeterde versies van deze projecten.
 
-| Opdracht  | Duur        | Deadline           |  
-| --------- | ----------- | ------------------ |  
-| Homepage  | 3 werkdagen | woensdag 1 april   |  
-| Blog      | 3 werkdagen | maandag 6 april    |  
-| Books     | 6 werkdagen | dinsdag 14 april   |  
-| Pizza     | 7 werkdagen | donderdag 23 april |  
-| Portfolio | 1 werkdag   | vrijdag 24 april   |  
-
+| Opdracht  | Duur    | Start                                            | Deadline             |  
+| --------- | ------- | ------------------------------------------------ | -------------------- |
+| Search    | 1 week  | [https://classroom.github.com/a/52tE--l8](start) | maandag  7 september |
+| Wiki      | 1 week  | [https://classroom.github.com/a/HCD9nsk6](start) | maandag 14 september |  
+| Commerce  | 1 weken | [https://classroom.github.com/a/ZBMBwaa0](start) | maandag 28 september |  
+| Mail      | 1 weken | [https://classroom.github.com/a/ktkcpRaC](start) | maandag 12 oktober   |  
+| Network   | 1 weken | [https://classroom.github.com/a/AYIfLw76](start) | maandag 26 oktober   |
+| Portfolio |         |                                                  | maandag 26 oktober   |
 
 ## Becijfering van de projecten
 
