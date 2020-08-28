@@ -2,10 +2,10 @@
 
 To develop web apps you need some tools on you laptop. This guide helps you with installing al these tools.
 
-We assume you're running the latest Mac OS, Catalina. Please ask if you're running an older version and can't upgrade.
+We assume you're running the latest macOS, Catalina. Please ask if you're running an older version and can't upgrade.
 
 
-## Step 1: Command Line Tools
+## Step 1: Install Command Line Tools
 
 Open the Terminal app (press `⌘Space`, type terminal and press enter).
 
@@ -18,29 +18,40 @@ and click "Install".
 
 ## Step 2: Brew
 
-Some useful development tools can be installed on Mac using "Homebrew".
+Some useful development tools can be installed on Mac using [_Homebrew_](https://brew.sh/).
 
 1. Open the terminal app (press `⌘-Space`, type **terminal** and press enter).
 
-2. Go to the [Homebrew](https://brew.sh/) website, copy-paste the "Install Homebrew" command into your Terminal window and press enter.
+2. Run
 
-3. Homebrew should now install.
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
+to install Homebrew.
 
-## Step 3: Sass
+3. Homebrew will ask for your password, no character will appear on screen, this is normal.
+
+## Step 3: Python
+
+Open the Terminal app and run
+
+    brew install python
+
+to install python.
+
+## Step 4: Sass
 
 Open the Terminal app and run
 
     brew install sass/sass/sass
 
-to install [Sass](https://sass-lang.com/) for Project 0.
+to install [Sass](https://sass-lang.com/).
 
 
-## Step 4: A code editor
+## Step 5: A code editor
 
 Good free code editors are: Free code editors are [Textmate](https://macromates.com/download), [Visual Studio Code](https://code.visualstudio.com/), [Atom](https://atom.io/) and [Sublime Text](https://www.sublimetext.com/). We would recommend Textmate, but you are free to choose another editor if you like.
 
 
-## Troubleshooting
+# Troubleshooting
 
 Ran into trouble? Contact the staff! It’s important to get started quickly. You only have to do the above once, so get help now and you'll be set for the remainder of the course!
