@@ -30,21 +30,22 @@ Om de cursus tot een goed einde te brengen, verwachten we dat je:
 
 ## Eindcijfer
 
-Let op dat je ten minste aan bovenstaande verwachtingen moet voldoen om een eindcijfer te kunnen halen. Voor de vier **opdrachten** kun je punten verdienen, tot een maximum van 24 voor de cursus. Je programma's worden kritisch bekeken en op basis hiervan krijg je punten voor de kwaliteit van de inzending. Vóór die tijd heb je uitgebreid feedback gekregen en gevraagd.
+Let op dat je ten minste aan bovenstaande verwachtingen moet voldoen om een eindcijfer te kunnen halen. Voor de **opdrachten** kun je punten verdienen. Je programma's worden kritisch bekeken en op basis hiervan krijg je punten voor de kwaliteit van de inzending. Vóór die tijd heb je uitgebreid feedback gekregen en gevraagd.
 
 
 ## Kalender
 
-Voor de **opdrachten** gelden de volgende deadlines voor het werkend inleveren (volgens de gegeven specificaties). Daarnaast is de portfolio-deadline vermeld voor het inleveren van de verbeterde versies van deze projecten.
+Voor de opdrachten gelden de volgende **deadlines** voor het werkend inleveren (volgens de gegeven specificaties) en het verbeterd inleveren (na de code review). Dit is een uiterste deadline, waarbij het verstandig is om hierop enigszins voor te lopen.
 
-| Opdracht  | Duur    | Deadline             | Start                                            |
-| --------- | ------- | -------------------- | ------------------------------------------------ |
-| Search    | 1 week  | maandag  7 september | [start](https://classroom.github.com/a/52tE--l8) |
-| Wiki      | 1 week  | maandag 14 september | [start](https://classroom.github.com/a/HCD9nsk6) |
-| Commerce  | 1 weken | maandag 28 september | [start](https://classroom.github.com/a/ZBMBwaa0) |
-| Mail      | 1 weken | maandag 12 oktober   | [start](https://classroom.github.com/a/ktkcpRaC) |
-| Network   | 1 weken | maandag 26 oktober   | [start](https://classroom.github.com/a/AYIfLw76) |
-| Portfolio |         | maandag 26 oktober   |                                                  |
+Daarnaast is de portfolio-deadline vermeld voor het inleveren van de verbeterde versies van deze projecten.
+
+| Opdracht | Duur    | Deadline werkend | Deadline verbeterd | Start                                            |
+| -------- | ------- | ---------------- | ------------------ | ------------------------------------------------ |
+| Search   | 1 week  | ma  7 sep        | wo  9 sep          | [start](https://classroom.github.com/a/52tE--l8) |
+| Wiki     | 1 week  | ma 14 sep        | wo 16 sep          | [start](https://classroom.github.com/a/HCD9nsk6) |
+| Commerce | 1 weken | ma 28 sep        | wo 30 sep          | [start](https://classroom.github.com/a/ZBMBwaa0) |
+| Mail     | 1 weken | ma 12 okt        | wo 14 okt          | [start](https://classroom.github.com/a/ktkcpRaC) |
+| Network  | 1 weken | ma 26 okt        | wo 28 okt          | [start](https://classroom.github.com/a/AYIfLw76) |
 
 
 ## Werkwijze
