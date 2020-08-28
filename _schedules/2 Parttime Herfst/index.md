@@ -10,9 +10,9 @@ Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze 
 
 ## Docenten en contact
 
-Je docenten zijn Martijn Stegeman (coördinator), ....
+Coördinator is Martijn Stegeman en je mentor is Marijn Doeve.
 
-- Voor vragen over de stof, hulp met programmeren, technische ondersteuning, plaats je zoveel mogelijk een vraag op [Ed](https://us.edstem.org/courses/365).
+- Voor vragen over de stof, hulp met programmeren, technische ondersteuning, plaats je zoveel mogelijk een vraag op [Ed](https://us.edstem.org/courses/2471).
 - Als je niet weet hoe je een vraag moet stellen of je weet niet hoe je moet beginnen met iets, maak dan een afspraak voor video-assistentie via [Calendly](http://calendly.com/app-studio/assistentie).
 - Voor vragen over regeltjes, het maken van persoonlijke afspraken en het op de hoogte houden van de docenten over het later inleveren stuur je een mail naar <help@mprog.nl>.
 
@@ -51,14 +51,14 @@ Let op dat je ten minste aan bovenstaande verwachtingen moet voldoen om een eind
 
 Voor de **opdrachten** gelden de volgende deadlines voor het werkend inleveren (volgens de gegeven specificaties). Daarnaast is de portfolio-deadline vermeld voor het inleveren van de verbeterde versies van deze projecten.
 
-| Opdracht  | Duur    | Start                                            | Deadline             |  
-| --------- | ------- | ------------------------------------------------ | -------------------- |
-| Search    | 1 week  | [https://classroom.github.com/a/52tE--l8](start) | maandag  7 september |
-| Wiki      | 1 week  | [https://classroom.github.com/a/HCD9nsk6](start) | maandag 14 september |  
-| Commerce  | 1 weken | [https://classroom.github.com/a/ZBMBwaa0](start) | maandag 28 september |  
-| Mail      | 1 weken | [https://classroom.github.com/a/ktkcpRaC](start) | maandag 12 oktober   |  
-| Network   | 1 weken | [https://classroom.github.com/a/AYIfLw76](start) | maandag 26 oktober   |
-| Portfolio |         |                                                  | maandag 26 oktober   |
+| Opdracht  | Duur    | Deadline             | Start                                            |
+| --------- | ------- | -------------------- | ------------------------------------------------ |
+| Search    | 1 week  | maandag  7 september | [start](https://classroom.github.com/a/52tE--l8) |
+| Wiki      | 1 week  | maandag 14 september | [start](https://classroom.github.com/a/HCD9nsk6) |
+| Commerce  | 1 weken | maandag 28 september | [start](https://classroom.github.com/a/ZBMBwaa0) |
+| Mail      | 1 weken | maandag 12 oktober   | [start](https://classroom.github.com/a/ktkcpRaC) |
+| Network   | 1 weken | maandag 26 oktober   | [start](https://classroom.github.com/a/AYIfLw76) |
+| Portfolio |         | maandag 26 oktober   |                                                  |
 
 ## Becijfering van de projecten
 
