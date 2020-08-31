@@ -18,6 +18,6 @@ Then you can register on Ed. This is an online forum for Q&A (questions and answ
 
 To get started with installing the required software on your computer, follow the instructions specific to your operating system:
 
-- [Windows](/install/windows)
-- [macOS (OS X)](/install/macos)
-- [Linux](/install/linux)
+- [Windows](/flask/install/windows)
+- [macOS (OS X)](/flask/install/macos)
+- [Linux](/flask/install/linux)
