@@ -1,5 +1,15 @@
 # Wiki
 
+[Watch Lecture 2](https://cs50.harvard.edu/web/2020/weeks/2/)
+[Watch Lecture 3](https://cs50.harvard.edu/web/2020/weeks/3/)
+
+
+Start this weeks problem with on [GitHub Classroom](hhttps://classroom.github.com/a/HCD9nsk6).
+
+The problem can be found [here](https://cs50.harvard.edu/web/2020/projects/1/wiki/).
+
+## Design Doc
+
 From now on, we require that you take your time to do a formal up-front design of what you are going to make for this project.
 
 Your first to-do is to read the project specification in full and try to imagine what the website will look like. Then, with your partner, create a design document that describes **what** you are going to make and what it will look like. While doing this, there are also some technical challenges that you need to take into account as much as possible.
