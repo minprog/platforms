@@ -1,0 +1,16 @@
+templates:
+    1: &6points
+        type: float
+        subgrades:
+            done: boolean
+            repo_ok: boolean
+            points: float
+        calculation: (repo_ok == -1 && done == -1) && (points.present? && (points.to_i.to_f/6*9+1).round(1) || -1) || 0
+        hide_calculated: true
+
+grades:
+    search: *6points
+    wiki: *6points
+    commerce: *6points
+    mail: *6points
+    network: *6points
