@@ -1,15 +1,14 @@
-Voorbereidingen:
-    - start
-    - flask-install
-Project 0:
-    - flask-homepage
-Project 1:
-    - flask-blog
-Project 2:
-    - flask-books
-Project 3:
-    - flask-pizza
-Portfolio:
-    Afronding:
-        Doe een code review met je partner: .
-        Verbeter je projectcode: .
+Materialen:
+
+  Voorbereiding:
+    Studiewijzer: /syllabus
+    Installatie: /start
+    Eerste videocollege: https://cs50.harvard.edu/web/2020/weeks/0/
+    Overige videocolleges: /django/lectures
+
+  Projecten:
+    Project 0 / Search: /django/projects/search
+    Project 1 / Wiki: /django/projects/wiki
+    Project 2 / Commerce: /django/projects/commerce
+    Project 3 / Mail: /django/projects/mail
+    Project 4 / Network: /django/projects/network
