@@ -1,8 +1,8 @@
 # Git
 
-![embed](https://www.youtube.com/embed/zFZrkCIc2Oc)
+![embed](https://www.youtube.com/embed/NcoBAfJ6l2Q)
 
-[Open in CS50 Video Player](https://video.cs50.io/zFZrkCIc2Oc?screen=HbCJtscq-U8)
+[Open in CS50 Video Player](https://video.cs50.io/NcoBAfJ6l2Q?screen=SU-QJbAZptI)
 
 
 ## Introduction
