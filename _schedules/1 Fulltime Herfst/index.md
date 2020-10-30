@@ -64,7 +64,7 @@ In alle gevallen is er ruimte voor kleine fouten en vergissingen. Alle projecten
 
 ## Docenten en contact
 
-Je docenten zijn Jelle van Assema en Martijn Stegeman. Coördinatie is in handen van Marleen de Jonge en Marijn Jansen.
+Je docenten zijn Jelle van Assema en Martijn Stegeman. Coördinatie is in handen van Marleen de Jonge en Marijn Doeve.
 
 - Voor vragen over de stof, hulp met programmeren, technische ondersteuning, plaats je zoveel mogelijk een vraag op [Ed](https://us.edstem.org/courses/2471).
 - Als je niet weet hoe je een vraag moet stellen of je weet niet hoe je moet beginnen met iets, vraag dan video-assistentie aan via deze website.
