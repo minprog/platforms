@@ -3,9 +3,8 @@ Welkom:
   Maak je computer klaar voor het ontwikkelen van webapplicaties: /start
 
 Search:
-  Eerste videocollege: https://cs50.harvard.edu/web/2020/weeks/0/
-  Project 0 / Search: /django/projects/search
-  Overige videocolleges: /django/lectures
+  Lecture 0: /django/lectures/lecture-0
+  Implement Search: /django/projects/search
 
 Wiki:
   Project 1 / Wiki: /django/projects/wiki
