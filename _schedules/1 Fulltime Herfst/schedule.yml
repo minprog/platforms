@@ -3,7 +3,8 @@ Welkom:
   Maak je computer klaar voor het ontwikkelen van webapplicaties: /start
 
 Search:
-  Lecture 0: /django/lectures/lecture-0
+  "Lecture 0: HTML and CSS": /django/lectures/html
+  "Lecture 1: Git": /django/lectures/git
   Implement Search: /django/projects/search
 
 Wiki:
