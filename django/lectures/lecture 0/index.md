@@ -9,7 +9,7 @@
 
 In this course, we're picking up where CS50 left off and diving into the design and creation of web applications. We'll build our web-design skills by working on a number of projects throughout the course, including an open-ended final project where you'll have the chance to create a website of your own!
 
-In this course, you'll need a text editor where you can write code locally on your computer. Some popular ones include [Visual Studios Code](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com/), [Atom](https://atom.io/), and [Vim](https://www.vim.org/), but there are many more to choose from!
+In this course, you'll need a text editor where you can write code locally on your computer. Some popular ones include [Visual Studio Code](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com/), [Atom](https://atom.io/), and [Vim](https://www.vim.org/), but there are many more to choose from!
 
 
 
@@ -46,7 +46,7 @@ In this course, you'll need a text editor where you can write code locally on yo
 
 *   When we open up this file in our browser, we get:
 
-	![Hello Page](./images/hello0.png)
+	![Hello Page](hello0.png)
 
 *   Now, let's take some time to talk about the file we just wrote, which seems to be pretty complicated for such a simple page.
     *   In the first line, we are declaring (to the web browser) that we are writing the document in the latest version of HTML: HTML5.
@@ -61,7 +61,7 @@ In this course, you'll need a text editor where you can write code locally on yo
 
 ### Document Object Model (DOM)
 
-![DOM](./images/dom.png)
+![DOM](dom.png)
 
 *   The DOM is a convenient way of visualizing the way HTML elements relate to each other using a tree-like structure. Above is an example of the DOM layout for the page we just wrote.
 
@@ -136,7 +136,7 @@ In this course, you'll need a text editor where you can write code locally on yo
 
 	This page, when rendered, looks something like this:
 
-	![Elements](./images/elements.png)
+	![Elements](elements.png)
 
 *   In case you're worried about it, know that you'll never have to memorize these elements. It's very easy to simply search something like "image in HTML" to find the `img` tag. One resource that's especially helpful for learning about these elements is [W3 Schools](https://www.w3schools.com/html/html_elements.asp).
 
@@ -170,7 +170,7 @@ In this course, you'll need a text editor where you can write code locally on yo
 	    </html>
 
 
-	![form](./images/form.png)
+	![form](form.png)
 
 
 
@@ -194,7 +194,7 @@ In this course, you'll need a text editor where you can write code locally on yo
 
 
 
-	![blue heading](./images/style0.png)
+	![blue heading](style0.png)
 
 *   If we style an outer element, all of the inner elements automatically take on that style. We can see this if we move the styling we just applied from the header tag to the body tag:
 
@@ -209,7 +209,7 @@ In this course, you'll need a text editor where you can write code locally on yo
 	        </body>
 	    <html>
 
-	![blue everywhere](./images/style1.png)
+	![blue everywhere](style1.png)
 
 
 *   While we can style our web page as we've done above, to achieve better design, we should be able to move our styling away from the individual lines.
@@ -298,7 +298,7 @@ In this course, you'll need a text editor where you can write code locally on yo
 	    <html>
 
 
-	![table bad](./images/table0.png)
+	![table bad](table0.png)
 
 *   The above looks a lot like what we had before, but now, either by including a `style` tag or a `link` to a stylesheet in the head element, we add the following css:
 
@@ -321,7 +321,7 @@ In this course, you'll need a text editor where you can write code locally on yo
 
 	Which leaves us with this nicer-looking table:
 
-	![table good](./images/table1.png)
+	![table good](table1.png)
 
 *   You may already be thinking that there's some needless repetition in our CSS at the moment, as `td` and `th` have the same styling. We can (and should) condense this down to the following code, using a comma to show the styling should apply to more than one element type.
 
@@ -350,7 +350,7 @@ In this course, you'll need a text editor where you can write code locally on yo
 
 *   In addition to the comma for multiple selectors, there are several other ways to specify which elements you would like to style. This table from lecture provides a few, and we'll go through a few examples below:
 
-	![selectors](./images/selectors.png)
+	![selectors](selectors.png)
 
 	**Descendant Selector**: Here, we use the descendant selector to only apply styling to list items found within an unordered list:
 
@@ -382,7 +382,7 @@ In this course, you'll need a text editor where you can write code locally on yo
 
 
 
-	![list selector](./images/selectors0.png)
+	![list selector](selectors0.png)
 
 	**Attributes as Selectors**: We can also narrow down our selection based on the attributes we assign to HTML elements using brackets. For example, in the following list of links, we choose to only make the link to Amazon red:
 
@@ -408,7 +408,7 @@ In this course, you'll need a text editor where you can write code locally on yo
 
 
 
-	![link selectors](./images/selectors2.png)
+	![link selectors](selectors2.png)
 
 *   Not only can we use CSS to change what an element looks like permanently, but also what it looks like under certain conditions. For example, what if we wanted a button to change color when we hover over it? We can acheive this using a [CSS pseudoclass](https://www.w3schools.com/css/css_pseudo_classes.asp), which provides additional styling during special circumstances. We write this by adding a colon after our selector, and then adding the circumstance after that colon.
 *   In the case of the button, we would add `:hover` to the button selector to specify the design only when hovering:
@@ -439,7 +439,7 @@ In this course, you'll need a text editor where you can write code locally on yo
 	    <html>
 
 
-	![buttons](./images/buttons.gif)
+	![buttons](buttons.gif)
 
 
 
@@ -481,7 +481,7 @@ In this course, you'll need a text editor where you can write code locally on yo
 
 
 
-	![screen size](./images/responsive0.gif)
+	![screen size](responsive0.gif)
 
 *   Another way to deal with differing screen size is using a new CSS attribute known as a [flexbox](https://www.w3schools.com/css/css3_flexbox.asp). This allows us to easily have elements wrap around to the next line if they don't fit horizontally. We do this by putting all of our elements in a `div` that we'll call our container. We then add some styling to that div specifying that we want to use a flexbox display for the elements inside of it. We've also added some additional styling to the inner divs to better illustrate the wrapping that's occuring here.
 
@@ -524,7 +524,7 @@ In this course, you'll need a text editor where you can write code locally on yo
 
 
 
-	![flexbox](./images/flexbox.gif)
+	![flexbox](flexbox.gif)
 
 *   Another popular way of styling a page is using an HTML [grid](https://www.w3schools.com/css/css_grid.asp). In this grid, we can specify style attributes such as column widths and gaps between columns and rows, as demonstrated below. Note that when we specify column widths, we say the third one is `auto`, meaning it should fill the rest of the page.
 
@@ -571,7 +571,7 @@ In this course, you'll need a text editor where you can write code locally on yo
 
 
 
-	![grid](./images/grid.gif)
+	![grid](grid.gif)
 
 
 
@@ -634,7 +634,7 @@ In this course, you'll need a text editor where you can write code locally on yo
 
 
 
-	![columns](./images/cols1.gif)
+	![columns](cols1.gif)
 
 *   To improve mobile-responsiveness, bootstrap also allows us to specify column sizes that differ depending on the screen size. In the following example, we use `col-lg-3` to show that an element should take up 3 columns on a large screen, and `col-sm-6` to show an element should take up 6 columns when the screen is small:
 
@@ -673,7 +673,7 @@ In this course, you'll need a text editor where you can write code locally on yo
 
 
 
-	![wrap columns](./images/cols2.gif)
+	![wrap columns](cols2.gif)
 
 
 
@@ -757,6 +757,6 @@ In this course, you'll need a text editor where you can write code locally on yo
 
 
 
-	![inheritance](./images/inherit.png)
+	![inheritance](inherit.png)
 
 *   That wraps up our content for today!
