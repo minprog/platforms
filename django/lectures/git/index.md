@@ -90,7 +90,7 @@ Welcome back to lecture 1! In lecture 0, we introduced HTML, CSS, and Sass as to
 *   In the above example, you added the line `b = 2` and another person wrote `b = 3`, and now we must choose one of those to keep. The long number is a _hash_ that represents the commit that is conflicting with your edits. Many text editors will also provide highlighting and simple options such as "accept current" or "accept incoming" that save you the time of deleting the added lines above.
 *   Another potentially useful git command is `git log`, which gives you a history of all of your commits on that repository.
 
-	![Git Log](images/git_log.png)
+	![Git Log](git_log.png)
 
 *   Potentially even more helpful, if you realize that you've made a mistake, you can revert back to a previous commit using the command `git reset` in one of two ways:
     *   `git reset --hard <commit>` reverts your code to exactly how it was after the specified commit. To specify the commit, use the commit hash associated with a commit which can be found using `git log` as shown above.
