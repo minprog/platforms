@@ -108,13 +108,13 @@ But this could become problematic if we then discover a bug in our original code
 
 *   Branching is a method of moving into a new direction when creating a new feature, and only combining this new feature with the main part of your code, or the main branch, once you're finished. This workflow will look more like the below graphic:
 
-	![Branch](images/branch.png)
+	![Branch](branch.png)
 
 *   The branch you are currently looking at is determined by the `HEAD`, which points to one of the two branches. By default, the HEAD is pointed at the master branch, but we can check out other branches as well.
 *   Now, let's get into how we actually implement branching in our git repositories:
     1.  Run `git branch` to see which branch you're currently working on, which will have an asterisk to the left of its name.
 
-    	![Branch terminal](images/git_branch.png)
+    	![Branch terminal](git_branch.png)
 
     1.  To make a new branch, we'll run `git checkout -b <new branch name>`
 
