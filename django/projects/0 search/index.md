@@ -103,8 +103,5 @@ Your website must meet the following requirements.
 
 ## How to Submit
 
-
-
-* Record a screencast not to exceed 5 minutes in length, in which you demonstrate your project's functionality. Be certain that every element of the specification, above, is demonstrated in your video. There's no need to show your code in this video, just your application in action; we'll review your code on GitHub. Upload that video to YouTube (as unlisted or public, but not private) or somewhere else. In your video's description, you must timestamp where your video demonstrates each of the seven (7) elements of the specification. This is not optional, videos without timestamps in their description will be automatically rejected.
-
+Submit your generated GitHub repository below, **before** you start working on it.
 

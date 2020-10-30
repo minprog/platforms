@@ -7,9 +7,17 @@ templates:
             points: float
         calculation: (repo_ok == -1 && done == -1) && (points.present? && (points.to_i.to_f/6*9+1).round(1) || -1) || 0
         hide_calculated: true
+    2: &check_off
+        type: pass
+        subgrades:
+            done: boolean
+        calculation: done
+        hide_calculated: true
 
 grades:
     search: *6points
+    search-screencast: *check_off
+
     wiki: *6points
     commerce: *6points
     mail: *6points
