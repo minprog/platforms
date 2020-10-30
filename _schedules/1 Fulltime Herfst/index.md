@@ -8,13 +8,17 @@
 Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze cursus start.
 
 
-## Docenten en contact
+## Kalender
 
-Je docenten zijn Martijn Stegeman (coördinator), ....
+Voor de **opdrachten** gelden de volgende deadlines voor het werkend inleveren (volgens de gegeven specificaties). Daarnaast is de portfolio-deadline vermeld voor het inleveren van de verbeterde versies van deze projecten.
 
-- Voor vragen over de stof, hulp met programmeren, technische ondersteuning, plaats je zoveel mogelijk een vraag op [Ed](https://us.edstem.org/courses/2471).
-- Als je niet weet hoe je een vraag moet stellen of je weet niet hoe je moet beginnen met iets, maak dan een afspraak voor video-assistentie via [Calendly](http://calendly.com/app-studio/assistentie).
-- Voor vragen over regeltjes, het maken van persoonlijke afspraken en het op de hoogte houden van de docenten over het later inleveren stuur je een mail naar <help@mprog.nl>.
+| Opdracht  | Duur        | Deadline            |  
+| --------- | ----------- | ------------------- |
+| Search    | 2 werkdagen | dinsdag  3 november |  
+| Wiki      | 5 werkdagen | dinsdag 10 november |  
+| Commerce  | 5 werkdagen | dinsdag 17 november |  
+| Mail      | 5 werkdagen | dinsdag 24 november |  
+| Portfolio |             | vrijdag 27 november |  
 
 
 ## Verwachtingen
@@ -29,44 +33,21 @@ Om de cursus tot een goed einde te brengen, verwachten we dat je:
 1. actief deelneemt aan onderlinge code reviews.
 
 
-## Werkgroepen
-
-Werkgroepen zijn bijeenkomsten van zo'n 30--60 minuten met je mentor. In de werkgroepen krijg je de kans om samen de voortgang te bespreken, tips uit te wisselen over het aanpakken van problemen en om je medestudenten en mentor beter te leren kennen. Aanwezigheid is verplicht.
-
-| Werkgroep | Mentor | 1e            | 2e              | Link |  
-| --------- | ------ | ------------- | --------------- | ---- |  
-| A         |        | dinsdag 10:00 | vrijdag 10:00   |      |  
-| B         |        | dinsdag 10:00 | donderdag 11:00 |      |  
-| C         |        | dinsdag 10:00 | donderdag 10:00 |      |  
-| D         |        | maandag 10:00 | donderdag 10:00 |      |  
-| E         |        | dinsdag 10:00 | donderdag 10:00 |      |  
-
-
 ## Eindcijfer
 
-Let op dat je ten minste aan bovenstaande verwachtingen moet voldoen om een eindcijfer te kunnen halen. Voor de vier **opdrachten** kun je punten verdienen, tot een maximum van 24 voor de cursus. Je programma's worden kritisch bekeken en op basis hiervan krijg je punten voor de kwaliteit van de inzending. Vóór die tijd heb je uitgebreid feedback gekregen en gevraagd.
+Let op dat je ten minste aan bovenstaande verwachtingen moet voldoen om een eindcijfer te kunnen halen. Voor de vier **projecten** kun je punten verdienen, tot een maximum van 24 voor de cursus. Je programma's worden kritisch bekeken en op basis hiervan krijg je punten voor de kwaliteit van de inzending. Vóór die tijd heb je uitgebreid feedback gekregen en gevraagd.
 
 
-## Kalender
+## Cijfers
 
-Voor de **opdrachten** gelden de volgende deadlines voor het werkend inleveren (volgens de gegeven specificaties). Daarnaast is de portfolio-deadline vermeld voor het inleveren van de verbeterde versies van deze projecten.
+Om punten te krijgen voor elk project moet je:
 
-| Opdracht  | Duur        | Deadline           |  
-| --------- | ----------- | ------------------ |  
-| Homepage  | 3 werkdagen | woensdag 1 april   |  
-| Blog      | 3 werkdagen | maandag 6 april    |  
-| Books     | 6 werkdagen | dinsdag 14 april   |  
-| Pizza     | 7 werkdagen | donderdag 23 april |  
-| Portfolio | 1 werkdag   | vrijdag 24 april   |  
+- de code committen en pushen naar GitHub,
+- een screencast opnemen die de werking demonstreert,
+- een wederzijdse code review doen met een medestudent, en
+- het ontwikkelproces goed documenteren.
 
-
-## Becijfering van de projecten
-
-Om punten te krijgen voor elk project moet je na afronding de code committen en pushen naar GitHub, en de opdracht laten aftekenen. Aftekenen betekent dat de code daarna in principe klaar is voor beoordeling. Het aftekenen is ook een logisch moment om feedback te vragen aan de assistent, hoewel dit ook op andere momenten kan.
-
-Je moet vóór de definitieve beoordeling nog een code review doen met een medestudent, waarbij je elkaar advies en feedback geeft op het project, en dan met name de code zelf. Hiervoor wordt een systeem aangeboden. De samenvatting van de feedback die je *krijgt* en wat je er mee *doet* moet je zelf noteren en in de repository achterlaten in een bestand genaamd `REVIEW.md`.
-
-De eindbeoordeling zal plaatsvinden na de laatste deadline van de projecten. Hiervoor wordt een speciale "portfolio"-deadline aangewezen (zie boven, en ook deze deadline is niet hard). Elk project krijgt een score op basis van het volgende schema:
+Punten worden gegeven op basis van het volgende schema:
 
 | ptn | omschrijving                                                                      |  
 | :-: | --------------------------------------------------------------------------------- |  
@@ -79,6 +60,15 @@ De eindbeoordeling zal plaatsvinden na de laatste deadline van de projecten. Hie
 |  0  | Niet ingestuurd of echt incompleet.                                               |  
 
 In alle gevallen is er ruimte voor kleine fouten en vergissingen. Alle projecten wegen even zwaar in het eindcijfer.
+
+
+## Docenten en contact
+
+Je docenten zijn Jelle van Assema en Martijn Stegeman. Coördinatie is in handen van Marleen de Jonge en Marijn Jansen.
+
+- Voor vragen over de stof, hulp met programmeren, technische ondersteuning, plaats je zoveel mogelijk een vraag op [Ed](https://us.edstem.org/courses/2471).
+- Als je niet weet hoe je een vraag moet stellen of je weet niet hoe je moet beginnen met iets, vraag dan video-assistentie aan via deze website.
+- Voor vragen over regeltjes, het maken van persoonlijke afspraken en het op de hoogte houden van de docenten over het later inleveren stuur je een mail naar <help@mprog.nl>.
 
 
 ## Samenwerken
