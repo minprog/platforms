@@ -12,13 +12,13 @@ Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze 
 
 Voor de **opdrachten** gelden de volgende deadlines voor het werkend inleveren (volgens de gegeven specificaties). Daarnaast is de portfolio-deadline vermeld voor het inleveren van de verbeterde versies van deze projecten.
 
-| Opdracht  | Duur        | Deadline            |  
-| --------- | ----------- | ------------------- |
-| Search    | 2 werkdagen | dinsdag  3 november |  
-| Wiki      | 5 werkdagen | dinsdag 10 november |  
-| Commerce  | 5 werkdagen | dinsdag 17 november |  
-| Mail      | 5 werkdagen | dinsdag 24 november |  
-| Portfolio |             | vrijdag 27 november |  
+| Opdracht  | Duur        | Deadline            | Verbeterd            |
+| --------- | ----------- | ------------------- | -------------------- |
+| Search    | 2 werkdagen | dinsdag  3 november | woensdag  4 november |  
+| Wiki      | 5 werkdagen | dinsdag 10 november | woensdag 11 november |  
+| Commerce  | 5 werkdagen | dinsdag 17 november | woensdag 18 november |  
+| Mail      | 5 werkdagen | dinsdag 24 november | woensdag 25 november |  
+| Portfolio |             |                     | vrijdag  27 november |  
 
 
 ## Verwachtingen
