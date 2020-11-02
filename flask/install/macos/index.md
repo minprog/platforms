@@ -13,6 +13,10 @@ Run
 
 and click "Install".
 
+If you're getting an error message, try installing it manually.
+Goto <https://developer.apple.com/download/more/?name=Command%20Line%20Tools%20for%20Xcode>.
+Download and install the latest non-beta version from this page.
+
 
 ## Step 2: Brew
 
