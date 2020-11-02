@@ -2,8 +2,6 @@
 
 To develop web apps you need some tools on you laptop. This guide helps you with installing al these tools.
 
-We assume you're running the latest macOS, Catalina. Please ask if you're running an older version and can't upgrade.
-
 
 ## Step 1: Install Command Line Tools
 
