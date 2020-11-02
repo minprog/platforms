@@ -51,7 +51,7 @@ Your task in this project is to expand on this site, creating your own front end
 
 In this course, we'll use GitHub Classroom to distribute project starter files. You'll learn more about git and GitHub in Lecture 1. For now we will tell you what to do to get started.
 
-1. [Click here](https://classroom.github.com/a/52tE--l) to go to GitHub Classroom.
+1. [Click here](https://classroom.github.com/a/52tE--l8) to go to GitHub Classroom.
 2. Click the green "Accept this assignment" button. This will create a GitHub repository for your project. A git repository is just a location where your code will be stored and which can be used to keep track of changes you make to your code over time.
 3. Click on the link that follows "Your assignment has been created here", which will direct you to the GitHub repository page for your project. It may take a few seconds for GitHub to finish creating your repository.
 4. Now, you should be looking at a GitHub repository titled _uva-webapps/search-username_, where "username" is your GitHub username. This will be the repository to which you will push all of your code while working on your project. You will commit directly to this repository.
