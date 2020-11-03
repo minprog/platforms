@@ -14,10 +14,10 @@ Voor de **opdrachten** gelden de volgende deadlines voor het werkend inleveren (
 
 | Opdracht  | Duur        | Deadline       | Verbeterd      | Screencast     |
 | --------- | ----------- | -------------- | -------------- | -------------- |
-| Search    | 2 werkdagen | di  3 november | wo  4 november | wo  5 november |  
-| Wiki      | 5 werkdagen | di 10 november | wo 11 november | wo 12 november |  
-| Commerce  | 5 werkdagen | di 17 november | wo 18 november | wo 19 november |  
-| Mail      | 5 werkdagen | di 24 november | wo 25 november | wo 26 november |  
+| Search    | 2 werkdagen | di  3 november | wo  4 november | wo  4 november |  
+| Wiki      | 5 werkdagen | di 10 november | wo 11 november | wo 11 november |  
+| Commerce  | 5 werkdagen | di 17 november | wo 18 november | wo 18 november |  
+| Mail      | 5 werkdagen | di 24 november | wo 25 november | wo 25 november |  
 | Portfolio | 2 werkdagen | vr 27 november |                |                |  
 
 
