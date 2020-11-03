@@ -10,15 +10,15 @@ Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze 
 
 ## Kalender
 
-Voor de **opdrachten** gelden de volgende deadlines voor het werkend inleveren (volgens de gegeven specificaties). Daarnaast is de portfolio-deadline vermeld voor het inleveren van de verbeterde versies van deze projecten.
+Voor de **opdrachten** gelden de volgende deadlines voor het werkend inleveren (volgens de gegeven specificaties). Daarnaast is de portfolio-deadline vermeld voor het inleveren van je complete portfolio met reflectie.
 
-| Opdracht  | Duur        | Deadline            | Verbeterd            |
-| --------- | ----------- | ------------------- | -------------------- |
-| Search    | 2 werkdagen | dinsdag  3 november | woensdag  4 november |  
-| Wiki      | 5 werkdagen | dinsdag 10 november | woensdag 11 november |  
-| Commerce  | 5 werkdagen | dinsdag 17 november | woensdag 18 november |  
-| Mail      | 5 werkdagen | dinsdag 24 november | woensdag 25 november |  
-| Portfolio |             |                     | vrijdag  27 november |  
+| Opdracht  | Duur        | Deadline       | Verbeterd      | Screencast     |
+| --------- | ----------- | -------------- | -------------- | -------------- |
+| Search    | 2 werkdagen | di  3 november | wo  4 november | wo  5 november |  
+| Wiki      | 5 werkdagen | di 10 november | wo 11 november | wo 12 november |  
+| Commerce  | 5 werkdagen | di 17 november | wo 18 november | wo 19 november |  
+| Mail      | 5 werkdagen | di 24 november | wo 25 november | wo 26 november |  
+| Portfolio | 2 werkdagen | vr 27 november |                |                |  
 
 
 ## Verwachtingen
