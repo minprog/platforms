@@ -20,13 +20,13 @@ So far, all of the web applications we've written have been **static**. This mea
 
 ## HTTP
 
-HTTP, or HyperText Transfer Protocol, is a widely-accepted protocol for how messages are transfered back and forth across the internet. Typically, information online is passed between a client (user) and a server. ![Client and Server](images/client_server.png)
+HTTP, or HyperText Transfer Protocol, is a widely-accepted protocol for how messages are transfered back and forth across the internet. Typically, information online is passed between a client (user) and a server. ![Client and Server](client_server.png)
 
-In this protocol, the client will send a **request** to the server, that might look something like the one below. In the example below, `GET` is simply a type of request, one of three we'll discuss in this course. The `/` typically indicates that we're looking for the website's home page, and the three dots indicate that we could be passing in more information as well. ![Request](images/request.png)
+In this protocol, the client will send a **request** to the server, that might look something like the one below. In the example below, `GET` is simply a type of request, one of three we'll discuss in this course. The `/` typically indicates that we're looking for the website's home page, and the three dots indicate that we could be passing in more information as well. ![Request](request.png)
 
-After receiving a request, a server will then send back an HTTP response, which might look something like the one below. Such a response will include the HTTP version, a status code (200 means OK), a description of the content, and then some additional information. ![Response](images/response.png)
+After receiving a request, a server will then send back an HTTP response, which might look something like the one below. Such a response will include the HTTP version, a status code (200 means OK), a description of the content, and then some additional information. ![Response](response.png)
 
-200 is just one of many status codes, some of which you may have seen in the past: ![Codes](images/codes.png)
+200 is just one of many status codes, some of which you may have seen in the past: ![Codes](codes.png)
 
 
 
@@ -45,9 +45,9 @@ After installing Django, we can go through the steps of creating a new Django pr
     *   `manage.py` is what we use to execute commands on our terminal. We won't have to edit it, but we'll use it often.
     *   `settings.py` contains some important configuration settings for our new project. There are some default settings, but we may wish to change some of them from time to time.
     *   `urls.py` contains directions for where users should be routed after navigating to a certain URL.
-4.  Start the project by running `python manage.py runserver`. This will open a development server, which you can access by visiting the URL provided. This development server is being run locally on your machine, meaning other people cannot access your website. This should bring you to a default landing page: ![Landing Page](images/landing.png)
+4.  Start the project by running `python manage.py runserver`. This will open a development server, which you can access by visiting the URL provided. This development server is being run locally on your machine, meaning other people cannot access your website. This should bring you to a default landing page: ![Landing Page](landing.png)
 5.  Next, we'll have to create an application. Django projects are split into one or more **applications**. Most of our projects will only require one application, but larger sites can make use of this ability to split a site into multiple apps. To create an application, we run `python manage.py startapp APP_NAME`. This will create some additional directories and files that will be useful shortly, including `views.py`.
-6.  Now, we have to install our new app. To do this, we go to `settings.py`, scroll down to the list of `INSTALLED_APPS`, and add the name of our new application to this list. ![installed apps](images/installed.png)
+6.  Now, we have to install our new app. To do this, we go to `settings.py`, scroll down to the list of `INSTALLED_APPS`, and add the name of our new application to this list. ![installed apps](installed.png)
 
 
 
@@ -92,7 +92,7 @@ Now, in order to get started with our application:
 
 1.  By doing this, we've specified that when a user visits our site, and then in the search bar adds `/hello` to the URL, they'll be redirected to the paths inside of our new application.
 
-Now, when I start my application using `python manage.py runserver` and visit the url provided, I'm met with this screen: ![wrong url](images/404.png) But this is because we have only defined the URL `localhost:8000/hello`, but we haven't defined the URL `localhost:8000` with nothing added to the end. So, when I add `/hello` to the URL in my search bar: ![Hello, world](images/helloworld.png) Now that we've had some success, let's go over what just happened to get us to that point:
+Now, when I start my application using `python manage.py runserver` and visit the url provided, I'm met with this screen: ![wrong url](404.png) But this is because we have only defined the URL `localhost:8000/hello`, but we haven't defined the URL `localhost:8000` with nothing added to the end. So, when I add `/hello` to the URL in my search bar: ![Hello, world](helloworld.png) Now that we've had some success, let's go over what just happened to get us to that point:
 
 1.  When we accessed the URL `localhost:8000/hello/`, Django looked at what came after the base URL (`localhost:8000/`) and went to our project's `urls.py` file and searched for a pattern that matched `hello`.
 2.  It found that extension because we defined it, and saw that when met with that extension, it should `include` our `urls.py` file from within our application.
@@ -132,7 +132,7 @@ Inside `urls.py` (within our application)
     ]
 
 
-Now, our site remains unchanged when we visit `localhost:8000/hello`, but we get different pages when we add `brian` or `david` to the URL: ![Brian](images/brian.png) ![David](images/david.png)
+Now, our site remains unchanged when we visit `localhost:8000/hello`, but we get different pages when we add `brian` or `david` to the URL: ![Brian](brian.png) ![David](david.png)
 
 Many sites are parameterized by items included in the URL. For example, going to [www.twitter.com/cs50](https://twitter.com/cs50) will show you all of CS50's tweets, and going to [www.github.com/cs50](https://github.com/cs50) will bring you to CS50's GitHub page. You can even find your own public GitHub repositories by navigating to `www.github.com/YOUR_USERNAME`!
 
@@ -147,7 +147,7 @@ This function takes in not only a request, but also an additional argument of a 
     path("<str:name>", views.greet, name="greet")
 
 
-This is some new syntax, but essentially what's going on here is we're no longer looking for a specific word or name in the URL, but any string that a user might enter. Now, we can try the site out with a few other URLs: ![harry](images/harry.png) ![connor](images/connor.png)
+This is some new syntax, but essentially what's going on here is we're no longer looking for a specific word or name in the URL, but any string that a user might enter. Now, we can try the site out with a few other URLs: ![harry](harry.png) ![connor](connor.png)
 
 I can even make these look a little bit nicer, by augmenting the `greet` function to utilize Python's `capitalize` function that capitalizes a string:
 
@@ -155,7 +155,7 @@ I can even make these look a little bit nicer, by augmenting the `greet` functio
         return HttpResponse(f"Hello, {name.capitalize()}!")
 
 
-![Harry](images/harryc.png) ![Connor](images/connorc.png)
+![Harry](harryc.png) ![Connor](connorc.png)
 
 This is a great illustration of how any functionality we have in Python can be used in Django before being returned.
 
@@ -169,7 +169,7 @@ So far, our HTTP Responses, have been only text, but we can include any HTML ele
         return HttpResponse("<h1 style=\"color:blue\">Hello, world!</h1>")
 
 
-![Blue](images/bluehello.png)
+![Blue](bluehello.png)
 
 It would get very tedious to write an entire HTML page within `views.py`. It would also constitute bad design, as we want to keep separate parts of our project in separate files whenever possible.
 
@@ -179,7 +179,7 @@ This is why we'll now introduce [Django's templates](https://docs.djangoproject.
         return render(request, "hello/index.html")
 
 
-Now, we'll need to create that template. To do this, we'll create a folder called `templates` inside our app, then create a folder called `hello` (or whatever our app's name is) within that, and then add a file called `index.html`. ![Files](images/files.png) Next, we'll add whatever we want to that new file:
+Now, we'll need to create that template. To do this, we'll create a folder called `templates` inside our app, then create a folder called `hello` (or whatever our app's name is) within that, and then add a file called `index.html`. ![Files](files.png) Next, we'll add whatever we want to that new file:
 
     <!DOCTYPE html>
     <html lang="en">
@@ -192,7 +192,7 @@ Now, we'll need to create that template. To do this, we'll create a folder calle
     </html>
 
 
-Now, when we visit the main page of our application, we can see the header and title have been updated: ![template0](images/template0.png)
+Now, when we visit the main page of our application, we can see the header and title have been updated: ![template0](template0.png)
 
 In addition to writing some static HTML pages, we can also use [Django's templating language](https://docs.djangoproject.com/en/3.0/ref/templates/language/) to change the content of our HTML files based on the URL visited. Let's try it out by changing our `greet` function from earlier:
 
@@ -215,7 +215,7 @@ Notice that we passed a third argument into the `render` function here, one that
     </html>
 
 
-You'll noticed that we used some new syntax: double curly brackets. This syntax allows us to access variables that we've provided in the `context` argument. Now, when we try it out: ![Template 1](images/template1.png) ![Template 2](images/template2.png)
+You'll noticed that we used some new syntax: double curly brackets. This syntax allows us to access variables that we've provided in the `context` argument. Now, when we try it out: ![Template 1](template1.png) ![Template 2](template2.png)
 
 Now, we've seen how we can modify our HTML templates based on the context we provide. However, the Django templating language is even more powerful than that, so let's take a look at a few other ways it can be helpful:
 
@@ -223,7 +223,7 @@ Now, we've seen how we can modify our HTML templates based on the context we pro
 
 ### Conditionals
 
-We may want to change what is displayed on our website depending on some conditions. For example, if you visit the site [www.isitchristmas.com](https://www.isitchristmas.com), you'll probably be met with a page that looks like this: ![no](images/isitno.png) But this website will change on Christmas day, when the website will say **YES**. To make something like this for ourselves, let's try creating a similar application, where we check whether or not it is New Year's Day. Let's create a new app to do so, recalling our process for creating a new app:
+We may want to change what is displayed on our website depending on some conditions. For example, if you visit the site [www.isitchristmas.com](https://www.isitchristmas.com), you'll probably be met with a page that looks like this: ![no](isitno.png) But this website will change on Christmas day, when the website will say **YES**. To make something like this for ourselves, let's try creating a similar application, where we check whether or not it is New Year's Day. Let's create a new app to do so, recalling our process for creating a new app:
 
 1.  run `python manage.py startapp newyear` in the terminal.
 2.  Edit `settings.py`, adding "newyear" as one of our `INSTALLED_APPS`
@@ -246,7 +246,7 @@ We may want to change what is displayed on our website depending on some conditi
 
 Now that we're set up with our new app, let's figure out how to check whether or not it's New Year's Day. To do this, we can import Python's [datetime](https://docs.python.org/3/library/datetime.html) module. To get a sense for how this module works, we can look at the [documentation](https://docs.python.org/3/library/datetime.html), and then test it outside of Django using the Python interpreter.
 
-*   The **Python interpreter** is a tool we can use to test out small chunks of Python code. To use this, run `python` in your terminal, and then you'll be able to type and run Python code within your terminal. When you're done using the interpreter, run `exit()` to leave. ![interpreter](images/datetime.png)
+*   The **Python interpreter** is a tool we can use to test out small chunks of Python code. To use this, run `python` in your terminal, and then you'll be able to type and run Python code within your terminal. When you're done using the interpreter, run `exit()` to leave. ![interpreter](datetime.png)
 *   We can use this knowledge to construct a boolean expression that will evaluate to True if and only if today is New Year's Day: `now.day == 1 and now.month == 1`
 *   Now that we have an expression we can use to evaluate whether or not it's New Year's Day, we can update our index function in `views.py`:
 
@@ -274,7 +274,7 @@ Now, let's create our `index.html` template. We'll have to again create a new fo
     </html>
 
 
-In the code above, notice that when we wish to include logic in our HTML files, we use `{%` and `%}` as opening and closing tags around logical statements. Also note that Django's formatting language requires you to include an ending tag indicating that we are done with our `if-else` block. Now, we can open up to our page to see: ![No](images/no.png) Now, to get a better idea of what's going on behind the scenes, let's inspect the element of this page: ![Source](images/source.png) Notice that the HTML that is actually being sent to your web browser includes only the NO header, meaning that Django is using the HTML template we wrote to create a new HTML file, and then sending it to our web browser. If we cheat a little bit and make sure that our condition is always true, we see that the opposite case is filled:
+In the code above, notice that when we wish to include logic in our HTML files, we use `{%` and `%}` as opening and closing tags around logical statements. Also note that Django's formatting language requires you to include an ending tag indicating that we are done with our `if-else` block. Now, we can open up to our page to see: ![No](no.png) Now, to get a better idea of what's going on behind the scenes, let's inspect the element of this page: ![Source](source.png) Notice that the HTML that is actually being sent to your web browser includes only the NO header, meaning that Django is using the HTML template we wrote to create a new HTML file, and then sending it to our web browser. If we cheat a little bit and make sure that our condition is always true, we see that the opposite case is filled:
 
     def index(request):
         now = datetime.datetime.now()
@@ -283,7 +283,7 @@ In the code above, notice that when we wish to include logic in our HTML files, 
         })
 
 
-![Yes](images/yes.png) ![Source 0](images/source0.png)
+![Yes](yes.png) ![Source 0](source0.png)
 
 
 
@@ -303,7 +303,7 @@ Now, to include this styling in our HTML file, we add the line `{% load static %
     <link rel="stylesheet" href="{% static 'newyear/styles.css' %}">
 
 
-Now, if we restart the server, we can see that the styling changes were in fact applied: ![big no](./images/bigno.png)
+Now, if we restart the server, we can see that the styling changes were in fact applied: ![big no](./bigno.png)
 
 
 
@@ -360,7 +360,7 @@ Now, let's work on creating our template HTML file:
     </html>
 
 
-Notice here that we are able to loop over our tasks using syntax similar to our conditionals from earlier, and also similar to a Python loop from Lecture 2\. When we go to the tasks page now, we can see our list being rendered: ![tasks0](images/tasks0.png)
+Notice here that we are able to loop over our tasks using syntax similar to our conditionals from earlier, and also similar to a Python loop from Lecture 2\. When we go to the tasks page now, we can see our list being rendered: ![tasks0](tasks0.png)
 
 
 
@@ -438,7 +438,7 @@ Notice that we've again used `{%...%}` to denote some sort of non-HTML logic, an
     {% endblock %}
 
 
-Notice how we can now get rid of much of the repeated code by _extending_ our layout file. Now, our index page remains the same, and we now have an add page as well: ![Add](images/add.png) Next, it's not ideal to have to type "/add" in the URL any time we want to add a new task, so we'll probably want to add some links between pages. Instead of hard-coding links though, we can now use the `name` variable we assigned to each path in `urls.py`, and create a link that looks like this:
+Notice how we can now get rid of much of the repeated code by _extending_ our layout file. Now, our index page remains the same, and we now have an add page as well: ![Add](add.png) Next, it's not ideal to have to type "/add" in the URL any time we want to add a new task, so we'll probably want to add some links between pages. Instead of hard-coding links though, we can now use the `name` variable we assigned to each path in `urls.py`, and create a link that looks like this:
 
     <a href="{% url 'add' %}">Add a New Task</a>
 
@@ -487,7 +487,7 @@ To incorporate this technology into our code, we must add a line to our form in 
     </form>
 
 
-This line adds a hidden input field with the CSRF token provided by Django, such that when we reload the page, it looks as though nothing has changed. However, if we inspect element, we'll notice that a new input field has been added: ![CSRF](images/csrf.png)
+This line adds a hidden input field with the CSRF token provided by Django, such that when we reload the page, it looks as though nothing has changed. However, if we inspect element, we'll notice that a new input field has been added: ![CSRF](csrf.png)
 
 
 
