@@ -1,27 +1,23 @@
 # Wiki
 
-[Watch Lecture 2](https://cs50.harvard.edu/web/2020/weeks/2/)
-[Watch Lecture 3](https://cs50.harvard.edu/web/2020/weeks/3/)
+Design a Wikipedia-like online encyclopedia.
 
 
-Start this weeks problem with on [GitHub Classroom](hhttps://classroom.github.com/a/HCD9nsk6).
+## Background
 
-The problem can be found [here](https://cs50.harvard.edu/web/2020/projects/1/wiki/).
+[Wikipedia](https://www.wikipedia.org/) is a free online encyclopedia that consists of a number of encyclopedia entries on various topics.
 
-## Design Doc
+Each encyclopedia entry can be viewed by visiting that entry's page. Visiting [https://en.wikipedia.org/wiki/HTML](https://en.wikipedia.org/wiki/HTML), for example, shows the Wikipedia entry for HTML. Notice that the name of the requested page (HTML) is specified in the route `/wiki/HTML`. Recognize too, that the page's content must just be HTML that your browser renders.
 
-From now on, we require that you take your time to do a formal up-front design of what you are going to make for this project.
+In practice, it would start to get tedious if every page on Wikipedia had to be written in HTML. Instead, it can be helpful to store encyclopedia entries using a lighter-weight human-friendly markup language. Wikipedia happens to use a markup language called [Wikitext](https://en.wikipedia.org/wiki/Help:Wikitext), but for this project we'll store encyclopedia entries using a markup language called Markdown.
 
-Your first to-do is to read the project specification in full and try to imagine what the website will look like. Then, with your partner, create a design document that describes **what** you are going to make and what it will look like. While doing this, there are also some technical challenges that you need to take into account as much as possible.
+Read through [GitHub's Markdown guide](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) to get an understanding for how Markdown's syntax works. Pay attention in particular to what Markdown syntax looks like for headings, bold text, links, and lists.
 
-For this project, we would like you to take the items below as a guide for producing design documentation:
+By having one Markdown file represent each encyclopedia entry, we can make our entries more human-friendly to write and edit. When a user views our encyclopedia entry, though, we'll need to convert that Markdown into HTML before displaying it to the user.
 
-- The project comes with a number of files already. Say you are going to add a **new page**, what files should you change to make that work?
 
-- An important part of the project is creating HTML files for some of the pages. Make a list of the HTML pages that you are going to need. Don't forget to add any pages that would be needed but aren't directly mentioned in the project requirements.
+## Getting Started
 
-- The project requirements describe the application workflow, the steps that users can take to reach certain goals. Use the descriptions of the workflow to make a complete sketch of all pages, including all user interface elements, with lines pointing from buttons toward pages that those buttons lead to.
+* Start this week's problem with on [GitHub Classroom](hhttps://classroom.github.com/a/HCD9nsk6).
 
-One brief introduction for that last item is the [Beginner's guide to UI sketching](https://www.justinmind.com/blog/ui-sketching/) at JustInMind. Read it well! Keep in mind that your sketches may be very simple, something like [this image](https://mcrubioux.files.wordpress.com/2011/03/appsketches1.png).
-
-You should put your lists and sketches in a separate folder in your GitHub repository, so you can discuss these with your mentor before starting coding!
+* Then immediately submit your repository's URL at the bottom of this page.
