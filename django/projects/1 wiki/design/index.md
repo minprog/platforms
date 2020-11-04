@@ -32,28 +32,42 @@ For this project, we would like you to take the items below as a guide for produ
 
 One brief introduction for that last item is the [Beginner's guide to UI sketching](https://www.justinmind.com/blog/ui-sketching/) at JustInMind. Read it well! Keep in mind that your sketches may be very simple, something like [this image](https://mcrubioux.files.wordpress.com/2011/03/appsketches1.png).
 
-You should put your lists and sketches in a **separate** folder inside your GitHub repository for Wiki, so you can discuss these with your mentor before starting coding!
+You should put your sketches in a **separate** folder inside your GitHub repository for Wiki, so you can discuss these with your mentor before starting coding!
 
 
 ## Form
 
 <div class="form-check">
-  <input name="form[design_doc_done]" class="form-check-input" type="checkbox" value="yes" id="check1">
+  <input name="form[design_doc_done]" class="form-check-input" type="checkbox" value="yes" id="check1" required>
   <label class="form-check-label" for="check1">
-    I have added a design document (as Markdown) to my repository in a separate folder
+    I have added a design document (as Markdown) to my repository as README.md in the root folder
   </label>
 </div>
 
 <div class="form-check">
-  <input name="form[images]" class="form-check-input" type="checkbox" value="yes" id="check2">
+  <input name="form[images]" class="form-check-input" type="checkbox" value="yes" id="check2" required>
   <label class="form-check-label" for="check2">
     I have added neat sketches of all pages in one or more images that are well-readable, and embedded those pictures in the design document using Markdown image tags
   </label>
 </div>
 
 <div class="form-check">
-  <input name="form[discussed]" class="form-check-input" type="checkbox" value="yes" id="check3">
+  <input name="form[images_dir]" class="form-check-input" type="checkbox" value="yes" id="check3" required>
   <label class="form-check-label" for="check3">
+    I have put all images in a separate folder, not in the root folder
+  </label>
+</div>
+
+<div class="form-check">
+  <input name="form[discussed]" class="form-check-input" type="checkbox" value="yes" id="check4" required>
+  <label class="form-check-label" for="check4">
     I have discussed my design with another student to get preliminary feedback and to check for completeness
+  </label>
+</div>
+
+<div class="form-check">
+  <input name="form[discussed]" class="form-check-input" type="checkbox" value="yes" id="check5" required>
+  <label class="form-check-label" for="check5">
+    I have pushed the Markdown to GitHub and checked that it is well-readable when navigating to it via the GitHub website
   </label>
 </div>

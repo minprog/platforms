@@ -16,14 +16,14 @@ By way of example, for this project that means that if the grading staff visits 
 ## Form
 
 <div class="form-check">
-  <input name="form[may_be_graded]" class="form-check-input" type="checkbox" value="yes" id="check1">
+  <input name="form[may_be_graded]" class="form-check-input" type="checkbox" value="yes" id="check1" required>
   <label class="form-check-label" for="check1">
     My repository is structured correctly and the code may be graded as such
   </label>
 </div>
 
 <div class="form-check">
-  <input name="form[implements_specs]" class="form-check-input" type="checkbox" value="yes" id="check2">
+  <input name="form[implements_specs]" class="form-check-input" type="checkbox" value="yes" id="check2" required>
   <label class="form-check-label" for="check2">
     My project implements every feature required by the project specification
   </label>
