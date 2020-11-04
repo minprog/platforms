@@ -8,7 +8,7 @@ By way of example, for this project that means that if the grading staff visits 
 
 2. Do a code review with another student.
 
-3. Do not forget to submit your [Screencast](../screencast)
+3. Do not forget to submit your screencast.
 
 4. Submit the form, below.
 
