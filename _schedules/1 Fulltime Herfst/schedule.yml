@@ -9,13 +9,15 @@ Search:
   Create a screencast: /django/projects/search/screencast
 
 Wiki:
-  "Lecture 1: Python": /django/lectures/python
-  "Lecture 2: Django": /django/lectures/django
-  "Wiki: Getting Started": /django/projects/wiki
-  "Wiki: Design Document": /django/projects/wiki/design
-  "Wiki: Specification": /django/projects/wiki/specification
-  "Wiki: Screencast": /django/projects/wiki/screencast
-  "Wiki: Submit": /django/projects/wiki/submit
+  Lectures:
+    Python: /django/lectures/python
+    Django: /django/lectures/django
+  Project Wiki:
+    Getting Started: /django/projects/wiki
+    Design Document: /django/projects/wiki/design
+    Specification: /django/projects/wiki/specification
+    Screencast: /django/projects/wiki/screencast
+    Submit: /django/projects/wiki/submit
 
 Commerce:
   Project 2 / Commerce: /django/projects/commerce
