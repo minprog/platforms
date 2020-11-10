@@ -15,8 +15,8 @@ templates:
         hide_calculated: true
 
 grades:
-    search: *6points
     search-screencast: *check_off
+    search: *6points
 
     wiki-design: *check_off
     wiki-screencast: *check_off
