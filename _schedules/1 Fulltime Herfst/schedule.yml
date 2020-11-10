@@ -22,9 +22,12 @@ Wiki:
 Commerce:
   Lectures:
     SQL: /django/lectures/sql
-    JavaScript: /django/lectures/js
   Project Commerce:
     Getting Started: /django/projects/commerce
 
 Mail:
-  Project 3 / Mail: /django/projects/mail
+  Lectures:
+    JavaScript: /django/lectures/js
+    User Interfaces: /django/lectures/ui
+  Project Mail:
+    Getting Started: /django/projects/mail
