@@ -1,4 +1,4 @@
-# Wiki: Screencast
+# Commerce: Screencast
 
 Record a screencast not to exceed 5 minutes in length, in which you demonstrate your project's functionality.
 

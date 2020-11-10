@@ -1,8 +1,8 @@
-# Wiki: Submit
+# Commerce: Submit
 
 When you submit your project, the contents of your git repository should match the file structure of the unzipped distribution code as originally received. That is to say, your files should not be nested inside of any other directories of your own creation. Your branch should also not contain any code from any other projects, only this one. Failure to adhere to this file structure will likely result in your submission being rejected.
 
-By way of example, for this project that means that if the grading staff visits your repository on GitHub, we should see the three subdirectories (`encyclopedia`, `entries`, `wiki`) and the `manage.py` file. If that's not how your code is organized when you check, reorganize your repository as needed to match this paradigm.
+By way of example, for this project that means that if the grading staff visits your repository on GitHub, we should see the two subdirectories (`auctions`, `commerce`) and the `manage.py` file. If that's not how your code is organized when you check, reorganize your repository as needed to match this paradigm.
 
 1. Push your work to GitHub.
 
