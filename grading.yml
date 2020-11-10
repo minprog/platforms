@@ -18,7 +18,17 @@ grades:
     search: *6points
     search-screencast: *check_off
 
+    wiki-design: *check_off
+    wiki-screencast: *check_off
+    wiki-done: *check_off
     wiki: *6points
+
+    commerce-design: *check_off
+    commerce-screencast: *check_off
+    commerce-done: *check_off
     commerce: *6points
+
+    mail-design: *check_off
+    mail-screencast: *check_off
+    mail-done: *check_off
     mail: *6points
-    network: *6points
