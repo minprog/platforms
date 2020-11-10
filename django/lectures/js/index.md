@@ -7,24 +7,24 @@
 
 ## Introduction
 
-*   So far, we’ve discussed how to build simple web pages using HTML and CSS, and how to use Git and GitHub in order to keep track of changes to our code and collaborate with others. We also familiarized ourselves with the Python programming language, started using Django to create web applications, and learned how to use Django models to store information in our sites.
-*   Today, we’ll introduce a new programming language: JavaScript.
+*   So far, we've discussed how to build simple web pages using HTML and CSS, and how to use Git and GitHub in order to keep track of changes to our code and collaborate with others. We also familiarized ourselves with the Python programming language, started using Django to create web applications, and learned how to use Django models to store information in our sites.
+*   Today, we'll introduce a new programming language: JavaScript.
 
 
 
 ## JavaScript
 
-Let’s begin by revisiting a diagram from a couple of lectures ago:
+Let's begin by revisiting a diagram from a couple of lectures ago:
 
 ![Client Server Diagram](client_server.png)
 
-Recall that in most online interactions, we have a client/user that sends an HTTP Request to a server, which sends back an HTTP Response. All of the Python code we’ve written so far using Django has been running on a server. JavaScript will allow us to run code on the client side, meaning no interaction with the server is necessary while it’s running, allowing our websites to become much more interactive.
+Recall that in most online interactions, we have a client/user that sends an HTTP Request to a server, which sends back an HTTP Response. All of the Python code we've written so far using Django has been running on a server. JavaScript will allow us to run code on the client side, meaning no interaction with the server is necessary while it's running, allowing our websites to become much more interactive.
 
 In order to add some JavaScript to our page, we can add a pair of `<script>` tags somewhere in our HTML page. We use `<script>` tags to signal to the browser that anything we write in between the two tags is JavaScript code we wish to execute when a user visits our site. Our first program might look something like this:
 
     alert('Hello, world!');
 
-The `alert` function in JavaScript displays a message to the user which they can then dismiss. To show where this would fit into an actual HTML document, here’s an example of a simple page with some JavaScript:
+The `alert` function in JavaScript displays a message to the user which they can then dismiss. To show where this would fit into an actual HTML document, here's an example of a simple page with some JavaScript:
 
     <!DOCTYPE html>
     <html lang="en">
@@ -51,13 +51,13 @@ Event-Driven Programming is a programming paradigm that centers around the detec
 
 An event can be almost anything including a button being clicked, the cursor being moved, a response being typed, or a page being loaded. Just about everything a user does to interact with a web page can be thought of as an event. In JavaScript, we use [Event Listeners](https://www.w3schools.com/js/js_htmldom_eventlistener.asp) that wait for certain events to occur, and then execute some code.
 
-Let’s begin by turning our JavaScript from above into a [function](https://www.w3schools.com/js/js_functions.asp) called `hello`:
+Let's begin by turning our JavaScript from above into a [function](https://www.w3schools.com/js/js_functions.asp) called `hello`:
 
     function hello() {
         alert('Hello, world!')
     }
 
-Now, let’s work on running this function whenever a button is clicked. To do this, we’ll create an HTML button in our page with an `onclick` attribute, which gives the browser instructions for what should happen when the button is clicked:
+Now, let's work on running this function whenever a button is clicked. To do this, we'll create an HTML button in our page with an `onclick` attribute, which gives the browser instructions for what should happen when the button is clicked:
 
     <button onclick="hello()">Click Here</button>
 
@@ -67,7 +67,7 @@ These changes to our code
 
 ## Variables
 
-JavaScript is a programming language just like Python, C, or any other language you’ve worked with before, meaning it has many of the same features as other languages including variables. There are three keywords we can use to assign values in JavaScript:
+JavaScript is a programming language just like Python, C, or any other language you've worked with before, meaning it has many of the same features as other languages including variables. There are three keywords we can use to assign values in JavaScript:
 
 *   `var`: used to define a variable globally
 
@@ -81,7 +81,7 @@ JavaScript is a programming language just like Python, C, or any other language 
 
     const PI = 3.14;
 
-For an example of how we can use a variable, let’s take a look at a page that keeps track of a counter:
+For an example of how we can use a variable, let's take a look at a page that keeps track of a counter:
 
     <!DOCTYPE html>
     <html lang="en">
@@ -111,11 +111,11 @@ In addition to allowing us to display messages through alerts, JavaScript also a
 
     let heading = document.querySelector('h1');
 
-to extract a heading. Then, to manipulate the element we’ve recently found, we can change its `innerHTML` property:
+to extract a heading. Then, to manipulate the element we've recently found, we can change its `innerHTML` property:
 
     heading.innerHTML = `Goodbye!`;
 
-Just as in Python, we can also take advantage of [conditions](https://www.w3schools.com/js/js_if_else.asp) in JavaScript. For example, let’s say rather than always changing our header to `Goodbye!`, we wish to toggle back and forth between `Hello!` and `Goodbye!`. Our page might then look something like the one below. Notice that in JavaScript, we use `===` as a stronger comparison between two items which also checks that the objects are of the same type. We typically want to use `===` whenever possible.
+Just as in Python, we can also take advantage of [conditions](https://www.w3schools.com/js/js_if_else.asp) in JavaScript. For example, let's say rather than always changing our header to `Goodbye!`, we wish to toggle back and forth between `Hello!` and `Goodbye!`. Our page might then look something like the one below. Notice that in JavaScript, we use `===` as a stronger comparison between two items which also checks that the objects are of the same type. We typically want to use `===` whenever possible.
 
     <!DOCTYPE html>
     <html lang="en">
@@ -145,7 +145,7 @@ Just as in Python, we can also take advantage of [conditions](https://www.w3scho
 
 ## DOM Manipulation
 
-Let’s use this idea of DOM manipulation to improve our counter page:
+Let's use this idea of DOM manipulation to improve our counter page:
 
     <!DOCTYPE html>
     <html lang="en">
@@ -167,7 +167,7 @@ Let’s use this idea of DOM manipulation to improve our counter page:
 
 ![count 2](count2.gif)
 
-We can make this page even more interesting by displaying an alert every time the counter gets to a multiple of ten. In this alert, we’ll want to format a string to customize the message, which in JavaScript we can do using [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals). Template literals requre that there are backticks (```) around the entire expression and a $ and curly braces around any substitutions. For example, let’s change our count function
+We can make this page even more interesting by displaying an alert every time the counter gets to a multiple of ten. In this alert, we'll want to format a string to customize the message, which in JavaScript we can do using [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals). Template literals requre that there are backticks (```) around the entire expression and a $ and curly braces around any substitutions. For example, let's change our count function
 
     function count() {
         counter++;
@@ -180,17 +180,17 @@ We can make this page even more interesting by displaying an alert every time th
 
 ![count with alert](count3.gif)
 
-Now, let’s look at some ways in which we can improve the design of this page. First, just as we try to avoid in-line styling with CSS, we want to avoid in-line JavaScript as much as possible. We can do this in our counter example by adding a line of script that changes the `onclick` attribute of a button on the page, and removing the `onclick` attribute from within the `button` tag.
+Now, let's look at some ways in which we can improve the design of this page. First, just as we try to avoid in-line styling with CSS, we want to avoid in-line JavaScript as much as possible. We can do this in our counter example by adding a line of script that changes the `onclick` attribute of a button on the page, and removing the `onclick` attribute from within the `button` tag.
 
     document.querySelector('button').onclick = count;
 
-One thing to notice about what we’ve just done is that we’re not calling the `count` function by adding parentheses afterward, but instead just naming the function. This specifies that we only wish to call this function when the button is clicked. This works because, like Python, JavaScript supports functional programming, so functions can be treated as values themselves.
+One thing to notice about what we've just done is that we're not calling the `count` function by adding parentheses afterward, but instead just naming the function. This specifies that we only wish to call this function when the button is clicked. This works because, like Python, JavaScript supports functional programming, so functions can be treated as values themselves.
 
-The above change alone is not enough though, as we can see by inspecting the page and looking at our browser’s console:
+The above change alone is not enough though, as we can see by inspecting the page and looking at our browser's console:
 
 ![error console](error0.png)
 
-This error came up because when JavaScript searched for an element using `document.querySelector('button')`, it didn’t find anything. This is because it takes a small bit of time for the page to load, and our JavaScript code ran before the button had been rendered. To account for this, we can specify that code will run only after the page has loaded using the [addEventListener](https://www.w3schools.com/jsref/met_document_addeventlistener.asp) function. This function takes in two arguments:
+This error came up because when JavaScript searched for an element using `document.querySelector('button')`, it didn't find anything. This is because it takes a small bit of time for the page to load, and our JavaScript code ran before the button had been rendered. To account for this, we can specify that code will run only after the page has loaded using the [addEventListener](https://www.w3schools.com/jsref/met_document_addeventlistener.asp) function. This function takes in two arguments:
 
 1.  An event to listen for (eg: `'click'`)
 2.  A function to run when the event is detected (eg: `hello` from above)
@@ -201,7 +201,7 @@ We can use the function to only run the code once all content has loaded:
         // Some code here
     });
 
-In the example above, we’ve used an [anonymous](https://www.w3schools.com/js/js_function_definition.asp) function, which is a function that is never given a name. Putting all of this together, our JavaScript now looks like this:
+In the example above, we've used an [anonymous](https://www.w3schools.com/js/js_function_definition.asp) function, which is a function that is never given a name. Putting all of this together, our JavaScript now looks like this:
 
     let counter = 0;
 
@@ -261,7 +261,7 @@ Having JavaScript in a separate file is useful for a number of reasons:
 *   Collaboration: We can now easily have one person work on the JavaScript while another works on HTML.
 *   Importing: We are able to import JavaScript libraries that other people have already written. For example [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/#js) has their own JavaScript library you can include to make your site more interactive.
 
-Let’s get started on another example of a page that can be a bit more interactive. Below, we’ll create a page where a user can type in their name to get a custom greeting.
+Let's get started on another example of a page that can be a bit more interactive. Below, we'll create a page where a user can type in their name to get a custom greeting.
 
     <!DOCTYPE html>
     <html lang="en">
@@ -321,7 +321,7 @@ We can do more than just add HTML to our page using JavaScript, we can also chan
 Some notes on the page above:
 
 *   We change the style of an element using the `style.SOMETHING` attribute.
-*   We use the `data-SOMETHING` attribute to assign data to an HTML element. We can later access that data in JavaScript using the element’s `dataset` property.
+*   We use the `data-SOMETHING` attribute to assign data to an HTML element. We can later access that data in JavaScript using the element's `dataset` property.
 *   We use the `querySelectorAll` function to get an [Node List](https://www.w3schools.com/js/js_htmldom_nodelist.asp) (similar to a Python list or a JavaScript [array](https://www.w3schools.com/js/js_arrays.asp)) with all elements that match the query.
 *   The [forEach](https://www.w3schools.com/jsref/jsref_foreach.asp) function in JavaScript takes in another function, and applies that function to each element in a list or array.
 
@@ -341,7 +341,7 @@ Which gives us this in the console:
 
 ### Arrow Functions
 
-In addition to the traditional function notation we’ve seen already, JavaScript now gives us the ability to use [Arrow Functions](https://www.w3schools.com/js/js_arrow_function.asp) where we have an input (or parentheses when there’s no input) followed by `=>` followed by some code to be run. For example, we can alter our script above to use an anonymous arrow function:
+In addition to the traditional function notation we've seen already, JavaScript now gives us the ability to use [Arrow Functions](https://www.w3schools.com/js/js_arrow_function.asp) where we have an input (or parentheses when there's no input) followed by `=>` followed by some code to be run. For example, we can alter our script above to use an anonymous arrow function:
 
     document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('button').forEach(button => {
@@ -362,7 +362,7 @@ We can also have named functions that use arrows, as in this rewriting of the co
         }
     }
 
-To get an idea about some other events we can use, let’s see how we can implement our color switcher using a dropdown menu instead of three separate buttons. We can detect changes in a `select` element using the `onchange` attribute. In JavaScript, [this](https://www.w3schools.com/js/js_this.asp) is a keyword that changes based on the context in which it’s used. In the case of an event handler, `this` refers to the object that triggered the event.
+To get an idea about some other events we can use, let's see how we can implement our color switcher using a dropdown menu instead of three separate buttons. We can detect changes in a `select` element using the `onchange` attribute. In JavaScript, [this](https://www.w3schools.com/js/js_this.asp) is a keyword that changes based on the context in which it's used. In the case of an event handler, `this` refers to the object that triggered the event.
 
     <!DOCTYPE html>
     <html lang="en">
@@ -404,7 +404,7 @@ There are many other [events](https://www.w3schools.com/js/js_events.asp) we can
 
 ### TODO List
 
-To put together a few of the things we’ve learned in this lecture, let’s work on making a TODO list entirely in JavaScript. We’ll start by writing the HTML layout of the page. Notice below how we leave space for an unorderd list, but we dont yet add anything to it. Also notice that we add a link to `tasks.js` where we’ll write our JavaScript.
+To put together a few of the things we've learned in this lecture, let's work on making a TODO list entirely in JavaScript. We'll start by writing the HTML layout of the page. Notice below how we leave space for an unorderd list, but we dont yet add anything to it. Also notice that we add a link to `tasks.js` where we'll write our JavaScript.
 
     <!DOCTYPE html>
     <html lang="en">
@@ -422,7 +422,7 @@ To put together a few of the things we’ve learned in this lecture, let’s wor
         </body>
     </html>
 
-Now, here’s our code which we can keep in `tasks.js`. A few notes on what you’ll see below:
+Now, here's our code which we can keep in `tasks.js`. A few notes on what you'll see below:
 
 *   This code is slightly different from the code in lecture. Here, we only query for our submit button and input task field once in the beginning and store those two values in the variables `submit` and `newTask`.
 *   We can enable/disable a button by setting its `disabled` attribute to `false`/`true`.
@@ -480,7 +480,7 @@ Now, here’s our code which we can keep in `tasks.js`. A few notes on what you�
 
 ## Intervals
 
-In addition to specifying that functions run when an event is triggered, we can also set functions to run after a set amount of time. For example, let’s return to our counter page’s script, and add an interval so even if the user doesn’t click anything, the counter increments every second. To do this, we use the [setInterval](https://www.w3schools.com/jsref/met_win_setinterval.asp) function, which takes as argument a function to be run, and a time (in milliseconds) between function runs.
+In addition to specifying that functions run when an event is triggered, we can also set functions to run after a set amount of time. For example, let's return to our counter page's script, and add an interval so even if the user doesn't click anything, the counter increments every second. To do this, we use the [setInterval](https://www.w3schools.com/jsref/met_win_setinterval.asp) function, which takes as argument a function to be run, and a time (in milliseconds) between function runs.
 
     let counter = 0;
 
@@ -501,14 +501,14 @@ In addition to specifying that functions run when an event is triggered, we can 
 
 ## Local Storage
 
-One thing to notice about all of our sites so far is that every time we reload the page, all of our information is lost. The heading color goes back to black, the counter goes back to 0, and all of the tasks are erased. Sometimes this is what we intend, but other time’s we’ll want to be able to store information that we can use when a user returns to the site.
+One thing to notice about all of our sites so far is that every time we reload the page, all of our information is lost. The heading color goes back to black, the counter goes back to 0, and all of the tasks are erased. Sometimes this is what we intend, but other time's we'll want to be able to store information that we can use when a user returns to the site.
 
-One way we can do this is by using [Local Storage](https://www.w3schools.com/jsref/prop_win_localstorage.asp), or storing information on the user’s web browser that we can access later. This information is stored as a set of key-value pairs, almost like a Python dictionary. In order to use local storage, we’ll employ two key functions:
+One way we can do this is by using [Local Storage](https://www.w3schools.com/jsref/prop_win_localstorage.asp), or storing information on the user's web browser that we can access later. This information is stored as a set of key-value pairs, almost like a Python dictionary. In order to use local storage, we'll employ two key functions:
 
 *   `localStorage.getItem(key)`: This function searches for an entry in local storage with a given key, and returns the value associated with that key.
 *   `localStorage.setItem(key, value)`: This function sets and entry in local storage, associating the key with a new vlaue.
 
-Let’s look at how we can use these new functions to update our counter! In the code below,
+Let's look at how we can use these new functions to update our counter! In the code below,
 
     // Check if there is already a vlaue in local storage
     if (!localStorage.getItem('counter')) {
@@ -566,7 +566,7 @@ An API, or Application Programming Interface, is a structured form communication
 
 </dl>
 
-For example, we may want our application to get information from Google Maps, Amazon, or some weather service. We can do this by making calls to a service’s API, which will return structured data to us, often in [JSON](https://www.w3schools.com/js/js_json_intro.asp) (JavaScript Object Notation) form. For example, a flight in JSON form might look like this:
+For example, we may want our application to get information from Google Maps, Amazon, or some weather service. We can do this by making calls to a service's API, which will return structured data to us, often in [JSON](https://www.w3schools.com/js/js_json_intro.asp) (JavaScript Object Notation) form. For example, a flight in JSON form might look like this:
 
     {
         "origin": "New York",
@@ -592,9 +592,9 @@ The values within a JSON do not have to just be strings and numbers as in the ex
 
 ### Currency Exchange
 
-To show how we can use APIs in our applications, let’s work on building an application where we can find exchange rates between two currencies. Throughout the exercise, we’ll be using the [European Central Bank’s Exchange Rate API](https://exchangeratesapi.io). By visiting their website, you’ll see the API’s documentation, which is generally a good place to start when you wish to use an API. We can test this api by visiting the URL: [https://api.exchangeratesapi.io/latest?base=USD](https://api.exchangeratesapi.io/latest?base=USD). When you visit this page, you’ll see the exchange rate between the U.S. Dollar and many other currencies, written in JSON form. You can also change the GET parameter in the URL from `USD` to any other currency code to change the rates you get.
+To show how we can use APIs in our applications, let's work on building an application where we can find exchange rates between two currencies. Throughout the exercise, we'll be using the [European Central Bank's Exchange Rate API](https://exchangeratesapi.io). By visiting their website, you'll see the API's documentation, which is generally a good place to start when you wish to use an API. We can test this api by visiting the URL: [https://api.exchangeratesapi.io/latest?base=USD](https://api.exchangeratesapi.io/latest?base=USD). When you visit this page, you'll see the exchange rate between the U.S. Dollar and many other currencies, written in JSON form. You can also change the GET parameter in the URL from `USD` to any other currency code to change the rates you get.
 
-Let’s take a look at how to implement this API into an application by creating a new HTML file called `currency.html` and link it to a JavaScript file but leave the body empty:
+Let's take a look at how to implement this API into an application by creating a new HTML file called `currency.html` and link it to a JavaScript file but leave the body empty:
 
     <!DOCTYPE html>
     <html lang="en">
@@ -605,7 +605,7 @@ Let’s take a look at how to implement this API into an application by creating
         <body></body>
     </html>
 
-Now, we’ll use something called [AJAX](https://www.w3schools.com/js/js_ajax_intro.asp), or Asynchronous JavaScript And XML, which allows us to access information from external pages even after our page has loaded. In order to do this, we’ll use the [fetch](https://javascript.info/fetch) function which will allow us to send an HTTP request. The `fetch` function returns a [promise](https://web.dev/promises/). We won’t talk about the details of what a promise is here, but we can think of it as a value that will come through at some point, but not necessarily right away. We deal with promises by giving them a `.then` attribute describing what should be done when we get a `response`. The code snippet below will log our response to the console.
+Now, we'll use something called [AJAX](https://www.w3schools.com/js/js_ajax_intro.asp), or Asynchronous JavaScript And XML, which allows us to access information from external pages even after our page has loaded. In order to do this, we'll use the [fetch](https://javascript.info/fetch) function which will allow us to send an HTTP request. The `fetch` function returns a [promise](https://web.dev/promises/). We won't talk about the details of what a promise is here, but we can think of it as a value that will come through at some point, but not necessarily right away. We deal with promises by giving them a `.then` attribute describing what should be done when we get a `response`. The code snippet below will log our response to the console.
 
     document.addEventListener('DOMContentLoaded', function() {
         // Send a GET request to the URL
@@ -641,7 +641,7 @@ Rather than simply logging this data, we can use JavaScript to display a message
 
 ![Currency](exhange.png)
 
-Now, let’s make the site a bit more interactive by allowing the user to choose which currency they would like to see. We’ll start by altering our HTML to allow the user to input a currency:
+Now, let's make the site a bit more interactive by allowing the user to choose which currency they would like to see. We'll start by altering our HTML to allow the user to input a currency:
 
     <!DOCTYPE html>
     <html lang="en">
@@ -658,7 +658,7 @@ Now, let’s make the site a bit more interactive by allowing the user to choose
         </body>
     </html>
 
-Now, we’ll make some changes to our JavaScript so it only changes when the form is submitted, and so it takes into account the user’s input. We’ll also add some error checking here:
+Now, we'll make some changes to our JavaScript so it only changes when the form is submitted, and so it takes into account the user's input. We'll also add some error checking here:
 
     document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('form').onsubmit = function() {
@@ -695,4 +695,4 @@ Now, we’ll make some changes to our JavaScript so it only changes when the for
 
 ![Echange demo](exchange.gif)
 
-That’s all for this lecture! Next time, we’ll work on using JavaScript to create even more engaging user interfaces!
+That's all for this lecture! Next time, we'll work on using JavaScript to create even more engaging user interfaces!

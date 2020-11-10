@@ -56,4 +56,4 @@ Good free code editors are: Free code editors are [Textmate](https://macromates.
 
 # Troubleshooting
 
-Ran into trouble? Contact the staff! It’s important to get started quickly. You only have to do the above once, so get help now and you'll be set for the remainder of the course!
+Ran into trouble? Contact the staff! It's important to get started quickly. You only have to do the above once, so get help now and you'll be set for the remainder of the course!
