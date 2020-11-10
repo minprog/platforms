@@ -20,7 +20,11 @@ Wiki:
     Submit: /django/projects/wiki/submit
 
 Commerce:
-  Project 2 / Commerce: /django/projects/commerce
+  Lectures:
+    SQL: /django/lectures/sql
+    JavaScript: /django/lectures/js
+  Project Commerce:
+    Getting Started: /django/projects/commerce
 
 Mail:
   Project 3 / Mail: /django/projects/mail
