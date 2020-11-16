@@ -32,3 +32,14 @@ grades:
     mail-design: *check_off
     mail-screencast: *check_off
     mail-done: *check_off
+
+calculation:
+    final:
+        projects: 100
+
+projects:
+    submits:
+        search: 1
+        wiki: 1
+        commerce: 1
+        mail: 1
