@@ -1,4 +1,4 @@
-# Commerce: Specification
+# Mail: Specification
 
 Complete the implementation of your auction site. You must fulfill the following requirements:
 
