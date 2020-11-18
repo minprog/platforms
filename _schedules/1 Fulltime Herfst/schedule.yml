@@ -34,7 +34,7 @@ Commerce:
 Mail:
   Lectures:
     JavaScript: /django/lectures/js
-    User Interfaces: /django/lectures/ui
+    User Interfaces: /django/lectures/uis
   Project Mail:
     Getting Started: /django/projects/mail
     Design Document: /django/projects/mail/design
@@ -42,4 +42,3 @@ Mail:
   Inleveren:
     Screencast: /django/projects/mail/screencast
     Final Review: /django/projects/mail/submit
-
