@@ -16,8 +16,8 @@ Design a front-end for an email client that makes API calls to send and receive 
 
 - Clone your new repository.
 
-- In your terminal, `cd` into the commerce directory.
+- In your terminal, `cd` into the `project3` directory.
 
-- Run `python manage.py makemigrations auctions` to make migrations for the `auctions` app.
+- Run `python manage.py makemigrations mail` to make migrations for the `mail` app.
 
 - Run `python manage.py migrate` to apply migrations to your database.

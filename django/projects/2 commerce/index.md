@@ -15,7 +15,7 @@ Design an eBay-like e-commerce auction site that will allow users to post auctio
 
 - Clone your new repository.
 
-- In your terminal, `cd` into the commerce directory.
+- In your terminal, `cd` into the `commerce` directory.
 
 - Run `python manage.py makemigrations auctions` to make migrations for the `auctions` app.
 
