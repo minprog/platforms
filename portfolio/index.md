@@ -38,7 +38,7 @@ Je portfolio-verslag wordt beoordeeld op **diepgang** en **duidelijkheid**. De e
 
 De beste manier om te *beginnen* is om zoveel mogelijk verbeterpunten te vinden en op te sommen, met een korte uitleg en aanwijzen van dwarsverbanden.
 
-De beste manier om het *af te *maken* is om vervolgens alle punten te herzien, waar mogelijk samen te voegen, waar nodig beter uit te leggen en als ze echt niet duidelijk worden, gewoon te schrappen.
+De beste manier om het *af te maken* is om vervolgens alle punten te herzien, waar mogelijk samen te voegen, waar nodig beter uit te leggen en als ze echt niet duidelijk worden, gewoon te schrappen.
 
 Uiteindelijk zul je je eigen verslag ook nodig hebben bij het afmaken van je eindproject in het volgende vak.
 
