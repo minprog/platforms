@@ -1,0 +1,4 @@
+name: portfolio
+files:
+  required:
+    - verslag.pdf
