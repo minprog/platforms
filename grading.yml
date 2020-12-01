@@ -36,8 +36,13 @@ grades:
     portfolio:
         type: pass
         subgrades:
-            passed: boolean
-        calculation: done
+            gebruik: float
+            layout: float
+            codekwaliteit: float
+            verbeterpunten: float
+            goedgegaan: float
+            frameworkinvloed: float
+        calculation: (gebruik + layout + codekwaliteit + verbeterpunten + goedgegaan + frameworkinvloed)
         hide_calculated: true
 
 calculation:
