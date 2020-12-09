@@ -28,7 +28,9 @@ grades:
     commerce-screencast: *check_off
     commerce-done: *check_off
 
-    mail: *6points
+    mail:
+        << :*6points
+        calculation: (repo_ok == -1 && done == -1) && (points.present? && (points.to_i.to_f/6*9).round(1) || -1) || 0
     mail-design: *check_off
     mail-screencast: *check_off
     mail-done: *check_off
