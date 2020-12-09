@@ -55,7 +55,7 @@ projects:
         search: 1
         wiki: 1
         commerce: 1
-        mail: 1
+        mail: :bonus
 
 portfolio:
     required: true
