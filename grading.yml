@@ -56,3 +56,8 @@ projects:
         wiki: 1
         commerce: 1
         mail: 1
+
+portfolio:
+    required: true
+    submits:
+        portfolio: 1
