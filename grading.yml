@@ -42,7 +42,7 @@ grades:
             verbeterpunten: float
             goedgegaan: float
             frameworkinvloed: float
-        calculation: "(gebruik + layout + codekwaliteit + verbeterpunten + goedgegaan + frameworkinvloed) >= 5 ? -1 : 0"
+        calculation: (gebruik + layout + codekwaliteit + verbeterpunten + goedgegaan + frameworkinvloed) >= 5 && -1 || 0
         hide_calculated: true
 
 calculation:
