@@ -12,9 +12,13 @@ Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze 
 
 Coördinator is Martijn Stegeman, mentoren zijn Marijn Doeve en Wouter de Boer, en ook Björn Out kun je tegenkomen bij het assisteren.
 
-- Voor vragen over de stof, hulp met programmeren, technische ondersteuning, plaats je zoveel mogelijk een vraag op [Ed](https://edstem.org/us/courses/4551).
-- Als je niet weet hoe je een vraag moet stellen of je weet niet hoe je moet beginnen met iets, maak dan een afspraak voor video-assistentie via [Calendly](https://calendly.com/app-studio/assistentie).
+- Voor vragen over de stof, hulp met programmeren, technische ondersteuning zoek je contact tijdens de assistentie-uren (via Wonder).
+- Heb je "computerproblemen" of andere technische dingen waar je even samen naar moet kijken, kun je een afspraak met de helpdesk maken via [Bookings](...).
 - Voor vragen over regeltjes, het maken van persoonlijke afspraken en het op de hoogte houden van de docenten over het later inleveren stuur je een mail naar <help@mprog.nl>.
+
+<!-- - Waar zinvol
+, plaats je zoveel mogelijk een vraag op [Ed](https://edstem.org/us/courses/4551). -->
+
 
 
 ## Verwachtingen
