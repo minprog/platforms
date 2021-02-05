@@ -7,13 +7,6 @@ First, create a GitHub account. On GitHub, developers from all over the world sh
 <https://github.com/join>
 
 
-## Ed
-
-Then you can register on Ed. This is an online forum for Q&A (questions and answers) about this course. There, you'll find others who are taking the course and might just be able to help you with your questions.
-
-<https://us.edstem.org/courses/4551>
-
-
 ## Installing
 
 To get started with installing the required software on your computer, follow the instructions specific to your operating system:
