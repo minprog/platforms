@@ -1,0 +1,47 @@
+Welkom:
+  Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
+  Maak je computer klaar voor het ontwikkelen van webapplicaties: /start
+
+Search:
+  "Lecture 0: HTML and CSS": /django/lectures/html
+  "Lecture 1: Git": /django/lectures/git
+  Implement Search: /django/projects/search
+  Create a screencast: /django/projects/search/screencast
+
+Wiki:
+  Lectures:
+    Python: /django/lectures/python
+    Django: /django/lectures/django
+  Project Wiki:
+    Getting Started: /django/projects/wiki
+    Design Document: /django/projects/wiki/design
+    Specification: /django/projects/wiki/specification
+  Inleveren:
+    Screencast: /django/projects/wiki/screencast
+    Final Review: /django/projects/wiki/submit
+
+Commerce:
+  Lectures:
+    SQL: /django/lectures/sql
+  Project Commerce:
+    Getting Started: /django/projects/commerce
+    Design Document: /django/projects/commerce/design
+    Specification: /django/projects/commerce/specification
+  Inleveren:
+    Screencast: /django/projects/commerce/screencast
+    Final Review: /django/projects/commerce/submit
+
+Mail:
+  Lectures:
+    JavaScript: /django/lectures/js
+    User Interfaces: /django/lectures/uis
+  Project Mail:
+    Getting Started: /django/projects/mail
+    Design Document: /django/projects/mail/design
+    Specification: /django/projects/mail/specification
+  Inleveren:
+    Screencast: /django/projects/mail/screencast
+    Final Review: /django/projects/mail/submit
+
+Portfolio:
+  - portfolio
