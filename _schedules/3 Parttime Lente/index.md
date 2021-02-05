@@ -44,6 +44,8 @@ Let op dat je ten minste aan bovenstaande verwachtingen moet voldoen om een eind
 
 Voor de opdrachten gelden de volgende **deadlines** voor het werkend inleveren (volgens de gegeven specificaties) en het verbeterd inleveren (na de code review). Dit is een uiterste deadline, waarbij het verstandig is om hierop enigszins voor te lopen.
 
+De data zijn nog onder voorbehoud van wijzigingen, maar geven een goede indicatie van de werkdruk.
+
 | Opdracht | Duur    | Deadline werkend | Deadline verbeterd | Start                                            |
 | -------- | ------- | ---------------- | ------------------ | ------------------------------------------------ |
 | SQL      | 1 week  | do 12 feb        | -                  |                                                  |
@@ -91,6 +93,10 @@ Punten worden gegeven op basis van de volgende factoren:
 - Kwaliteit van de HTML en (S)CSS
 - Bruikbaarheid en overzichtelijkheid van de layout
 - Toepassing van componenten zoals Bootstrap
+- ...deze lijst nog aan te vullen...
+
+De verdere puntentelling wordt in de eerste lesweek bekend gemaakt.
+
 
 
 <!--| ptn | omschrijving                                                                      |

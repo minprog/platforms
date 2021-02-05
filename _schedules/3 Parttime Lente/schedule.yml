@@ -2,6 +2,11 @@ Welkom:
   Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
   Maak je computer klaar voor het ontwikkelen van webapplicaties: /start
 
+SQL:
+  "Lecture: SQL introduction": /sql/lecture
+  Implement Movies: /sql/movies
+  Implement Fiftyville: /sql/fiftyville
+
 Search:
   "Lecture 0: HTML and CSS": /django/lectures/html
   "Lecture 1: Git": /django/lectures/git
