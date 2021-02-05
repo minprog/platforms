@@ -10,7 +10,7 @@ Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze 
 
 ## Docenten en contact
 
-Coördinator is Martijn Stegeman en je mentor is Marijn Doeve.
+Coördinator is Martijn Stegeman, mentoren zijn Marijn Doeve en Wouter de Boer, en ook Björn Out kun je tegenkomen bij het assisteren.
 
 - Voor vragen over de stof, hulp met programmeren, technische ondersteuning, plaats je zoveel mogelijk een vraag op [Ed](https://edstem.org/us/courses/4551).
 - Als je niet weet hoe je een vraag moet stellen of je weet niet hoe je moet beginnen met iets, maak dan een afspraak voor video-assistentie via [Calendly](https://calendly.com/app-studio/assistentie).
@@ -21,11 +21,12 @@ Coördinator is Martijn Stegeman en je mentor is Marijn Doeve.
 
 Om de cursus tot een goed einde te brengen, verwachten we dat je:
 
-1. vijf goedwerkende websites volgens onze beschrijving implementeert en inlevert,
+1. een opdracht maakt om te oefenen met SQL,
+1. drie goedwerkende websites volgens onze beschrijving implementeert en inlevert,
 1. de websites verbetert op basis van gevraagde en ongevraagde feedback,
 1. regelmatig vragen stelt aan je mentor,
 1. vragen beantwoordt van andere studenten op Ed,
-1. voor elk project deelneemt aan de ontwerpfase en onderlinge code reviews.
+1. actief deelneemt aan onderlinge code reviews.
 
 Omdat deze cursus op afstand is, is het belangrijk dat je zorgt voor genoeg aanknopingspunten om te zien dat je zelfstandig met jouw projecten bezig bent en leert van het vak. Bovenstaande punten zijn de manieren om dat te doen.
 
@@ -37,47 +38,66 @@ Let op dat je ten minste aan bovenstaande verwachtingen moet voldoen om een eind
 
 ## Kalender
 
-> Let op! De deadlines worden nog enigszins aangepast aan de grootte van de opdrachten. Hou de mededelingen hierover in de gaten.
-
 Voor de opdrachten gelden de volgende **deadlines** voor het werkend inleveren (volgens de gegeven specificaties) en het verbeterd inleveren (na de code review). Dit is een uiterste deadline, waarbij het verstandig is om hierop enigszins voor te lopen.
 
 | Opdracht | Duur    | Deadline werkend | Deadline verbeterd | Start                                            |
 | -------- | ------- | ---------------- | ------------------ | ------------------------------------------------ |
-| Search   | 1 week  | ma  7 sep        | wo  9 sep          | [start](https://classroom.github.com/a/52tE--l8) |
-| Wiki     | 1 week  | ma 14 sep        | wo 16 sep          | [start](https://classroom.github.com/a/HCD9nsk6) |
-| Commerce | 2 weken | ma 28 sep        | wo 30 sep          | [start](https://classroom.github.com/a/ZBMBwaa0) |
+| SQL      | 1 week  | do 12 feb        | -                  |                                                  |
+| Search   | 1 week  | do 19 feb        | wo 24 feb          | [start](https://classroom.github.com/a/52tE--l8) |
+| Wiki     | 1 week  | do  4 mrt        | wo 10 mrt          | [start](https://classroom.github.com/a/HCD9nsk6) |
+| Commerce | 2 weken | do 18 mrt        | wo 24 mrt          | [start](https://classroom.github.com/a/ZBMBwaa0) |
+
+<!--
 | Mail     | 2 weken | ma 12 okt        | wo 14 okt          | [start](https://classroom.github.com/a/ktkcpRaC) |
 | Network  | 2 weken | ma 26 okt        | wo 28 okt          | [start](https://classroom.github.com/a/AYIfLw76) |
+-->
 
 
 ## Werkwijze
 
-Voor elk project (behalve "Search") doe je enkele onderdelen met een partner. Zorg dus dat je niet alvast in je eentje aan de slag gaat! Dit zijn de fases die je doorloopt voor elk project:
+De opdracht **SQL** bestaat uit twee onderdelen die je zelfstandig, maar wel met onze hulp, kunt uitwerken. Het doel is echt om te oefenen met het bouwen van SQL-statements en het begrijpen hoe databases in elkaar zitten.
 
-1. Basisontwerp op papier/diagram, met partner
-2. Implementatie van het project, individueel
-3. Code review, met partner
+Bij de andere opdrachten bouw je websites. De opdracht **Search** is weer meer een oefening, waar je leert hoe je met hulp van HTML en CSS informatie kunt vormgeven voor je gebruikers. Hiervoor doe je naderhand een code review. De twee grotere projecten **Wiki** en **Commerce** ga je in enkele stappen uitwerken:
 
-Voor het basisontwerp worden per project punten aangegeven die je moet meenemen. Dat kan bijvoorbeeld het ontwerp van de database zijn, of juist het ontwerp van de verschillende "schermen" waaruit de applicatie zal bestaan. Je vindt deze punten binnenkort op deze plek.
+1. Basisontwerp op papier/diagram
+2. Implementatie van het project
+3. Code review
+
+Voor het basisontwerp worden per project punten aangegeven die je moet meenemen. Dat kan bijvoorbeeld het ontwerp van de database zijn, of juist het ontwerp van de verschillende "schermen" waaruit de applicatie zal bestaan. 
+
+
+## Werkgroepen
+
+De wekelijkse werkgroepen zijn een verplicht onderdeel van de cursus. Het belangrijkste zijn de code reviews die je gaat doen van de web-projecten. Met deze reviews leer je vanuit andere perspectieven kijken naar je code en je leert hoe je je eigen code beter kan maken, en waar je op kunt gaan letter als je je eigen code naloopt. Omdat je daarna de gelegenheid hebt je opdrachten nog te herzien en daarna pas formeel in te leveren, heeft dit ook flinke invloed op je cijfers.
 
 
 ## Becijfering van de projecten
 
-Om punten te krijgen voor elk project moet je na afronding de code committen en pushen naar GitHub, en de opdracht laten aftekenen. Aftekenen betekent dat de code daarna in principe klaar is voor beoordeling. Het aftekenen is ook een logisch moment om feedback te vragen aan de assistent, hoewel dit ook op andere momenten kan.
+Om punten te krijgen voor de projecten Search, Wiki en Commerce moet je:
 
-Je moet vóór de definitieve beoordeling nog een code review doen met een medestudent, waarbij je elkaar advies en feedback geeft op het project, en dan met name de code zelf. Hiervoor wordt een systeem aangeboden. De samenvatting van de feedback die je *krijgt* en wat je er mee *doet* moet je zelf noteren en in de repository achterlaten in een bestand genaamd `REVIEW.md`.
+- de code (tussendoor) committen en pushen naar GitHub,
+- een screencast opnemen en online zetten die de werking demonstreert,
+- een wederzijdse code review doen met een medestudent, en
+- het ontwikkelproces goed documenteren.
 
-De eindbeoordeling zal plaatsvinden na de laatste deadline van de projecten. Hiervoor wordt een speciale "portfolio"-deadline aangewezen (zie boven, en ook deze deadline is niet hard). Elk project krijgt een score op basis van het volgende schema:
+Punten worden gegeven op basis van de volgende factoren:
 
-| ptn | omschrijving                                                                      |  
-| :-: | --------------------------------------------------------------------------------- |  
-|  6  | Exceptioneel in **gebruik**, **layout** en **code**. Iets extra's wordt verwacht. |  
-|  5  | Uitstekende kwaliteit van gebruik, layout en code.                                |  
-|  4  | Degelijke kwaliteit, met redelijk wat ruimte voor verbetering.                    |  
-|  3  | Voldoende kwaliteit, maar erg veel ruimte voor verbetering.                       |  
-|  2  | De applicatie werkt maar is van onvoldoende kwaliteit.                            |  
-|  1  | Er is duidelijk aandacht besteed aan het project, maar het werkt niet echt.       |  
-|  0  | Niet ingestuurd of echt incompleet.                                               |  
+- Gebruik Git
+- Kwaliteit van de Python-code
+- Kwaliteit van de HTML en (S)CSS
+- Bruikbaarheid en overzichtelijkheid van de layout
+- Toepassing van componenten zoals Bootstrap
+
+
+<!--| ptn | omschrijving                                                                      |
+| :-: | --------------------------------------------------------------------------------- |
+|  6  | Exceptioneel in **gebruik**, **layout** en **code**. Iets extra's wordt verwacht. |
+|  5  | Uitstekende kwaliteit van gebruik, layout en code.                                |
+|  4  | Degelijke kwaliteit, met redelijk wat ruimte voor verbetering.                    |
+|  3  | Voldoende kwaliteit, maar erg veel ruimte voor verbetering.                       |
+|  2  | De applicatie werkt maar is van onvoldoende kwaliteit.                            |
+|  1  | Er is duidelijk aandacht besteed aan het project, maar het werkt niet echt.       |
+|  0  | Niet ingestuurd of echt incompleet.                                               |   -->
 
 In alle gevallen is er ruimte voor kleine fouten en vergissingen. Alle projecten wegen even zwaar in het eindcijfer.
 
