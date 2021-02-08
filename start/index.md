@@ -2,7 +2,7 @@
 
 ## GitHub
 
-First, create a GitHub account. On GitHub, developers from all over the world share code and work together. And indeed, for this course, we use GitHub to host your projects, and you'll use GitHub to login to Ed (see the next step).
+First, create a GitHub account. On GitHub, developers from all over the world share code and work together. And indeed, for this course, we use GitHub to host your projects.
 
 <https://github.com/join>
 
