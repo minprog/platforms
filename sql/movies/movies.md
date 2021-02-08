@@ -124,6 +124,8 @@ Note that row counts do not include header rows that only show column names.
 
 Execute the below to evaluate the correctness of your code using `check50`.
 
+> Note: in order to reduce runtime, the checks use a smaller database with much fewer entries. You should test your queries yourself by the metrics above before running the checks. The checks serve only as a final check of correctness, they are not suitable for debugging in this case.
+
 ```
 check50 -l minprog/webprogrammeren/checks_2020/movies
 ```
