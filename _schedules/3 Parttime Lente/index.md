@@ -14,11 +14,8 @@ Coördinator is Martijn Stegeman, mentoren zijn Marijn Doeve en Wouter de Boer, 
 
 - Voor vragen over de stof, hulp met programmeren, technische ondersteuning zoek je contact tijdens de assistentie-uren (via Wonder).
 - Heb je "computerproblemen" of andere technische dingen waar je even samen naar moet kijken, kun je een afspraak met de helpdesk maken via [Bookings](...).
+- Heb je tussendoor nog vragen, dan kun je die plaatsen op Ed. Om toegang te krijgen tot de Ed van dit vak gebruik je deze [Join link](https://edstem.org/us/join/5m2rPr).
 - Voor vragen over regeltjes, het maken van persoonlijke afspraken en het op de hoogte houden van de docenten over het later inleveren stuur je een mail naar <help@mprog.nl>.
-
-<!-- - Waar zinvol
-, plaats je zoveel mogelijk een vraag op [Ed](https://edstem.org/us/courses/4551). -->
-
 
 
 ## Verwachtingen
