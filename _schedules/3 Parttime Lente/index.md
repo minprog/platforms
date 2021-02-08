@@ -85,16 +85,16 @@ Om punten te krijgen voor de projecten Search, Wiki en Commerce moet je:
 
 Punten worden gegeven op basis van de volgende factoren:
 
-| factor                                                                   | Search | Wiki | Commerce |
-| ------------------------------------------------------------------------ | :----: | :--: | :------: |
-| Gebruik git, regelmatige commits tussendoor                              | x      | x    | x        |
-| Nette organisatie van bestanden in de git-repository en uitleg in README | x      | x    | x        |
-| Nette indentatie, opmaak en documentatie van de HTML en (S)CSS           | x      | x    | x        |
-| Bruikbaarheid en overzichtelijkheid van de layout van de site            | x      | x    | x        |
-| Goede toepassing van componenten zoals Bootstrap                         | x      | x    | x        |
-| Leesbaarheid en begrijpelijkheid van de Python-code                      |        | x    | x        |
-| Zorgvuldige opbouw van database-models en relaties daartussen (keys)     |        |      | x        |
-| Goede opbouw van de database (types, keys, constraints)                  |        |      | x        |
+| factor                                                                   | Sea | Wik | Com |
+| ------------------------------------------------------------------------ | :-: | :-: | :-: |
+| Gebruik git, regelmatige commits tussendoor                              |  x  |  x  |  x  |
+| Nette organisatie van bestanden in de git-repository en uitleg in README |  x  |  x  |  x  |
+| Nette indentatie, opmaak en documentatie van de HTML en (S)CSS           |  x  |  x  |  x  |
+| Bruikbaarheid en overzichtelijkheid van de layout van de site            |  x  |  x  |  x  |
+| Goede toepassing van componenten zoals Bootstrap                         |  x  |  x  |  x  |
+| Leesbaarheid en begrijpelijkheid van de Python-code                      |     |  x  |  x  |
+| Zorgvuldige opbouw van database-models en relaties daartussen (keys)     |     |     |  x  |
+| Goede opbouw van de database (types, keys, constraints)                  |     |     |  x  |
 
 Elk van deze componenten kan je 0, 1 of 2 punten opleveren:
 
