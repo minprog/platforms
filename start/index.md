@@ -7,6 +7,11 @@ First, create a GitHub account. On GitHub, developers from all over the world sh
 <https://github.com/join>
 
 
+## Ed
+
+You can create an account on Ed through the [join link](https://edstem.org/us/join/5m2rPr).
+
+
 ## Installing
 
 To get started with installing the required software on your computer, follow the instructions specific to your operating system:
