@@ -48,7 +48,7 @@ De data zijn nog onder voorbehoud van wijzigingen, maar geven een goede indicati
 
 | Opdracht | Duur    | Deadline werkend | Deadline verbeterd | Start                                            |
 | -------- | ------- | ---------------- | ------------------ | ------------------------------------------------ |
-| SQL      | 1 week  | do 12 feb        | -                  |                                                  |
+| SQL      | 1 week  | do 11 feb        | -                  |                                                  |
 | Search   | 1 week  | do 19 feb        | wo 24 feb          | [start](https://classroom.github.com/a/52tE--l8) |
 | Wiki     | 1 week  | do  4 mrt        | wo 10 mrt          | [start](https://classroom.github.com/a/HCD9nsk6) |
 | Commerce | 2 weken | do 18 mrt        | wo 24 mrt          | [start](https://classroom.github.com/a/ZBMBwaa0) |
