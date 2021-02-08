@@ -27,7 +27,8 @@ Om de cursus tot een goed einde te brengen, verwachten we dat je:
 1. de websites verbetert op basis van gevraagde en ongevraagde feedback,
 1. regelmatig vragen stelt aan je mentor,
 1. vragen beantwoordt van andere studenten op Ed,
-1. actief deelneemt aan onderlinge code reviews.
+1. actief deelneemt aan onderlinge code reviews, en
+1. het vak afsluit met een reflectief verslag over jouw voortgang.
 
 Omdat deze cursus op afstand is, is het belangrijk dat je zorgt voor genoeg aanknopingspunten om te zien dat je zelfstandig met jouw projecten bezig bent en leert van het vak. Bovenstaande punten zijn de manieren om dat te doen.
 
