@@ -40,7 +40,7 @@ Let op dat je ten minste aan bovenstaande verwachtingen moet voldoen om een eind
 
 ## Kalender
 
-Voor de opdrachten gelden de volgende **deadlines** voor het werkend inleveren (volgens de gegeven specificaties) en het verbeterd inleveren (na de code review). Dit is een uiterste deadline, maar in geval van ziekte kan er meestal wel een aanpassing worden gedaan aan één van de deadlines (dus meestal niet aan meerdere deadlines). Dat laatste moet vooraf schriftelijk zijn afgesproken.
+Voor de opdrachten gelden de volgende **deadlines** voor het werkend inleveren (volgens de gegeven specificaties) en het verbeterd inleveren (na de code review). Dit zijn uiterste deadlines, dus ga niet pas twee dagen van tevoren aan de slag. Er is dan geen mogelijkheid om je nog uitstel te geven.
 
 | Opdracht | Duur    | Deadline werkend | Deadline verbeterd | Start                                            |
 | -------- | ------- | ---------------- | ------------------ | ------------------------------------------------ |
