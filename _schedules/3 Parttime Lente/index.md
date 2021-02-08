@@ -85,26 +85,24 @@ Om punten te krijgen voor de projecten Search, Wiki en Commerce moet je:
 
 Punten worden gegeven op basis van de volgende factoren:
 
-- Gebruik Git
-- Kwaliteit van de Python-code
-- Kwaliteit van de HTML en (S)CSS
-- Bruikbaarheid en overzichtelijkheid van de layout
-- Toepassing van componenten zoals Bootstrap
-- ...deze lijst nog aan te vullen...
+| factor                                                                   | Search | Wiki | Commerce |
+| ------------------------------------------------------------------------ | :----: | :--: | :------: |
+| Gebruik git, regelmatige commits tussendoor                              | x      | x    | x        |
+| Nette organisatie van bestanden in de git-repository en uitleg in README | x      | x    | x        |
+| Nette indentatie, opmaak en documentatie van de HTML en (S)CSS           | x      | x    | x        |
+| Bruikbaarheid en overzichtelijkheid van de layout van de site            | x      | x    | x        |
+| Goede toepassing van componenten zoals Bootstrap                         | x      | x    | x        |
+| Leesbaarheid en begrijpelijkheid van de Python-code                      |        | x    | x        |
+| Zorgvuldige opbouw van database-models en relaties daartussen (keys)     |        |      | x        |
+| Goede opbouw van de database (types, keys, constraints)                  |        |      | x        |
 
-De verdere puntentelling wordt in de eerste lesweek bekend gemaakt.
+Elk van deze componenten kan je 0, 1 of 2 punten opleveren:
 
-
-
-<!--| ptn | omschrijving                                                                      |
-| :-: | --------------------------------------------------------------------------------- |
-|  6  | Exceptioneel in **gebruik**, **layout** en **code**. Iets extra's wordt verwacht. |
-|  5  | Uitstekende kwaliteit van gebruik, layout en code.                                |
-|  4  | Degelijke kwaliteit, met redelijk wat ruimte voor verbetering.                    |
-|  3  | Voldoende kwaliteit, maar erg veel ruimte voor verbetering.                       |
-|  2  | De applicatie werkt maar is van onvoldoende kwaliteit.                            |
-|  1  | Er is duidelijk aandacht besteed aan het project, maar het werkt niet echt.       |
-|  0  | Niet ingestuurd of echt incompleet.                                               |   -->
+| ptn | omschrijving                               |
+| :-: | ------------------------------------------ |
+|  0  | niet gelukt zoals verwacht                 |
+|  1  | uitvoering zoals verwacht mag worden       |
+|  2  | boven verwachting zorgvuldig of uitgebreid |
 
 In alle gevallen is er ruimte voor kleine fouten en vergissingen. Alle projecten wegen even zwaar in het eindcijfer.
 
