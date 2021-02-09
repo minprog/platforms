@@ -13,8 +13,20 @@ templates:
             done: boolean
         calculation: done
         hide_calculated: true
+    3: &auto_pset
+        type: float
+        subgrades:
+            done: boolean
+        automatic:
+            done: -correctness_score.floor
+        calculation: done
+        auto_publish: false
+        hide_calculated: true
 
 grades:
+    movies: *auto_pset
+    fiftyville: *auto_pset
+
     search: *6points
     search-screencast: *check_off
 
@@ -29,12 +41,12 @@ grades:
     commerce-done: *check_off
 
     mail:
-        << : *6points
+        <<: *6points
         calculation: (repo_ok == -1 && done == -1) && (points.present? && (points.to_i.to_f/6*9).round(1) || -1) || 0
     mail-design: *check_off
     mail-screencast: *check_off
     mail-done: *check_off
-    
+
     portfolio:
         type: pass
         subgrades:
@@ -49,8 +61,14 @@ grades:
 
 calculation:
     final:
+        sql: 0
         projects: 100
         portfolio: 0
+
+sql:
+    submits:
+        movies: 1
+        fiftyville: 1
 
 projects:
     submits:
