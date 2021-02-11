@@ -20,7 +20,7 @@ templates:
         automatic:
             done: -correctness_score.floor
         calculation: done
-        auto_publish: false
+        auto_publish: true
         hide_calculated: true
 
 grades:
