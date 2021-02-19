@@ -29,6 +29,7 @@ grades:
 
     search: *6points
     search-screencast: *check_off
+    search-done: *check_off
 
     wiki: *6points
     wiki-design: *check_off
