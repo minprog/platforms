@@ -17,7 +17,7 @@ Finally, take a look at `auctions/models.py`. This is where you will define any 
 
 ## Creating a design document
 
-Your first to-do is to read the project specification in full and try to imagine what the website will look like. Then, with your partner, create a design document that describes **what** you are going to make and what it will look like. While doing this, there are also some technical challenges that you need to take into account as much as possible.
+Your first to-do is to read the project specification in full and try to imagine what the website will look like. Then, create a design document that describes **what** you are going to make and what it will look like. While doing this, there are also some technical challenges that you need to take into account as much as possible.
 
 For this project, we would like you to take the items below as a guide for producing design documentation:
 
