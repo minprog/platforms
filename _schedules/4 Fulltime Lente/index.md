@@ -45,7 +45,7 @@ Voor de opdrachten gelden de volgende **deadlines** voor het werkend inleveren (
 | -------- | ---------- | ---------------- | ------------------ | ------------------------------------------------ |
 | SQL      | 2 dagen    | wo  7 apr        | -                  |                                                  |
 | Search   | 2 dagen    | vr  9 apr        | di 13 apr          | [start](https://classroom.github.com/a/52tE--l8) |
-| Wiki     | 1 week     | vr 16 apr        | wo 10 apr          | [start](https://classroom.github.com/a/HCD9nsk6) |
+| Wiki     | 1 week     | vr 16 apr        | di 20 apr          | [start](https://classroom.github.com/a/HCD9nsk6) |
 | Commerce | 2 weken    | do 29 apr        | vr 30 apr          | [start](https://classroom.github.com/a/ZBMBwaa0) |
 
 
