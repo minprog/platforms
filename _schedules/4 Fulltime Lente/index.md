@@ -37,18 +37,6 @@ Omdat deze cursus op afstand is, is het belangrijk dat je zorgt voor genoeg aank
 Let op dat je ten minste aan bovenstaande verwachtingen moet voldoen om een eindcijfer te kunnen halen. Voor de **opdrachten** kun je punten verdienen. Je programma's worden kritisch bekeken en op basis hiervan krijg je punten voor de kwaliteit van de inzending. Vóór die tijd heb je uitgebreid feedback gekregen en gevraagd.
 
 
-## Kalender
-
-Voor de opdrachten gelden de volgende **deadlines** voor het werkend inleveren (volgens de gegeven specificaties) en het verbeterd inleveren (na de code review). Dit zijn uiterste deadlines, dus ga niet pas twee dagen van tevoren aan de slag. Er is dan geen mogelijkheid om je nog uitstel te geven.
-
-| Opdracht | Duur       | Deadline werkend | Deadline verbeterd | Start                                            |
-| -------- | ---------- | ---------------- | ------------------ | ------------------------------------------------ |
-| SQL      | 2 dagen    | wo  7 apr        | -                  |                                                  |
-| Search   | 2 dagen    | vr  9 apr        | di 13 apr          | [start](https://classroom.github.com/a/52tE--l8) |
-| Wiki     | 1 week     | vr 16 apr        | di 20 apr          | [start](https://classroom.github.com/a/HCD9nsk6) |
-| Commerce | 2 weken    | do 29 apr        | vr 30 apr          | [start](https://classroom.github.com/a/ZBMBwaa0) |
-
-
 ## Werkwijze
 
 De opdracht **SQL** bestaat uit twee onderdelen die je zelfstandig, maar wel met onze hulp, kunt uitwerken. Het doel is echt om te oefenen met het bouwen van SQL-statements en het begrijpen hoe databases in elkaar zitten.
