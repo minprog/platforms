@@ -1,38 +1,54 @@
 Welkom:
   Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
-  Maak je computer klaar voor het ontwikkelen van webapplicaties: /start
+  Maak je computer klaar voor het ontwikkelen van webapplicaties: /install
 
-SQL:
-  "Lecture: SQL introduction": /sql/lecture
-  Implement Movies: /sql/movies
-  Implement Fiftyville: /sql/fiftyville
+Week 1:
+  Dinsdag:
+    "Videocollege: SQL": /lectures/sql
+    Movies [samen]: /modules/movies
+  Woensdag:
+    "Videocollege: HTML & CSS": /lectures/html
+    Fiftyville: /modules/fiftyville
+  Donderdag:
+    "Videocollege: git": /lectures/git
+    "Search: Google Search": /modules/search
+  Vrijdag: 
+    "Search: Google Image Search": /modules/search
+    "Search: Google Advanced Search": /modules/search
 
-Search:
-  "Lecture 0: HTML and CSS": /django/lectures/html
-  "Lecture 1: Git": /django/lectures/git
-  Implement Search: /django/projects/search
-  Create a screencast: /django/projects/search/screencast
-  Final Review: /django/projects/search/submit
+Week 2:
+  Maandag:
+    "Search: Lucky": /modules/search
+    "Search: Screencast": /modules/search/screencast
+    "Search: Submit": /modules/search/submit
+    "Videocollege: Python": /lectures/python
+    "Videocollege: Django": /lectures/django
+  Dinsdag:
+    "Wiki: Design Document": /modules/wiki/design
+    "Wiki: Entry page": /modules/wiki
+  Woensdag:
+    "Wiki: Index": /modules/wiki
+    "Wiki: Search": /modules/wiki
+  Donderdag:
+    "Wiki: New page": /modules/wiki
+    "Wiki: Edit page [extra]": /modules/wiki
+  Vrijdag: 
+    "Wiki: Screencast": /modules/wiki/screencast
+    "Wiki: Submit": /modules/wiki/submit
 
-Wiki:
-  Lectures:
-    Python: /django/lectures/python
-    Django: /django/lectures/django
-  Project Wiki:
-    Getting Started: /django/projects/wiki
-    Design Document: /django/projects/wiki/design
-    Specification: /django/projects/wiki/specification
-  Inleveren:
-    Screencast: /django/projects/wiki/screencast
-    Final Review: /django/projects/wiki/submit
-
-Commerce:
-  Lectures:
-    SQL: /django/lectures/sql
-  Project Commerce:
-    Getting Started: /django/projects/commerce
-    Design Document: /django/projects/commerce/design
-    Specification: /django/projects/commerce/specification
-  Inleveren:
-    Screencast: /django/projects/commerce/screencast
-    Final Review: /django/projects/commerce/submit
+Week 3:
+  Maandag:
+    "Videocollege: ORM": /lectures/sql_orm
+    "Commerce: Design Document": /modules/commerce/design
+  Dinsdag:
+    "Commerce: Models": /modules/commerce
+    "Commerce: Create Listing": /modules/commerce
+  Woensdag:
+    "Commerce: Active Listings Page": /modules/commerce
+    "Commerce: Listing Page": /modules/commerce
+  Donderdag:
+    "Commerce: Listing Page": /modules/commerce
+    "Commerce: Watchlist [extra]": /modules/commerce
+  Vrijdag: 
+    "Commerce: Screencast": /modules/commerce/screencast
+    "Commerce: Submit": /modules/commerce/submit
