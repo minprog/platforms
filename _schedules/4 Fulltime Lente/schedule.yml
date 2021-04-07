@@ -4,17 +4,17 @@ Welkom:
 
 Week 1:
   Dinsdag:
-    "Videocollege: SQL": /lectures/sql
-    Movies [samen]: /modules/movies
+    "Videocollege: SQL": /sql/lecture
+    Movies [samen]: /sql/movies
   Woensdag:
     "Videocollege: HTML & CSS": /lectures/html
-    Fiftyville: /modules/fiftyville
+    Fiftyville: /sql/fiftyville
   Donderdag:
     "Videocollege: git": /lectures/git
-    "Search: Google Search": /modules/search
+    "Search: Google Search": /django/projects/search
   Vrijdag: 
-    "Search: Google Image Search": /modules/search
-    "Search: Google Advanced Search": /modules/search
+    "Search: Google Image Search": /django/projects/search
+    "Search: Google Advanced Search": /django/projects/search
 
 Week 2:
   Maandag:

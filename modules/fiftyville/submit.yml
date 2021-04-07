@@ -1,8 +1,0 @@
-name: fiftyville
-files:
-    required:
-        - log.sql
-        - answers.txt
-check:
-    tool: check50
-    slug: minprog/webprogrammeren/checks_2020/fiftyville
