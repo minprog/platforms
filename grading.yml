@@ -73,7 +73,7 @@ calculation:
     final:
         sql: 0
         projects: 100
-        portfolio: 0
+        # portfolio: 0
 
 sql:
     submits:
