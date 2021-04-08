@@ -1,9 +1,11 @@
 # Windows: Installing using WSL
 
+
 To develop web apps you need some tools on your laptop. This guide helps you with installing al these tools.
 
 We will be using the [_Windows Subsystem for Linux 2_](https://aka.ms/wsl2).
 
+Note: These instruction are written for Windows 10. If you're using Windows 8 or older please follow [these](/install/windows8) instructions.
 
 ## Step 1: Install the Windows Subsystem for Linux
 

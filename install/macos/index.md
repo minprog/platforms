@@ -32,6 +32,13 @@ to install Homebrew.
 
 3. Homebrew will ask for your password, no character will appear on screen, this is normal.
 
+4. _(Only for Apple Silicon Macs)_ Read the "Next steps" and execute the lines in the terminal, it probably looks like:
+
+        echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> .zprofile
+        eval "$(/opt/homebrew/bin/brew shellenv)"
+
+    But please execute the lines you'll see in your terminal, they can be slightly different!
+
 ## Step 3: Python
 
 Open the Terminal app and run
