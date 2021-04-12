@@ -6,7 +6,7 @@ By way of example, for this project that means that if the grading staff visits 
 
 1. Push your work to GitHub.
 
-2. Do a code review with another student.
+2. Do a code review with another student in the group meeting (werkgroep).
 
 3. Do not forget to submit your screencast.
 
