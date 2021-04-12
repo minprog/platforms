@@ -18,23 +18,23 @@ Week 1:
 
 Week 2:
   Maandag:
-    "Search: Lucky": /modules/search
-    "Search: Screencast": /modules/search/screencast
-    "Search: Submit": /modules/search/submit
+    "Search: Lucky": /django/projects/search
+    "Search: Screencast": /django/projects/search/screencast
+    "Search: Submit": /django/projects/search/submit
     "Videocollege: Python": /lectures/python
     "Videocollege: Django": /lectures/django
   Dinsdag:
-    "Wiki: Design Document": /modules/wiki/design
-    "Wiki: Entry page": /modules/wiki
+    "Wiki: Design Document": /django/projects/wiki/design
+    "Wiki: Entry page": /django/projects/wiki
   Woensdag:
-    "Wiki: Index": /modules/wiki
-    "Wiki: Search": /modules/wiki
+    "Wiki: Index": /django/projects/wiki
+    "Wiki: Search": /django/projects/wiki
   Donderdag:
-    "Wiki: New page": /modules/wiki
-    "Wiki: Edit page [extra]": /modules/wiki
+    "Wiki: New page": /django/projects/wiki
+    "Wiki: Edit page [extra]": /django/projects/wiki
   Vrijdag: 
-    "Wiki: Screencast": /modules/wiki/screencast
-    "Wiki: Submit": /modules/wiki/submit
+    "Wiki: Screencast": /django/projects/wiki/screencast
+    "Wiki: Submit": /django/projects/wiki/submit
 
 Week 3:
   Maandag:
