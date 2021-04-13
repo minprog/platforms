@@ -24,14 +24,15 @@ Week 2:
     "Videocollege: Python": /lectures/python
     "Videocollege: Django": /lectures/django
   Dinsdag:
+    "Wiki: Getting Started": /django/projects/wiki
     "Wiki: Design Document": /django/projects/wiki/design
-    "Wiki: Entry page": /django/projects/wiki
+    "Wiki: Specification": /django/projects/wiki/specification
   Woensdag:
-    "Wiki: Index": /django/projects/wiki
-    "Wiki: Search": /django/projects/wiki
+    "Wiki: Index": /django/projects/wiki/specification
+    "Wiki: Search": /django/projects/wiki/specification
   Donderdag:
-    "Wiki: New page": /django/projects/wiki
-    "Wiki: Edit page [extra]": /django/projects/wiki
+    "Wiki: New page": /django/projects/wiki/specification
+    "Wiki: Edit page [extra]": /django/projects/wiki/specification
   Vrijdag: 
     "Wiki: Screencast": /django/projects/wiki/screencast
     "Wiki: Submit": /django/projects/wiki/submit
