@@ -88,7 +88,7 @@ Punten worden gegeven op basis van de volgende factoren:
 | Zorgvuldige opbouw van database-models en relaties daartussen (keys)     |     |     |  x  |
 | Goede opbouw van de database (types, keys, constraints)                  |     |     |  x  |
 
-Elk van deze componenten kan je 0, 1 of 2 punten opleveren:
+Elk van deze componenten kan je 0, 1, 2 of 3 punten opleveren:
 
 | ptn | omschrijving                                |
 | :-: | ------------------------------------------- |
