@@ -32,6 +32,17 @@ Om de cursus tot een goed einde te brengen, verwachten we dat je:
 Omdat deze cursus op afstand is, is het belangrijk dat je zorgt voor genoeg aanknopingspunten om te zien dat je zelfstandig met jouw projecten bezig bent en leert van het vak. Bovenstaande punten zijn de manieren om dat te doen.
 
 
+## Deadlines
+
+Het gaat hier om de deadline voor de **verbeterde** versie. De opdrachten moeten al eerder "af" zijn, volgens het dagschema.
+
+| Opdracht  | Deadline       |
+| --------- | -------------- |
+| Search    | di 13 april    | 
+| Wiki      | di 20 april    | 
+| Commerce  | do 29 april    | 
+
+
 ## Eindcijfer
 
 Let op dat je ten minste aan bovenstaande verwachtingen moet voldoen om een eindcijfer te kunnen halen. Voor de **opdrachten** kun je punten verdienen. Je programma's worden kritisch bekeken en op basis hiervan krijg je punten voor de kwaliteit van de inzending. Vóór die tijd heb je uitgebreid feedback gekregen en gevraagd.
