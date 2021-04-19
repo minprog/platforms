@@ -44,14 +44,14 @@ Week 3:
     "Commerce: Specification": /django/projects/commerce/specification
     "Commerce: Design Document": /django/projects/commerce/design
   Dinsdag:
-    "Commerce: Models": /django/projects/commerce
-    "Commerce: Create Listing": /django/projects/commerce
+    "Commerce: Models": /django/projects/commerce/specification
+    "Commerce: Create Listing": /django/projects/commerce/specification
   Woensdag:
-    "Commerce: Active Listings Page": /django/projects/commerce
-    "Commerce: Listing Page": /django/projects/commerce
+    "Commerce: Active Listings Page": /django/projects/commerce/specification
+    "Commerce: Listing Page": /django/projects/commerce/specification
   Donderdag:
-    "Commerce: Listing Page": /django/projects/commerce
-    "Commerce: Watchlist [extra]": /django/projects/commerce
+    "Commerce: Listing Page": /django/projects/commerce/specification
+    "Commerce: Watchlist [extra]": /django/projects/commerce/specification
   Vrijdag: 
     "Commerce: Screencast": /django/projects/commerce/screencast
     "Commerce: Submit": /django/projects/commerce/submit
