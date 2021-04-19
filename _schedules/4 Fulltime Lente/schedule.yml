@@ -40,6 +40,7 @@ Week 2:
 Week 3:
   Maandag:
     "Videocollege: ORM": /lectures/sql_orm
+    "Commerce: Specification": /django/projects/commerce/specification
     "Commerce: Design Document": /django/projects/commerce/design
   Dinsdag:
     "Commerce: Models": /django/projects/commerce
