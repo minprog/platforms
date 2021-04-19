@@ -40,16 +40,16 @@ Week 2:
 Week 3:
   Maandag:
     "Videocollege: ORM": /lectures/sql_orm
-    "Commerce: Design Document": /modules/commerce/design
+    "Commerce: Design Document": /django/projects/commerce/design
   Dinsdag:
-    "Commerce: Models": /modules/commerce
-    "Commerce: Create Listing": /modules/commerce
+    "Commerce: Models": /django/projects/commerce
+    "Commerce: Create Listing": /django/projects/commerce
   Woensdag:
-    "Commerce: Active Listings Page": /modules/commerce
-    "Commerce: Listing Page": /modules/commerce
+    "Commerce: Active Listings Page": /django/projects/commerce
+    "Commerce: Listing Page": /django/projects/commerce
   Donderdag:
-    "Commerce: Listing Page": /modules/commerce
-    "Commerce: Watchlist [extra]": /modules/commerce
+    "Commerce: Listing Page": /django/projects/commerce
+    "Commerce: Watchlist [extra]": /django/projects/commerce
   Vrijdag: 
-    "Commerce: Screencast": /modules/commerce/screencast
-    "Commerce: Submit": /modules/commerce/submit
+    "Commerce: Screencast": /django/projects/commerce/screencast
+    "Commerce: Submit": /django/projects/commerce/submit
