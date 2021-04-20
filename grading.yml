@@ -29,14 +29,14 @@ grades:
 
     search:
         <<: *6points
-        calculation: (repo_ok == -1 && done == -1) && (points.present? && (points.to_i.to_f/10*9+1).round(1) || -1) || 0
+        calculation: (repo_ok == -1 && done == -1) && (points.present? && (points.to_i.to_f/12*9+1).round(1) || -1) || 0
         
     search-screencast: *check_off
     search-done: *check_off
 
     wiki:
         <<: *6points
-        calculation: (repo_ok == -1 && done == -1) && (points.present? && (points.to_i.to_f/12*9+1).round(1) || -1) || 0
+        calculation: (repo_ok == -1 && done == -1) && (points.present? && (points.to_i.to_f/18*9+1).round(1) || -1) || 0
 
     wiki-design: *check_off
     wiki-screencast: *check_off
@@ -44,7 +44,7 @@ grades:
 
     commerce:
         <<: *6points
-        calculation: (repo_ok == -1 && done == -1) && (points.present? && (points.to_i.to_f/16*9+1).round(1) || -1) || 0
+        calculation: (repo_ok == -1 && done == -1) && (points.present? && (points.to_i.to_f/24*9+1).round(1) || -1) || 0
 
     commerce-design: *check_off
     commerce-screencast: *check_off
