@@ -9,25 +9,25 @@ Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze 
 
 ## Onderdelen
 
-- Basistechnieken
+- Basistechnieken (1 unit)
     - Git: repositories, remotes, commits, push en pull, merge conflicts, branching
     - Markdown: layout en formatting, gebruik op GitHub
     - Opdracht: editten en online zetten pagina via GitHub Pages
 
-- Python: datastructuren
+- Python: datastructuren (1 unit)
     - Dictionaries, tuples, sets, enz
     - Word pairs van SP2?
 
-- Relationele databases
+- Relationele databases (1 unit)
     - Lecture Harvard
     - Fiftyville
     - Movies
     - Pizza
 
-- Pandas
+- Pandas (2 units)
     - ...
 
-- UNIX
+- UNIX (1 unit)
     - cat
     - wc
     - sed
