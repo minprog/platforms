@@ -14,9 +14,21 @@ Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze 
     - Markdown: layout en formatting, gebruik op GitHub
     - Opdracht: editten en online zetten pagina via GitHub Pages
 
-- Python: datastructuren (1 unit)
+- Datastructuren (1 unit)
     - Dictionaries, tuples, sets, enz
-    - Word pairs van SP2?
+    - Samengestelde structuren
+
+- Technieken (1 unit)
+    - Type hinting
+    - Unit testing
+    - Performance profiling
+
+- UNIX (1 unit)
+    - cat
+    - wc
+    - sed
+    - grep
+    - ...
 
 - Relationele databases (1 unit)
     - Lecture Harvard
@@ -25,13 +37,6 @@ Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze 
     - Pizza
 
 - Pandas (2 units)
-    - ...
-
-- UNIX (1 unit)
-    - cat
-    - wc
-    - sed
-    - grep
     - ...
 
 
