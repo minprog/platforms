@@ -2,11 +2,11 @@ Welkom:
     Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
 
 Basis:
-    "Workshop: Development Enviroment": /basics/workshop
-    Lecture: HTML: /basics/html
+    'Workshop: Development Enviroment: /basics/workshop
+    'Lecture: HTML': /basics/html
     Homepage: /basics/homepage
-    Lecture: Git: /basics/git
-    Using Git and Bash: /basics/bash
+    'Lecture: Git': /basics/git
+    Using Git in a terminal: /basics/bash
     Markdown: /basics/markdown
 
 SQL:
