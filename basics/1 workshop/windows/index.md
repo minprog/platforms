@@ -5,7 +5,7 @@ To develop web apps you need some tools on your laptop. This guide helps you wit
 
 We will be using the [_Windows Subsystem for Linux 2_](https://aka.ms/wsl2).
 
-Note: These instruction are written for Windows 10. If you're using Windows 8 or older please follow [these](/basis/workshop/windows8) instructions.
+Note: These instruction are written for Windows 10. If you're using Windows 8 or older please follow [these](/basics/workshop/windows8) instructions.
 
 ## Step 1: Install the Windows Subsystem for Linux
 
