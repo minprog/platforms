@@ -6,7 +6,7 @@ Basis:
     'Lecture: HTML': /basics/html
     Homepage: /basics/homepage
     'Lecture: Git': /basics/git
-    Using Git in a terminal: /basics/bash
+    Using Git in a terminal: /basics/terminal
     Markdown: /basics/markdown
 
 SQL:
