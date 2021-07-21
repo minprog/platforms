@@ -1,0 +1,19 @@
+name: movies
+files:
+    required:
+        - 1.sql
+        - 2.sql
+        - 3.sql
+        - 4.sql
+        - 5.sql
+        - 6.sql
+        - 7.sql
+        - 8.sql
+        - 9.sql
+        - 10.sql
+        - 11.sql
+        - 12.sql
+        - 13.sql
+check:
+    tool: check50
+    slug: minprog/webprogrammeren/checks_2020/movies
