@@ -18,7 +18,7 @@ Sometimes, you need the Terminal a lot while coding. In that case, it may be bes
 <div class="row">
 <div class="col">
 
-<strong>Mac/Linux</strong>
+**Mac/Linux**
 
 To do so on a Mac or Linux device, simply navigate to Terminal > New Terminal or hit Ctrl + Shift + ` (should be three keys at the bottom-left of your keyboard).
 
@@ -29,7 +29,7 @@ To do so on a Mac or Linux device, simply navigate to Terminal > New Terminal or
 </div>
 <div class="col">
 
-<strong>Windows</strong>
+**Windows**
 
 On a Windows machine, you need to make sure to open the WSL terminal instead of the Windows command prompt. Once you have enabled WSL (refer back [here](../workshop/windows) if you've forgotten how), hit Ctrl + J to open the WSL Terminal.
 
