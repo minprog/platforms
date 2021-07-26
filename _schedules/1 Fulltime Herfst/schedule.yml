@@ -13,3 +13,9 @@ SQL:
     "Lecture: SQL": /sql/lecture
     Implement Movies: /sql/movies
     Implement Fiftyville: /sql/fiftyville
+
+"Code Tools":
+    "Linters": "/code_tools/linters"
+    "Type Checkers": "/code_tools/type_checkers"
+    "Testers": "/code_tools/testers"
+    "Profilers": "/code_tools/profilers"
