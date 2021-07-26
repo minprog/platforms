@@ -181,11 +181,11 @@ What is `Any`? Well, anything really. It is an escape hatch of sorts that provid
 1. Annotate the `factorial` function below:
 
 
-    def factorial(num):
-        total = 1
-        for i in range(2, num + 1):
-            total *= i
-        return total
+        def factorial(num):
+            total = 1
+            for i in range(2, num + 1):
+                total *= i
+            return total
 
 
     <textarea name="form[q1]" rows="5" required=""></textarea>
@@ -235,20 +235,20 @@ Again, in most situations `mypy` can infer the types of the variables, and it is
 
 2. Annotate the data structures below:
 
-    
-    foo = ["hello", "world"]
+        
+        foo = ["hello", "world"]
     
 
     <textarea name="form[q2.1]" rows="1" required=""></textarea>
 
-    
-    bar = [("Martijn", 1), ("Marleen", 2)]
+        
+        bar = [("Martijn", 1), ("Marleen", 2)]
     
 
     <textarea name="form[q2.2]" rows="1" required=""></textarea>
 
-    
-    baz = {1: {2: {3: "hello"}}}
+        
+        baz = {1: {2: {3: "hello"}}}
     
 
     <textarea name="form[q2.3]" rows="1" required=""></textarea>
@@ -296,9 +296,9 @@ This function will work for any type T, and it will return that same type.
 
 3. Annotate the generic function below with a type variable:
 
-    
-    def repeat(x, n):
-        return [x] * n
+        
+        def repeat(x, n):
+            return [x] * n
     
 
     <textarea name="form[q3]" rows="2" required=""></textarea>
@@ -386,39 +386,39 @@ These abstract data types are implemented as so called `Protocols`. See this [Py
 4. Annotate the code below with duck types instead:
 
 
-    T = TypeVar("T")
+        T = TypeVar("T")
 
-    def reverse(items: list[T]) -> list[T]:
-        new = []
-        for item in items:
-            new.insert(0, item)
-        return new
+        def reverse(items: list[T]) -> list[T]:
+            new = []
+            for item in items:
+                new.insert(0, item)
+            return new
 
 
     <textarea name="form[q4.1]" rows="5" required=""></textarea>
 
 
-    T = TypeVar("T")
+        T = TypeVar("T")
 
-    def select(items: list[T], indices: list[int]) -> list[T]:
-        selection = []
-        for index in indices:
-            selection.append(items[index])
-        return selection
+        def select(items: list[T], indices: list[int]) -> list[T]:
+            selection = []
+            for index in indices:
+                selection.append(items[index])
+            return selection
 
     
     <textarea name="form[q4.2]" rows="5" required=""></textarea>
 
 
 
-    T = TypeVar("T")
+        T = TypeVar("T")
 
-    def filter(items: list[T], allowed: dict[T, bool]) -> list[T]:
-        new = []
-        for item in items:
-            if allowed[item]:
-                new.append(item)
-        return new
+        def filter(items: list[T], allowed: dict[T, bool]) -> list[T]:
+            new = []
+            for item in items:
+                if allowed[item]:
+                    new.append(item)
+            return new
 
 
     <textarea name="form[q4.3]" rows="6" required=""></textarea>
