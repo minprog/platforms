@@ -512,33 +512,33 @@ Functions can be passed to other functions too. That is what `Callable` captures
 5. Annotate the code below:
 
     
-    def get(items, index):
-        if index >= len(items):
-            return None
-        return items[index]
+        def get(items, index):
+            if index >= len(items):
+                return None
+            return items[index]
     
 
     <textarea name="form[q5.1]" rows="4" required=""></textarea>
 
     
-    import time
+        import time
 
-    def pick_one(a, b):
-        time_in_milliseconds: int = int(time.time() * 1000)
-        if time_in_milliseconds % 2 == 0:
-            return a
-        return b 
+        def pick_one(a, b):
+            time_in_milliseconds: int = int(time.time() * 1000)
+            if time_in_milliseconds % 2 == 0:
+                return a
+            return b 
     
     
     <textarea name="form[q5.2]" rows="5" required=""></textarea>
 
     
-    def map(function, items):
-        results = []
-        for item in items:
-            result = function(item)
-            results.append(result)
-        return results
+        def map(function, items):
+            results = []
+            for item in items:
+                result = function(item)
+                results.append(result)
+            return results
     
 
     <textarea name="form[q5.3]" rows="6" required=""></textarea>
