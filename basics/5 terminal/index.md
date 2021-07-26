@@ -3,10 +3,11 @@ When developing any application, you'll need the Terminal to perform a range of 
 
 So, it is important to be familiar with how the Terminal works. That is what we'll be discussing in this section. We'll do so by introducing a tool you'll often use when working on projects: git.
 
-Don't worry, though. We'll stick to the basics for now. But you can do many awesome things with the terminal alone! More on that in the unit on UNIX, later in the course.
+Don't worry, though. We'll stick to the basics for now. But you can do many awesome things with the terminal alone! More on that in the unit on UNIX, later in the course.<br><br>
 
-> ### Following along 
-> You'll get the morst out of this section if you follow along with it on your own device. Try out what we're discussing! If you get stuck, or something doesn't quite do what you were expecting, feel free to ask for help!
+> **Following along** You'll get the most out of this section if you follow along with it on your own device. Try out what we're discussing! If you get stuck, or something doesn't quite do what you were expecting, feel free to ask for help!
+
+<br>
 
 ## Opening a Terminal application
 To do anything with a Terminal, first you need to open a Terminal window. This can be done in many different ways, sometimes depending on your OS and the software you're using.
@@ -16,11 +17,15 @@ Sometimes, you need the Terminal a lot while coding. In that case, it may be bes
 
 To do so on a Mac or Linux device, simply navigate to Terminal > New Terminal or hit Ctrl + Shift + ` (should be three keys at the bottom-left of your keyboard).
 
+<br><br>
 ![](vscode_newterminal_mac.png)
+<br><br>
 
 On a Windows machine, you need to make sure to open the WSL terminal instead of the Windows command prompt. Once you have enabled WSL (refer back [here](../workshop/windows) if you've forgotten how), hit Ctrl + J to open the WSL Terminal.
 
+<br><br>
 ![](vscode_terminal.png)
+<br><br>
 
 Voilà! A brand new Terminal window.
 
@@ -53,10 +58,11 @@ Do notice, however, that any commands you run now are run relative to the Deskto
 
 ![](downloads.png)
 
-In addition, you can use `..` to refer to one directory higher than your current directory. So when on the Desktop, you could use `cd ..` to return to your user directory. Or even better: use `cd ../Downloads` to navigate directly to Downloads.
+In addition, you can use `..` to refer to one directory higher than your current directory. So when on the Desktop, you could use `cd ..` to return to your user directory. Or even better: use `cd ../Downloads` to navigate directly to Downloads.<br><br>
 
-> ### Pro tip!
-> Don't feel like typing out a long path to a directory? Simply drag the folder onto your Terminal from your Finder or Explorer. The full path will apear right away!
+> **Pro tip!** Don't feel like typing out a long path to a directory? Simply drag the folder onto your Terminal from your Finder or Explorer. The full path will apear right away!
+
+<br>
 
 ## Creating a new repo on Github and cloning
 Now, let's get started using git. Git is a great tool for managing programming projects, from small projects to enterprise-level applications. It keeps track of all changes, and allows for you to work on a project with a team of people, all while avoiding conlicts as much as possible.
@@ -65,15 +71,21 @@ Your code in git is placed in a so-called 'repository'. Within a repository, git
 
 Once you log in to Github, you end up in your dashboard. From here, you can create a new repository by hitting the 'New' button on the left of the screen.
 
+<br><br>
 ![](github_dash.png)
+<br><br>
 
 Give your repository a name (it must be unique within your account), a description and select whether you want it to be public or private. Public repository's, including all the code in them, can be seen by anyone on the internet. Private repository's can only be seen by the people you add to them. Finally, tick the box next to 'Add a README file'.
 
+<br><br>
 ![](github_new.png)
+<br><br>
 
 You now have a new Github repository. It's empty, apart from the README file. So let's make sure you can actually work on your code within the repository, on your own device. To do so, you must 'Clone' the repository by clicking on the green 'Code' button and copying the URL that appears. 
 
-![github_clone.png]()
+<br><br>
+![](github_clone.png)
+<br><br>
 
 Then, in a Terminal window, navigate to a folder where you want your code to live. Then, run `git clone [URL]`, replacing `[URL]` with the URL you just copied. Git should perform some magic, and a new folder with the name of your repository should appear. In there, you'll find the README file from Github!
 
@@ -82,13 +94,16 @@ Then, in a Terminal window, navigate to a folder where you want your code to liv
 ## Updating, committing and pushing
 Now, we want to actually host some code on Github. In your Terminal, navigate to the new repository folder with the README in it and enter `touch hello.py`. A new file, named 'hello.py', should appear. Then. write some code in there. I'm just adding some code to ask someone their name, and tell them hello.
 
+<br><br>
 ![](hello.png)
+<br><br>
 
 Now, we want to tell git that we actually want it to track this file. We can do so by running `git add hello.py` within our repository folder.
+<br><br>
 
-> ### Adding a lot of files?
-> If you've just added or updated a lot of files, and want to add them all to git, just run `git add *`. All files will be added at once.
+> **Adding a lot of files?** If you've just added or updated a lot of files, and want to add them all to git, just run `git add *`. All files will be added at once.
 
+<br>
 Now, there are two more steps. By running `git commit`, you will save the changes to your files within your local copy of the repository. You must, however, add a message describing you change. You do this with `-m`, like so: `git commit -m "Hello, world"`.
 
 Finally, we want to synchonize your local repository with the hosted one on Github. Simply type `git push` to achieve this. Now, you can see your brand new file on Github!
@@ -117,7 +132,9 @@ Oh no! The dreaded merge conflict. Let's fix it. If you open your file in VSCode
 
 Where it says 'HEAD', you can see your current local change. At the bottom, the change you made on Github. Now, to fix this, edit the file to whatever the code actually should be. In this case, I want to use my local change. So I'm removing the other change, and also the characters that git added.
 
+<br><br>
 ![](myname.png)
+<br><br>
 
 Then, finally, commit the changes again. It should go through now! Don't forget to push again.
 
