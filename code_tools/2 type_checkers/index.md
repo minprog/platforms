@@ -264,7 +264,7 @@ Generics work through the use of type variables. In Python these variables are p
     N = TypeVar('N', int, float)  # Must be int or float
 
 
-Type variables can be unconstraint, like `T` above. In this case `T` can be any type at all. Or type variables can be constraint, like `N` above. In which case `N` can only be an `int` or a `float`. Type variables can come in place of actual types. To create for instance generic functions:
+Type variables can be unconstraint, like `T` above. In this case `T` can be any type at all. Or type variables can be constraint, like `N` above. In which case `N` can only be an `int` or a `float`. Type variables can come in place of actual types to create for instance generic functions:
 
 
     from typing import Iterable, TypeVar
