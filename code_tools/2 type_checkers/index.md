@@ -10,10 +10,10 @@ With Python 3.5 came [type hints](https://www.python.org/dev/peps/pep-0484/). A 
 
 In turn, in Python these hints do not do anything on their own, they are just hints. However there are programs that can take these hints and help you write better code. This is what a type hint looks like in Python:
 
-```Py
-def sum(a: int, b: int) -> int:
-    return a + b
-```
+
+    def sum(a: int, b: int) -> int:
+        return a + b
+
 
 Admittedly the syntax takes some getting used to, but all it says is, here is a function named `add`. `add` takes two integers and will return an integer. Then there are programs such as [mypy](http://mypy-lang.org/) that can take these hints and check whether the program is free of any Type Errors. All before actually running the code.
 
@@ -30,27 +30,27 @@ Different programming languages have different type systems, but why? Take a qui
 
 <https://video.uva.nl/media/Platforms2021%20Typing%20Python/0_d7kh0wak>
 
-```Py
-def sum(items):
-    total = 0
-    for item in items:
-        total += item
-    return total
-```
+
+    def sum(items):
+        total = 0
+        for item in items:
+            total += item
+        return total
+
 
 Python's approach is simple, we'll just run the code and see if it works. If `items` can be summed, then great let's do that. This all works:
 
-```Py
-sum([1, 2])
-sum([1, 2.0])
-sum({1, 2, 3})
-```
+
+    sum([1, 2])
+    sum([1, 2.0])
+    sum({1, 2, 3})
+
 
 But this does **not**:
 
-```Py
-sum(["hello", 1])
-```
+
+    sum(["hello", 1])
+
 
 And worse yet, we won't know that it does not work until this code is actually run. If the code is not properly tested, then running this function might not happen until its shipped to the client. In which case... **nightmares**.
 
@@ -166,11 +166,11 @@ foo = 3
 
 Type inference does have its limitations, for instance `mypy` will not do any type inference in functions without type hints. To understand why, let's quickly look into function type hints. In the simplest form:
 
-```Py
-def add(a: int, b: int) -> int:
-    c = a + b
-    return c
-```
+
+    def add(a: int, b: int) -> int:
+        c = a + b
+        return c
+
 
 The syntax is relatively straight forward, using the colon (`:`) for parameter type hints, and the arrow (`->`) for the return type. Notice how the type of `c` is not annotated. It can be, but it is not needed. From the types of `a` and `b` and the `+` operation, `mypy` can infer the type of `c`. But what if we did not annotate this function. Well, in that case, `a` and `b` could be anything: `str`, `float`, `list`, you name it! This is where `mypy` draws a line, if you do not annotate a function, `mypy` will not even attempt to do type inference. Instead all variables will be of type `Any`.
 
@@ -180,13 +180,13 @@ What is `Any`? Well, anything really. It is an escape hatch of sorts that provid
 
 1. Annotate the `factorial` function below:
 
-    ```Py
+
     def factorial(num):
         total = 1
         for i in range(2, num + 1):
             total *= i
         return total
-    ```
+
 
     <textarea name="form[q1]" rows="5" required=""></textarea>
 
