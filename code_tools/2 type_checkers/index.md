@@ -19,8 +19,7 @@ Admittedly the syntax takes some getting used to, but all it says is, here is a 
 
 
 ## Background
-<details>
-<summary>Types and progamming languages</summary>
+<details markdown="1"><summary  markdown="span">Types and progamming languages</summary>
 
 Different programming languages have different type systems, but why? Take a quick peek at the example below:
 
@@ -90,8 +89,7 @@ But wait, floats can be summed right? Well, tough luck. You'll need to write a n
 </details>
 
 
-<details>
-<summary>Dynamic vs Static</summary>
+<details markdown="1"><summary  markdown="span">Dynamic vs Static</summary>
 
 All programming languages have some form of type system, but when and what they do with that system varies. First, let's talk about when. There are two main forms, **static** and **dynamic**, and they are not exclusive from one another. 
 
@@ -124,8 +122,7 @@ isinstance(a, int)
 ```
 </details>
 
-<details>
-<summary>Type Checking</summary>
+<details markdown="1"><summary  markdown="span">Type Checking</summary>
 
 Type information can be used for different things, such as optimizing programs, ensuring enough memory is available, but perhaps most important to us programmers: type checking. Ensuring that the program is free of any type errors. 
 
@@ -139,8 +136,7 @@ Static type checking is often preferred, and so much so that languages such as J
 
 ## Type hints in Python
 
-<details>
-<summary>Type hints</summary>
+<details markdown="1"><summary  markdown="span">Type hints</summary>
 A type hint in the simplest form looks like this:
 
 ```Py
@@ -194,8 +190,7 @@ What is `Any`? Well, anything really. It is an escape hatch of sorts that provid
 
     <textarea name="form[q1]" rows="5" required=""></textarea>
 
-<details>
-<summary>Generics</summary>
+<details markdown="1"><summary  markdown="span">Generics</summary>
 
 Integers, floats, booleans and strings are primitive data types. Built into the language, they serve as building blocks for more complex data structures. For instance, you might need a `list` to store your data. 
 
@@ -259,8 +254,7 @@ Again, in most situations `mypy` can infer the types of the variables, and it is
 
     <textarea name="form[q2.3]" rows="1" required=""></textarea>
 
-<details>
-<summary>Type variables</summary>
+<details markdown="1"><summary  markdown="span">Type variables</summary>
 
 Generics work through the use of type variables. In Python these variables are provided by `TypeVar` from the `typing` module. Here is how it works:
 
@@ -312,8 +306,7 @@ This function will work for any type T, and it will return that same type.
 
 ## Abstract types
 
-<details>
-<summary> Structural subtyping aka duck typing </summary>
+<details markdown="1"><summary  markdown="span">Structural subtyping aka duck typing</summary>
 
 So far we have looked at concrete types, such as integers, strings and lists. These types are expressive, you know exactly what you are working with. But, often these concrete types limit design. Take for instance this function:
 
@@ -363,8 +356,7 @@ from typing import Mapping
 a: Mapping[str, int] = {"foo": 1}  # All good
 ```
 
-<details>
-<summary>For the technically curious...</summary>
+<details markdown="1"><summary  markdown="span">For the technically curious...</summary>
 
 These abstract data types are implemented as so called `Protocols`. See this [Python Enhancement Proposal](https://www.python.org/dev/peps/pep-0544/). Through these Protocols you can define your own duck types too. For instance:
 
@@ -432,8 +424,7 @@ sum([1.5, None]) # error: List item 1 has incompatible type "None"; expected "Su
 
     <textarea name="form[q4.3]" rows="6" required=""></textarea>
 
-<details>
-<summary> Nominal subtyping aka subclassing </summary>
+<details markdown="1"><summary  markdown="span">Nominal subtyping aka subclassing </summary>
 
 Duck typing is great and all, but what if we actually do want a duck, not something that happens to act like a duck. For instance, let's say we are building a grading app and we have three user roles, `Teacher`, `Assistant` and `Student`. Implemented like so:
 
@@ -460,8 +451,7 @@ This way the type checker will allow all three roles to view grades, but only th
 
 </details>
 
-<details>
-<summary> Special types </summary>
+<details markdown="1"><summary  markdown="span">Special types</summary>
 
 There are some special cases that need special treating and you'll find these in the `typing` module! [Here are the docs](https://docs.python.org/3/library/typing.html#special-forms)
 
