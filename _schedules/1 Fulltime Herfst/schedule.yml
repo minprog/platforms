@@ -2,12 +2,12 @@ Welkom:
     Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
 
 Basics:
-    'Lecture: HTML': /basics/html
-    'Lecture: Git': /basics/git
+    'Videocollege: HTML': /basics/html
+    'Videocollege: Git': /basics/git
     'Workshop: Development Enviroment': /basics/workshop
-    Homepage: /basics/homepage
-    Using Git in a terminal: /basics/terminal
-    Markdown: /basics/markdown
+    'Opdracht: Homepage': /basics/homepage
+    'Workshop: Using Git in a terminal': /basics/terminal
+    'Opdracht: Markdown': /basics/markdown
 
 SQL:
     "Lecture: SQL": /sql/lecture
