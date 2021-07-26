@@ -24,7 +24,7 @@ Admittedly the syntax takes some getting used to, but all it says is, here is a 
 Different programming languages have different type systems, but why? Take a quick peek at the example below:
 
 
-### Python
+#### Python
 
 ![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_d7kh0wak&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en_US&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=0_xty7r3sb)
 
@@ -55,7 +55,7 @@ But this does **not**:
 And worse yet, we won't know that it does not work until this code is actually run. If the code is not properly tested, then running this function might not happen until its shipped to the client. In which case... **nightmares**.
 
 
-### C
+#### C
 
 Okay, but what about other languages? Remember C?
 
@@ -454,7 +454,7 @@ This way the type checker will allow all three roles to view grades, but only th
 
 There are some special cases that need special treating and you'll find these in the `typing` module! [Here are the docs](https://docs.python.org/3/library/typing.html#special-forms)
 
-### Union
+#### Union
 
 For instance, in some cases a function might be able to cope with multiple types. Effectively one type or the other. `Union` handles this like so:
 
@@ -467,7 +467,7 @@ For instance, in some cases a function might be able to cope with multiple types
 
 > Starting in Python 3.10, `Union[int, float]` can also be written as `int | float`
 
-### Optional
+#### Optional
 
 Sometimes it is uncertain whether a function will return a value. Let's say we are looking for the location of a needle in a haystack. It might be in the haystack, it might also not be. In case it is not, it is a common (not necessarily best) practice to return `None`. That is what `Optional` captures, either a value is returned, or `None`.
 
@@ -485,7 +485,7 @@ Sometimes it is uncertain whether a function will return a value. Let's say we a
 
 > `Optional[int]` is equivalant to `Union[int, None]`. In that sense, it is entirely optional to use.
 
-### Callable
+#### Callable
 
 Functions can be passed to other functions too. That is what `Callable` captures in Python.
 
