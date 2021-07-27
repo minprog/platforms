@@ -15,17 +15,30 @@ To do anything with a Terminal, first you need to open a Terminal window. This c
 ### Opening a Terminal directly in Visual Studio Code
 Sometimes, you need the Terminal a lot while coding. In that case, it may be best to open a Terminal window directly in Visual Studio Code. 
 
+<div class="row">
+<div class="col">
+
+**Mac/Linux**
+
 To do so on a Mac or Linux device, simply navigate to Terminal > New Terminal or hit Ctrl + Shift + ` (should be three keys at the bottom-left of your keyboard).
 
 <br><br>
 ![](vscode_newterminal_mac.png)
 <br><br>
 
+</div>
+<div class="col">
+
+**Windows**
+
 On a Windows machine, you need to make sure to open the WSL terminal instead of the Windows command prompt. Once you have enabled WSL (refer back [here](../workshop/windows) if you've forgotten how), hit Ctrl + J to open the WSL Terminal.
 
 <br><br>
 ![](vscode_terminal.png)
 <br><br>
+
+</div>
+</div>
 
 Voilà! A brand new Terminal window.
 
