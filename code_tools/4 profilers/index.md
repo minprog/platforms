@@ -8,24 +8,11 @@
 
 This is where you step in. Your task is to take this solver and make it run faster. To do this you will analyze the program's runtime behavior to find hotspots. Then it is up to you to analyze what is making the code slow, and find creative solutions to make the code run faster. Every step of the way you will want to re-evaluate whether your changes to the code, actually do make the code run faster. Odds are that not every change works out the way you'd expect it to!
 
-
-## Getting Started
-
-Head on over to <https://github.com/jelleas/sudoku_platforms> and create your own repository from the template by clicking this green button:
-
-![](template.png)
-
-Give your repo a name, make sure it is **public**, then click create repo:
-
-![](repo.png)
-
-Clone your repo with:
-
-
-    git clone <your repo name>
-
-
 ## Profiling
+
+![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_fy9i5u7c&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en_US&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=0_9uiwssea)
+
+<https://video.uva.nl/media/Platforms2021%20Profiling%20Assignment/0_fy9i5u7c>
 
 Theoretical analysis of runtime complexity is a helpful tool to evaluate performance of individual functions, algorithms or generally small pieces of code. However, once the codebase grows it gets increasingly harder to do and it becomes less useful too. Odds are that not every function is equally important to the actual runtime of the code. Because afterall, who knows if a function actually gets called during execution and if so, how many times?
 
