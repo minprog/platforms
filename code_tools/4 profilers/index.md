@@ -119,6 +119,12 @@ The above is just an image, the real thing is interactive. What you see here is 
 
 The colors in the graph identify a function. You might have noticed all the orange in the graph from number `7`. Turns out, that is the function that was called nine million times (`value_at`). Makes sense, because almost every function in this graph will at some point end up making calls to `value_at`.
 
+## The distribution code
+
+![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_odxtqxlg&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en_US&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=0_2qc8wpe0)
+
+<https://video.uva.nl/media/Platforms2021%20Profiling%20Distro/0_odxtqxlg>
+
 
 ## Optimizing
 
