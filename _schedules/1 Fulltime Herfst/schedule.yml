@@ -14,8 +14,11 @@ SQL:
     Implement Movies: /sql/movies
     Implement Fiftyville: /sql/fiftyville
 
-"Code Tools":
-    "Linters": "/code_tools/linters"
-    "Type Checkers": "/code_tools/type_checkers"
-    "Testers": "/code_tools/testers"
-    "Profilers": "/code_tools/profilers"
+Code Tools:
+    Linters: "/code_tools/linters"
+    Type Checkers:
+        Theory: "/code_tools/type_checkers/theory"
+        Type Hints: "/code_tools/type_checkers/type_hints"
+    Type Checkers: "/code_tools/type_checkers"
+    Testers: "/code_tools/testers"
+    Profilers: "/code_tools/profilers"
