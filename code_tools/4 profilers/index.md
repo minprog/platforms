@@ -4,7 +4,7 @@
 
 <https://video.uva.nl/media/Platforms2021%20Profiling%20Intro/0_eao7e3jd>
 
-[This repository](https://github.com/jelleas/sudoku_platforms) contains a functional Sudoku solver and six Sudoku puzzles. This solver can solve any of these puzzles within about a second or so on a modern machine. While that may sound plenty fast for a solver, it is actually too slow for some tasks, such as automatically generating new puzzles. As generation of puzzles involves solving many different puzzles, most of which are likely to be too easy, imperfect (containing more than one solution) or impossible to solve. 
+[This repository](https://github.com/jelleas/sudoku_platforms) contains a functional Sudoku solver and six Sudoku puzzles. This solver can solve any of these puzzles within 15 seconds to a couple minutes on a modern computer. While that may sound fast enough for a solver, it is actually too slow for some tasks, such as automatically generating new puzzles. As generation of puzzles involves solving many different puzzles, most of which are likely to be too easy, imperfect (containing more than one solution) or impossible to solve. 
 
 This is where you step in. Your task is to take this solver and make it run faster. To do this you will analyze the program's runtime behavior to find hotspots. Then it is up to you to analyze what is making the code slow, and find creative solutions to make the code run faster. Every step of the way you will want to re-evaluate whether your changes to the code, actually do make the code run faster. Odds are that not every change works out the way you'd expect it to!
 
@@ -109,7 +109,7 @@ At a quick glance what you see here is how many times each function is called an
 
 But what about time? This is where it gets a little tricky. Functions can call other functions, and it might just be that functions down the line are actually responsible for the time spent. To help you here, cProfile shows both the total time (time spent just within that function) and cumalative time (time spent within that function and all its sub functions). For instance, `solve` has a cumalative time of 11.34 seconds, but its total time is just 0.26 seconds. Meaning, 11.34 seconds of the runtime of this program is the result of a call to `solve`, but only a fraction of that (`0.26` seconds) is from the code of `solve` itself. The remainder (`11.34 - 0.26 = 11.08 seconds`) is all from functions `solve` calls.
 
-Okay, but what functions is `solve` calling? cProfile does not tell you this in this table. Most likely because that is hard to do in table form. Luckily there is a Python module called [snakeviz](https://jiffyclub.github.io/snakeviz/) that takes a profile from cProfile and visualizes it in the browser like so:
+Okay, but what functions is `solve` calling? cProfile does not tell you this in the table above. Most likely because that is hard to do in table form. Luckily there is a Python module called [snakeviz](https://jiffyclub.github.io/snakeviz/) that takes a profile from cProfile and visualizes it in the browser like so:
 
 ![](snakeviz_sunburst.png)
 
@@ -151,9 +151,9 @@ And here is some inspiration as to what you can try:
 And finally, some advice:
 
 * If performance does not meaningfully improve and the code quality degrades, the change is not worth it.
-* If performance does meaninfully improve, it's a win. Code quality comes second for this assignment.
+* If performance does meaningfully improve, it's a win. Code quality comes second for this assignment.
 * Zoom out every now and then. Don't get too caught up in small functions, but think about the program as a whole.
-* Get creative. Is searching for an empty spot really needed? And what about copying? 
+* Get creative. Is searching for an empty spot really needed?
 
 
 ## What to do
@@ -164,6 +164,13 @@ Improve the code in three different ways. For each, write down:
 * Why you think that code can be improved.
 * What you then changed in the code.
 * What the performance gain is or isn't. In case of isn't, please reflect briefly on why you think the performance does not improve.
+
+
+<textarea name="form[1]" rows="5" required=""></textarea>
+
+<textarea name="form[2]" rows="5" required=""></textarea>
+
+<textarea name="form[3]" rows="5" required=""></textarea>
 
 
 ## Rules of the game
@@ -179,3 +186,5 @@ Improve the code in three different ways. For each, write down:
 * Change the declaration of existing functions and methods.
 * Change the types of parameters or return values of existing functions and methods.
 * Change testcases or remove test cases.
+
+
