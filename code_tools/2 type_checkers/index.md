@@ -4,18 +4,20 @@
 
 <https://video.uva.nl/media/Platforms2021+Typing+Intro+2/0_yhpg39c9>
 
-With Python 3.5 came [type hints](https://www.python.org/dev/peps/pep-0484/). A system within Python to *hint* what the type of a variable should be. Probably best explained by a quote from a certain [Disney classic](https://www.imdb.com/title/tt0325980/):
+Python 3.5 introduced [type hints](https://www.python.org/dev/peps/pep-0484/). Syntax within Python to declare what the type of a variable should be. Probably best explained by a quote from a certain [Disney classic](https://www.imdb.com/title/tt0325980/):
 
 "The code is more what you'd call guidelines than actual rules"
 
-In turn, in Python these hints do not do anything on their own, they are just hints. However there are programs that can take these hints and help you write better code. This is what a type hint looks like in Python:
+In Python these type hints do not do anything on their own, they are just hints. However there are tools that can take these hints and help you write better code. This is what a type hint looks like in Python:
 
 
-    def sum(a: int, b: int) -> int:
+    def add(a: int, b: int) -> int:
         return a + b
 
 
-Admittedly the syntax takes some getting used to, but all it says is, here is a function named `add`. `add` takes two integers and will return an integer. Then there are programs such as [mypy](http://mypy-lang.org/) that can take these hints and check whether the program is free of any Type Errors. All before actually running the code.
+Admittedly the syntax takes some getting used to, but all it says is, here is a function named `add`. `add` takes two integers and will return an integer.
+
+Python as a language focuses on writing code easily and quickly. At this point you have probably noticed that you can achieve more with a few lines of Python than let's say a few lines of C. To achieve this, the Python language has to be rather flexible and not all that strict. That does mean however that most bugs and errors are only found while running the program. Forcing you, the programmer, to more carefully test your code. That in itself is not necessarily a bad thing, but it is often difficult to test every part of your program sufficiently. Which in turn leads to bugs lingering in the code. Type hints partially solve this problem, by making it possible to detect type errors early on. Before running your code even!
 
 
 ## Background
@@ -29,6 +31,9 @@ Different programming languages have different type systems, but why? Take a qui
 ![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_d7kh0wak&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en_US&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=0_xty7r3sb)
 
 <https://video.uva.nl/media/Platforms2021%20Typing%20Python/0_d7kh0wak>
+
+
+> Note that the TypeError in the video is a runtime error. An error that only pops up when the code is run.
 
 
     def sum(items):
@@ -80,11 +85,15 @@ C takes a different approach, put a concrete type in front of everything and che
     sum(array, 3);
 
 
-Will nicely throw a compile error. No chance that this code reaches the end user's desk. 
+Will nicely throw a compile error:
 
-But wait, floats can be summed right? Well, tough luck. You'll need to write a new function for floats.
 
-> For the curious, there are ways to escape C's type system through the use of casting and pointers. Most notably through the use of `void` pointers.
+    error: incompatible pointer types passing 'float [3]' to parameter of type 'int *'
+
+
+No chance that this code reaches the customer's desk! But wait, floats can be summed right? Well, tough luck. You'll need to write a new function for floats.
+
+> For the curious, there are ways to avoid strict typing checking in C too. Through the use of casting and pointers. Most notably through the use of `void` pointers.
 
 </details>
 
@@ -99,7 +108,9 @@ All programming languages have some form of type system, but when and what they 
 
 <https://video.uva.nl/media/Platforms2021%20Typing%20Static/0_lf6czbc1>
 
-Static in this context just means before execution, that could be when compiling the code or through running a seperate type checker. For instance, C makes use of static type checking to ensure that all types operate with one another upon compilation. That way, there is no (technically, little) chance for any type errors while running the program. On top of this compilers can make use of the type information upon compilation to better optimize the resulting program. By for instance reserving precisely enough memory, as the data and their types is know up front.
+Static in this context just means before execution, that could be when compiling the code or through running a seperate type checker. For instance, C makes use of static type checking to ensure that all types operate with one another upon compilation. That way, there is no (technically, little) chance for any type errors while running the program. In addition, compilers can make use of the type information upon compilation to better optimize the resulting program. By for instance reserving precisely enough memory, as the data and their types is know up front.
+
+Static type checking is often preferred, and so much so that languages such as JavaScript (in the form of TypeScript) and Python have started to adopt type information to enable static type checking. 
 
 #### Dynamic
 
@@ -120,17 +131,6 @@ That said, dynamic type systems are often flexible and easy to use. As a program
 
     isinstance(a, int)
 
-</details>
-
-<details markdown="1"><summary  markdown="span">Type Checking</summary>
-
-Type information can be used for different things, such as optimizing programs, ensuring enough memory is available, but perhaps most important to us programmers: type checking. Ensuring that the program is free of any type errors. 
-
-Type checking can be done both dynamically and statically. But, dynamic type checking happens while running the program and will inevitably impact performance. That is why dynamic type checking is usually only done upon execution of a line of code, to ensure no unnecessary checks are done. That execution of a line of code might be very late, and if you are not testing properly, it might just be in the hands of the end user by the time that buggy line of code finally runs.
-
-In contrast static type checking does not need to worry about performance (as much). Afterall, this style of type checking happens in the developer's time (hence the "as much"), and not the end user's time. This enables a static type checker to do more complex type of checks and give better hints as to what is going wrong. However, to perform static type checking the information on types needs to be available before running the code. That often means that you as a programmer need to add this information. That is both a blessing and a curse. You will have to write more code, but the added information will make it easier for your co-workers or your future self to understand.
-
-Static type checking is often preferred, and so much so that languages such as JavaScript (in the form of TypeScript) and Python have started to adopt type information to enable static type checking. 
 </details>
 
 
@@ -158,13 +158,13 @@ It is possible to combine type hints and initialization on the same line, like s
     foo: int = 3
 
 
-That looks somewhat redundant, doesn't it? How can the *literal* `3` be anything else than an integer? This is where type inference kicks in. Tools such as `mypy` will try to infer the types of variables from their use. It is quite safe to assume type inference is possible here, so probably best to just write:
+That looks somewhat redundant, doesn't it? How can the *literal* value `3` be anything else than an integer? This is where type inference kicks in. Tools will try to infer the types of variables from their use. It is quite safe to assume type inference is possible here, so probably best to just write:
 
 
     foo = 3
 
 
-Type inference does have its limitations, for instance `mypy` will not do any type inference in functions without type hints. To understand why, let's quickly look into function type hints. In the simplest form:
+Type inference does have its limitations, for instance `mypy`, a popular static type checker for Python, will not do any type inference in functions without type hints. To understand why, let's quickly look into function type hints. In the simplest form:
 
 
     def add(a: int, b: int) -> int:
@@ -172,13 +172,13 @@ Type inference does have its limitations, for instance `mypy` will not do any ty
         return c
 
 
-The syntax is relatively straight forward, using the colon (`:`) for parameter type hints, and the arrow (`->`) for the return type. Notice how the type of `c` is not annotated. It can be, but it is not needed. From the types of `a` and `b` and the `+` operation, `mypy` can infer the type of `c`. But what if we did not annotate this function. Well, in that case, `a` and `b` could be anything: `str`, `float`, `list`, you name it! This is where `mypy` draws a line, if you do not annotate a function, `mypy` will not even attempt to do type inference. Instead all variables will be of type `Any`.
+The syntax above is straight forward, use the colon (`:`) for parameter type hints, and the arrow (`->`) for the return type. Notice how the type of `c` is not annotated. It can be, but it is not needed. From the types of `a` and `b` and the `+` operation, `mypy` can infer the type of `c`. But what if we did not annotate this function. Well, in that case, `a` and `b` could be anything: `str`, `float`, `list`, you name it! This is where `mypy` draws a line, if you do not annotate a function, `mypy` will not even attempt to do type inference. Instead all variables will be of type `Any`.
 
-What is `Any`? Well, anything really. It is an escape hatch of sorts that provides no information. Once `Any` gets involved type checking becomes rather impossible. What is `Any + int`? `Any`
+What is `Any`? Well, anything really. It is an escape hatch of sorts that provides no information. Once `Any` gets involved type checking becomes rather impossible. What is `Any + int`? `Any`.
 
 </details>
 
-1. Annotate the `factorial` function below:
+1. Annotate the `factorial` function below by adding as many type hints as needed:
 
 
         def factorial(num):
@@ -210,7 +210,7 @@ A `list` is a generic data type. It can store various types, but its operation w
 
 Now `numbers` is defined as a list of integers, and through that `number` will be of type `int` too.
 
-Let's take a quick look at `dict`. Dictionaries are generic over two types, their keys and values. This is how that can be annotated:
+Let's take a quick look at `dict`. Dictionaries have two types, their keys and values. This is how that can be annotated:
 
 
     grades: dict[str, int] = {"Martijn": 7, "Marleen": 8}
@@ -255,7 +255,7 @@ Again, in most situations `mypy` can infer the types of the variables, and it is
 
 <details markdown="1"><summary  markdown="span">Type variables</summary>
 
-Generics work through the use of type variables. In Python these variables are provided by `TypeVar` from the `typing` module. Here is how it works:
+How do you write your own generic functions? In Python that requires type variables. These are provided by `TypeVar` from the `typing` module. Here is how it works:
 
 
     from typing import TypeVar
@@ -264,7 +264,7 @@ Generics work through the use of type variables. In Python these variables are p
     N = TypeVar('N', int, float)  # Must be int or float
 
 
-Type variables can be unconstraint, like `T` above. In this case `T` can be any type at all. Or type variables can be constraint, like `N` above. In which case `N` can only be an `int` or a `float`. Type variables can come in place of actual types to create for instance generic functions:
+Type variables can be unconstrained, like `T` above. In this case `T` can be any type at all. Or type variables can be constraint, like `N` above. In which case `N` can only be an `int` or a `float`. Type variables can come in place of actual types to create for instance generic functions:
 
 
     from typing import Iterable, TypeVar
@@ -317,9 +317,11 @@ So far we have looked at concrete types, such as integers, strings and lists. Th
         return item
 
 
-There is no reason this implementation cannot work with other types of data structures. A tuple of integers or a set of integers should work just fine, but the type hint `list[int]` will only accept a concrete `list`. This is quite unpythonic!
+There is no reason this implementation cannot work with other types of data structures. A tuple of integers or a set of integers should work just fine, but the type hint `list[int]` will only accept a concrete `list`. This is quite un-pythonic!
 
-Looking at the implementation of `sum`, all that is needed from `items` is that it works with a for-loop. Or more precisely, the data structure needs to be iterable. In this case we only care about a property of the type, not the concrete thing. Rather, if the type we insert into the function is somewhat list-like, the function should work just fine. In comes duck typing:
+Looking at the implementation of `sum`, all that is needed from `items` is that it works with a for-loop. Or more precisely, the data structure needs to be iterable. 
+
+We could say that we only care about a property of the type of data structure, namely that it is iterable. We are not not necessarily interested in the concrete thing. Rather, if the type we insert into the function is somewhat list-like, the function should work just fine. In comes duck typing:
 
 > if it walks like a duck, swims like a duck, and quacks like a duck... it's a duck.
 
@@ -554,7 +556,7 @@ Install `mypy` through pip like so:
 
 > Depending on your installation, you might need to use `pip3` instead, or `python -m pip`.
 
-Once installed, simply run mypy like so:
+Once installed, run mypy like so:
 
 
     $ mypy my_program.py
