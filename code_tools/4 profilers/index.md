@@ -175,13 +175,13 @@ Improve the code in three different ways. For each, write down:
 
 ## Rules of the game
 
-### Do
+#### Do
 
 * Change the implementation of functions and methods.
 * Change the data structures used within the program, as long as it does not break any other rule.
 * Add new functions and methods.
 
-### Don't
+#### Don't
 
 * Change the declaration of existing functions and methods.
 * Change the types of parameters or return values of existing functions and methods.
