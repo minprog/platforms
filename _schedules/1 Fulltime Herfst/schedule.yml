@@ -15,9 +15,13 @@ SQL:
     Implement Fiftyville: /sql/fiftyville
 
 Code Tools:
-    Linters: "/code_tools/linters"
+    Linters: 
+        Assignment: "/code_tools/linters"
     Type Checkers:
         Theory: "/code_tools/type_checkers/theory"
-        Type Hints: "/code_tools/type_checkers/type_hints"
-    Testers: "/code_tools/testers"
-    Profilers: "/code_tools/profilers"
+        Assignment: "/code_tools/type_checkers/type_hints"
+    Testers:
+        pytest: "/code_tools/testers/theory"
+        Assignment: "/code_tools/testers/testing"
+    Profilers: 
+        Assignment: "/code_tools/profilers"
