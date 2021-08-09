@@ -32,3 +32,50 @@ For this module we'll narrow our scope to unit testing. Testing small individual
 
 ### Unit testing
 
+Effectively unit testing does not need to be much more than writing a script that calls your unit of code, and checks that it does what it's expected to do. Let's get started with an example, `get_median()`. There's a list of things of which we need the median.
+
+
+    def get_median(items: list[int]) -> int:
+        size = len(items)
+        middle = size // 2
+        return items[middle]
+    
+
+Now we could write a seperate script to automatically test this for us. Let's say we create a file called `test_median.py`:
+
+    from median import median
+    
+    items = [1,2,3,4,5]
+    expected_median = 3
+    assert get_median(items) == expected_median
+
+There we go, one unit test. Running this file will either succeed silently or you'll find an `AssertionError`. But, there's probably more to test. Does this function work with various numbers of items? What about an empty list of items? We could append more assertions, but it does get unwieldy fast. Not only because if one assertion fails, everything stops running. But also because we are likely going to be writing the same code over and over for our tests.
+
+
+### pytest
+
+In comes `pytest`, one of many unittesting frameworks for Python, but arguably a popular and easy to use one. You do need to install it through `pip`:
+
+    pip install pytest
+
+Here's how it works. Every test file needs to start with the `test_` prefix, so `test_median.py` above will do just fine. Then, every test itself is a function also prefixed with `test_`. For instance, to pytest-ify our unit test above we can write:
+
+    from median import get_median
+
+    def test_median_5():
+        items = [1,2,3,4,5]
+        expected_median = 3
+        assert get_median(items) == expected_median
+
+Once saved in a file called `test_median.py`, you can simply run `pytest` like so:
+
+    $ pytest
+    ========================= test session start =========================
+    platform linux -- Python 3.9.0, pytest-6.2.4, py-1.10.0, pluggy-0.13.1
+    rootdir: /home/foo
+    collected 1 item
+
+    test_median.py .                                                                                                 [100%]
+
+    ========================== 1 passed in 0.02s ==========================
+
