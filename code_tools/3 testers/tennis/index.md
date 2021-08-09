@@ -6,11 +6,11 @@ The word spoken must begin with the last letter of the previous word. If you can
 
 As part of this new app, we need the function below:
 
-```Py
-def guess(word: str, previous_words: list[str], time: float): -> bool
-    # TODO
-    pass
-```
+
+    def guess(word: str, previous_words: list[str], time: float): -> bool
+        # TODO
+        pass
+
 
 Implement the function above. This function should return False if any rule is broken, True otherwise. Raise a `ValueError` if the input is invalid.
 
