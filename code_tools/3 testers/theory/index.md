@@ -75,7 +75,7 @@ Once saved in a file called `test_median.py`, you can simply run `pytest` like s
     rootdir: /home/foo
     collected 1 item
 
-    test_median.py .                                                                                                 [100%]
+    test_median.py .                                                 [100%]
 
     ========================== 1 passed in 0.02s ==========================
 
