@@ -2,21 +2,22 @@
 
 We asked students to implement the following function:
 
-```Py
-def number_of_coins(change: int, coins: list[int]) -> int:
-    """
-    Given an amount of change in cents, and a list of coins in cents,
-        calculate how many coins are needed to fulfill the change.
-    Raises a TypeError in case floats are given instead of integers.
-    Raises a ValueError in case of negative values, or coins of value 0.
-    """
-```
+
+        def number_of_coins(change: int, coins: list[int]) -> int:
+            """
+            Given an amount of change in cents, and a list of coins in cents,
+                calculate how many coins are needed to fulfill the change.
+            Raises a TypeError in case floats are given instead of integers.
+            Raises a ValueError in case of negative values, or coins of value 0.
+            """
+
 
 For example:
 
-```Py
-print(number_of_coins(41, [25, 10, 5, 1])) # prints 4
-```
+
+        print(number_of_coins(41, [25, 10, 5, 1])) # prints 4
+
+
 
 To further restrict the assignment we added:
 
@@ -40,29 +41,26 @@ Hold on, before you jump right in, we have added some scaffolding to get you goi
 
 1. `conftest.py`, long story short, this file contains some pytest specific code that adds a command line option to pytest (`--path`) and uses these paths to load in the student implementations of `number_of_coins`. These implementations are passed to any unittest requesting a `number_of_coins` fixture. Through this file you will able to write tests like so:
 
-    ```Py
-    >>> test_cash.py
-    def test_something(number_of_coins):
-        assert number_of_coins(41, [25, 10, 5, 1]) == 4
-    ```
+
+        >>> test_cash.py
+        def test_something(number_of_coins):
+            assert number_of_coins(41, [25, 10, 5, 1]) == 4
+
 
     And call them like so:
 
-    ```sh
-    pytest --path submissions/1/cash.py
-    pytest --path submissions/1/cash.py --path submissions/2/cash.py
-    ```
+        pytest --path submissions/1/cash.py
+        pytest --path submissions/1/cash.py --path submissions/2/cash.py
 
 2. Thirteen programs is quite a lot to test, and it is easy to get overwhelmed by the number of tests. `run_tests.py` is here to help. This script will run pytest for each submission in the `submissions` folder and dump the output of the test to `outputs/1.txt` (for each submission respectively). Just run it like so:
 
-    ```sh
-    $ python run_tests.py
-    Testing - submissions/1/cash.py => outputs/1.txt   | SUCCESS
-    Testing - submissions/2/cash.py => outputs/2.txt   | FAILED
-    Testing - submissions/3/cash.py => outputs/3.txt   | SUCCESS
-    ...
-    ```
-
+    
+        $ python run_tests.py
+        Testing - submissions/1/cash.py => outputs/1.txt   | SUCCESS
+        Testing - submissions/2/cash.py => outputs/2.txt   | FAILED
+        Testing - submissions/3/cash.py => outputs/3.txt   | SUCCESS
+        ...
+        
     
     Handy right?
 
