@@ -42,7 +42,6 @@ Hold on, before you jump right in, we have added some scaffolding to get you goi
 1. `conftest.py`, long story short, this file contains some pytest specific code that adds a command line option to pytest (`--path`) and uses these paths to load in the student implementations of `number_of_coins`. These implementations are passed to any unittest requesting a `number_of_coins` fixture. Through this file you will able to write tests like so:
 
 
-        >>> test_cash.py
         def test_something(number_of_coins):
             assert number_of_coins(41, [25, 10, 5, 1]) == 4
 
