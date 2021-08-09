@@ -1,0 +1,4 @@
+name: testing_rotate
+files:
+    required:
+        - test_rotate.py

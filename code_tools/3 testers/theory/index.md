@@ -160,4 +160,3 @@ If we run pytest with this code in `test_median.py` we'll see:
     ========================== 4 passed in 0.02s =========================
 
 Even though the file contains 1 test function, 4 tests are run. One for each version of the fixture. In fact, any test function taking the fixture `odd` will now be called 4 times. This is a very quick way to test for many different inputs, without needing to write a lot of code!
-

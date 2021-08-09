@@ -21,7 +21,9 @@ Code Tools:
         Theory: "/code_tools/type_checkers/theory"
         Assignment: "/code_tools/type_checkers/type_hints"
     Testers:
-        pytest: "/code_tools/testers/theory"
-        Assignment: "/code_tools/testers/testing"
+        Theory: "/code_tools/testers/theory"
+        Rotate: "/code_tools/testers/rotate"
+        Tennis: "/code_tools/testers/tennis" 
+        Cash: "/code_tools/testers/testing"
     Profilers: 
         Assignment: "/code_tools/profilers"
