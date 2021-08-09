@@ -19,7 +19,7 @@ That is, until assignments grow a little. Maybe there's some teamwork involved. 
 Let's automate this. Now there are many things to test when it comes to software. Here's a quick overview:
 
 * Does the program do what we want it to do? Testing for this is called functional testing.
-* But we might also be interested in performance metrics or security concerns. Things that aren't directly tied to functionality. Unsuprisingely, this is called non-functional testing.
+* But we might also be interested in performance metrics or security concerns. Things that aren't directly tied to functionality. Unsurprisingly, this is called non-functional testing.
 
 There exists several strategies to go about testing:
 
