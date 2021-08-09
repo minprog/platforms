@@ -52,7 +52,7 @@ Hold on, before you jump right in, we have added some scaffolding to get you goi
         pytest --path submissions/1/cash.py
         pytest --path submissions/1/cash.py --path submissions/2/cash.py
 
-2. Thirteen programs is quite a lot to test, and it is easy to get overwhelmed by the number of tests. `run_tests.py` is here to help. This script will run pytest for each submission in the `submissions` folder and dump the output of the test to `outputs/1.txt` (for each submission respectively). Just run it like so:
+2. Thirteen programs is a lot to test, and it is easy to get overwhelmed by the number of tests. `run_tests.py` is here to help. This script will run pytest for each submission in the `submissions` folder and dump the output of the test to `outputs/1.txt` (for each submission respectively). Just run it like so:
 
     
         $ python run_tests.py
@@ -62,7 +62,7 @@ Hold on, before you jump right in, we have added some scaffolding to get you goi
         ...
         
     
-    Handy right?
+    Handy right!
 
 
 ### Some piece of mind
