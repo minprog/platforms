@@ -3,19 +3,19 @@
 We asked students to implement the following function:
 
 
-        def number_of_coins(change: int, coins: list[int]) -> int:
-            """
-            Given an amount of change in cents, and a list of coins in cents,
-                calculate how many coins are needed to fulfill the change.
-            Raises a TypeError in case floats are given instead of integers.
-            Raises a ValueError in case of negative values, or coins of value 0.
-            """
+    def number_of_coins(change: int, coins: list[int]) -> int:
+        """
+        Given an amount of change in cents, and a list of coins in cents,
+            calculate how many coins are needed to fulfill the change.
+        Raises a TypeError in case floats are given instead of integers.
+        Raises a ValueError in case of negative values, or coins of value 0.
+        """
 
 
 For example:
 
 
-        print(number_of_coins(41, [25, 10, 5, 1])) # prints 4
+    print(number_of_coins(41, [25, 10, 5, 1])) # prints 4
 
 
 
