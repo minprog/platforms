@@ -4,6 +4,8 @@
 
 <https://video.uva.nl/media/Platforms2021%20Profiling%20Intro/0_eao7e3jd>
 
+> TODO, classroom link here.
+
 [This repository](https://github.com/jelleas/sudoku_platforms) contains a functional Sudoku solver and six Sudoku puzzles. This solver can solve any of these puzzles within 15 seconds to a couple minutes on a modern computer. While that may sound fast enough for a solver, it is actually too slow for some tasks, such as automatically generating new puzzles. As generation of puzzles involves solving many different puzzles, most of which are likely to be too easy, imperfect (containing more than one solution) or impossible to solve. 
 
 This is where you step in. Your task is to take this solver and make it run faster. To do this you will analyze the program's runtime behavior to find hotspots. Then it is up to you to analyze what is making the code slow, and find creative solutions to make the code run faster. Every step of the way you will want to re-evaluate whether your changes to the code, actually do make the code run faster. Odds are that not every change works out the way you'd expect it to!
