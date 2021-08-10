@@ -92,32 +92,32 @@ In this case, there are 5 nodes, 6 edges, so that gives us a Cyclomatic Complexi
 Compute the Cyclomatic Complexity for the following snippets of code. For each, grab a piece of paper and quickly sketch a control flow graph. Then count the number of edges and nodes and input them in the formula: `M = E − N + 2` to get the Cyclomatic Complexity
 
 
-    if item < 10:
-        if item < 5:
-            print("foo")
+        if item < 10:
+            if item < 5:
+                print("foo")
+            else:
+                print("bar")
         else:
-            print("bar")
-    else:
-        print("baz")
+            print("baz")
 
 
     <textarea name="form[1]" rows="1" required=""></textarea>
 
 
-    for row in matrix:
-        for item in row:
-            if item == needle:
-                print("Found it!")
+        for row in matrix:
+            for item in row:
+                if item == needle:
+                    print("Found it!")
 
 
     <textarea name="form[2]" rows="1" required=""></textarea>
 
 
-    if item < 10:
-        for i in range(item):
-            print(i)
-    else:
-        print("Too low")
+        if item < 10:
+            for i in range(item):
+                print(i)
+        else:
+            print("Too low")
 
  
     <textarea name="form[2]" rows="1" required=""></textarea>
