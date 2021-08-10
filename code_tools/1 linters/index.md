@@ -55,7 +55,7 @@ In this case `E302` and `W292` are straight up ignored. In other cases you might
 
     print("this is a really long line, probably way longer than what it should be, but for now we think this is okay")  # noqa: E501
 
-By appending `  # noqa: E501` to the end of the line, `flake8` will ignore this line for `E501`. Do note the double spaces between the comment and the line itself. If curious, noqa stands for No Quality Assurance.
+By appending `# noqa: E501` to the end of the line, `flake8` will ignore this line for `E501`. Do note the double spaces between the comment and the line itself. If curious, noqa stands for No Quality Assurance.
 
 
 ## Cyclomatic complexity
