@@ -1,0 +1,4 @@
+name: linters_style
+files:
+    required:
+        - assignment.py

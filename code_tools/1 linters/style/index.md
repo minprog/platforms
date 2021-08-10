@@ -56,3 +56,18 @@ In this case `E302` and `W292` are straight up ignored. In other cases you might
     print("this is a really long line, probably way longer than what it should be, but for now we think this is okay")  # noqa: E501
 
 By appending `# noqa: E501` to the end of the line, `flake8` will ignore this line for `E501`. Do note the double spaces between the comment and the line itself. If curious, noqa stands for No Quality Assurance.
+
+
+## What to do
+
+> # TODO github classroom link here
+
+> # TODO supply own alternative code sample in case Python is new
+
+Take an old Python assignment of at least `100` LOC (lines of code) and make it compliant with PEP 8. Use `flake8` to check for any style errors. We will check for any type errors with this command:
+
+    flake8 --max-line-length=127
+
+You are free to ignore specific style errors in the code itself through `# noqa`. If you do, briefly elaborate below why you ignored that error.
+
+<textarea name="form[q1]" rows="5" required=""></textarea>
