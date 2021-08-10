@@ -6,12 +6,12 @@ The name comes from the filter that seperates fluff shed by clothing in a dryer.
 
 Linters do static code analysis. That is, without actually running the code, finding bugs and errors within it. These can be functional errors, like undeclared variables or missing imports. But also non-functional ones, like style errors!
 
-Style is both personal and impersonal. If you're collaborating you wouldn't want everyone to write code in their own style. Much like other pieces of combined work, like newspapers and magazines, it's probably best to set up some rules for everyone to adhere to: a style guide. But not everything is set in stone, there will always be cases where you as a programmer need to make a judgement call or in some cases might need to diverge from a guide for the sake of readable code.
+Style is both personal and impersonal. For instance, if you are collaborating you wouldn't want everyone to write code in their own style. Much like other pieces of combined work, like newspapers and magazines, it's probably best to set up some rules for everyone to adhere to: a style guide. But not everything is set in stone, there will always be cases where you as a programmer need to make a judgement call or in some cases might need to diverge from a guide for the sake of readable code.
 
 
 ## PEP 8
 
-Very early on, the developers of Python set out to create a default style guide for Python in [PEP 8](https://www.python.org/dev/peps/pep-0008/) (Python Enhancement Proposal #8). Check the style guide out for a second. It's effectively a set of guidelines to follow and this is also the style guide used for Python's own code. Right at the start of the guide you'll find [the following excerpt](https://www.python.org/dev/peps/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds) titled "a foolish-consistency is the hobgoblin of little minds":
+Very early on, the developers of Python set out to create a default style guide for Python in [PEP 8](https://www.python.org/dev/peps/pep-0008/) (Python Enhancement Proposal #8). Check the style guide out for a second. It's effectively a set of guidelines to follow and this is also the style guide used for Python's own code. Right at the start of the guide you'll find [the following excerpt](https://www.python.org/dev/peps/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds) titled "a foolish consistency is the hobgoblin of little minds":
 
     Some other good reasons to ignore a particular guideline:
 
