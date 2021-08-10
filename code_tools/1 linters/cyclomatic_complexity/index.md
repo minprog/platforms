@@ -91,7 +91,7 @@ In this case, there are 5 nodes, 6 edges, so that gives us a Cyclomatic Complexi
 
 Compute the Cyclomatic Complexity for the following snippets of code. For each, grab a piece of paper and quickly sketch a control flow graph. Then count the number of edges and nodes and input them in the formula: `M = E − N + 2` to get the Cyclomatic Complexity
 
-
+    1.
         if item < 10:
             if item < 5:
                 print("foo")
@@ -104,6 +104,7 @@ Compute the Cyclomatic Complexity for the following snippets of code. For each, 
     <textarea name="form[1]" rows="1" required=""></textarea>
 
 
+    2.
         for row in matrix:
             for item in row:
                 if item == needle:
@@ -113,6 +114,7 @@ Compute the Cyclomatic Complexity for the following snippets of code. For each, 
     <textarea name="form[2]" rows="1" required=""></textarea>
 
 
+    3.
         if item < 10:
             for i in range(item):
                 print(i)
@@ -120,7 +122,7 @@ Compute the Cyclomatic Complexity for the following snippets of code. For each, 
             print("Too low")
 
  
-    <textarea name="form[2]" rows="1" required=""></textarea>
+    <textarea name="form[3]" rows="1" required=""></textarea>
 
 
 > You can check your answers by running `flake8 --max-complexity=1`. Any piece of code with a Cyclomatic Complexity bigger than 1 will show an error.
