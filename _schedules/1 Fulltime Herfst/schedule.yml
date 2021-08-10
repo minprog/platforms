@@ -16,7 +16,8 @@ SQL:
 
 Code Tools:
     Linters: 
-        Assignment: "/code_tools/linters"
+        Style: "/code_tools/linters/style"
+        Cyclomatic Complexity: "/code_tools/linters/cyclomatic_complexity"
     Type Checkers:
         Theory: "/code_tools/type_checkers/theory"
         Assignment: "/code_tools/type_checkers/type_hints"
