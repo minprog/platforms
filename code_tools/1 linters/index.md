@@ -4,14 +4,14 @@ Consistent code style is tricky on its own. But especially when projects grow or
 
 The name comes from the filter that seperates fluff shed by clothing in a dryer. That filter is called a **lint** trap. The analogy here is, a linter should catch small hard to detect errors that might have a big effect if left unchecked. These tools are not new, likely also not for you. If you've been working in a modern editor like Visual Studio Code for instance, you have probably noticed all sort of hints popping up while programming. That's a linter doing work.
 
-Linters do static code analysis. That is, without actually running the code, finding bugs and errors within it. These can be functional errors, like undeclared variables or missing imports. But also non-functional ones, like style errors!
+Linters do static code analysis. That is, without actually running the code, find bugs and errors within it. These can be functional errors, like undeclared variables or missing imports. But also non-functional ones, like style errors!
 
 Style is both personal and impersonal. For instance, if you are collaborating you wouldn't want everyone to write code in their own style. Much like other pieces of combined work, like newspapers and magazines, it's probably best to set up some rules for everyone to adhere to: a style guide. But not everything is set in stone, there will always be cases where you as a programmer need to make a judgement call or in some cases might need to diverge from a guide for the sake of readable code.
 
 
 ## PEP 8
 
-Very early on, the developers of Python set out to create a default style guide for Python in [PEP 8](https://www.python.org/dev/peps/pep-0008/) (Python Enhancement Proposal #8). Check the style guide out for a second. It's effectively a set of guidelines to follow and this is also the style guide used for Python's own code. Right at the start of the guide you'll find [the following excerpt](https://www.python.org/dev/peps/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds) titled "a foolish consistency is the hobgoblin of little minds":
+Early on the developers of Python set out to create a default style guide for Python in [PEP 8](https://www.python.org/dev/peps/pep-0008/) (Python Enhancement Proposal #8). Take a quick moment to check out the style guide out. It's effectively a set of guidelines to follow and this is also the style guide used for Python's own code. Right at the start of the guide you'll find [the following excerpt](https://www.python.org/dev/peps/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds) titled "a foolish consistency is the hobgoblin of little minds":
 
     Some other good reasons to ignore a particular guideline:
 
@@ -29,3 +29,11 @@ That said, PEP 8 is very useful. With a standard style guide out there, many hav
 
     pip install flake8
 
+`flake8` can check your code for compliance to PEP 8. Simply call `flake8` in the folder with your code like so:
+
+    ~/ λ flake8
+    ./foo.py:2:9: E221 multiple spaces before operator
+    ./foo.py:5:1: E302 expected 2 blank lines, found 1
+    ./foo.py:10:25: W292 no newline at end of file
+
+Looks like the code contains some style errors at lines 2, 5 and 9 respectively. With three different error codes, `E221`, `E302 and `W292`. [Here](https://pycodestyle.pycqa.org/en/latest/intro.html#error-codes) is a full list of all the possible error codes. After these error codes there is a short description on what is wrong. So in our case, a couple of blank lines that are missing and too many spaces before an operator on line 2.
