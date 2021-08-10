@@ -100,6 +100,7 @@ Compute the Cyclomatic Complexity for the following snippets of code. For each, 
     else:
         print("baz")
 
+
     <textarea name="form[1]" rows="1" required=""></textarea>
 
 
@@ -107,6 +108,7 @@ Compute the Cyclomatic Complexity for the following snippets of code. For each, 
         for item in row:
             if item == needle:
                 print("Found it!")
+
 
     <textarea name="form[2]" rows="1" required=""></textarea>
 
@@ -116,7 +118,8 @@ Compute the Cyclomatic Complexity for the following snippets of code. For each, 
             print(i)
     else:
         print("Too low")
-    
+
+ 
     <textarea name="form[2]" rows="1" required=""></textarea>
 
 
