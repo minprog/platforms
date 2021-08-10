@@ -6,7 +6,7 @@ The name comes from the filter that seperates fluff shed by clothing in a dryer.
 
 Linters do static code analysis. That is, without actually running the code, find bugs and errors within it. These can be functional errors, like undeclared variables or missing imports. But also non-functional ones, like style errors!
 
-Style is both personal and impersonal. For instance, if you are collaborating you wouldn't want everyone to write code in their own style. Much like other pieces of combined work, like newspapers and magazines, it's probably best to set up some rules for everyone to adhere to: a style guide. But not everything is set in stone, there will always be cases where you as a programmer need to make a judgement call or in some cases might need to diverge from a guide for the sake of readable code.
+Style is both personal and impersonal. For instance, if you are collaborating you wouldn't want everyone to write code in their own style. Much like other pieces of combined work, like newspapers and magazines, it is probably best to set up some rules for everyone to adhere to: a style guide. But not everything is set in stone, there will always be cases where you as a programmer need to make a judgement call or in some cases might need to diverge from a guide for the sake of readable code.
 
 
 ## PEP 8
@@ -31,9 +31,31 @@ That said, PEP 8 is very useful. With a standard style guide out there, many hav
 
 `flake8` can check your code for compliance to PEP 8. Simply call `flake8` in the folder with your code like so:
 
-    ~/ λ flake8
+    $ flake8
+    ./foo.py:2:9: E221 multiple spaces before operator
+    ./foo.py:3:80: E501 line too long (110 > 79 characters)
+    ./foo.py:5:1: E302 expected 2 blank lines, found 1
+    ./foo.py:10:25: W292 no newline at end of file
+
+Looks like the code contains some style errors at lines 2, 3, 5, and 9 respectively. With four different error codes, `E221`, `E501`, `E302`, and `W292`. [Here](https://pycodestyle.pycqa.org/en/latest/intro.html#error-codes) is a full list of all the possible error codes. After these error codes there is a short description on what is wrong. So in our case, a couple of blank lines that are missing, a line that is too long, and too many spaces before an operator.
+
+However, the default is probably not what you want. Odds are you, or the existing code before you, might disagree with PEP 8. Line length is a good example here, PEP 8 asks for 79 characters on a line max. This is a hot topic, but as time goes on, longer lines seem to become more acceptable. For instance, GitHub has their code editor show 127 characters per line in their online code editor. If we are going to be hosting our code on GitHub, might as well use their standards like so:
+
+    $ flake8 --max-line-length=127
     ./foo.py:2:9: E221 multiple spaces before operator
     ./foo.py:5:1: E302 expected 2 blank lines, found 1
     ./foo.py:10:25: W292 no newline at end of file
 
-Looks like the code contains some style errors at lines 2, 5 and 9 respectively. With three different error codes, `E221`, `E302 and `W292`. [Here](https://pycodestyle.pycqa.org/en/latest/intro.html#error-codes) is a full list of all the possible error codes. After these error codes there is a short description on what is wrong. So in our case, a couple of blank lines that are missing and too many spaces before an operator on line 2.
+There are many other configurable options to set in `flake8`. For these, you are best of reading [flake8's documentation](https://flake8.pycqa.org/en/3.9.2/index.html). One thing to note is ignorning specific errors. That can either be done globally like so:
+
+    $ flake8 --max-line-length=127 --ignore=E302,W292
+    ./foo.py:2:9: E221 multiple spaces before operator
+
+In this case `E302` and `W292` are straight up ignored. In other cases you might want to make a specific exception in a part of the code. That can be done in the code itself through magic comments:
+
+    print("this is a really long line, probably way longer than what it should be, but for now we think this is okay")  # noqa: E501
+
+By appending `  # noqa: E501` to the end of the line, `flake8` will ignore this line for `E501`. Do note the double spaces between the comment and the line itself. If curious, noqa stands for No Quality Assurance.
+
+
+## Cyclomatic complexity
