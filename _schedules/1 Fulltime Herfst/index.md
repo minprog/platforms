@@ -78,6 +78,7 @@ Voor de **opdrachten** gelden de volgende deadlines voor het werkend inleveren (
 | ----------------- | ----------- | -------------- |
 | Fiftyville        | 1.5 dagdeel |                |
 | Movies            | 1.5 dagdeel |                |
+| Pizza             | 2 dagdelen  |                |
 
 #### Tools
 
