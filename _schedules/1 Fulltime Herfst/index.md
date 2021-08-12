@@ -10,21 +10,13 @@ Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze 
 
 ## Onderdelen
 
+> TODO, overeenstemming bereiken over volgorde. Dit is Jelle's voorstel:
+
 - Basistechnieken (1 unit)
     - HTML: homepage
     - Git: repositories, remotes, commits, push en pull, merge conflicts, branching
     - Markdown: layout en formatting, gebruik op GitHub
     - Opdracht: editten en online zetten pagina via GitHub Pages
-
-- Datastructuren (1 unit)
-    - Dictionaries, tuples, sets, enz
-    - Samengestelde structuren
-
-- Tools (1.5 unit)
-    - Linters
-    - Type Checkers
-    - Testers
-    - Profilers
 
 - UNIX (1 unit)
     - cat
@@ -33,23 +25,68 @@ Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze 
     - grep
     - ...
 
+- Datastructuren (1 unit)
+    - Dictionaries, tuples, sets, enz
+    - Samengestelde structuren
+
+- Pandas (1.5 units)
+    - ...
+
 - Relationele databases (1 unit)
     - Lecture Harvard
     - Fiftyville
     - Movies
     - Pizza (Potentieel schrappen ivm tijd)
 
-- Pandas (1.5 units)
-    - ...
+- Tools (1.5 unit)
+    - Linters
+    - Type Checkers
+    - Testers
+    - Profilers
 
 
 ## Kalender
 
 Voor de **opdrachten** gelden de volgende deadlines voor het werkend inleveren (volgens de gegeven specificaties).
 
-| Opdracht  | Duur        | Deadline       |
-| --------- | ----------- | -------------- |
-|           |             |                |
+### Basistechnieken
+
+| Opdracht          | Duur        | Deadline       |
+| ----------------- | ----------- | -------------- |
+| Homepage          | 2 dagdelen  |                |
+| Markdown          | 1 dagdeel   |                |
+
+### Unix
+
+> TODO: Björn & Martijn inschatting maken van de onderdelen
+
+### Datastructuren
+
+| Opdracht          | Duur        | Deadline       |
+| ----------------- | ----------- | -------------- |
+| Dicts             | 1 dagdeel   |                |
+| Sets              | 1 dagdeel   |                |
+| Complexity        | 1 dagdeel   |                |
+
+### Pandas
+
+> TODO: Simon inschatting maken van de onderdelen
+
+### Relationele databases
+
+| Opdracht          | Duur        | Deadline       |
+| ----------------- | ----------- | -------------- |
+| Fiftyville        | 1.5 dagdeel |                |
+| Movies            | 1.5 dagdeel |                |
+
+### Tools
+
+| Opdracht          | Duur        | Deadline       |
+| ----------------- | ----------- | -------------- |
+| Linters           | 1 dagdeel   |                |
+| Type Checkers     | 1 dagdeel   |                |
+| Testers           | 2 dagdelen  |                |
+| Profilers         | 2 dagdelen  |                |
 
 
 ## Verwachtingen
@@ -59,7 +96,7 @@ Bij dit vak werk je aan verschillende soorten opdrachten:
 * **Samenwerkopdrachten** doe je samen met een medestudent. Deze opdrachten helpen je met het inkomen in een nieuwe tool of techniek.
 * **Individuele opdrachten** bouwen op die ervaring. Je doet ze alleen, waarbij je altijd hulp kunt krijgen van de docenten en assistenten.
 
-Alle opdrachten netjes werkend inleveren is de basiseis om het vak te halen. Daarnaast is het nodig dat je *zichtbaar* actief meedoet en leert van het vak. Dat doe je onder andere op de volgende manieren:
+Alle opdrachten netjes af en werkend inleveren is de basiseis om het vak te halen. Daarnaast is het nodig dat je *zichtbaar* actief meedoet en leert van het vak. Dat doe je onder andere op de volgende manieren:
 
 1. meedoen aan alle wekelijkse werkgroepen
 2. bijwonen van alle checkups met je team
@@ -164,8 +201,3 @@ Onderstaande regelingen zijn wat streng geformuleerd, maar het is niet de bedoel
 
   - Alle opdrachten moeten opnieuw gedaan worden indien de samenstelling inmiddels is veranderd.
 </details>
-
-
-## Dankbetuiging/Acknowledgements
-
-...
