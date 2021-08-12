@@ -49,18 +49,18 @@ Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze 
 
 Voor de **opdrachten** gelden de volgende deadlines voor het werkend inleveren (volgens de gegeven specificaties).
 
-### Basistechnieken
+#### Basistechnieken
 
 | Opdracht          | Duur        | Deadline       |
 | ----------------- | ----------- | -------------- |
 | Homepage          | 2 dagdelen  |                |
 | Markdown          | 1 dagdeel   |                |
 
-### Unix
+#### Unix
 
 > TODO: Björn & Martijn inschatting maken van de onderdelen
 
-### Datastructuren
+#### Datastructuren
 
 | Opdracht          | Duur        | Deadline       |
 | ----------------- | ----------- | -------------- |
@@ -68,18 +68,18 @@ Voor de **opdrachten** gelden de volgende deadlines voor het werkend inleveren (
 | Sets              | 1 dagdeel   |                |
 | Complexity        | 1 dagdeel   |                |
 
-### Pandas
+#### Pandas
 
 > TODO: Simon inschatting maken van de onderdelen
 
-### Relationele databases
+#### Relationele databases
 
 | Opdracht          | Duur        | Deadline       |
 | ----------------- | ----------- | -------------- |
 | Fiftyville        | 1.5 dagdeel |                |
 | Movies            | 1.5 dagdeel |                |
 
-### Tools
+#### Tools
 
 | Opdracht          | Duur        | Deadline       |
 | ----------------- | ----------- | -------------- |
