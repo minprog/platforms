@@ -15,7 +15,7 @@ SQL:
     Implement Fiftyville: /sql/fiftyville
 
 Code Tools:
-    Linters: 
+    Linters:
         Style: "/code_tools/linters/style"
         Cyclomatic Complexity: "/code_tools/linters/cyclomatic_complexity"
     Type Checkers:
@@ -24,7 +24,18 @@ Code Tools:
     Testers:
         Theory: "/code_tools/testers/theory"
         Rotate: "/code_tools/testers/rotate"
-        Tennis: "/code_tools/testers/tennis" 
+        Tennis: "/code_tools/testers/tennis"
         Cash: "/code_tools/testers/testing"
-    Profilers: 
+    Profilers:
         Assignment: "/code_tools/profilers"
+
+
+Scraping Data:
+    Basics:
+        Pandas: "/scraping-data/pandas"
+    Data Pipeline:
+        Scraping: "/scraping-data/scraping"
+        Transforming: "/scraping-data/transforming"
+        Visualizing: "/scraping-data/visualizing"
+    Getting More Data:
+        Crawling: "/scraping-data/crawling"
