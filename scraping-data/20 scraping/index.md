@@ -2,27 +2,21 @@
 
 What was the best year for movies?
 
-This is often debated on the internet:
-
-- https://www.washingtonpost.com/news/style/wp/2018/12/28/feature/what-was-the-best-year-in-movie-history/
-- https://www.independent.co.uk/arts-entertainment/films/features/film-history-best-year-1999-star-wars-matrix-fight-club-sixth-sense-a9036911.html
-- https://www.reddit.com/r/movies/comments/5m6jrp/best_year_for_movies/
-- https://www.maxim.com/entertainment/10-movies-prove-1994-was-best-year-film-history
-- ...
+This is often debated on the internet. For exaample [here](https://www.washingtonpost.com/news/style/wp/2018/12/28/feature/what-was-the-best-year-in-movie-history/), [here](https://www.independent.co.uk/arts-entertainment/films/features/film-history-best-year-1999-star-wars-matrix-fight-club-sixth-sense-a9036911.html), [here](https://www.reddit.com/r/movies/comments/5m6jrp/best_year_for_movies/) and [here](https://www.maxim.com/entertainment/10-movies-prove-1994-was-best-year-film-history).
 
 Let's try to see if we can find some data to settle these discussions. For this we need to do some *web scraping*.
 
 Web scraping is a way of extracting data from websites. While this process could be done manually (by reading information on a website, and then copying that information to a file) it is usually done through the use of software. Scraping can be a valuable tool for extracting data. A website might not give you an option to download the content, either through an API or a direct download link. One example of such a website is the IMDB page that we will be scraping in this exercise.
 
-In order to answer the questions we'll have to make some radical assumptions. Most importantly we're going to assume that the top 5 movies of each year are indicative of how good for movies that year is. So we'll reformulate the question:
+In order to answer the questions we'll have to make some assumptions. Most importantly we're going to assume that the top 5 movies of each year are indicative of how good for movies that year is. So we'll reformulate the question:
 
-What year had the best average IMDB rating for it's top 5 movies?
+*What year had the best average IMDB rating for it's top 5 movies?*
 
 Admittedly a much less catchy question.
 
 ## Provided code
 
-Download the provided code for this assignment: []
+We've provided some code to get you started. Download it here: [scraping.zip](../code/scraping.zip)
 
 ## Libraries
 
