@@ -1,0 +1,13 @@
+name: scraping-data
+files:
+    required:
+        - pandas.ipynb
+        - scraper.py
+        - extract.py
+        - visualize_years.py
+        - visualize_actors.py
+        - crawler.py
+        - visualize_languages.py
+        - years.png
+        - actors.png
+        - languages.png
