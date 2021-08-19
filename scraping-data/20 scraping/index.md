@@ -2,7 +2,7 @@
 
 What was the best year for movies?
 
-This is often debated on the internet. For exaample [here](https://www.washingtonpost.com/news/style/wp/2018/12/28/feature/what-was-the-best-year-in-movie-history/), [here](https://www.independent.co.uk/arts-entertainment/films/features/film-history-best-year-1999-star-wars-matrix-fight-club-sixth-sense-a9036911.html), [here](https://www.reddit.com/r/movies/comments/5m6jrp/best_year_for_movies/) and [here](https://www.maxim.com/entertainment/10-movies-prove-1994-was-best-year-film-history).
+This is often debated on the internet. For example [here](https://www.washingtonpost.com/news/style/wp/2018/12/28/feature/what-was-the-best-year-in-movie-history/), [here](https://www.independent.co.uk/arts-entertainment/films/features/film-history-best-year-1999-star-wars-matrix-fight-club-sixth-sense-a9036911.html), [here](https://www.reddit.com/r/movies/comments/5m6jrp/best_year_for_movies/) and [here](https://www.maxim.com/entertainment/10-movies-prove-1994-was-best-year-film-history).
 
 Let's try to see if we can find some data to settle these discussions. For this we need to do some *web scraping*.
 
