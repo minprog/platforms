@@ -8,86 +8,30 @@ In dit vak maak je kennis met verschillende platforms om programmeerproblemen aa
 Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze cursus start.
 
 
-## Onderdelen
+## Onderwerpen
 
-> TODO, overeenstemming bereiken over volgorde. Dit is Jelle's voorstel:
+Er komen vijf verschillende modules voorbij met uiteenlopende onderwerpen:
 
-- Basistechnieken (1 unit)
-    - HTML: homepage
-    - Git: repositories, remotes, commits, push en pull, merge conflicts, branching
-    - Markdown: layout en formatting, gebruik op GitHub
-    - Opdracht: editten en online zetten pagina via GitHub Pages
+1. Basics, het opzetten van een ontwikkelomgeving, het gebruik van git, het opzetten van een webpagina en het schrijven van een README
+2. SQL, het leren gebruiken van een relationele database
+3. Datastructuren en Complexiteit, afwegingen maken tussen het gebruik van verschillende datastructuren en de invloed op de computationele complexiteit
+4. Scraping & Data analyse, automatisch data vergaren vanaf het web en deze transformeren en visualiseren
+5. Code Tools, stijl in orde krijgen met linters, type checkers, software testen en run-time performance analyseren met profilers
 
-- UNIX (1 unit)
-    - cat
-    - wc
-    - sed
-    - grep
-    - ...
-
-- Datastructuren (1 unit)
-    - Dictionaries, tuples, sets, enz
-    - Samengestelde structuren
-
-- Pandas (1.5 units)
-    - ...
-
-- Relationele databases (1 unit)
-    - Lecture Harvard
-    - Fiftyville
-    - Movies
-    - Pizza (Potentieel schrappen ivm tijd)
-
-- Tools (1.5 unit)
-    - Linters
-    - Type Checkers
-    - Testers
-    - Profilers
+Modules 1 en 2 duren ieder een week en de overige modules duren ieder twee weken. Dit zal je ook terugzien in de weekindeling in de kantlijn.
 
 
-## Kalender
+## Docenten en contact
 
-Voor de **opdrachten** gelden de volgende deadlines voor het werkend inleveren (volgens de gegeven specificaties).
+Je docent is Jelle van Assema.
 
-#### Basistechnieken
+Er zijn iedere week twee werkcolleges op locatie. De tijden en locatie vind je op [datanose.nl/#course[99713]](https://datanose.nl/#course[99713]).
 
-| Opdracht          | Duur        | Deadline       |
-| ----------------- | ----------- | -------------- |
-| Homepage          | 2 dagdelen  |                |
-| Markdown          | 1 dagdeel   |                |
+Er is een Slack kanaal voor het vak en daarvoor krijg je in de eerste week een uitnodiging. Dit kanaal is bedoeld voor snel asynchroon contact met andere studenten en met de assistenten & docenten.
 
-#### Unix
-
-> TODO: Björn & Martijn inschatting maken van de onderdelen
-
-#### Datastructuren
-
-| Opdracht          | Duur        | Deadline       |
-| ----------------- | ----------- | -------------- |
-| Dicts             | 1 dagdeel   |                |
-| Sets              | 1 dagdeel   |                |
-| Complexity        | 1 dagdeel   |                |
-
-#### Pandas
-
-> TODO: Simon inschatting maken van de onderdelen
-
-#### Relationele databases
-
-| Opdracht          | Duur        | Deadline       |
-| ----------------- | ----------- | -------------- |
-| Fiftyville        | 1.5 dagdeel |                |
-| Movies            | 1.5 dagdeel |                |
-| Pizza             | 2 dagdelen  |                |
-
-#### Tools
-
-| Opdracht          | Duur        | Deadline       |
-| ----------------- | ----------- | -------------- |
-| Linters           | 1 dagdeel   |                |
-| Type Checkers     | 1 dagdeel   |                |
-| Testers           | 2 dagdelen  |                |
-| Profilers         | 2 dagdelen  |                |
+- Voor vragen over de stof, hulp met programmeren, technische ondersteuning, zijn er dinsdag, donderdag en vrijdag virtuele office hours van 14:00-16:00 via Zoom. Hiervoor stel je vraag via het vraagteken op deze website en deel je jouw Zoom-link. 
+- Als je niet weet hoe je een vraag moet stellen of je weet niet hoe je moet beginnen met iets, is Slack de aangewezen plek. 
+- Voor vragen over regeltjes, het maken van persoonlijke afspraken en het op de hoogte houden van de docenten over het later inleveren stuur je een mail naar <help@mprog.nl>.
 
 
 ## Verwachtingen
@@ -99,55 +43,49 @@ Bij dit vak werk je aan verschillende soorten opdrachten:
 
 Alle opdrachten netjes af en werkend inleveren is de basiseis om het vak te halen. Daarnaast is het nodig dat je *zichtbaar* actief meedoet en leert van het vak. Dat doe je onder andere op de volgende manieren:
 
-1. meedoen aan alle wekelijkse werkgroepen
-2. bijwonen van alle checkups met je team
-3. meerdere keren per week vragen stellen of beantwoorden via Ed of video-assistentie
-4. laag scoren op de “plagiaatschaal”
+1. meedoen aan alle wekelijkse werkcolleges
+2. actief vragen stellen of beantwoorden via Slack of video-assistentie
+3. laag scoren op de “plagiaatschaal”
 
-Op die manier kunnen je mentor en de docenten een goed beeld vormen van jouw voortgang en constateren dat je aan de leerdoelen van het vak hebt voldaan. Er is daarom ook niet voorzien in een schriftelijk tentamen. Dat is natuurlijk een prettig einde van het vak, maar legt wel meer verantwoordelijkheid bij jou om zichtbaar te leren.
+Op die manier kunnen we een goed beeld vormen van jouw voortgang en constateren dat je aan de leerdoelen van het vak hebt voldaan. Er is daarom ook niet voorzien in een schriftelijk tentamen. Dat is natuurlijk een prettig einde van het vak, maar legt wel meer verantwoordelijkheid bij jou om zichtbaar te leren.
 
 
 ## Eindcijfer
 
-Je cijfer voor het vak wordt als volgt bepaald:
-
-* 25% is op basis van het aftekenen van de Samenwerkopdrachten. Deze punten heb je al binnen zodra alles af is.
-* 75% is op basis van de beoordeling van de Individuele Opdrachten. Je krijgt voor deze opdrachten dan ook altijd feedback.
-
 Voordat je een eindcijfer kunt krijgen moet je alle opdrachten werkend hebben ingeleverd en aan alle bovengenoemde verwachtingen hebben voldaan, tenzij je een *schriftelijke* uitzondering hebt gekregen van de examinator of coördinator. Voel je vrij om te overleggen of jouw omstandigheden een uitzondering rechtvaardigen (via een mail naar help@mprog.nl). We denken graag mee!
 
-Lukt het niet om systematisch laag te scoren op de plagiaatschaal, dan moet je je opdrachten bij de afloop van het vak presenteren en er vragen over beantwoorden, zodat er geconstateerd kan worden dat je voldoet aan de leerdoelen. Ben je niet systematisch aanwezig of doe je niet systematisch mee met samenwerkopdrachten, dan kun je het vak niet halen.
+Lukt het niet om systematisch laag te scoren op de plagiaatschaal, dan moet je je opdrachten bij de afloop van het vak presenteren en er vragen over beantwoorden, zodat er geconstateerd kan worden dat je voldoet aan de leerdoelen. Ben je niet systematisch aanwezig of doe je niet systematisch mee, dan kun je het vak niet halen.
 
 
 ## Cijfers
 
-Dit is een breed vak met uiteenlopende onderwerpen en opdrachtsvormen...
+Dit is een breed vak met uiteenlopende onderwerpen en opdrachtsvormen. Deze worden dan ook op verschillende manieren nagekeken.
 
-> TODO hier een lijst van opdrachten, welke/wel niet voor cijfer en gewicht (grotere opdrachten meer natuurlijk)
+| Opdracht               | Beoordeling |                                      |
+| ---------------------- | ----------- | ------------------------------------ |
+| Homepage               | punten      | 2 of 3 punten                        |
+| Movies                 | punten      | 1 punt                               |
+| Fiftyville             | punten      | 1 punt                               |
+| Dicts                  | punten      | 1 punt                               |
+| Sets                   | punten      | 1 punt                               |
+| Text analysis          | cijfer      | 50% correctness + 50% design/style   |
+| Pandas                 | punten      | 2 punten                             |
+| Scraping t/m Crawling  | cijfer      | 50% correctness + 50% design/style   |
+| Linters                | punten      | 1 punt                               |
+| Type Checkers          | punten      | 1 punt                               |
+| Testers                | cijfer      | 100% correctness                     |
+| Profilers              | cijfer      | 50% correctness + 50% design/style   |
 
+Het eindcijfer is opgebouwd uit twee gelijke delen van ieder 50%. 
 
-## Docenten en contact
+De eerste 50% verdien je door punten te halen voor de verschillende opdrachten. Daarvoor moet je de opdrachten volledig af en werkend inleveren. Er zijn tien punten in totaal en er is één bonuspunt te verdienen voor een exceptionele inzending van Homepage. Die bonuspunt is daarmee effectief een halve punt op het eindcijfer.
 
-Je docent is Jelle van Assema.
-
-> TODO insert balietekst van prog1 hier
-
-- Voor vragen over de stof, hulp met programmeren, technische ondersteuning, ...
-- Als je niet weet hoe je een vraag moet stellen of je weet niet hoe je moet beginnen met iets, ...
-- Voor vragen over regeltjes, het maken van persoonlijke afspraken en het op de hoogte houden van de docenten over het later inleveren stuur je een mail naar <help@mprog.nl>.
+De tweede 50% van het eindcijfer zijn de cijfers voor verschillende opdrachten. Om een cijfer te krijgen voor deze opdrachten moeten ze volledig af zijn, je moet alle onderdelen zinvol hebben geprobeerd. Het cijfer bestaat dan vaak uit een deel correctness, dat is simpelweg hoeveel van de opdracht is correct. Daarnaast wordt ook het design en de style van de code meegenomen.
 
 
 ## Samenwerken
 
-Al het werk dat je doet om aan bovenstaande verwachtingen te voldoen moet je eigen werk zijn.
-
-- Je mag code van andere studenten lezen om aan de eisen van een code review te voldoen, maar niet vóór de deadline van het betreffende project en het officieel aftekenen van je inzending.
-
-- Ideeën en technieken die je kent uit de reviews van andermans code en uit de feedback die je krijgt van anderen mag je gerust gebruiken, als je maar duidelijk de ideeën toeschrijft via comments in je code.
-
-- Je mag ideeën voor projecten, inclusief designs, bespreken met anderen, om feedback te verkrijgen en te geven, maar je mag geen *code* delen met anderen.
-
-In andere woorden: je mag met je medestudenten (en anderen) communiceren in het Nederlands of Engels over je werk in deze cursus, maar niet in de vorm van meer dan een paar regels Python, JavaScript, HTML en dergelijke talen. Als je twijfelt of je manier van werken in deze correct is, neem gerust contact op met de docenten.
+Je mag met je medestudenten (en anderen) communiceren in het Nederlands of Engels over je werk in deze cursus, maar niet in de vorm van meer dan een paar regels Python, JavaScript, HTML en dergelijke talen. Als je twijfelt of je manier van werken in deze correct is, neem gerust contact op met de docenten.
 
 
 ### Citeren en hulpbronnen
@@ -172,9 +110,7 @@ Onderstaande regelingen zijn wat streng geformuleerd, maar het is niet de bedoel
 
   - Alle individuele opdrachten, ook die voldoende waren, moeten opnieuw worden ingeleverd.
 
-  - Deze individuele opdrachten moeten verbeterd worden ten aanzien van de kwaliteitsaspecten.
-
-  - Het maximumcijfer is in dit geval een 6.0 en wordt alleen toegekend als alle programma's aantoonbaar van voldoende kwaliteit zijn (waarmee je aantoont het betreffende leerdoel gehaald te hebben).
+  - Het maximumcijfer is in dit geval een 6.0 en wordt alleen toegekend als alle opdrachten aantoonbaar van voldoende kwaliteit zijn (waarmee je aantoont het betreffende leerdoel gehaald te hebben).
 </details>
 
 <details markdown="1"><summary markdown="span">Ik heb een opdracht niet werkend ingeleverd en wil herkansen</summary>
