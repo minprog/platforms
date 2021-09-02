@@ -18,7 +18,7 @@ Data structures:
     Introduction: /data-structures/
     "Part 1: Learn about computational complexity":
         Efficiency (theory): /data-structures/python/efficiency
-        Complexity questions (assignment): /data-structures/questions
+        Complexity questions 1 (assignment): /data-structures/questions1
     "Part 2: Data structures and their efficiency":
         Dictionaries (theory): /data-structures/python/dictionaries/use
         Dictionaries (practice): /data-structures/python/dictionaries/use/practice
@@ -27,6 +27,7 @@ Data structures:
         Tuples (theory): /data-structures/python/tuples
         Sets (theory): /data-structures/python/sets
         List slicing and indexing (theory): /data-structures/python/slicing
+        Complexity questions 2 (assignment): /data-structures/questions2
     "Part 3: How to write efficient code":
         Applying big O in your code (theory): /data-structures/python/big-o
         Improving count_occurrence (theory): /data-structures/python/big-o-example
