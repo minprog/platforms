@@ -28,13 +28,14 @@ Data structures:
         Sets [theory]: /data-structures/python/sets
         Sets [practice]: /data-structures/python/sets/practice
         List slicing and indexing [theory]: /data-structures/python/slicing
-        Complexity questions 2 [assignment]: /data-structures/questions2
     "Part 3: How to write efficient code":
         Applying big O in your code [theory]: /data-structures/python/big-o
         Improving count_occurrence [theory]: /data-structures/python/big-o-example
+        Complexity questions 2 [assignment]: /data-structures/questions2
     "Part 4: Write your own efficient code":
+        Jaccar [assignment]: /data-structures/jaccard
         Indexing words [assignment]: /data-structures/word-index
-        Indexing pairs [assignment]: /data-structures/pair-index
+        # Indexing pairs [assignment]: /data-structures/pair-index
     Submit your solutions: /submit/complexity
 
 Code Tools:
