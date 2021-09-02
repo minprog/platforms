@@ -21,7 +21,7 @@ To compute Jaccard, we divide the size of the *intersection* of both bags of wor
 Mathematically you write this:
 
 $$
-J(A,B) = \frac{A\capB}{A\cupB}
+J(A,B) = \frac{|A \cap B|}{|A \cup B|}
 $$
 
 Where $$A$$ and $$B$$ are the bags of words.

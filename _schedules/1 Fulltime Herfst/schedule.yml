@@ -33,7 +33,7 @@ Data structures:
         Improving count_occurrence [theory]: /data-structures/python/big-o-example
         Complexity questions 2 [assignment]: /data-structures/questions2
     "Part 4: Write your own efficient code":
-        Jaccar [assignment]: /data-structures/jaccard
+        Jaccard [assignment]: /data-structures/jaccard
         Indexing words [assignment]: /data-structures/word-index
         # Indexing pairs [assignment]: /data-structures/pair-index
     Submit your solutions: /submit/complexity
