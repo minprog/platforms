@@ -44,7 +44,7 @@ And with this one it becomes unusably slow:
 
 ### Step 1: Analyze
 
-First analyze the file. Read the file and try to understand how it is working. For every function in the file, write down (in the commentary above the function) it's current big O complexity.
+First analyze the file. Read the file and try to understand how it is working. For every function in the file, write down (in the commentary above the function) its current big O complexity.
 
 ### Step 2: Improve
 
@@ -56,4 +56,4 @@ It should be possible to make this run very fast (in under a second):
 
 ### Step 3: Analyze (again)
 
-Again for every function write in the commentary it's new big O complexity. Write it down so that it's easy to see both the original complexity and the improved one.
+Again for every function in the file, write in the commentary its new big O complexity. Write it down so that it's easy to see both the original complexity and the improved one.
