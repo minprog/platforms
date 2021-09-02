@@ -14,6 +14,27 @@ SQL:
     Implement Movies: /sql/movies
     Implement Fiftyville: /sql/fiftyville
 
+Data structures:
+    Introduction: /data-structures/
+    "Part 1: Learn about computational complexity":
+        Efficiency (theory): /data-structures/python/efficiency
+        Notebook questions (assignment): /complexity/notebook
+    "Part 2: Data structures and their efficiency":
+        Dictionaries (theory): /data-structures/python/dictionaries/use
+        Dictionaries (practice): /data-structures/python/dictionaries/use/practice
+        Efficiency of dictionaries (theory): /data-structures/python/dictionaries/complexity
+        Efficiency of dictionaries (practice): /data-structures/python/dictionaries/complexity/practice
+        Tuples (theory): /data-structures/python/tuples
+        Sets (theory): /data-structures/python/sets
+        List slicing and indexing (theory): /data-structures/python/slicing
+    "Part 3: How to write efficient code":
+        Applying big O in your code (theory): /data-structures/python/big-o
+        Improving count_occurrence (theory): /data-structures/python/big-o-example
+    "Part 4: Write your own efficient code":
+        Indexing words (assignment): /complexity/word-index
+        Indexing pairs (assignment): /complexity/pair-index
+    Submit your solutions: /submit/complexity
+
 Code Tools:
     Linters:
         Style: "/code_tools/linters/style"
