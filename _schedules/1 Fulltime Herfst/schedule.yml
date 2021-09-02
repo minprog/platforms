@@ -18,7 +18,7 @@ Data structures:
     Introduction: /data-structures/
     "Part 1: Learn about computational complexity":
         Efficiency (theory): /data-structures/python/efficiency
-        Notebook questions (assignment): /complexity/notebook
+        Complexity questions (assignment): /data-structures/questions
     "Part 2: Data structures and their efficiency":
         Dictionaries (theory): /data-structures/python/dictionaries/use
         Dictionaries (practice): /data-structures/python/dictionaries/use/practice
@@ -31,8 +31,8 @@ Data structures:
         Applying big O in your code (theory): /data-structures/python/big-o
         Improving count_occurrence (theory): /data-structures/python/big-o-example
     "Part 4: Write your own efficient code":
-        Indexing words (assignment): /complexity/word-index
-        Indexing pairs (assignment): /complexity/pair-index
+        Indexing words (assignment): /data-structures/word-index
+        Indexing pairs (assignment): /data-structures/pair-index
     Submit your solutions: /submit/complexity
 
 Code Tools:
