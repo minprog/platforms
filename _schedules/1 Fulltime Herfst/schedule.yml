@@ -17,24 +17,24 @@ SQL:
 Data structures:
     Introduction: /data-structures/
     "Part 1: Learn about computational complexity":
-        Efficiency (theory): /data-structures/python/efficiency
-        Complexity questions 1 (assignment): /data-structures/questions1
+        Complexity [theory]: /data-structures/python/efficiency
+        Complexity questions 1 [assignment]: /data-structures/questions1
     "Part 2: Data structures and their efficiency":
-        Dictionaries (theory): /data-structures/python/dictionaries/use
-        Dictionaries (practice): /data-structures/python/dictionaries/use/practice
-        Efficiency of dictionaries (theory): /data-structures/python/dictionaries/complexity
-        Efficiency of dictionaries (practice): /data-structures/python/dictionaries/complexity/practice
-        Tuples (theory): /data-structures/python/tuples
-        Sets (theory): /data-structures/python/sets
-        Sets (practice): /data-structures/python/sets/practice
-        List slicing and indexing (theory): /data-structures/python/slicing
-        Complexity questions 2 (assignment): /data-structures/questions2
+        Dictionaries [theory]: /data-structures/python/dictionaries/use
+        Dictionaries [practice]: /data-structures/python/dictionaries/use/practice
+        Efficiency of dictionaries [theory]: /data-structures/python/dictionaries/complexity
+        Efficiency of dictionaries [practice]: /data-structures/python/dictionaries/complexity/practice
+        Tuples [theory]: /data-structures/python/tuples
+        Sets [theory]: /data-structures/python/sets
+        Sets [practice]: /data-structures/python/sets/practice
+        List slicing and indexing [theory]: /data-structures/python/slicing
+        Complexity questions 2 [assignment]: /data-structures/questions2
     "Part 3: How to write efficient code":
-        Applying big O in your code (theory): /data-structures/python/big-o
-        Improving count_occurrence (theory): /data-structures/python/big-o-example
+        Applying big O in your code [theory]: /data-structures/python/big-o
+        Improving count_occurrence [theory]: /data-structures/python/big-o-example
     "Part 4: Write your own efficient code":
-        Indexing words (assignment): /data-structures/word-index
-        Indexing pairs (assignment): /data-structures/pair-index
+        Indexing words [assignment]: /data-structures/word-index
+        Indexing pairs [assignment]: /data-structures/pair-index
     Submit your solutions: /submit/complexity
 
 Code Tools:
