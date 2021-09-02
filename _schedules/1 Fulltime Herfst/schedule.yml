@@ -26,6 +26,7 @@ Data structures:
         Efficiency of dictionaries (practice): /data-structures/python/dictionaries/complexity/practice
         Tuples (theory): /data-structures/python/tuples
         Sets (theory): /data-structures/python/sets
+        Sets (practice): /data-structures/python/sets/practice
         List slicing and indexing (theory): /data-structures/python/slicing
         Complexity questions 2 (assignment): /data-structures/questions2
     "Part 3: How to write efficient code":

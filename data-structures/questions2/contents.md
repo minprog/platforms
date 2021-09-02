@@ -76,4 +76,21 @@ For determining the complexity of the code below you don't need to take the firs
 
     print(intersection)
 
-<textarea name="form[8]" rows="1" required=""></textarea>
+<textarea name="form[9]" rows="1" required=""></textarea>
+
+
+### Question 10
+
+For determining the complexity of the code below you don't need to take the first three lines into account.
+
+    n = 10
+    my_dict = {}
+    for key in range(n):
+        my_dict[key] = list(range(2 * key, 2 * key + n))
+
+    for i in range(n):
+        my_list = my_dict[i]
+        if i * 5 in my_list:
+            print(i * 5)
+
+<textarea name="form[10]" rows="1" required=""></textarea>
