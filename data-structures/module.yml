@@ -1,0 +1,16 @@
+Introduction: /complexity
+"Part 1: Learn about computational complexity":
+    Efficiency: /python/en/efficiency
+    Notebook questions (assignment): /complexity/notebook
+"Part 2: Data structures and their efficiency":
+    Dictionaries: /python/en/dictionaries
+    Tuples: /python/en/tuples
+    Sets: /python/en/sets
+    List slicing and indexing: /python/en/slicing
+"Part 3: How to write efficient code":
+    Applying big O in your code: /python/en/big-o
+    Improving count_occurrence: /python/en/big-o-example
+"Part 4: Write your own efficient code":
+    Indexing words (assignment): /complexity/word-index
+    Indexing pairs (assignment): /complexity/pair-index
+Submit your solutions: /submit/complexity
