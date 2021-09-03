@@ -38,7 +38,6 @@ Week 3 (Data structures):
         Sets [practice]: /data-structures/python/sets/practice
         List slicing and indexing [theory]: /data-structures/python/slicing
 
-
 Week 4 (Data structures):
     Maandag:
         Applying big O in your code [theory]: /data-structures/python/big-o
@@ -46,31 +45,40 @@ Week 4 (Data structures):
         Complexity questions 2 [assignment]: /data-structures/questions2
     Dinsdag:
         Jaccard [assignment]: /data-structures/jaccard
-    Donderdag:
+    Woensdag:
         Indexing words [assignment]: /data-structures/word-index
     Submit your solutions: /submit/complexity
 
 Week 5 (Scraping Data):
-    Basics:
+    Maandag:
         Pandas: "/scraping-data/pandas"
-    Data Pipeline:
+    Woensdag:
         Scraping: "/scraping-data/scraping"
+    Vrijdag:
         Transforming: "/scraping-data/transforming"
+        
+Week 6 (Scraping Data):
+    Dinsdag:
         Visualizing: "/scraping-data/visualizing"
-    Getting More Data:
+    Donderdag:
         Crawling: "/scraping-data/crawling"
 
 Week 7 (Code Tools):
-    Linters:
+    Maandag (Linters):
         Style: "/code_tools/linters/style"
+    Dinsdag (Linters):
         Cyclomatic Complexity: "/code_tools/linters/cyclomatic_complexity"
-    Type Checkers:
+    Woensdag (Type Checkers):
         Theory: "/code_tools/type_checkers/theory"
         Assignment: "/code_tools/type_checkers/type_hints"
-    Testers:
+    Donderdag (Testers):
         Theory: "/code_tools/testers/theory"
         Rotate: "/code_tools/testers/rotate"
+
+Week 8 (Code Tools):
+    Maandag (Testers):
         Tennis: "/code_tools/testers/tennis"
+    Dinsdag (Testers):
         Cash: "/code_tools/testers/testing"
-    Profilers:
+    Woensdag (Profilers):
         Assignment: "/code_tools/profilers"
