@@ -28,7 +28,7 @@ If you have any questions about the lectures, please post a question!
 
 In this course, we'll use GitHub Classroom to distribute project starter files. To begin this project:
 
-1. [Click here](https://classroom.github.com/a/_ZZS7O_t) to go to the GitHub Classroom page for starting the assignment.
+1. [Click here](https://classroom.github.com/a/fnfmL6vS) to go to the GitHub Classroom page for starting the assignment.
 2. Click the green "Accept this assignment" button. This will create a GitHub repository for your project. Recall that a git repository is just a location where your code will be stored and which can be used to keep track of changes you make to your code over time.
 3. Click on the link that follows "Your assignment has been created here", which will direct you to the GitHub repository page for your project. It may take a few seconds for GitHub to finish creating your repository.
 4. Now, you should be looking at a GitHub repository titled uva-webapps/homepage-username, where username is your GitHub username. This will be the repository to which you will push all of your code while working on your project. You will commit directly to this repository.
@@ -112,8 +112,8 @@ subject to the following requirements:
   staff should know about your project.
 * Also in `README.md`, prominently feature a link to the live GitHub Pages version of your homepage.
 
-Note that not all of the above requirements are covered in [Lecture 0](/lectures/git), some will
-be introduced in [Lecture 1](/lectures/html).
+Note that not all of the above requirements are covered in the [html lecture](/lectures/html), some will
+be introduced in the [git lecture](/lectures/git).
 
 ## How to Submit
 
