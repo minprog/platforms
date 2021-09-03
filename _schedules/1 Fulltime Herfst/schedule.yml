@@ -1,7 +1,7 @@
 Welkom:
     Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
 
-Basics:
+Week 1 (Basics):
     'Videocollege: HTML': /basics/html
     'Videocollege: Git': /basics/git
     'Workshop: Development Enviroment': /basics/workshop
@@ -9,12 +9,12 @@ Basics:
     'Workshop: Using Git in a terminal': /basics/terminal
     'Opdracht: Markdown': /basics/markdown
 
-SQL:
+Week 2 (SQL):
     "Lecture: SQL": /sql/lecture
     Implement Movies: /sql/movies
     Implement Fiftyville: /sql/fiftyville
 
-Data structures:
+Week 3 (Data structures):
     Introduction: /data-structures/
     "Part 1: Learn about computational complexity":
         Complexity [theory]: /data-structures/python/efficiency
@@ -38,7 +38,17 @@ Data structures:
         # Indexing pairs [assignment]: /data-structures/pair-index
     Submit your solutions: /submit/complexity
 
-Code Tools:
+Week 5 (Scraping Data):
+    Basics:
+        Pandas: "/scraping-data/pandas"
+    Data Pipeline:
+        Scraping: "/scraping-data/scraping"
+        Transforming: "/scraping-data/transforming"
+        Visualizing: "/scraping-data/visualizing"
+    Getting More Data:
+        Crawling: "/scraping-data/crawling"
+
+Week 7 (Code Tools):
     Linters:
         Style: "/code_tools/linters/style"
         Cyclomatic Complexity: "/code_tools/linters/cyclomatic_complexity"
@@ -52,14 +62,3 @@ Code Tools:
         Cash: "/code_tools/testers/testing"
     Profilers:
         Assignment: "/code_tools/profilers"
-
-
-Scraping Data:
-    Basics:
-        Pandas: "/scraping-data/pandas"
-    Data Pipeline:
-        Scraping: "/scraping-data/scraping"
-        Transforming: "/scraping-data/transforming"
-        Visualizing: "/scraping-data/visualizing"
-    Getting More Data:
-        Crawling: "/scraping-data/crawling"
