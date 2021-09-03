@@ -2,17 +2,24 @@ Welkom:
     Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
 
 Week 1 (Basics):
-    'Videocollege: HTML': /basics/html
-    'Videocollege: Git': /basics/git
-    'Workshop: Development Enviroment': /basics/workshop
-    'Opdracht: Homepage': /basics/homepage
-    'Workshop: Using Git in a terminal': /basics/terminal
-    'Opdracht: Markdown': /basics/markdown
+    Maandag:
+        'Videocollege: HTML': /basics/html
+        'Workshop: Development Enviroment': /basics/workshop
+    Dinsdag:
+        'Videocollege: Git': /basics/git
+    Woensdag:
+        'Opdracht: Homepage': /basics/homepage
+        'Workshop: Using Git in a terminal': /basics/terminal
+    Donderdag:
+        'Opdracht: Markdown': /basics/markdown
 
 Week 2 (SQL):
-    "Lecture: SQL": /sql/lecture
-    Implement Movies: /sql/movies
-    Implement Fiftyville: /sql/fiftyville
+    Maandag:
+        "Lecture: SQL": /sql/lecture
+    Woensdag:
+        Implement Movies: /sql/movies
+    Vrijdag:
+        Implement Fiftyville: /sql/fiftyville
 
 Week 3 (Data structures):
     Introduction: /data-structures/
