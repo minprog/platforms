@@ -29,7 +29,7 @@ Er zijn iedere week twee werkcolleges op locatie. De tijden en locatie vind je o
 
 Er is een Slack kanaal voor het vak en daarvoor krijg je in de eerste week een uitnodiging. Dit kanaal is bedoeld voor snel asynchroon contact met andere studenten en met de assistenten & docenten.
 
-- Voor vragen over de stof, hulp met programmeren, technische ondersteuning, zijn er naast de werkcolleges op dinsdag, donderdag en vrijdag virtuele office hours van 14:00-16:00 via Zoom. Hiervoor stel je een vraag via het vraagteken op deze website en deel je jouw Zoom-link. 
+- Voor vragen over de stof, hulp met programmeren en technische ondersteuning zijn er op dinsdag, donderdag en vrijdag virtuele office hours van 14:00-16:00 via Zoom. Hiervoor stel je een vraag via het vraagteken op deze website en deel je jouw Zoom-link. 
 - Als je niet weet hoe je een vraag moet stellen of je weet niet hoe je moet beginnen met iets, is Slack de aangewezen plek. 
 - Voor vragen over regeltjes, het maken van persoonlijke afspraken en het op de hoogte houden van de docenten over het later inleveren stuur je een mail naar <help@mprog.nl>.
 
