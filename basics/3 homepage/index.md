@@ -116,6 +116,10 @@ subject to the following requirements:
 Note that not all of the above requirements are covered in the [html lecture](/lectures/html), some will
 be introduced in the [git lecture](/lectures/git).
 
+## Tips
+
+* You can view your webpages offline by opening the `.html` files with your web browser. 
+
 ## How to Submit
 
 You should have submitted your repository's URL while starting the project, in the "Starting the project" section, above!

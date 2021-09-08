@@ -681,7 +681,7 @@ In this course, you'll need a text editor where you can write code locally on yo
 
 *   So far, we've found a few ways to eliminate redundancy in CSS such as moving it to separate files or using bootstrap, but there are still quite a few places where we can still make improvements. For example, what if we want several elements to have different styles, but for all of them to be the same color? If we decide later we want to change the color, then we would have to change it within several different elements.
 *   [Sass](https://sass-lang.com/) is a language that allows us to write CSS more efficiently in several ways, one of which is by allowing us to have variables, as in the following example.
-*   When writing in Sass, we create a new file with the extension `filename.scss`. In this file, we can create a new variable by adding a `<main class="col-md markdown-body" style="margin-bottom: 0px; margin-top: 0px;" before a name, then a colon, then a value. For example, we would write `$color: red` to set the variable color to the value red. We then access that variable using `$color`. Here's an example of our variables.scss file:
+*   When writing in Sass, we create a new file with the extension `filename.scss`. In this file, we can create a new variable by adding a `$` before a name, then a colon, then a value. For example, we would write `$color: red` to set the variable color to the value red. We then access that variable using `$color`. Here's an example of our variables.scss file:
 
 	    $color: red;
 
