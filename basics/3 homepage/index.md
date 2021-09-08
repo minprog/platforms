@@ -113,8 +113,8 @@ subject to the following requirements:
   staff should know about your project.
 * Also in `README.md`, prominently feature a link to the live GitHub Pages version of your homepage.
 
-Note that not all of the above requirements are covered in the [html lecture](/lectures/html), some will
-be introduced in the [git lecture](/lectures/git).
+Note that not all of the above requirements are covered in the [html lecture](/basics/html), some will
+be introduced in the [git lecture](/basics/git).
 
 ## Tips
 
