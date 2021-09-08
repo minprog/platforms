@@ -19,8 +19,8 @@ How to:
 
 Before your do anything else, watch and understand these video lectures:
 
-- Lecture 0, [Git](/lectures/git)
-- Lecture 1, [HTML and CSS](/lectures/html)
+- Lecture 0, [Git](/basics/git)
+- Lecture 1, [HTML and CSS](/basics/html)
 
 If you have any questions about the lectures, please post a question!
 
