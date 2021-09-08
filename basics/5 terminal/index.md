@@ -50,8 +50,6 @@ Sometimes, you may want to use a separate window instead. For example, if you ha
 ### Opening a separate Terminal window - Windows
 Sometimes, you may want to use a separate window instead. For example, if you have a second monitor and want to make more space for your code. On a Windows device, you can open a Terminal window by pressing the Windows Key + R, and then entering 'ubuntu' in the window that appears. After a small wait, a Terminal window should pop up!
 
-> TODO: insert a screenshot when I have access to a Windows machine.
-
 ## Using `cd` to get to the right spot
 When working in a Terminal, you're always working within a certain folder on your device. All the commands you run will run relative to that folder. The selected folder in a Terminal window is called the 'present working directory'. To find out what folder you have selected, simply type the shorthand for that: `pwd`, and press enter.
 
@@ -159,17 +157,6 @@ Ofcourse, it is preferable to just not have any merge conflicts at all. To decre
 - Don't touch code that you don't need to touch. If you want to clean up, discuss with your partners first and preferably do it after everyone has committed any outstanding changes.
 
 But in a way, merge conflicts are inevitable. There will always be times that your work partially overlaps with that of a partner. No worries, just keep practicing!
-
-## Starting a new repo on your own computer
-But what if you already have your project on your device, and want to get it hosted on Github and track your changes from now on? Well, we can do that too. In fact, you can change just about any folder into a repository.
-
-To do so, simply navigate to the folder in the Terminal and run `git init`. It should immediately initialize a local repository, and you can now commit files as normal.
-
-To get your repository onto Github, though, you need to take an extra step. Run `gh repo create`, and follow the prompts. 
-
-![](create.png)
-
-Tadaa! It's that simple. Your repository is now online, you can find it in your Github account. It takes only a few seconds.
 
 ## Finally...
 With git and Github, working on code together becomes much easier. All changes are tracked and conflicts are resolved automatically as much as possible. In addition, you're now more familiar with the Terminal, which is will come in very useful for a variety of different tasks and tools. 
