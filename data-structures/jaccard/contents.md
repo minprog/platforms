@@ -1,12 +1,12 @@
 # Jaccard
 
-For this assignment you will compare the similarity between two texts. Is *Dracula* of Bram Stoker, more similar to the work of Shakespeare or to the script of La La Land?
+For this assignment you will compare the similarity between two texts. Is *Dracula* of Bram Stoker, more similar to the work of Shakespeare or to the script of *La La Land*?
 
-We will already provide you with some code that can compute the similarities between texts, based on the [Jaccard index](https://en.wikipedia.org/wiki/Jaccard_index). The problem is, this code is not very efficient. Your goal is to improve the code.
+We will already provide you with some code that can compute the similarities between texts, based on the [Jaccard index](https://en.wikipedia.org/wiki/Jaccard_index). The problem is, this code is not very efficient. Your goal is to improve it.
 
 ## Jaccard index
 
-The Jaccard index is metric to determine the similarity between two texts. Say we have two texts:
+The Jaccard index is a metric to determine the similarity between two texts. Say we have two texts:
 
 - Text 1: "A cat is not a caterpillar."
 - Text 2: "My cat is a cat."
