@@ -30,8 +30,8 @@ Below you can find some solutions.
 
 **Exercise 1**
 
-    firstSet = set([23, 42, 65, 57, 78, 83, 29])
-    secondSet = set([57, 83, 29, 67, 73, 43, 48])
+    firstSet = set([23, 42, 65, 57, 78, 83, 29]) # or firstSet = {23, 42, 65, 57, 78, 83, 29}
+    secondSet = set([57, 83, 29, 67, 73, 43, 48]) # or secondSet = {57, 83, 29, 67, 73, 43, 48}
 
 **Exercise 2**
 
