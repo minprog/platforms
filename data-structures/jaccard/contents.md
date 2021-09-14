@@ -22,7 +22,7 @@ To compute the Jaccard index, we divide the size of the *intersection* of both b
 
 - The intersection of both bags of words is: {*a, cat, is*}, containing 3 elements.
 - The union of both bags of words is: {*my, a, cat, is, not, caterpillar*}, containing 6 elements.
-- So the Jaccard index is $$3/6=0.5$$
+- So, the Jaccard index is $$3/6=0.5$$
 
 Mathematically you write this:
 
@@ -40,7 +40,7 @@ You can run the code like this:
     $ python jaccard.py texts/cat.txt texts/cat2.txt
     Jaccard index of texts/cat.txt and texts/cat2.txt: 0.500
 
-Unfortunately the code is not particularly well written. It is very slow, and overly complicated. The files in the example above are very small, so in this case the code still runs quite fast. But if you try some other examples you'll see the problem. This one takes much more time:
+Unfortunately, the code is not particularly well written. It is very slow, and overly complicated. The files in the example above are very small, so in this case the code still runs quite fast. But if you try some other examples, you'll see the problem. This one takes much more time:
 
     $ python jaccard.py texts/her.txt texts/grimm.txt
 
@@ -58,7 +58,7 @@ First analyze the file. Read the file and try to understand how it is working. F
 
 ### Step 2: Improve
 
-By making clever use of existing Python data structures you can both make the code more elegant (simpler and easier to read) and much, much more efficient.
+By making clever use of existing Python data structures, you can both make the code more elegant (simpler and easier to read) and much, much more efficient.
 
 It should be possible to make this run very fast (in under a second):
 
@@ -66,4 +66,4 @@ It should be possible to make this run very fast (in under a second):
 
 ### Step 3: Analyze (again)
 
-Again for every function in the file, write in the commentary its new big O complexity. Write it down so that it's easy to see both the original complexity and the improved one.
+Again, for every function in the file, write in the commentary its new big O complexity. Write it down so that it's easy to see both the original complexity and the improved one.

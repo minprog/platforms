@@ -11,7 +11,7 @@ The goal is to be able to search a word in a given text. The program should show
 
 ## Example
 
-For example if we want to find the word "dinner" in the collected works of Jane Austen:
+For example, if we want to find the word "dinner" in the collected works of Jane Austen:
 
     $ python word_index.py texts/austen.txt
     Index built for texts/austen.txt. Type the word you want to look up.
@@ -23,16 +23,16 @@ For example if we want to find the word "dinner" in the collected works of Jane 
 
 ## Get started
 
-Download the assignment files [here](word_index.zip). Unzip the module into *the same directory as the `jaccard` assignment*. This zip file contains two file:
+Download the assignment files [here](word_index.zip). Unzip the module into *the same directory as the `jaccard` assignment*. This zip file contains two files:
 
 - `word_index.py`: This contains already quite a bit of starting code. You will have to fill in the missing pieces.
-- `stopwords.txt`: This contains a list of words that can be ignored by the indexing system. (So we don't have to index a gazillion occurrences of, for example, the word "the".)
+- `stopwords.txt`: This contains a list of words that can be ignored by the indexing system. (So, we don't have to index a gazillion occurrences of, for example, the word "the".)
 
 ## Functions:
 
-The code contains a number of predefined functions. Some of them are not completely finished and are up to you to complete.
+The code contains several predefined functions. Some of them are not finished yet and are up to you to complete.
 
-* `read_stopwords()`: This function is partly implemented, but should be finished by you. Read all the stopwords from the file "stopwords.txt" and returns a collection of those stopwords.
+* `read_stopwords()`: This function is partly implemented, but should be finished by you. Read all the stop words from the file "stopwords.txt" and returns a collection of those stop words.
 
 * `convert_word()`: This function is already implemented for you. It strips a word from all punctuation, whitespace, and digits. And it converts the word to lowercase.
 
@@ -40,7 +40,7 @@ The code contains a number of predefined functions. Some of them are not complet
 
     * For each word in the file, the index should contain a record of all line numbers where this word occurs.
     * Words should be cleaned by `convert_words()`
-    * Empty strings and stopwords should not be indexed.
+    * Empty strings and stop words should not be indexed.
 
 * `search_index()`: This function should be implemented by you. Search the index on a specific word. Returns all the lines where the word occurs.
 
@@ -57,7 +57,7 @@ Implement the missing parts of the functions above.
 
 Test your code by running it on the example at the top of the page.
 
-Try some example for yourself.
+Try some examples for yourself.
 
 What happens if you search a word that does not appear in the text?
 
