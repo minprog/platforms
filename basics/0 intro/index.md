@@ -1,0 +1,7 @@
+# Introduction
+
+In this module you will learn the basics. We will start with setting up your own development environment with which you will get intimately familiar throughout the course. During this course you will work on a Unix-like platform. No worries if you happen to have a Chromebook or a Windows machine in front of you, with Linux on Chrome and the Windows Subsystem for Linux (WSL) there is no need to install Linux.
+
+Next is the web, the basics of HTML, CSS, Bootstrap and Markdown. You will learn how to set up a static website and host it on GitHub Pages. Great for a quick profile page for yourself, or to host some documentation on your own homegrown (programming) projects. Within no time you will able to create and launch a simple website.
+
+Throughout the course we will work with a version control system called `git`. Git is incredibly popular and for good reasons too! Through this system you can easily create versions of your code, share your code with the world, and collaborate with others. The use of `git` is similar to `Dropbox`, `Google Drive`, `Apple Cloud` or other such services. Except it is much more manual. You, the programmer are in complete control of when to create versions and when to share these with the world. This control does come with a price: `git` has a somewhat steep learning curve and does require some practice (and patience) to learn. For this reason we will use `git` throughout the course, from start to finish for just about every assignment.
