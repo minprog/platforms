@@ -26,44 +26,40 @@ Week 3 (Data structures):
     Maandag:
         Complexity [theory]: /data-structures/python/efficiency
         Complexity questions 1 [assignment]: /data-structures/questions1
-    Dinsdag:
         Dictionaries [theory]: /data-structures/python/dictionaries/use
         Dictionaries [practice]: /data-structures/python/dictionaries/use/practice
-    Woensdag:
         Efficiency of dictionaries [theory]: /data-structures/python/dictionaries/complexity
         Efficiency of dictionaries [practice]: /data-structures/python/dictionaries/complexity/practice
-    Donderdag:
+    Dinsdag:
         Tuples [theory]: /data-structures/python/tuples
         Sets [theory]: /data-structures/python/sets
         Sets [practice]: /data-structures/python/sets/practice
         List slicing and indexing [theory]: /data-structures/python/slicing
-
-Week 4 (Data structures):
-    Maandag:
+    Woensdag:
         Applying big O in your code [theory]: /data-structures/python/big-o
         Improving count_occurrence [theory]: /data-structures/python/big-o-example
         Complexity questions 2 [assignment]: /data-structures/questions2
-    Dinsdag:
+    Donderdag:
         Jaccard [assignment]: /data-structures/jaccard
-    Woensdag:
+    
+Week 4 (Data structures & Scraping Data):
+    Maandag:
         Indexing words [assignment]: /data-structures/word-index
-    Submit your solutions: /submit/complexity
+    Woensdag:
+        Pandas: "/scraping-data/pandas"
+    Vrijdag:
+        Scraping: "/scraping-data/scraping"
+    # Submit your solutions: /submit/complexity
 
 Week 5 (Scraping Data):
     Maandag:
-        Pandas: "/scraping-data/pandas"
-    Woensdag:
-        Scraping: "/scraping-data/scraping"
-    Vrijdag:
         Transforming: "/scraping-data/transforming"
-        
-Week 6 (Scraping Data):
-    Dinsdag:
+    Woensdag:
         Visualizing: "/scraping-data/visualizing"
     Donderdag:
         Crawling: "/scraping-data/crawling"
-
-Week 7 (Code Tools):
+    
+Week 6 (Code Tools):
     Maandag (Linters):
         Style: "/code_tools/linters/style"
     Dinsdag (Linters):
@@ -75,7 +71,7 @@ Week 7 (Code Tools):
         Theory: "/code_tools/testers/theory"
         Rotate: "/code_tools/testers/rotate"
 
-Week 8 (Code Tools):
+Week 7 (Code Tools):
     Maandag (Testers):
         Tennis: "/code_tools/testers/tennis"
     Dinsdag (Testers):
