@@ -1,6 +1,6 @@
 # Introduction
 
-In this module you will learn the basics. We will start with setting up your own development environment with which you will get intimately familiar throughout the course. During this course you will work on a Unix-like platform. No worries if you happen to have a Chromebook or a Windows machine in front of you, with Linux on Chrome and the Windows Subsystem for Linux (WSL) there is no need to install Linux.
+In this module you will learn the basics. We will start with setting up your own development environment with which you will get intimately familiar throughout the course. During this course you will do most of your work on a Unix-like platform. No worries if you happen to have a Chromebook or a Windows machine in front of you, with Linux on Chrome and the Windows Subsystem for Linux (WSL) there is no need to install Linux.
 
 Next is the web, the basics of HTML, CSS, Bootstrap and Markdown. You will learn how to set up a static website and host it on GitHub Pages. Great for a quick profile page for yourself, or to host some documentation on your own homegrown (programming) projects. Within no time you will able to create and launch a simple website.
 
