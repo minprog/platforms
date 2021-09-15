@@ -59,7 +59,6 @@ You're welcome to check your queries' results against [IMDb](https://www.imdb.co
     * Your query should output a table with a single column for the name of each person.
     * People with the same birth year may be listed in any order.
     * No need to worry about people who have no birth year listed, so long as those who do have a birth year are listed in order.
-    * If a person appeared in more than one movie in 2004, they should only appear in your results once.
 1. In `10.sql`, write a SQL query to list the names of all people who have directed a movie that received a rating of at least 9.0.
     * Your query should output a table with a single column for the name of each person.
 1. In `11.sql`, write a SQL query to list the titles of the five highest rated movies (in order) that Chadwick Boseman starred in, starting with the highest rated.
