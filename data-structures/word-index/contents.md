@@ -23,7 +23,15 @@ For example, if we want to find the word "dinner" in the collected works of Jane
 
 ## Get started
 
-Download the assignment files [here](word_index.zip). Unzip the module into *the same directory as the `jaccard` assignment*. This zip file contains two files:
+First, accept the assignment on [Github Classroom](https://classroom.github.com/a/wQffu0dA). Click on the green "Clone or download" button. Copy the "Clone with HTTPS" link to your clipboard (if familiar with SSH, you can use that instead). `cd` to a directory where you want to put your project and run
+
+    git clone repository_url indexing_words
+
+where `repository_url` is the link you just copied from GitHub. You might be prompted for your GitHub username and password.
+
+Go ahead and run `cd indexing_words` to enter your repository.
+
+You'll find two files:
 
 - `word_index.py`: This contains already quite a bit of starting code. You will have to fill in the missing pieces.
 - `stopwords.txt`: This contains a list of words that can be ignored by the indexing system. (So, we don't have to index a gazillion occurrences of, for example, the word "the".)
@@ -78,3 +86,8 @@ single word in the index? Explain your answer.
 What is the complexity of the function `create_index()`? Explain your answer.
 
 <textarea name="form[2]" rows="1" required=""></textarea>
+
+
+## How to Submit
+
+Submit your repository URL below. This should look something like: `https://github.com/minprog-platforms/your_repo_name`.
