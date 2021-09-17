@@ -40,13 +40,13 @@ In this course, we'll use GitHub Classroom to distribute project starter files. 
 
 Okay, let's add a simple webpage to your repository. First, on your working repository page (https://github.com/uva-webapps/homepage-username), click on the green "Clone or download" button. Copy the "Clone with HTTPS" link to your clipboard (if familiar with SSH, you can use that instead).
 
-Open "Git Bash" on Windows or the "Terminal" on macOS.
+Open the Terminal.
 
 `cd` to a directory where you want to put your project and run
 
     git clone repository_url homepage
 
-where `repository_url` is the link you just copied from GitHub. You will be prompted for your GitHub username and password
+where `repository_url` is the link you just copied from GitHub. You might be prompted for your GitHub username and password.
 
 
 Go ahead and run `cd homepage` to enter your repository. Now, run

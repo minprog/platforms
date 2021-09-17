@@ -34,8 +34,17 @@ Where $$A$$ and $$B$$ are the bags of words.
 
 ## Assignment
 
-We've written some code that computes the Jaccard index of two text files. You can download the code here: [jaccard.zip](jaccard.zip)
-You can run the code like this:
+We've written some code that computes the Jaccard index of two text files.
+
+First, accept the assignment on [Github Classroom](https://classroom.github.com/a/1TVdRzPh). Click on the green "Clone or download" button. Copy the "Clone with HTTPS" link to your clipboard (if familiar with SSH, you can use that instead). `cd` to a directory where you want to put your project and run
+
+    git clone repository_url jaccard
+
+where `repository_url` is the link you just copied from GitHub. You might be prompted for your GitHub username and password.
+
+Go ahead and run `cd jaccard` to enter your repository.
+
+You can run the program like so:
 
     $ python jaccard.py texts/cat.txt texts/cat2.txt
     Jaccard index of texts/cat.txt and texts/cat2.txt: 0.500
@@ -60,10 +69,14 @@ First analyze the file. Read the file and try to understand how it is working. F
 
 By making clever use of existing Python data structures, you can both make the code more elegant (simpler and easier to read) and much, much more efficient.
 
-It should be possible to make this run very fast (in under a second):
+It is possible to make this run very fast (in under a second):
 
     $ python jaccard.py texts/holmes.txt texts/shakespeare.txt
 
 ### Step 3: Analyze (again)
 
 Again, for every function in the file, write in the commentary its new big O complexity. Write it down so that it's easy to see both the original complexity and the improved one.
+
+## How to Submit
+
+Submit your repository URL below. This should look something like: `https://github.com/minprog-platforms/your_repo_name`.
