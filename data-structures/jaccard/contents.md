@@ -67,7 +67,7 @@ First analyze the file. Read the file and try to understand how it is working. F
 
 ### Step 2: Improve
 
-By making clever use of existing Python data structures, you can both make the code more elegant (simpler and easier to read) and much, much more efficient.
+By making clever use of existing Python data structures, you can make the code more elegant (simpler and easier to read) and much, much more efficient.
 
 It is possible to make this run very fast (in under a second):
 
