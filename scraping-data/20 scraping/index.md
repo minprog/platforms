@@ -16,7 +16,7 @@ Admittedly a much less catchy question.
 
 ## Provided code
 
-We've provided some code to get you started. Download it here: [scraping.zip](../code/scraping.zip)
+We've provided some code to get you started. Accept [this GitHub classroom invite](https://classroom.github.com/a/nPKjKQym)
 
 ## Libraries
 
@@ -222,3 +222,7 @@ You should wind up with a large (thousands of lines) `.csv` file, like this:
 ## Done
 
 In the next part we will focus on transforming the data.
+
+## How to Submit
+
+Submit your repository URL below. This should look something like: `https://github.com/minprog-platforms/your_repo_name`.

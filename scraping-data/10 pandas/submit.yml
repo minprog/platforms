@@ -1,0 +1,4 @@
+name: pandas
+files:
+    required:
+        - pandas.ipynb
