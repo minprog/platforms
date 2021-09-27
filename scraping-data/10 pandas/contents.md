@@ -13,11 +13,9 @@ It also allows to alternate code with text and explanation. The exercises will b
 
 ## Installing Jupyter (if needed)
 
-If you are running Anaconda, you can use the `conda` command to to install *Jupyter*. In your (anaconda) terminal, type:
+        pip install notebook
 
-    conda install -c conda-forge jupyterlab
-
-If you didn't install *Python* using *Anaconda*, follow the *Jupyter* installation instructions [here](https://jupyter.org/install).
+Or follow the *Jupyter* installation instructions [here](https://jupyter.org/install).
 
 
 ## Download assignment
