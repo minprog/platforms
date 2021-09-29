@@ -47,10 +47,13 @@ The code contains several predefined functions. Some of them are not finished ye
 * `create_index()`: This function should be implemented by you. It creates an index for all words in the input file.
 
     * For each word in the file, the index should contain a record of all line numbers where this word occurs.
+    * The type of data structure you plan to use for this index is up to you. But you have to make sure that the function `search_index()` can use it to find the line numbers of a given word.
     * Words should be cleaned by `convert_words()`
     * Empty strings and stop words should not be indexed.
 
 * `search_index()`: This function should be implemented by you. Search the index on a specific word. Returns all the lines where the word occurs.
+
+    * The functions `create_index()` and `search_index()` depend on each other. So, whatever data structure you chose as index in the first function (`book_index = create_index(sys.argv[1], stopwords)`) will be used by the second function to find all the line numbers (`line_numbers = search_index(searched_word, book_index)`.
 
 * `show_search_results()`: This function should be implemented by you. Neatly print the search results.
 
