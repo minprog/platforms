@@ -35,6 +35,12 @@ assignment and run the command
 This will print some information about the *Notebook* server in your console,
 and automatically open a web browser to the URL of the web application.
 
+### Alternative: Visual Studio Code for Notebooks
+
+Visual Studio Code (VSC) has built-in support for Jupyter Notebooks. Simply open up the notebook file (`pandas.ipynb`) with VSC and you will find a similar interface to the default Jupyter interface. It is a matter of preference as to what to use. That said, VSC does come with helpful hints and auto-completion!
+
+Quick note, upon using VSC for notebooks for the first time, you will prompted to select a so called "kernel" in order to actually run Python code. This kernel is just the version of Python you want to use to run your code. Be sure to select the version of Python that has Jupyter installed. But no worries if you happen to select the wrong one, you can always change this later by simply clicking on the Python version in the top right corner.
+
 ## Complexity Questions
 
 Now open the notebook called *pandas.ipynb* by navigating to
