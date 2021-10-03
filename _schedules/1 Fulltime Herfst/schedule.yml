@@ -46,18 +46,18 @@ Week 4 (Scraping Data):
     Maandag:
         Indexing words [assignment]: /data-structures/word-index
     Woensdag:
-        Pandas: "/scraping-data/pandas"
+        Pandas [assignment]: "/scraping-data/pandas"
     Vrijdag:
-        Scraping: "/scraping-data/scraping"
+        Scraping [assignment]: "/scraping-data/scraping"
     # Submit your solutions: /submit/complexity
 
 Week 5 (Scraping Data):
     Maandag:
-        Transforming: "/scraping-data/transforming"
+        Transforming [assignment]: "/scraping-data/transforming"
     Woensdag:
-        Visualizing: "/scraping-data/visualizing"
+        Visualizing [assignment]: "/scraping-data/visualizing"
     Donderdag:
-        Crawling: "/scraping-data/crawling"
+        Crawling [assignment]: "/scraping-data/crawling"
     
 Week 6 (Code Tools):
     Maandag (Linters):
