@@ -33,8 +33,13 @@ How many lines do you expect the file to have?
 
 Does the top 5 in your file correspond to what you find on IMDB?
 
-> You can manipulate the dates in the link (https://www.imdb.com/search/title/?title_type=feature&release_date=1930-01-01,2020-01-01&num_votes=5000,&sort=user_rating,desc&start=1&view=advanced) to have IMDB generate a top 50 for a specific year.
+> You can manipulate the dates in the URL (`https://www.imdb.com/search/title/?title_type=feature&release_date=1930-01-01,2020-01-01&num_votes=5000,&sort=user_rating,desc&start=1&view=advanced`) to have IMDB generate a top 50 for a specific year.
 
 ## Done
 
 In the next step you'll visualize the date to finally answer the question: What year had the best average IMDB rating for it's top 5 movies?
+
+## How to submit
+
+Add `extract.py` to your git repository from the Scraping assignment. Then share the URL to your repository at GitHub once again below. This should look something like: `https://github.com/minprog-platforms/your_repo_name`.
+

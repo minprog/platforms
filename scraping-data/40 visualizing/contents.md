@@ -63,4 +63,8 @@ Looking at your plot, which actor was the most influential?
 
 ## Done
 
-In the next assignment we're going to look at the representation of languages in the top movies. This is very similar to what we've done so far, but will require an additional step (web crawling). 
+In the next assignment we are going to look at the representation of languages in the top movies. This is similar to what we have done so far, but will require an additional step (web crawling). 
+
+## How to submit
+
+Add `visualize_years.py` and `visualize_actors.py` to your git repository from the Scraping assignment. Then share the URL to your repository at GitHub once again below. This should look something like: `https://github.com/minprog-platforms/your_repo_name`.
