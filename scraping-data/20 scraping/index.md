@@ -203,7 +203,7 @@ Adapt your code to collect the top N rated movies.
 
 When we run your program:
 
-    $ python scraper.py -s 1930 -e 2020 -m 5 data/movies.csv
+    $ python scraper.py -s 1930 -e 2020 data/movies.csv
 
 You should wind up with a large (thousands of lines) `.csv` file, like this:
 
