@@ -3,23 +3,23 @@ Welkom:
 
 Week 1 (Basics):
     Maandag:
-        'Videocollege: HTML': /basics/html
-        'Workshop: Development Enviroment': /basics/workshop
+        'Videocollege: HTML [theory]': /basics/html
+        'Workshop: Development Enviroment [practice]': /basics/workshop
     Dinsdag:
-        'Videocollege: Git': /basics/git
+        'Videocollege: Git [theory]': /basics/git
     Woensdag:
-        'Opdracht: Homepage': /basics/homepage
-        'Workshop: Using Git in a terminal': /basics/terminal
+        'Opdracht: Homepage [assignment]': /basics/homepage
+        'Workshop: Using Git in a terminal [practice]': /basics/terminal
     Donderdag:
-        'Opdracht: Markdown': /basics/markdown
+        'Opdracht: Markdown [assignment]': /basics/markdown
 
 Week 2 (SQL):
     Maandag:
-        "Lecture: SQL": /sql/lecture
+        "Lecture: SQL [theory]": /sql/lecture
     Dinsdag:
-        Implement Movies: /sql/movies
+        "Implement Movies [assignment]": /sql/movies
     Donderdag:
-        Implement Fiftyville: /sql/fiftyville
+        "Implement Fiftyville [assignment]": /sql/fiftyville
 
 Week 3 (Data structures):
     # Introduction: /data-structures/
