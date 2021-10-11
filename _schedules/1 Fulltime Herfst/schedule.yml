@@ -61,15 +61,15 @@ Week 5 (Scraping Data):
     
 Week 6 (Code Tools):
     Maandag (Linters):
-        Style: "/code_tools/linters/style"
+        Style [assignment]: "/code_tools/linters/style"
     Dinsdag (Linters):
-        Cyclomatic Complexity: "/code_tools/linters/cyclomatic_complexity"
+        Cyclomatic Complexity [assignment]: "/code_tools/linters/cyclomatic_complexity"
     Woensdag (Type Checkers):
-        Theory: "/code_tools/type_checkers/theory"
-        Assignment: "/code_tools/type_checkers/type_hints"
+        Theory [theory]: "/code_tools/type_checkers/theory"
+        Assignment [assignment]: "/code_tools/type_checkers/type_hints"
     Donderdag (Testers):
-        Theory: "/code_tools/testers/theory"
-        Rotate: "/code_tools/testers/rotate"
+        Theory [theory]: "/code_tools/testers/theory"
+        Rotate [assignment]: "/code_tools/testers/rotate"
 
 Week 7 (Code Tools):
     Maandag (Testers):
