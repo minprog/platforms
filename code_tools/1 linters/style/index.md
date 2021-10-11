@@ -60,9 +60,7 @@ By appending `# noqa: E501` to the end of the line, `flake8` will ignore this li
 
 ## What to do
 
-> # TODO github classroom link here
-
-> # TODO supply own alternative code sample in case Python is new
+Accept [this GitHub Classroom assignment](https://classroom.github.com/a/8sJ_R49R)
 
 Take an old Python assignment of at least `100` LOC (lines of code) and make it compliant with PEP 8. Use `flake8` to check for any style errors. We will check for any type errors with this command:
 
@@ -71,3 +69,7 @@ Take an old Python assignment of at least `100` LOC (lines of code) and make it 
 You are free to ignore specific style errors in the code itself through `# noqa`. If you do, briefly elaborate below why you ignored that error.
 
 <textarea name="form[q1]" rows="5" required=""></textarea>
+
+## How to Submit
+
+Submit your repository URL below. This should look something like: `https://github.com/minprog-platforms/your_repo_name`.
