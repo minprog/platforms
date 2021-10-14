@@ -1,10 +1,11 @@
 # Windows: Installing using WSL
 
-To develop web apps you need some tools on your laptop. This guide helps you with installing al these tools.
+To develop with Python you need some tools on your laptop. This guide helps you with installing al these tools.
 
 We will be using the [_Windows Subsystem for Linux 2_](https://aka.ms/wsl2).
 
 Note: These instruction are written for Windows 10 and 11. If you're using Windows 8 or older please follow [these](/basics/workshop/windows8) instructions.
+
 
 # Step 1: Install the Windows Subsystem for Linux
 
@@ -17,7 +18,8 @@ Run:
 
 This will install the Windows Subsystem for Linux and Ubuntu
 
-<details markdown="1"><summary markdown="span">Old instructions (if the command above is not recognized)</summary>
+<details markdown="1"><summary markdown="span">Old instructions (only if the command above is not recognized)</summary>
+
 
 ### Step 1.1: Install the Windows Subsystem for Linux
 
@@ -30,7 +32,7 @@ This will install the Windows Subsystem for Linux.
 
 ### Step 1.2: Update to WSL 2
 
-The get better performance we want the upgrade to WSL 2.
+To get better performance we want the upgrade to WSL 2.
 
 Run:
 
@@ -43,7 +45,7 @@ Then enable WSL2:
     wsl --set-default-version 2
 
 This might result in `WSL 2 requires an update to its kernel component. For information please visit https://aka.ms/wsl2kernel`.
-Go to [https://aka.ms/wsl2kernel](https://aka.ms/wsl2kernel) and install the update and retry the command above.
+Go to <https://aka.ms/wsl2kernel> and install the update and retry the command above.
 
 
 ### Step 1.3: Install Ubuntu for WSL
@@ -58,7 +60,8 @@ Go to [https://aka.ms/wsl2kernel](https://aka.ms/wsl2kernel) and install the upd
 
 </details>
 
-## Step 2: Install Python, Pip, Sass and Django
+
+## Step 2: Install Python, Pip, Sass and Requests
 
 Run:
 
@@ -68,9 +71,9 @@ This will install Pip (Python's package manager) and Sass.
 
 Run:
 
-    pip3 install django
+    pip3 install requests
 
-This will install the Python package _Django_.
+This will install the Python package _Requests_.
 
 
 ## Step 3: Install a text editor
