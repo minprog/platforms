@@ -1,11 +1,11 @@
 # macOS: Installing
 
-To develop web apps you need some tools on you laptop. This guide helps you with installing al these tools.
+To develop with Python you need some tools on you laptop. This guide helps you with installing al these tools.
 
 
 ## Step 1: Install Command Line Tools
 
-Open the Terminal app (press `⌘Space`, type terminal and press enter).
+Open the Terminal app (press `⌘-Space`, type terminal and press enter).
 
 Run
 
@@ -14,7 +14,7 @@ Run
 and click "Install".
 
 If you're getting an error message, try installing it manually.
-Goto <https://developer.apple.com/download/more/?name=Command%20Line%20Tools%20for%20Xcode>.
+Goto <https://developer.apple.com/download/all/?q=Command%20Line%20Tools%20for%20Xcode>.
 Download and install the latest non-beta version from this page.
 
 
@@ -39,6 +39,7 @@ to install Homebrew.
 
     But please execute the lines you'll see in your terminal, they can be slightly different!
 
+
 ## Step 3: Python
 
 Open the Terminal app and run
@@ -46,6 +47,16 @@ Open the Terminal app and run
     brew install python
 
 to install python.
+
+Run:
+
+    pip3 install requests
+
+This will install the Python package _Requests_.
+
+> Please note that _only_ `python3`/`pip3` will open the right version of Python.
+> Always run your program with `python3` and install packages with `pip3` otherwise you will use an old version!
+
 
 ## Step 4: Sass
 
