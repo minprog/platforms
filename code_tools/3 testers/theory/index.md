@@ -43,7 +43,7 @@ Effectively unit testing does not need to be much more than writing a script tha
 
 Now we could write a seperate script to automatically test this for us. Let's say we create a file called `test_median.py`:
 
-    from median import median
+    from median import get_median
     
     items = [1,2,3,4,5]
     expected_median = 3
