@@ -1,4 +1,4 @@
-# Programmeerplatforms<br><small>Studiewijzer Fulltime, Herfst 2021</small>
+# Programmeerplatforms<br><small>Studiewijzer Parttime, Herfst 2021</small>
 
 In dit vak maak je kennis met verschillende platforms om programmeerproblemen aan te pakken. Dit is een breed vak met een focus op het gebruiken tools en technieken uit de professionele wereld. De platforms zijn geschikt om uiteenlopende problemen te benaderen, van dataverwerking tot aan webprogrammeren. Soms gebruik je één platform voor een probleem en soms kun je er meerdere samen gebruiken. Daarnaast word je bekend met Unix en allerlei verschillende command-line tools zodat je steeds beter grip hebt op jouw ontwikkelomgeving. Gedurende het hele vak bouw je ervaring op met versiebeheer via git en kom je in aanraking met allerlei tools en technieken om betere code te schrijven, zoals linters, unit testing, type checkers en profilers.
 
