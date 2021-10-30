@@ -1,4 +1,4 @@
-# Programmeerplatforms<br><small>Studiewijzer Parttime, Herfst 2021</small>
+# Programmeerplatforms<br><small>Studiewijzer Fulttime, Herfst 2021</small>
 
 In dit vak maak je kennis met verschillende platforms om programmeerproblemen aan te pakken. Dit is een breed vak met een focus op het gebruiken tools en technieken uit de professionele wereld. De platforms zijn geschikt om uiteenlopende problemen te benaderen, van dataverwerking tot aan webprogrammeren. Soms gebruik je één platform voor een probleem en soms kun je er meerdere samen gebruiken. Daarnaast word je bekend met Unix en allerlei verschillende command-line tools zodat je steeds beter grip hebt op jouw ontwikkelomgeving. Gedurende het hele vak bouw je ervaring op met versiebeheer via git en kom je in aanraking met allerlei tools en technieken om betere code te schrijven, zoals linters, unit testing, type checkers en profilers.
 
@@ -10,7 +10,7 @@ Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze 
 
 ## Onderwerpen
 
-Er komen vijf verschillende modules voorbij met uiteenlopende onderwerpen:
+We behandelen vijf verschillende modules met uiteenlopende onderwerpen:
 
 1. **Basics**, het opzetten van een ontwikkelomgeving, het gebruik van git, het opzetten van een webpagina en het schrijven van een README
 2. **SQL**, het leren gebruiken van een relationele database
@@ -18,34 +18,23 @@ Er komen vijf verschillende modules voorbij met uiteenlopende onderwerpen:
 4. **Scraping & Data analyse**, automatisch data vergaren vanaf het web en deze transformeren en visualiseren
 5. **Code Tools**, stijl in orde krijgen met linters, type checkers, software testen en run-time performance analyseren met profilers
 
-Modules 1 en 2 duren ieder een week en de overige modules duren ieder twee weken. Dit zal je ook terugzien in de weekindeling in de kantlijn.
+
+## Docenten en assistenten
+
+De docenten bij dit vak zijn Jelle van Assema en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op help@mprog.nl.
+
+Daarnaast zijn er veel student-assistenten, die de cursus goed kennen en jou gaan helpen op de momenten dat het nodig is. Eén van de assistenten zal daarnaast je mentor zijn, die je wekelijks ziet bij de werkgroep en die bovendien je werk nakijkt.
 
 
-## Docenten en contact
-
-Je docent is Jelle van Assema.
-
-Er zijn iedere week twee werkcolleges op locatie. De tijden en locatie vind je op [datanose.nl/#course[99713]](https://datanose.nl/#course[99713]).
-
-Er is een Slack kanaal voor het vak en daarvoor krijg je in de eerste week een uitnodiging. Dit kanaal is bedoeld voor snel asynchroon contact met andere studenten en met de assistenten & docenten.
-
-- Voor vragen over de stof, hulp met programmeren en technische ondersteuning zijn er op dinsdag, donderdag en vrijdag virtuele office hours van 14:00-16:00 via Zoom. Hiervoor stel je een vraag via het vraagteken op deze website en deel je jouw Zoom-link. 
-- Als je niet weet hoe je een vraag moet stellen of je weet niet hoe je moet beginnen met iets, is Slack de aangewezen plek. 
-- Voor vragen over regeltjes, het maken van persoonlijke afspraken en het op de hoogte houden van de docenten over het later inleveren stuur je een mail naar <help@mprog.nl>.
-
-
-## Verwachtingen
-
-Bij dit vak werk je aan verschillende soorten opdrachten:
-
-* **Samenwerkopdrachten** doe je samen met een medestudent. Deze opdrachten helpen je met het inkomen in een nieuwe tool of techniek.
-* **Individuele opdrachten** bouwen op die ervaring. Je doet ze alleen, waarbij je altijd hulp kunt krijgen van de docenten en assistenten.
+## Minimumeisen
 
 Alle opdrachten netjes af en werkend inleveren is de basiseis om het vak te halen. Daarnaast is het nodig dat je *zichtbaar* actief meedoet en leert van het vak. Dat doe je onder andere op de volgende manieren:
 
-1. meedoen aan alle wekelijkse werkcolleges
-2. actief vragen stellen of beantwoorden via Slack of video-assistentie
-3. laag scoren op de “plagiaatschaal”
+1. meedoen aan alle wekelijkse werkgroepen
+1. enkele keren individueel contact met je mentor
+1. regelmatig contact met assistenten over je opdrachten (hulp vragen!)
+1. laag scoren op de “plagiaatschaal”
+1. algemene aanwezigheid van 9 tot 17 uur
 
 Op die manier kunnen we een goed beeld vormen van jouw voortgang en constateren dat je aan de leerdoelen van het vak hebt voldaan. Er is daarom ook niet voorzien in een schriftelijk tentamen. Dat is natuurlijk een prettig einde van het vak, maar legt wel meer verantwoordelijkheid bij jou om zichtbaar te leren.
 
@@ -68,7 +57,7 @@ Dit is een breed vak met uiteenlopende onderwerpen en opdrachtsvormen. Deze word
 | Fiftyville             | punten      | 1 punt                               |
 | Dicts                  | punten      | 1 punt                               |
 | Sets                   | punten      | 1 punt                               |
-| Text analysis          | cijfer      | 50% correctness + 50% design/style   |
+| Indexing Words         | cijfer      | 50% correctness + 50% design/style   |
 | Pandas                 | punten      | 2 punten                             |
 | Scraping t/m Crawling  | cijfer      | 50% correctness + 50% design/style   |
 | Linters                | punten      | 1 punt                               |
@@ -81,6 +70,76 @@ Het eindcijfer is opgebouwd uit twee gelijke delen van ieder 50%.
 De eerste 50% verdien je door punten te halen voor de verschillende opdrachten. Daarvoor moet je de opdrachten volledig af en werkend inleveren. Er zijn tien punten in totaal en er is één bonuspunt te verdienen voor een exceptionele inzending van Homepage. Die bonuspunt is daarmee effectief een halve punt op het eindcijfer.
 
 De tweede 50% van het eindcijfer zijn de cijfers voor verschillende opdrachten. Om een cijfer te krijgen voor deze opdrachten moeten ze volledig af zijn, je moet alle onderdelen zinvol hebben geprobeerd. Het cijfer bestaat dan vaak uit een deel correctness, dat is simpelweg hoeveel van de opdracht is correct. Daarnaast wordt ook het design en de style van de code meegenomen.
+
+
+## Team en mentor
+
+Je zit bij dit vak in een team met ongeveer twaalf andere studenten. In het team zul je onder andere samen werken aan het ontwerpen van oplossingen voor de opdrachten en het bespreken en verbeteren van jouw code.
+
+Je **mentor** is een studentassistent die het vak eerder heeft gevolgd of een docent die alles over onze cursus weet. Je mentor helpt je wegwijs maken, doet voor hoe je het beste de opdrachten kunt aanpakken, kijkt je werk na, en kan jouw vragen over de organisatie van het vak beantwoorden. Je ontvangt van je mentor een uitnodiging voor een chatomgeving (Slack), vooral bedoeld voor snelle coördinatie met je mentor en team.
+
+Met je mentor heb je elke week een **werkgroep** waar alle teamleden aan deelnemen. Via Slack zal je mentor laten weten wanneer de eerste werkgroep is. Mochten we genoodzaakt zijn online-werkgroepen te houden dan ontvang je van je mentor een Zoom-link. Als je een probleem voorziet met het gebruik van een webcam dan moet je vooraf contact opnemen met de docenten om een oplossing te verzinnen, omdat je anders niet kunt meedoen.
+
+
+## Vragen stellen
+
+Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten. Er zijn diverse opties voor het stellen van vragen. De beste optie hangt af van het soort vraag dat je wil stellen.
+
+**Programmeerbalie:** direct contact met een assistent, voor hulp bij programmeren.
+
+* hulp op locatie (lokaal A1.22) of via een videogesprek
+* je weet niet waar te beginnen of een onvindbare bug, of alles loopt vast
+* moeite met verzinnen oplossing
+* dagelijks beschikbaar, vooraf afspraak maken via afsprakensysteem
+* beperkt ruimte voor inloop bij urgente vragen
+
+**Slack:** direct contact met je team.
+
+* onderlinge support
+* snelle vragen over deadlines, contact met samenwerkpartner
+* mentor doet mededelingen en is bereikbaar voor ziekmeldingen
+* je mentor is alleen beschikbaar tijdens beperkte werktijden
+
+**Spreekuur en e-mail:** contact met de docenten.
+
+* maken van persoonlijke planningsafspraken
+* meedenken over grote problemen met het vak
+* andere officiële zaken
+* administratie na afloop van het vak
+* aanmelden via afsprakensysteem of mail <help@mprog.nl>
+
+
+## Deadlines
+
+Voor de hele cursus is er een **dagschema** dat het gewenste tempo aangeeft. De hoeveelheid werk is afgestemd op programmeurs met twee programmeervakken als ervaring. De bedoeling is dat je dit schema volledig kunt aanhouden, en dat je elke opdracht inlevert zodra je die af hebt. Er zijn dus dagelijkse deadlines.
+
+Heb je een keer een dag waarop je niet zo goed kunt focussen, of de opdracht ligt je niet zo goed, dan krijg je de opdracht misschien niet af. Geen probleem. Je gaat de volgende dag naar het docentenspreekuur om afspraken te maken over het weer op gang komen, of om gewoon even je hart te luchten.
+
+
+### Ziekte en inhalen
+
+Als je ziek bent dan meld je het in ieder geval meteen even aan je mentor via een berichtje op Slack. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
+
+- Ben je één of twee dagen ziek of je hebt de opdracht niet af, dan ga je de volgende morgen direct naar het docentenspreekuur ([maak een afspraak](#)). Let op dat systematisch achterlopen niet mogelijk is. Ga je regelmatig één of twee dagen achterlopen dan zullen we je naar de parttime-versie van het vak verwijzen.
+
+- Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand met een docent hoe je dit kunt oplossen (houd wel contact!). Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat en hoeveel energie je hebt om te steken in het inhalen. Op basis van al die informatie kijken we samen wat mogelijk is.
+
+- Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met een docent (niet je mentor). Stuur maar een [mailtje](mailto:help@mprog.nl)!
+
+
+## Onderdelen
+
+### Werkgroepen
+
+Werkgroepen zijn bijeenkomsten van een uur met je mentor. In de werkgroepen krijg je de kans om samen de voortgang te bespreken, de oefeningen door te nemen, tips uit te wisselen over het aanpakken van problemen en om je medestudenten en mentor beter te leren kennen. Gebruik van camera is vereist als de werkgroep online plaatsvindt.
+
+### Werkuren
+
+Tijdens de werkuren, dagelijks van 9 tot 17 uur, word je geacht te werken aan dit vak. Je ontwerpt en programmeert dan aan je opdrachten en je wisselt ideeën en oefeningen uit met de studenten uit je mentorgroep. Let daarbij wel op dat je op een "redelijke" manier samenwerkt, zoals vermeld aan het einde van deze studiewijzer.
+
+### Checkups
+
+Elke dag om 9:00 doe je een checkup met je mentorgroep, maar zonder je mentor. Daarbij laat je weten hoe je ervoor staat met je opdracht, waar je aan gewerkt hebt en vooral waar je vandaag aan wil werken. Je kunt ook om advies vragen over je aanpak, bijvoorbeeld als je vastzit. Misschien is er een groepsgenoot die hetzelfde probleem al is tegengekomen.
 
 
 ## Samenwerken
