@@ -16,7 +16,7 @@ Consider the following pseudo code. Take `n` to be the length of the list.
 
 ### Question 6
 
-For determining the complexity of the code below you don't need to take the first two lines into account.
+For determining the complexity of the code below you do not need to take the first two lines into account.
 
     my_set = set([42, 21, 7, 3, 2])
     n = len(my_set)
@@ -32,7 +32,7 @@ For determining the complexity of the code below you don't need to take the firs
 
 ### Question 7
 
-For determining the complexity of the code below you don't need to take the first two lines into account.
+For determining the complexity of the code below you do not need to take the first two lines into account.
 
     my_set = set([42, 21, 7, 3, 2])
     n = len(my_set)
@@ -48,7 +48,7 @@ For determining the complexity of the code below you don't need to take the firs
 
 ### Question 8
 
-For determining the complexity of the code below you don't need to take the first three lines into account.
+For determining the complexity of the code below you do not need to take the first three lines into account.
 
     n = 10
     set1 = set(range(0, n))
@@ -62,7 +62,7 @@ For determining the complexity of the code below you don't need to take the firs
 
 ### Question 9
 
-For determining the complexity of the code below you don't need to take the first three lines into account.
+For determining the complexity of the code below you do not need to take the first three lines into account.
 
     n = 10
     list1 = list(range(0, n))
@@ -81,7 +81,7 @@ For determining the complexity of the code below you don't need to take the firs
 
 ### Question 10
 
-For determining the complexity of the code below you don't need to take the first three lines into account.
+For determining the complexity of the code below you do not need to take the first three lines into account.
 
     n = 10
     my_dict = {}

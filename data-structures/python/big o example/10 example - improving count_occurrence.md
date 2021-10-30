@@ -50,7 +50,7 @@ A good solution might be to simply write down a number when you first encounter 
 and add 1 mark next to it. The next time you encounter that same number, just
 add another mark. This way, after going through the list *once*, the number of
 marks next to each number should be equal to their count. Great, but then the
-problem just becomes: How do we know if we've already seen a number? If we have
+problem just becomes: How do we know if we have already seen a number? If we have
 already seen it, how do we know at what place to add the mark? And we have to, of
 course, do all this **without looping through the list again**, as that would
 basically give us the same $$O(N^2)$$ solution as before.

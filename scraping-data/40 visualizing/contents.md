@@ -2,14 +2,14 @@
 
 ## Part 1
 
-We're still trying to answer the question:
+We are still trying to answer the question:
 
-What year had the best average IMDB rating for it's top 5 movies?
+What year had the best average IMDB rating for its top 5 movies?
 
 In the previous part you wrote a script to produce a csv file `top5.csv`. It is time to try to get some insights into what we scraped.
 
 ### Goal
-For this you will be writing a new file called `visualize_years.py`. Your aim in this part of the exercise is to visualize the data scraped from IMDB in a appropriate chart. You will have to generate a bar-plot `years.png` that show the average rating of the top 5 movies per year (from 1930 to 2020). Once the data is in the correct format, you can plot it using Matplotlib. If you've never used Matplotlib have a look at [this tutorial](https://matplotlib.org/users/pyplot_tutorial.html).
+For this you will be writing a new file called `visualize_years.py`. Your aim in this part of the exercise is to visualize the data scraped from IMDB in a appropriate chart. You will have to generate a bar-plot `years.png` that show the average rating of the top 5 movies per year (from 1930 to 2020). Once the data is in the correct format, you can plot it using Matplotlib. If you have never used Matplotlib have a look at [this tutorial](https://matplotlib.org/users/pyplot_tutorial.html).
 
 The program should run like this:
 
@@ -25,7 +25,7 @@ The program has the following requirements:
 
 Reflect on the figure your script creates. How do you choose the range of the y-axis? Are all elements present in the figure?
 
-Don't forget to keep an eye on code design. Use functions, choose useful names for your variables, prevent code repetition, place comments, etc.
+Do not forget to keep an eye on code design. Use functions, choose useful names for your variables, prevent code repetition, place comments, etc.
 
 Looking at your plot, which year was the best year for movies?
 
@@ -37,7 +37,7 @@ We have done what we set out to do. But now we have the data scraped and well, w
 
 Which actor was most influential between 1930 and 2020?
 
-Again, we'll reformulate the question so we can give some sort of answer given our data:
+Again, we will reformulate the question so we can give some sort of answer given our data:
 
 Which actor has appeared the most in the top 5 movies of all the years between 1930 and 2020?
 

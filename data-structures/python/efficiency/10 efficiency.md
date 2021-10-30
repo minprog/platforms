@@ -16,7 +16,7 @@ on the code. Which approach you end up choosing, can depend on a few different f
    problem, making them faster to compute the same solution.
 
 Note that all 3 of these are distinctly different criteria, and shorter code
-definitely does not imply faster to compute. If it isn't code length, then what
+definitely does not imply faster to compute. If it is not code length, then what
 *does* determine a program's speed?
 
 ## Measuring efficiency
@@ -43,12 +43,12 @@ efficient the code is. Let's take the simple function below as an example
 As the number of elements in this list grows, so does the number of steps
 in this for loop. So, we would naturally expect longer lists to take longer to
 compute. Let's test that hypothesis by seeing how long different calls of this
-function end up taking. We'll do this using the `time` library, which we can use
+function end up taking. We will do this using the `time` library, which we can use
 to measure the current time directly before and after the function. Below is a
 general function, which will apply some function to a list and measure how long
 this takes.
 
-Next, we'll use the `random` library to generate an integer between *0* and *100*
+Next, we will use the `random` library to generate an integer between *0* and *100*
 and repeat this *N* times, to have a list of *N* random integers. You do not
 have to understand the details of these functions, but they are used for all
 tests and are, thus, shown here for completeness.
@@ -119,7 +119,7 @@ enough to see the general trends.
 *Note: Both these effects will be more pronounced for smaller input sizes, and
 should smooth out as the input becomes larger, but computing for larger inputs
 requires waiting for the results longer. For each of the experiments in this
-assignment we've tried to strike a balance between the two, so the scale is
+assignment we have tried to strike a balance between the two, so the scale is
 large enough to see the general trend for different input sizes, but does not
 take too long to compute. Note that some of these experiments are therefore done
 at different input scales, based on the complexity of the problems, so keep this
@@ -224,7 +224,7 @@ any algorithm can have, as it means that the time for the function will remain
 roughly the same, even if you have billions of elements to process.
 
 What kind of function could meet this ideal complexity might be hard to
-imagine for now, but we'll start with a trivial example. Later in this module we'll see
+imagine for now, but we will start with a trivial example. Later in this module we will see
 much more interesting functions with $$O(1)$$ complexity, specifically
 when we cover dictionaries. Let's start by considering this simple function, which
 always returns the first element from a list:

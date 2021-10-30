@@ -31,10 +31,10 @@ where `repository_url` is the link you just copied from GitHub. You might be pro
 
 Go ahead and run `cd indexing_words` to enter your repository.
 
-You'll find two files:
+You will find two files:
 
 - `word_index.py`: This contains already quite a bit of starting code. You will have to fill in the missing pieces.
-- `stopwords.txt`: This contains a list of words that can be ignored by the indexing system. (So, we don't have to index a gazillion occurrences of, for example, the word "the".)
+- `stopwords.txt`: This contains a list of words that can be ignored by the indexing system. (So, we do not have to index a gazillion occurrences of, for example, the word "the".)
 
 ## Functions:
 

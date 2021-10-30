@@ -10,7 +10,7 @@ tests.
 
     conda install -c conda-forge jupyterlab
 
-If you didn't install *Python* using *Anaconda*, follow the *Jupyter* installation instructions [here](https://jupyter.org/install). -->
+If you did not install *Python* using *Anaconda*, follow the *Jupyter* installation instructions [here](https://jupyter.org/install). -->
 
 Download the notebook file for this assignment [here](notebook/module_5_questions.ipynb)
 (right-click and save).

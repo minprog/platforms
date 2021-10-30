@@ -1,6 +1,6 @@
 # Pandas
 
-In this assignment you'll be learning how to use the Pandas library for loading, manipulating, visualizing and storing data.
+In this assignment you will be learning how to use the Pandas library for loading, manipulating, visualizing and storing data.
 
 Pandas is one of the most practical ways to deal with data in Python.
 

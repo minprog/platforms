@@ -2,15 +2,15 @@
 
 When we look at the language spoken in the top films, we see that English is very dominant. But how much so compared to other languages? And has this always been the same? Or does this depend on the decade we consider?
 
-We're going to visualize the language representation in top rated movies, to answer the question:
+We are going to visualize the language representation in top rated movies, to answer the question:
 
 How did language influence in the top rated movies change over the last 9 decades?
 
-The problem, our current dataset doesn't have any language information. We'll have to add that by doing some web crawling.
+The problem, our current dataset does not have any language information. We will have to add that by doing some web crawling.
 
 ## Part 1: Web crawling
 
-The file you `top5.csv` you generate before doesn't contain any language information. The main problem is that this information is not present on the IMDB page that we used. So we'll have to get it some other way. We did store the URL's for the webpage of each movie in the `. csv` file. This links to a page with much more detailed information about each movie. This includes language information.
+The file you `top5.csv` you generate before does not contain any language information. The main problem is that this information is not present on the IMDB page that we used. So we will have to get it some other way. We did store the URL's for the webpage of each movie in the `. csv` file. This links to a page with much more detailed information about each movie. This includes language information.
 
 Your goal is to write a program called `crawler.py` that looks up this language information and creates an augmented dataset with this information.
 
@@ -45,7 +45,7 @@ Requirements:
 ### Hints
 
 * Have a look at the `find()` function in the documentation of BeautifulSoup4 and look for the CSS selectors, they will make this exercise much easier!
-* The script will be very slow. Each page load will take a couple of seconds. And there will be hundreds of page loads. This is not a problem. But, for your own convenience, **create a small test input file with only two or three movies**, to see if it's working correctly before your run the script for the entire dataset.
+* The script will be very slow. Each page load will take a couple of seconds. And there will be hundreds of page loads. This is not a problem. But, for your own convenience, **create a small test input file with only two or three movies**, to see if it is working correctly before your run the script for the entire dataset.
 
 ## Part 2: Visualizing
 
@@ -65,7 +65,7 @@ The program has the following requirements:
 - It should read the input into a pandas DataFrame.
 - It should output a `.png` file containing a line plot.
 - The plot should have a legend making clear which line corresponds to which language.
-- It should show the number of occurrences of each language *per decade*. (Each occurrence counts equally, whether it's the first language or the last language for a movie).
+- It should show the number of occurrences of each language *per decade*. (Each occurrence counts equally, whether it is the first language or the last language for a movie).
 - The horizontal axis of the plot should have the decades (1930s to 2010s), the vertical axis should have the number of occurrences.
 
 Looking at your plot, which was the second most influential language in the 1970s?

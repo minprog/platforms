@@ -1,8 +1,8 @@
 # Transforming
 
-We're on our way to answer the question:
+We are on our way to answer the question:
 
-What year had the best average IMDB rating for it's top 5 movies?
+What year had the best average IMDB rating for its top 5 movies?
 
 For most years the current data contains many more movies than just the top 5. So we should first do a transformation.
 
@@ -23,7 +23,7 @@ The program has the following requirements:
 - The result is written as a `.csv` to the output file.
 - The resulting output `.csv` should be sorted by year (ascending)
 
-Don't forget to keep an eye on code design. Use functions, choose useful names for your variables, prevent code repetition, place comments, etc.
+Do not forget to keep an eye on code design. Use functions, choose useful names for your variables, prevent code repetition, place comments, etc.
 
 ## Checking your answer
 
@@ -37,7 +37,7 @@ Does the top 5 in your file correspond to what you find on IMDB?
 
 ## Done
 
-In the next step you'll visualize the date to finally answer the question: What year had the best average IMDB rating for it's top 5 movies?
+In the next step you will visualize the date to finally answer the question: What year had the best average IMDB rating for its top 5 movies?
 
 ## How to submit
 

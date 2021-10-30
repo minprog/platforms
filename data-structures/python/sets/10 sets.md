@@ -89,10 +89,10 @@ containing the unique elements combined from both sets.
 
 We can apply the union operation with the `.union()` function on the sets or
 by using the `|` operator between the two sets. Note that the order of the operands
-doesn't matter as taking the union between `a` and `b` is the same as taking the
+does not matter as taking the union between `a` and `b` is the same as taking the
 union between `b` and `a`.
 
-Next up, we'll try intersection, which you also already saw in the introduction.
+Next up, we will try intersection, which you also already saw in the introduction.
 It constructs a new set with the unique elements contained in *both* sets.
 
 	>>> a.intersection(b)
@@ -103,7 +103,7 @@ It constructs a new set with the unique elements contained in *both* sets.
 	{8, 16, 21}
 
 We can apply the intersection operation with the `.intersection()` function or by
-using the `&` operator. As with union, the order between the operands doesn't
+using the `&` operator. As with union, the order between the operands does not
 matter, as the intersection between `a` and `b` is the same as the intersection
 between `b` and `a`.
 

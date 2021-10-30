@@ -19,7 +19,7 @@ use slices to retrieve a section from one index to another:
 	[1, 4, 1, 5]
 
 Note that the *left index* of the slice **is** included in the slice and the
-*right index* of the **isn't** included in the slice. This is because the slice
+*right index* of the is **not** included in the slice. This is because the slice
 only goes *up to* the right index.
 
 If we leave out the left or right index in a slice, they default to the start
@@ -70,7 +70,7 @@ want to modify the copy but keep the original intact.
 
 Now that you understand that the slice operation actually makes a new piece of
 memory, you might also better understand its complexity. Slicing has a
-complexity of $$O(N)$$, so even if it looks simple and doesn't contain
+complexity of $$O(N)$$, so even if it looks simple and does not contain
 any loops, it can be quite an expensive operation.
 
 A slice like `[1:]` therefore does not "cut off the first element", but actually
@@ -98,7 +98,7 @@ without explicitly looping over the list.
 Single instances of these $$O(N)$$ operations might not be so bad, but
 if you end up repeating them many times in a loop, it might start to add
 up. If you find yourself doing many `in` operations in a loop then you should
-always consider if you shouldn't use a *dictionary* or *set* instead. There will
+always consider if you should not use a *dictionary* or *set* instead. There will
 be more on combining complexities in the *Applying Complexity* section, which
 will be up next.
 
@@ -124,7 +124,7 @@ skips 1 element each time, step size `3` skips 2 elements and so on.
 We can actually combine this with leaving out the start and/or end point of the
 slice, so taking the full list and skipping 2 elements each time. Skip slicing
 even supports *negative* step sizes, so going from the back of the slice to the
-front. The most common way you'll see this, is to **reverse** a list completely
+front. The most common way you will see this, is to **reverse** a list completely
 with just a slice, so a step size of `-1` for the full list.
 
 Finally, although this whole text has been about lists, it is important

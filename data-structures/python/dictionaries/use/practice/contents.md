@@ -1,7 +1,7 @@
 # Practice with dictionaries
-> **You don't have to hand in these practice exercises.** They're here for you to test yourself. Did you fully understand the theory you just learned?
+> **You do not have to hand in these practice exercises.** They are here for you to test yourself. Did you fully understood the theory you just learned?
 >
-> If there is an exercise that you don't know how to make, review the theory again. If that doesn't help, discuss the exercise with another student and/or the teacher.
+> If there is an exercise that you do not know how to complete, review the theory again. If that does not help, discuss the exercise with another student and/or the teacher.
 
 Test your understanding with the following practice exercises. Use your usual code editor and create a file called `dictionaries.py`.
 
@@ -21,7 +21,7 @@ Use the `in` operator for this exercise. Do not use `get()`.
 
 	students = ["Michele", "Diana", "Maria", "Ralph", "Jacobus"]
 
-Write a loop that looks up each student from the lists in `my_class` and prints "[name]: [grade]" on a new line for each student. If the student doesn't exists in `my_class` it should print the text "n/a" for the grade. Expected output:
+Write a loop that looks up each student from the lists in `my_class` and prints "[name]: [grade]" on a new line for each student. If the student does not exists in `my_class` it should print the text "n/a" for the grade. Expected output:
 
 	Michele: 5
 	Diana: 8
