@@ -13,7 +13,7 @@ Run
 
 and click "Install".
 
-If you're getting an error message, try installing it manually.
+If you find an error message, try installing it manually.
 Goto <https://developer.apple.com/download/all/?q=Command%20Line%20Tools%20for%20Xcode>.
 Download and install the latest non-beta version from this page.
 
@@ -37,7 +37,7 @@ to install Homebrew.
         echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> .zprofile
         eval "$(/opt/homebrew/bin/brew shellenv)"
 
-    But please execute the lines you'll see in your terminal, they can be slightly different!
+    But please execute the lines you see in your terminal, they can be slightly different!
 
 
 ## Step 3: Python
@@ -74,4 +74,4 @@ Good free code editors are: Free code editors are [Textmate](https://macromates.
 
 # Troubleshooting
 
-Ran into trouble? Contact the staff! It's important to get started quickly. You only have to do the above once, so get help now and you'll be set for the remainder of the course!
+Ran into trouble? Contact the staff! It is important to get started quickly. You only have to do the above once, so get help now and you will be set for the remainder of the course!
