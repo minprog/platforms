@@ -1,80 +1,69 @@
 Welkom:
     Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
 
-Week 1 (Basics):
-    Maandag:
-        'Videocollege: HTML [theory]': /basics/html
-        'Workshop: Development Enviroment [practice]': /basics/workshop
-    Dinsdag:
-        'Videocollege: Git [theory]': /basics/git
-    Woensdag:
-        'Opdracht: Homepage [assignment]': /basics/homepage
-        'Workshop: Using Git in a terminal [practice]': /basics/terminal
-    Donderdag:
-        'Opdracht: Markdown [assignment]': /basics/markdown
-
-Week 2 (SQL):
-    Maandag:
+Week 1:
+    Monday (basics):
+        'Lecture: HTML [theory]': /basics/html
+        'Development Environment [practice]': /basics/workshop
+        'Homepage part 1 [assignment]': /basics/homepage
+    Tuesday (basics):
+        'Lecture: Git [theory]': /basics/git
+        'Git in a terminal [practice]': /basics/terminal
+        'Homepage part 2 [assignment]': /basics/homepage
+    Wednesday (SQL):
+        'Markdown [assignment]': /basics/markdown
         "Lecture: SQL [theory]": /sql/lecture
-    Dinsdag:
-        "Implement Movies [assignment]": /sql/movies
-    Donderdag:
-        "Implement Fiftyville [assignment]": /sql/fiftyville
+    Thursday (SQL):
+        "Movies [assignment]": /sql/movies
+    Friday (SQL):
+        "Fiftyville [assignment]": /sql/fiftyville
 
-Week 3 (Data structures):
-    # Introduction: /data-structures/
-    Maandag:
+Week 2:
+    Monday (data structures):
         Complexity [theory]: /data-structures/python/efficiency
         Complexity questions 1 [assignment]: /data-structures/questions1
         Dictionaries [theory]: /data-structures/python/dictionaries/use
         Dictionaries [practice]: /data-structures/python/dictionaries/use/practice
         Efficiency of dictionaries [theory]: /data-structures/python/dictionaries/complexity
         Efficiency of dictionaries [practice]: /data-structures/python/dictionaries/complexity/practice
-    Dinsdag:
         Tuples [theory]: /data-structures/python/tuples
         Sets [theory]: /data-structures/python/sets
         Sets [practice]: /data-structures/python/sets/practice
         List slicing and indexing [theory]: /data-structures/python/slicing
-    Woensdag:
+    Tuesday (data structures):
         Applying big O in your code [theory]: /data-structures/python/big-o
         Improving count_occurrence [theory]: /data-structures/python/big-o-example
         Complexity questions 2 [assignment]: /data-structures/questions2
-    Donderdag:
         Jaccard [practice]: /data-structures/jaccard
-    
-Week 4 (Scraping Data):
-    Maandag:
         Indexing words [assignment]: /data-structures/word-index
-    Woensdag:
+    Wednesday (data analysis):
         Pandas [assignment]: "/scraping-data/pandas"
-    Vrijdag:
-        Scraping [assignment]: "/scraping-data/scraping"
-    # Submit your solutions: /submit/complexity
-
-Week 5 (Scraping Data):
-    Maandag:
-        Transforming [assignment]: "/scraping-data/transforming"
-    Woensdag:
-        Visualizing [assignment]: "/scraping-data/visualizing"
-    Donderdag:
-        Crawling [assignment]: "/scraping-data/crawling"
+    Thursday (data analysis):
+        Scraping part 1 [assignment]: "/scraping-data/scraping"
+    Friday (data analysis):
+        Scraping part 2 [assignment]: "/scraping-data/scraping"
     
-Week 6 (Code Tools):
-    Maandag (Linters):
+Week 3:
+    Monday (data analysis):
+        Transforming [assignment]: "/scraping-data/transforming"
+    Tuesday (data analysis):
+        Visualizing [assignment]: "/scraping-data/visualizing"
+    Wednesday (data analysis):
+        Crawling [assignment]: "/scraping-data/crawling"
+    Thursday (linters):
         Style [assignment]: "/code_tools/linters/style"
-    Dinsdag (Linters):
         Cyclomatic Complexity [assignment]: "/code_tools/linters/cyclomatic_complexity"
-    Woensdag (Type Checkers):
+    Friday (type checkers):
         Theory [theory]: "/code_tools/type_checkers/theory"
         Assignment [assignment]: "/code_tools/type_checkers/type_hints"
-    Donderdag (Testers):
+
+Week 4:
+    Monday (Testers):
         Theory [theory]: "/code_tools/testers/theory"
         Rotate [assignment]: "/code_tools/testers/rotate"
-
-Week 7 (Code Tools):
-    Maandag (Testers):
         Tennis [assignment]: "/code_tools/testers/tennis"
-    Dinsdag (Testers):
+    Tuesday (Testers):
         Cash [assignment]: "/code_tools/testers/testing"
-    Woensdag (Profilers):
-        Sudoku [assignment]: "/code_tools/profilers"
+        Sudoku part 1 [assignment]: "/code_tools/profilers"
+    Wednesday (Profilers):
+        Sudoku part 2 [assignment]: "/code_tools/profilers"
