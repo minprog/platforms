@@ -84,8 +84,6 @@ Those of you who have taken CS50 are used to working from within the IDE. In thi
 
 Visual Studio Code is a text-editor made by Microsoft, it fully integrates with the WSL. It can be downloaded [here](https://code.visualstudio.com/).
 
-You are free to use an other editor like [Atom](https://atom.io/) or [Sublime Text](https://www.sublimetext.com/), but we recommend [Visual Studio Code](https://code.visualstudio.com/).
-
 
 ## Using the WSL in VSCode
 

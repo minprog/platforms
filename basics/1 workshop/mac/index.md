@@ -69,9 +69,11 @@ Open the Terminal app and run
 to install [Sass](https://sass-lang.com/).
 
 
-## Step 5: A code editor
+## Step 5: Visual Studio Code
 
-Good free code editors are: Free code editors are [Textmate](https://macromates.com/download), [Visual Studio Code](https://code.visualstudio.com/), [Atom](https://atom.io/) and [Sublime Text](https://www.sublimetext.com/). We would recommend Textmate, but you are free to choose another editor if you like.
+Those of you who have taken CS50 are used to working from within the IDE. In this course, we remove those training wheels. This means you have to download and install a text editor on your own computer.
+
+Download and install [Visual Studio Code](https://code.visualstudio.com/).
 
 
 # Troubleshooting
