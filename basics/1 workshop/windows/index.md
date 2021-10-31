@@ -71,10 +71,12 @@ This will install Pip (Python's package manager) and Sass.
 
 Run:
 
-    pip3 install requests
+    pip3 install requests numpy pandas matplotlib seaborn pandas
 
-This will install the Python package _Requests_.
+This will install the Python packages _requests_, _numpy_, _matplotlib_ and _pandas_, and _seaborn_.
 
+> Please note that _only_ `python3`/`pip3` will open the right version of Python.
+> Always run your program with `python3` and install packages with `pip3` otherwise you will use an old version!
 
 ## Step 3: Install a text editor
 

@@ -50,9 +50,11 @@ to install python.
 
 Run:
 
-    pip3 install requests
+    pip3 install requests numpy pandas matplotlib seaborn pandas
 
-This will install the Python package _Requests_.
+This will install the Python packages _requests_, _numpy_, _matplotlib_ and _pandas_, and _seaborn_.
+
+> In case you are on a new M1 macbook, you might encounter an error when trying to install `seaborn`. To fix this install the python package `scipy` through homebrew instead of pip3 like so: `brew install scipy`. Then rerun the `pip3` command above again.
 
 > Please note that _only_ `python3`/`pip3` will open the right version of Python.
 > Always run your program with `python3` and install packages with `pip3` otherwise you will use an old version!
