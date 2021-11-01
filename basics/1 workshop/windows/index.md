@@ -63,7 +63,11 @@ Go to <https://aka.ms/wsl2kernel> and install the update and retry the command a
 
 ## Step 2: Install Python, Pip, Sass and Requests
 
-Run:
+> Remember to reboot your computer after installing WSL
+
+Open up the `Ubuntu` terminal. Do this by pressing the windows keys, then type Ubuntu and click on the app.
+
+Then run:
 
     sudo apt install python3-pip ruby-sass -y
 
