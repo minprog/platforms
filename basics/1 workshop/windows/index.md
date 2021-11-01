@@ -69,6 +69,10 @@ Open up the `Ubuntu` terminal. Do this by pressing the windows keys, then type U
 
 Then run:
 
+    sudo apt-get update
+
+Then run:
+
     sudo apt install python3-pip ruby-sass -y
 
 This will install Pip (Python's package manager) and Sass.
@@ -93,9 +97,11 @@ Visual Studio Code is a text-editor made by Microsoft, it fully integrates with 
 
 You can now start using Ubuntu via WSL. When you open VSCode, make sure it is using Ubuntu.
 
-The WSL is not enabled right now, click the green button to enable it.
+If WSL is not enabled right now, click the green button to enable it.
 
 ![](wsl/wsl_disabled.png)
+
+> If you do not see the green button, hit `ctrl+shift+p` type in `remote` and click `Remote: install remote development extensions`. Then, install the WSL remote extension.
 
 Select "Remote_WSL: New Window" to enable the WSL.
 
