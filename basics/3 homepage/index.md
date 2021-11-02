@@ -117,7 +117,9 @@ be introduced in the [git lecture](/basics/git).
 
 ## Tips
 
-* You can view your webpages offline by opening the `.html` files with your web browser. 
+* You can view your webpages offline by opening the `.html` files with your web browser.
+
+> Under WSL on Windows, you can open up `.html` files by either right-clicking them from within Visual Studio Code and then by clicking `open in explorer`. Or by running `explorer.exe .` in the terminal. Both methods open up the Windows File Explorer and from there you can open the html files in your browser.
 
 ## How to Submit
 
