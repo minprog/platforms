@@ -10,7 +10,7 @@ Now, create a fully-featured README for your Homepage project to describe its pu
 
 Add the new contents of your `README.md` to your own repository and commit and push. Verify that it still looks good on GitHub!
 
-Then mark this assignment as done. As it happens, this completes the **Basics** module!
+You have already shared your GitHub repository so as it happens, this completes the **Basics** module!
 
 ## Tips
 
