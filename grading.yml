@@ -17,8 +17,8 @@ templates:
     2: &cijfer
         type: float
         subgrades:
-            points: integer
-        calculation: (points / 6.0 * 9 + 1).round(1)
+            grade: integer
+        calculation: grade
         hide_calculated: true
 
 
