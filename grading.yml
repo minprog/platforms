@@ -47,6 +47,7 @@ calculation:
 
 
 punten:
+    show_progress: true
     submits:
         homepage: 2
         movies: 1
@@ -60,6 +61,7 @@ punten:
 
 
 cijfers:
+    show_progress: true
     submits:
         indexing_words: 1
         crawling: 1
