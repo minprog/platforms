@@ -46,16 +46,16 @@ Go ahead and run `cd jaccard` to enter your repository.
 
 You can run the program like so:
 
-    $ python jaccard.py texts/cat.txt texts/cat2.txt
+    $ python3 jaccard.py texts/cat.txt texts/cat2.txt
     Jaccard index of texts/cat.txt and texts/cat2.txt: 0.500
 
 Unfortunately, the code is not particularly well written. It is very slow, and overly complicated. The files in the example above are very small, so in this case the code still runs quite fast. But if you try some other examples, you will see the problem. This one takes much more time:
 
-    $ python jaccard.py texts/her.txt texts/grimm.txt
+    $ python3 jaccard.py texts/her.txt texts/grimm.txt
 
 And with this one it becomes unusably slow:
 
-    $ python jaccard.py texts/holmes.txt texts/shakespeare.txt
+    $ python3 jaccard.py texts/holmes.txt texts/shakespeare.txt
 
 It is up to you to improve this code.
 
@@ -71,7 +71,7 @@ By making clever use of existing Python data structures, you can make the code m
 
 It is possible to make this run very fast (in under a second):
 
-    $ python jaccard.py texts/holmes.txt texts/shakespeare.txt
+    $ python3 jaccard.py texts/holmes.txt texts/shakespeare.txt
 
 ### Step 3: Analyze (again)
 
