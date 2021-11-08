@@ -81,7 +81,7 @@ For determining the complexity of the code below you do not need to take the fir
 
 ### Question 10
 
-For determining the complexity of the code below you do not need to take the first three lines into account.
+For determining the complexity of the code below you do not need to take the first four lines into account.
 
     n = 10
     my_dict = {}
