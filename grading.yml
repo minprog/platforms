@@ -1,0 +1,67 @@
+templates:
+    1: &punt1
+        type: float
+        subgrades:
+            done: boolean
+        automatic:
+            done: -(correctness_score.floor)
+        calculation: -done * 9 + 1
+        auto_publish: true
+        hide_calculated: true
+    4: &punt23
+        type: float
+        subgrades:
+            points: integer
+        calculation: (points / 2.0 * 9 + 1).round(1)
+        hide_calculated: true
+    2: &cijfer
+        type: float
+        subgrades:
+            points: integer
+        calculation: (points / 6.0 * 9 + 1).round(1)
+        hide_calculated: true
+
+
+grades:
+    homepage: *punt23
+    movies: *punt1
+    fiftyville: *punt1
+    q1_data: *punt1
+    q2_data: *punt1
+    pandas: *punt23
+    linters_style: *punt1
+    type_hints: *punt1
+    jaccard: *punt1
+
+    indexing_words: *cijfer
+    crawling: *cijfer
+    testing_cash: *cijfer
+    profilers: *cijfer
+    
+
+
+calculation:
+    eindcijfer:
+        punten: 50
+        cijfers: 50
+
+
+punten:
+    submits:
+        homepage: 2
+        movies: 1
+        fiftyville: 1
+        q1_data: 1
+        q2_data: 1
+        pandas: 2
+        linters_style: 1
+        type_hints: 1
+        jaccard: 1
+
+
+cijfers:
+    submits:
+        indexing_words: 1
+        crawling: 1
+        testing_cash: 1
+        profilers: 1
