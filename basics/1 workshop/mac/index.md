@@ -50,7 +50,7 @@ to install python.
 
 Run:
 
-    pip3 install requests numpy pandas matplotlib seaborn pandas
+    pip3 install requests numpy pandas matplotlib seaborn
 
 This will install the Python packages _requests_, _numpy_, _matplotlib_ and _pandas_, and _seaborn_.
 
@@ -73,7 +73,9 @@ to install [Sass](https://sass-lang.com/).
 
 Those of you who have taken CS50 are used to working from within the IDE. In this course, we remove those training wheels. This means you have to download and install a text editor on your own computer.
 
-Download and install [Visual Studio Code](https://code.visualstudio.com/).
+Install Visual Studio Code
+
+    brew install --cask visual-studio-code
 
 
 # Troubleshooting
