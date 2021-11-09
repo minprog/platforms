@@ -13,7 +13,7 @@ The goal is to be able to search a word in a given text. The program should show
 
 For example, if we want to find the word "dinner" in the collected works of Jane Austen:
 
-    $ python word_index.py texts/austen.txt
+    $ python3 word_index.py texts/austen.txt
     Index built for texts/austen.txt. Type the word you want to look up.
 
     Enter search term: dinner
