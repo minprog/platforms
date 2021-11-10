@@ -2,11 +2,11 @@
 
 Discovering bugs isn't easy, but it sure is easy to introduce bugs! Up to this point you've likely dabbled with manual testing to uncover any faults and bugs in your code. By quickly running your code with various inputs like so perhaps:
 
-    $ python foo.py 4
+    $ python3 foo.py 4
     4
-    $ python foo.py 5
+    $ python3 foo.py 5
     1
-    $ python foo.py -1
+    $ python3 foo.py -1
     Sorry, can't handle negative numbers!
 
 Makes sense right, because while you are working on a problem or assignment you are the expert right then and there. You'll know what the output should be and how the code should behave at that point. So quickly call your function, see what it does and if all looks good, well, submit it, done.
@@ -56,7 +56,7 @@ There we go, one unit test. Running this file will either succeed silently or yo
 
 In comes `pytest`, one of many unittesting frameworks for Python, but arguably a popular and easy to use one. You do need to install it through `pip`:
 
-    pip install pytest
+    pip3 install pytest
 
 Here's how it works. Every test file needs to start with the `test_` prefix, so `test_median.py` above will do just fine. Then, every test itself is a function also prefixed with `test_`. For instance, to pytest-ify our unit test above we can write:
 
