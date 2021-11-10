@@ -27,7 +27,7 @@ In other words, it starts with a warning to not blindly follow the guide. And so
 
 That said, PEP 8 is very useful. With a standard style guide out there, many have gone out and written code linters that can enforce PEP 8. One such tool is `flake8`. You can install it through `pip`:
 
-    pip install flake8
+    pip3 install flake8
 
 `flake8` can check your code for compliance to PEP 8. Simply call `flake8` in the folder with your code like so:
 
