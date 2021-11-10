@@ -30,7 +30,7 @@ In this assignment you will learn to use three libraries:
 
 For this exercise you will set up a data pipeline with the following steps:
 
-| Pipeline step          	| This week                                                                                     |
+| Pipeline step          	|                                                                                               |
 |------------------------	|---------------------------------------------------------------------------------------------- |
 | Asking a Question      	| What was the best year for movies?                                                            |
 | Acquiring the data     	| Using pandas to scrape IMDB pages to a CSV file (`scraper.py`)                                |
