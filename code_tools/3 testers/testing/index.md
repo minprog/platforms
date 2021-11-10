@@ -54,7 +54,7 @@ Hold on, before you jump right in, we have added some scaffolding to get you goi
 2. Thirteen programs is a lot to test, and it is easy to get overwhelmed by the number of tests. `run_tests.py` is here to help. This script will run pytest for each submission in the `submissions` folder and dump the output of the test to `outputs/1.txt` (for each submission respectively). Just run it like so:
 
     
-        $ python run_tests.py
+        $ python3 run_tests.py
         Testing - submissions/1/cash.py => outputs/1.txt   | SUCCESS
         Testing - submissions/2/cash.py => outputs/2.txt   | FAILED
         Testing - submissions/3/cash.py => outputs/3.txt   | SUCCESS

@@ -25,10 +25,10 @@ This is where profilers step in. Profilers are programs that run your program to
 Python comes with a [built-in profiler](https://docs.python.org/3/library/profile.html) called `cProfile`. This profiler can called be called from the command line like so:
 
 ```
-python -m cProfile your_program.py
+python3 -m cProfile your_program.py
 ```
 
-> If unfamiliar, `python -m` is simply a way to run a specific module (-m) for that version of `python`. 
+> If unfamiliar, `python3 -m` is simply a way to run a specific module (-m) for that version of `python3`. 
 
 Once your program finishes, cProfile will show you the profile in a table like below.
 

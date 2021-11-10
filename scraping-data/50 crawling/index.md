@@ -16,7 +16,7 @@ Your goal is to write a program called `crawler.py` that looks up this language 
 
 Usage:
 
-$ python crawler.py data/top5.csv data/top5-with-languages.csv
+    $ python3 crawler.py data/top5.csv data/top5-with-languages.csv
 
 This will take the data from `top5.csv`, use the URL's to read the page for each movie and retrieve the languages spoken in that movie. It will write the results to `top5-with-languages.csv`. So this will look something like this:
 
@@ -57,7 +57,7 @@ Write a program called `visualize_languages.py` that generates a line plot of th
 
 Usage:
 
-    $ python visualize_languages.py data/top5-with-languages.csv plots/languages.png
+    $ python3 visualize_languages.py data/top5-with-languages.csv plots/languages.png
 
 The program has the following requirements:
 

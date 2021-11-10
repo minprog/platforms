@@ -13,7 +13,7 @@ For this you will be writing a new file called `visualize_years.py`. Your aim in
 
 The program should run like this:
 
-    $ python visualize_years.py data/top5.csv plots/years.png
+    $ python3 visualize_years.py data/top5.csv plots/years.png
 
 
 The program has the following requirements:
@@ -47,7 +47,7 @@ Write a program called `visualize_actors.py` that generates a bar plot of the to
 
 Usage:
 
-    $ python visualize_actors.py data/top5.csv plots/actors.png
+    $ python3 visualize_actors.py data/top5.csv plots/actors.png
 
 The program has the following requirements:
 

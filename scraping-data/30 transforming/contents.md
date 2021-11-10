@@ -10,7 +10,7 @@ For most years the current data contains many more movies than just the top 5. S
 
 Create a new program called `extract.py`. The idea of the program is that you can call it like this:
 
-    $ python extract.py data/movies.csv data/top5.csv
+    $ python3 extract.py data/movies.csv data/top5.csv
 
 This will create a new file, `top5.csv` in the directory `data` that contains a subset from `movies.csv`.
 
