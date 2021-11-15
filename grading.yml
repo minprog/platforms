@@ -13,7 +13,6 @@ templates:
         subgrades:
             done: boolean
         calculation: -done * 9 + 1
-        auto_publish: true
         hide_calculated: true
     4: &punt23
         type: float
