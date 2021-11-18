@@ -35,6 +35,7 @@ In case the matrix is not a square, raise a `NonSquareMatrixError`.
         # TODO
         pass
 
+> Do **not** use external libraries for this assignment, so no `numpy`! 
 
 Write a Pytest unittest for each of the following in a file called `test_rotate.py`:
 
