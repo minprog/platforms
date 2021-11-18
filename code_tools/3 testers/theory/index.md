@@ -86,7 +86,17 @@ Then, with our one test discovered, `pytest` will run the test. For convenience,
 
 ### Exceptions
 
-What's the median of an empty list `[]`? Arguably that is undefined and an exception really. Probably best to `raise` an exception in this case. Let's adjust our implementation of `get_median` to the following:
+So far we have tended to treat exceptions as if they were errors and were something to avoid. But many modern programming languages including Python have ways of dealing with exceptions. As follows:
+
+    text = input("give me a number")
+    try:
+        number = int(text)
+    except ValueError:
+        number = 0
+
+Through `try` and `except` we can try to execute a snippet of code and if it happens to fail due to some exception (`ValueError` above) we can deal with the exception. This is a powerful feature as it's often easier to ask forgiveness than to get permission. For instance, in the example above it is difficult to imagine each case in which we can convert a string into an integer. The string might exist of only numbers, but a `.` is also allowed. But not more than one `.` though! Whereas the other way around, well we can just try to make it an integer and see what happens.
+
+Exceptions and tests go hand in hand. As you'll find yourself thinking about edgecases and erroneous cases. For instance, what's the median of an empty list `[]`? Arguably that is undefined and an exception really. Probably best to `raise` an exception in this case. Let's adjust our implementation of `get_median` to the following:
 
     def get_median(items: list[int]) -> int:
         size = len(items)
@@ -97,7 +107,7 @@ What's the median of an empty list `[]`? Arguably that is undefined and an excep
         middle = size // 2
         return items[middle]
 
-Now we can test for this. Here's how you do it in `pytest`:
+Now we can test for this. Test whether the function raises a certain exception. Here's how you do it in `pytest`:
 
     import pytest
     from median import get_median
