@@ -23,11 +23,11 @@ Let's automate this. Now there are many things to test when it comes to software
 
 There exists several strategies to go about testing:
 
-* We can test the system as a whole. Run the entire program, see if it does what it should do. This is called system testing. While useful, it is often difficult to test every part of the program this way.
+* We can test the system as a whole. In other words, run the entire program and see if it does what it should do. This is called system testing. While useful, it is often difficult to test every part of the program this way.
 * Zooming in, whatever you write is likely part of a bigger program, and well, it needs to fit into this bigger program. This is called integration testing.
 * Finally, there's the code you write, the smaller functions and modules. Testing these individually is called unit testing.
 
-For this module we'll narrow our scope to unit testing. Testing small individual units of a program. These could be functions, classes, modules, you name it. The goal of this type of testing is ensuring, or rather re-assuring, that each unit of the program functions as desired.
+For this module we will narrow our scope to unit testing. Testing small individual units of a program. These could be functions, classes, modules, you name it. The goal of this type of testing is ensuring, or rather re-assuring, that each unit of the program functions as desired.
 
 
 ### Unit testing
