@@ -165,7 +165,7 @@ Improve the code in five different ways. For each, write down:
 * Why you selected that part of the code.
 * Why you think that code can be improved.
 * What you changed in the code.
-* What the performance gain is or isn't. In either case, please reflect briefly on why you think the performance does (not) improve.
+* What the performance gain is or isn't. In either case, reflect briefly on why you think the performance does (not) improve.
 
 
 <textarea name="form[1]" rows="5" required=""></textarea>
