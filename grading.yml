@@ -38,6 +38,8 @@ grades:
     linters_style: *punt1
     type_hints: *punt1
     jaccard: *punt1
+    testing_rotate: *punt1
+    testing_tennis: *punt1
 
     indexing_words: *cijfer
     crawling: *cijfer
