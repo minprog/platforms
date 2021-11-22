@@ -35,7 +35,7 @@ For this module we will narrow our scope to unit testing. Testing small individu
 Effectively unit testing does not need to be much more than writing a script that calls your unit of code, and checks that it does what it's expected to do. Let's get started with an example, `get_median()`. There's a list of things of which we need the median.
 
 
-    def get_median(items: list[int]) -> int:
+    def get_median(items: "list[int]") -> int:
         size = len(items)
         middle = size // 2
         return items[middle]
@@ -98,7 +98,7 @@ Through `try` and `except` we can try to execute a snippet of code and if it hap
 
 Exceptions and tests go hand in hand. As you'll find yourself thinking about edgecases and erroneous cases. For instance, what's the median of an empty list `[]`? Arguably that is undefined and an exception really. Probably best to `raise` an exception in this case. Let's adjust our implementation of `get_median` to the following:
 
-    def get_median(items: list[int]) -> int:
+    def get_median(items: "list[int]") -> int:
         size = len(items)
 
         if size == 0:
