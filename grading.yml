@@ -65,6 +65,8 @@ punten:
         pandas: 2
         linters_style: 1
         type_hints: 1
+        testing_rotate: 0
+        testing_tennis: 0
         jaccard: 1
 
 
