@@ -1,2 +1,4 @@
 name: homepage
-url: true
+files:
+    required:
+        - homepage.zip
