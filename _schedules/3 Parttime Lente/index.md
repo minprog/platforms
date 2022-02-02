@@ -12,8 +12,8 @@ Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze 
 
 Er komen vijf verschillende modules voorbij met uiteenlopende onderwerpen:
 
-| Onderwerp | **Uiterste deadline**{: style="hyphens: none; white-space: nowrap;"} |
-| - | - |
+| Onderwerp | **Uiterste deadline**{: style="hyphens: none; white-space: nowrap; font-weight: bold;"} |
+| - | -: |
 | **Basics**, het opzetten van een ontwikkelomgeving, het gebruik van git, het opzetten van een webpagina en het schrijven van een README | 14 februari 2022 |
 | **SQL**, het leren gebruiken van een relationele database om data te beheren en te analyseren door middel van het schrijven van queries | 14 februari 2022 |
 | **Datastructuren en Complexiteit**, afwegingen maken tussen het gebruik van verschillende datastructuren en de invloed op de computationele complexiteit | 28 februari 2022 |
