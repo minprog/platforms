@@ -28,7 +28,7 @@ Modules 1 en 2 duren samen ruim een week en de overige modules duren ieder twee 
 Je docent is Martijn Stegeman, en de assistenten zijn Marijn Doeve en Alwan Rashid.
 
 - Er zijn iedere week twee **werkcolleges op locatie**. De tijden en locatie vind je op <https://datanose.nl/103382.course>. Het is *verplicht* één van beide bij te wonen, behalve in uitzonderlijke situaties (het volgen van andere vakken is geen uitzonderlijke situatie). Deze bijeenkomsten zijn verreweg je beste mogelijkheid voor hulp; zowel voor moeilijke bugs als "ik weet niet hoe te beginnen".
-- Er is een **virtueel lokaal** in Wonder waar je medestudenten kunt ontmoeten en hulp vragen aan de assistenten. Dat laatste kan alleen op bepaalde tijden. Maak een assistentie-afspraak via de knop op deze website.
+- Er is een **virtueel lokaal** in Wonder waar je medestudenten kunt ontmoeten en hulp vragen aan de assistenten. Dat laatste kan alleen op bepaalde tijden (nog niet bekend). Maak een assistentie-afspraak via de knop op deze website.
 - Voor **vragen over regeltjes**, het maken van persoonlijke afspraken en het op de hoogte houden van de docenten over je voortgang stuur je een mail naar <help@mprog.nl>.
 
 
