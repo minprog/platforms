@@ -17,7 +17,8 @@ Week 1 (Git, Web and SQL):
     Vrijdag:
         "Implement Movies [3u]": /sql/movies
         "Implement Fiftyville [3u]": /sql/fiftyville
-
+    Afronding week:
+        Inleveren procesboek: /procesboek/week1
 Week 2-3 (Data structures):
     # Introduction: /data-structures/
     Maandag:
@@ -38,7 +39,8 @@ Week 2-3 (Data structures):
         Complexity questions 2 [assignment]: /data-structures/questions2
     Donderdag:
         Jaccard [assignment]: /data-structures/jaccard
-    
+    Afronding week 2:
+        Inleveren procesboek: /procesboek/week2
 Week 4 (Scraping Data):
     Maandag:
         Indexing words [assignment]: /data-structures/word-index
