@@ -8,9 +8,9 @@ In dit vak maak je kennis met verschillende platforms om programmeerproblemen aa
 Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze cursus start.
 
 
-## Deadlines
+## Onderwerpen en deadlines
 
-Er komen vijf verschillende modules voorbij met uiteenlopende onderwerpen:
+Er komen vijf verschillende modules voorbij met uiteenlopende onderwerpen. Dit vak start razendsnel! Let op de eerste deadline.
 
 | Onderwerp | **Uiterste deadline**{: style="hyphens: none; white-space: nowrap; font-weight: bold;"} |
 | - | -: |
@@ -28,7 +28,7 @@ Modules 1 en 2 duren samen ruim een week en de overige modules duren ieder twee 
 Je docent is Martijn Stegeman, en de assistenten zijn Marijn Doeve en Alwan Rashid.
 
 - Er zijn iedere week twee **werkcolleges op locatie**. De tijden en locatie vind je op <https://datanose.nl/103382.course>. Het is *verplicht* één van beide bij te wonen, behalve in uitzonderlijke situaties (het volgen van andere vakken is geen uitzonderlijke situatie). Deze bijeenkomsten zijn verreweg je beste mogelijkheid voor hulp; zowel voor moeilijke bugs als "ik weet niet hoe te beginnen".
-- Er is een **virtueel lokaal** in Wonder waar je medestudenten kunt ontmoeten en hulp vragen. Dat laatste kan alleen op bepaalde tijden. Maak een assistentie-afspraak via de knop op deze website.
+- Er is een **virtueel lokaal** in Wonder waar je medestudenten kunt ontmoeten en hulp vragen aan de assistenten. Dat laatste kan alleen op bepaalde tijden. Maak een assistentie-afspraak via de knop op deze website.
 - Voor **vragen over regeltjes**, het maken van persoonlijke afspraken en het op de hoogte houden van de docenten over je voortgang stuur je een mail naar <help@mprog.nl>.
 
 
@@ -100,4 +100,6 @@ Wat betreft fraude en plagiaat volgen we in deze cursus de richtlijnen van de Un
 
 ## Herkansen
 
-Herkansen kan de eerstvolgende keer dat het vak wordt gegeven in het **volgende semester**. 
+Bij dit vak gaat herkansen vooral over de situatie waarin je stopt met opdrachten maken of erg gaat achterlopen. Het is niet mogelijk opdrachten nog in te leveren na de deadlines die genoemd zijn in deze studiewijzer.
+
+Herkansen kan daarom de eerstvolgende keer dat het vak wordt gegeven in het **volgende semester**. Dit vak wordt echter vanaf september 2022 vervangen door een ander vak. Je kunt dus niet zomaar alle opdrachten meenemen.
