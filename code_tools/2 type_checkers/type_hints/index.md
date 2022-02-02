@@ -7,7 +7,7 @@ A type hint in the simplest form looks like this:
 
 All this says is, the type of the variable `foo` should be an integer. Notice how there is no initial value here. This line of code does not create a variable `foo`, all it does is add a hint that `foo`, once it exists, should be an integer. That means this will raise a `NameError`:
 
-    $ python
+    $ python3
     >>> foo: int
     >>> foo
     NameError: name 'foo' is not defined
@@ -341,7 +341,7 @@ Functions can be passed to other functions too. That is what `Callable` captures
 
 Install `mypy` through pip like so:
 
-    $ pip install mypy
+    $ pip3 install mypy
 
 > Depending on your installation, you might need to use `pip3` instead, or `python -m pip`.
 

@@ -25,10 +25,10 @@ This is where profilers step in. Profilers are programs that run your program to
 Python comes with a [built-in profiler](https://docs.python.org/3/library/profile.html) called `cProfile`. This profiler can called be called from the command line like so:
 
 ```
-python -m cProfile your_program.py
+python3 -m cProfile your_program.py
 ```
 
-> If unfamiliar, `python -m` is simply a way to run a specific module (-m) for that version of `python`. 
+> If unfamiliar, `python3 -m` is simply a way to run a specific module (-m) for that version of `python3`. 
 
 Once your program finishes, cProfile will show you the profile in a table like below.
 
@@ -160,12 +160,12 @@ And finally, some advice:
 
 ## What to do
 
-Improve the code in three different ways. For each, write down:
+Improve the code in five different ways. For each, write down:
 
 * Why you selected that part of the code.
 * Why you think that code can be improved.
-* What you then changed in the code.
-* What the performance gain is or isn't. In case of isn't, please reflect briefly on why you think the performance does not improve.
+* What you changed in the code.
+* What the performance gain is or isn't. In either case, reflect briefly on why you think the performance does (not) improve.
 
 
 <textarea name="form[1]" rows="5" required=""></textarea>
@@ -174,6 +174,9 @@ Improve the code in three different ways. For each, write down:
 
 <textarea name="form[3]" rows="5" required=""></textarea>
 
+<textarea name="form[4]" rows="5" required=""></textarea>
+
+<textarea name="form[5]" rows="5" required=""></textarea>
 
 ## Rules of the game
 

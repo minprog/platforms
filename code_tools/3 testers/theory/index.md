@@ -2,11 +2,11 @@
 
 Discovering bugs isn't easy, but it sure is easy to introduce bugs! Up to this point you've likely dabbled with manual testing to uncover any faults and bugs in your code. By quickly running your code with various inputs like so perhaps:
 
-    $ python foo.py 4
+    $ python3 foo.py 4
     4
-    $ python foo.py 5
+    $ python3 foo.py 5
     1
-    $ python foo.py -1
+    $ python3 foo.py -1
     Sorry, can't handle negative numbers!
 
 Makes sense right, because while you are working on a problem or assignment you are the expert right then and there. You'll know what the output should be and how the code should behave at that point. So quickly call your function, see what it does and if all looks good, well, submit it, done.
@@ -23,11 +23,11 @@ Let's automate this. Now there are many things to test when it comes to software
 
 There exists several strategies to go about testing:
 
-* We can test the system as a whole. Run the entire program, see if it does what it should do. This is called system testing. While useful, it is often difficult to test every part of the program this way.
+* We can test the system as a whole. In other words, run the entire program and see if it does what it should do. This is called system testing. While useful, it is often difficult to test every part of the program this way.
 * Zooming in, whatever you write is likely part of a bigger program, and well, it needs to fit into this bigger program. This is called integration testing.
 * Finally, there's the code you write, the smaller functions and modules. Testing these individually is called unit testing.
 
-For this module we'll narrow our scope to unit testing. Testing small individual units of a program. These could be functions, classes, modules, you name it. The goal of this type of testing is ensuring, or rather re-assuring, that each unit of the program functions as desired.
+For this module we will narrow our scope to unit testing. Testing small individual units of a program. These could be functions, classes, modules, you name it. The goal of this type of testing is ensuring, or rather re-assuring, that each unit of the program functions as desired.
 
 
 ### Unit testing
@@ -56,7 +56,7 @@ There we go, one unit test. Running this file will either succeed silently or yo
 
 In comes `pytest`, one of many unittesting frameworks for Python, but arguably a popular and easy to use one. You do need to install it through `pip`:
 
-    pip install pytest
+    pip3 install pytest
 
 Here's how it works. Every test file needs to start with the `test_` prefix, so `test_median.py` above will do just fine. Then, every test itself is a function also prefixed with `test_`. For instance, to pytest-ify our unit test above we can write:
 
@@ -86,7 +86,17 @@ Then, with our one test discovered, `pytest` will run the test. For convenience,
 
 ### Exceptions
 
-What's the median of an empty list `[]`? Arguably that is undefined and an exception really. Probably best to `raise` an exception in this case. Let's adjust our implementation of `get_median` to the following:
+So far we have tended to treat exceptions as if they were errors and were something to avoid. But many modern programming languages including Python have ways of dealing with exceptions. As follows:
+
+    text = input("give me a number")
+    try:
+        number = int(text)
+    except ValueError:
+        number = 0
+
+Through `try` and `except` we can try to execute a snippet of code and if it happens to fail due to some exception (`ValueError` above) we can deal with the exception. This is a powerful feature as it's often easier to ask forgiveness than to get permission. For instance, in the example above it is difficult to imagine each case in which we can convert a string into an integer. The string might exist of only numbers, but a `.` is also allowed. But not more than one `.` though! Whereas the other way around, well we can just try to make it an integer and see what happens.
+
+Exceptions and tests go hand in hand. As you'll find yourself thinking about edgecases and erroneous cases. For instance, what's the median of an empty list `[]`? Arguably that is undefined and an exception really. Probably best to `raise` an exception in this case. Let's adjust our implementation of `get_median` to the following:
 
     def get_median(items: list[int]) -> int:
         size = len(items)
@@ -97,7 +107,7 @@ What's the median of an empty list `[]`? Arguably that is undefined and an excep
         middle = size // 2
         return items[middle]
 
-Now we can test for this. Here's how you do it in `pytest`:
+Now we can test for this. Test whether the function raises a certain exception. Here's how you do it in `pytest`:
 
     import pytest
     from median import get_median

@@ -23,6 +23,7 @@ To further restrict the assignment we added:
 
 * You may assume that a greedy strategy (exchanging as many as possible of the largest exchangable coin first) will always yield the correct answer.
 * You may assume that the user will never enter any other values than integers and floats.
+* You may assume that the user will always enter a `list` of integers or floats for coins.
 * In case the change cannot be met exactly, give as much as possible, without exceeding the total. For instance if there are only quarters (25) as coins and the change is 97, give 3 quarters,
 
 At the end of the day, thirteen students submitted their work. You can find each implementation in the `submissions` folder. That however leaves us with the following challenge: grading. Which of these thirteen submissions are incorrect and why?
@@ -54,7 +55,7 @@ Hold on, before you jump right in, we have added some scaffolding to get you goi
 2. Thirteen programs is a lot to test, and it is easy to get overwhelmed by the number of tests. `run_tests.py` is here to help. This script will run pytest for each submission in the `submissions` folder and dump the output of the test to `outputs/1.txt` (for each submission respectively). Just run it like so:
 
     
-        $ python run_tests.py
+        $ python3 run_tests.py
         Testing - submissions/1/cash.py => outputs/1.txt   | SUCCESS
         Testing - submissions/2/cash.py => outputs/2.txt   | FAILED
         Testing - submissions/3/cash.py => outputs/3.txt   | SUCCESS

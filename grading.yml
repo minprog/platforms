@@ -1,5 +1,5 @@
 templates:
-    1: &punt1
+    1: &punt1automatic
         type: float
         subgrades:
             done: boolean
@@ -7,6 +7,12 @@ templates:
             done: -(correctness_score.floor)
         calculation: -done * 9 + 1
         auto_publish: true
+        hide_calculated: true
+    3: &punt1
+        type: float
+        subgrades:
+            done: boolean
+        calculation: -done * 9 + 1
         hide_calculated: true
     4: &punt23
         type: float
@@ -24,14 +30,16 @@ templates:
 
 grades:
     homepage: *punt23
-    movies: *punt1
-    fiftyville: *punt1
+    movies: *punt1automatic
+    fiftyville: *punt1automatic
     q1_data: *punt1
     q2_data: *punt1
     pandas: *punt23
     linters_style: *punt1
     type_hints: *punt1
     jaccard: *punt1
+    testing_rotate: *punt1
+    testing_tennis: *punt1
 
     indexing_words: *cijfer
     crawling: *cijfer
@@ -57,6 +65,8 @@ punten:
         pandas: 2
         linters_style: 1
         type_hints: 1
+        testing_rotate: 0
+        testing_tennis: 0
         jaccard: 1
 
 

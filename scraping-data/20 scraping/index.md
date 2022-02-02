@@ -69,7 +69,7 @@ Open up and read the `scraper.py`-file. Note that this is just some scaffolding,
 
 We can run the file using the command:
 
-    python scraper.py data/movies.csv
+    python3 scraper.py data/movies.csv
 
 This does a number of things:
 
@@ -94,7 +94,7 @@ First, implement the `extract_movies()` function. It should extract a `DataFrame
 
 When we run your program:
 
-    $ python scraper.py data/top50.csv
+    $ python3 scraper.py data/top50.csv
 
 It should produce a file called `top50/csv` in the directory `data` containing the following data:
 
@@ -203,7 +203,7 @@ Adapt your code to collect the top N rated movies.
 
 When we run your program:
 
-    $ python scraper.py -s 1930 -e 2020 data/movies.csv
+    $ python3 scraper.py -s 1930 -e 2020 data/movies.csv
 
 You should wind up with a large (thousands of lines) `.csv` file, like this:
 

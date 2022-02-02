@@ -7,7 +7,7 @@ The word spoken must begin with the last letter of the previous word. If you can
 As part of this new app, we need the function below:
 
 
-    def guess(word: str, previous_words: list[str], time: float): -> bool
+    def guess(word: str, previous_words: list[str], time: float) -> bool:
         # TODO
         pass
 
