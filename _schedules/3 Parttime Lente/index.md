@@ -12,7 +12,7 @@ Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze 
 
 Er komen vijf verschillende modules voorbij met uiteenlopende onderwerpen:
 
-| Onderwerp | Uiterste deadline |
+| Onderwerp | Uiterste&nbsp;deadline |
 | - | - |
 | **Basics**, het opzetten van een ontwikkelomgeving, het gebruik van git, het opzetten van een webpagina en het schrijven van een README | 14 februari 2022 |
 | **SQL**, het leren gebruiken van een relationele database om data te beheren en te analyseren door middel van het schrijven van queries | 14 februari 2022 |
