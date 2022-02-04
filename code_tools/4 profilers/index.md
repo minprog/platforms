@@ -1,24 +1,22 @@
 # Profilers: optimize a Sudoku Solver
 
-![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_eao7e3jd&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en_US&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=0_xsk8klfk)
+![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_eao7e3jd&flashvars[streamerType]=auto&flashvars[localizationCode]=en_US&flashvars[leadWithHTML5]=true&flashvars[sideBarContainer.plugin]=true&flashvars[sideBarContainer.position]=left&flashvars[sideBarContainer.clickToClose]=true&flashvars[chapters.plugin]=true&flashvars[chapters.layout]=vertical&flashvars[chapters.thumbnailRotator]=false&flashvars[streamSelector.plugin]=true&flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&flashvars[dualScreen.plugin]=true&flashvars[hotspots.plugin]=1&flashvars[Kaltura.addCrossoriginToIframe]=true&&=0_xsk8klfk)
 
 <https://video.uva.nl/media/Platforms2021%20Profiling%20Intro/0_eao7e3jd>
 
-
-
-[This GitHub classroom assignment](https://classroom.github.com/a/prQHY0Aa) contains a functional Sudoku solver and six Sudoku puzzles. This solver can solve any of these puzzles within 15 seconds to a couple minutes on a modern computer. While that may sound fast enough for a solver, it is actually too slow for some tasks, such as automatically generating new puzzles. As generation of puzzles involves solving many different puzzles, most of which are likely to be too easy, imperfect (containing more than one solution) or impossible to solve. 
+[This GitHub classroom assignment](https://classroom.github.com/a/prQHY0Aa) contains a functional Sudoku solver and six Sudoku puzzles. This solver can solve any of these puzzles within 15 seconds to a couple minutes on a modern computer. While that may sound fast enough for a solver, it is actually too slow for some tasks, such as automatically generating new puzzles. As generation of puzzles involves solving many different puzzles, most of which are likely to be too easy, imperfect (containing more than one solution) or impossible to solve.
 
 This is where you step in. Your task is to take this solver and make it run faster. To do this you will analyze the program's runtime behavior to find hotspots. Then it is up to you to analyze what is making the code slow, and find creative solutions to make the code run faster. Every step of the way you will want to re-evaluate whether your changes to the code, actually do make the code run faster. Odds are that not every change works out the way you'd expect it to!
 
 ## Profiling
 
-![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_fy9i5u7c&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en_US&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=0_9uiwssea)
+![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_fy9i5u7c&flashvars[streamerType]=auto&flashvars[localizationCode]=en_US&flashvars[leadWithHTML5]=true&flashvars[sideBarContainer.plugin]=true&flashvars[sideBarContainer.position]=left&flashvars[sideBarContainer.clickToClose]=true&flashvars[chapters.plugin]=true&flashvars[chapters.layout]=vertical&flashvars[chapters.thumbnailRotator]=false&flashvars[streamSelector.plugin]=true&flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&flashvars[dualScreen.plugin]=true&flashvars[hotspots.plugin]=1&flashvars[Kaltura.addCrossoriginToIframe]=true&&=0_9uiwssea)
 
 <https://video.uva.nl/media/Platforms2021%20Profiling%20Assignment/0_fy9i5u7c>
 
 Theoretical analysis of runtime complexity is a helpful tool to evaluate performance of individual functions, algorithms or generally small pieces of code. However, once the codebase grows it gets increasingly harder to do and it becomes less useful too. Odds are that not every function is equally important to the actual runtime of the code. Because afterall, who knows if a function actually gets called during execution and if so, how many times?
 
-This is where profilers step in. Profilers are programs that run your program to analyze its runtime behavior. Simply put, profilers build a profile of your program while it is running. They keep track of which functions are called, how many times, how much time is spent in them, etc.  Through this profile you can get a grasp of what your program is actually doing and spending time on.
+This is where profilers step in. Profilers are programs that run your program to analyze its runtime behavior. Simply put, profilers build a profile of your program while it is running. They keep track of which functions are called, how many times, how much time is spent in them, etc. Through this profile you can get a grasp of what your program is actually doing and spending time on.
 
 > In some cases profilers might also keep track of memory usage of your program, but that is something this assignment does not focus on.
 
@@ -28,7 +26,7 @@ Python comes with a [built-in profiler](https://docs.python.org/3/library/profil
 python3 -m cProfile your_program.py
 ```
 
-> If unfamiliar, `python3 -m` is simply a way to run a specific module (-m) for that version of `python3`. 
+> If unfamiliar, `python3 -m` is simply a way to run a specific module (-m) for that version of `python3`.
 
 Once your program finishes, cProfile will show you the profile in a table like below.
 
@@ -107,7 +105,7 @@ Once your program finishes, cProfile will show you the profile in a table like b
 
 > You can hover over each table header to get a better understanding of each statistic
 
-At a quick glance what you see here is how many times each function is called and how much time in seconds is spent within each function. For instance, the function `solve` is called just ten times, whereas `value_at` is called more than nine million times! 
+At a quick glance what you see here is how many times each function is called and how much time in seconds is spent within each function. For instance, the function `solve` is called just ten times, whereas `value_at` is called more than nine million times!
 
 But what about time? This is where it gets a little tricky. Functions can call other functions, and it might just be that functions down the line are actually responsible for the time spent. To help you here, cProfile shows both the total time (time spent just within that function) and cumalative time (time spent within that function and all its sub functions). For instance, `solve` has a cumalative time of 11.34 seconds, but its total time is just 0.26 seconds. Meaning, 11.34 seconds of the runtime of this program is the result of a call to `solve`, but only a fraction of that (`0.26` seconds) is from the code of `solve` itself. The remainder (`11.34 - 0.26 = 11.08 seconds`) is all from functions `solve` calls.
 
@@ -123,50 +121,49 @@ The colors in the graph identify a function. You might have noticed all the oran
 
 ## The distribution code
 
-![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_odxtqxlg&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en_US&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=0_2qc8wpe0)
+![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_odxtqxlg&flashvars[streamerType]=auto&flashvars[localizationCode]=en_US&flashvars[leadWithHTML5]=true&flashvars[sideBarContainer.plugin]=true&flashvars[sideBarContainer.position]=left&flashvars[sideBarContainer.clickToClose]=true&flashvars[chapters.plugin]=true&flashvars[chapters.layout]=vertical&flashvars[chapters.thumbnailRotator]=false&flashvars[streamSelector.plugin]=true&flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&flashvars[dualScreen.plugin]=true&flashvars[hotspots.plugin]=1&flashvars[Kaltura.addCrossoriginToIframe]=true&&=0_2qc8wpe0)
 
 <https://video.uva.nl/media/Platforms2021%20Profiling%20Distro/0_odxtqxlg>
-
 
 ## Optimizing
 
 A profile can tell you which parts of the code contribute most to the overall runtime, but not how or why. This is where you as a programmer step in. It is your job to try and figure out why some parts of the code are taking so much runtime. Then, improve the code so that it runs faster. Not just run faster in theory, but in practice too. You'll do this be reevaluating the code after each improvement. You might just find that a sensible change in theory, does not actually translate to practice.
 
-Note that execution times fluctuate between runs and that a profiler will always add some overhead. Do be sure to run the code sufficiently long (> 10 seconds) before drawing any conclusions. 
+Note that execution times fluctuate between runs and that a profiler will always add some overhead. Do be sure to run the code sufficiently long (> 10 seconds) before drawing any conclusions.
 
 Here are some tips to get you started, look out for:
 
-* Loops
-* [Data structures and their operations](https://wiki.python.org/moin/TimeComplexity)
-* Complexity both in big O and big Ω (worst and best case respectively)
-* Duplicated or more generally unnecessary function calls
-* ...
+- Loops
+- [Data structures and their operations](https://wiki.python.org/moin/TimeComplexity)
+- Complexity both in big O and big Ω (worst and best case respectively)
+- Duplicated or more generally unnecessary function calls
+- ...
 
 And here is some inspiration as to what you can try:
 
-* Try to avoid loops where reasonably possible. 
-* If a function call is expensive, that is takes up a lot of runtime, it might be worth [caching](https://docs.python.org/dev/library/functools.html#functools.lru_cache) its results. Such that a subsequent call can pull from the cache instead.
-* Misuse of data structures is a common source of performance penalties. Look out for operations that run in O(n) or worse.
-* Besides improving the code within a function, you can also look into reducing the number of calls to the function.
-* ...
+- Try to avoid loops where reasonably possible.
+- If a function call is expensive, that is takes up a lot of runtime, it might be worth [caching](https://docs.python.org/dev/library/functools.html#functools.lru_cache) its results. Such that a subsequent call can pull from the cache instead.
+- Misuse of data structures is a common source of performance penalties. Look out for operations that run in O(n) or worse.
+- Besides improving the code within a function, you can also look into reducing the number of calls to the function.
+- ...
 
 And finally, some advice:
 
-* If performance does not meaningfully improve and the code quality degrades, the change is not worth it.
-* If performance does meaningfully improve, it's a win. Code quality comes second for this assignment.
-* Zoom out every now and then. Don't get too caught up in small functions, but think about the program as a whole.
-* Get creative. Is searching for an empty spot really needed?
-
+- If performance does not meaningfully improve and the code quality degrades, the change is not worth it.
+- If performance does meaningfully improve, it's a win. Code quality comes second for this assignment.
+- Zoom out every now and then. Don't get too caught up in small functions, but think about the program as a whole.
+- Get creative. Is searching for an empty spot really needed?
 
 ## What to do
 
-Improve the code in five different ways. For each, write down:
+Improve the code in seven different ways. For each, write down:
 
-* Why you selected that part of the code.
-* Why you think that code can be improved.
-* What you changed in the code.
-* What the performance gain is or isn't. In either case, reflect briefly on why you think the performance does (not) improve.
+- Why you selected that part of the code.
+- Why you think that code can be improved.
+- What you changed in the code.
+- What the performance gain is or isn't. In either case, reflect briefly on why you think the performance does (not) improve.
 
+> Note that the form below does not show your answers after you have submitted this assignment. It's best to keep a copy of your own in case you want to resubmit later!
 
 <textarea name="form[1]" rows="5" required=""></textarea>
 
@@ -178,21 +175,26 @@ Improve the code in five different ways. For each, write down:
 
 <textarea name="form[5]" rows="5" required=""></textarea>
 
+<textarea name="form[6]" rows="5" required=""></textarea>
+
+<textarea name="form[7]" rows="5" required=""></textarea>
+
 ## Rules of the game
 
 #### Do
 
-* Change the implementation of functions and methods.
-* Change the data structures used within the program, as long as it does not break any other rule.
-* Add new functions and methods.
+- Change the implementation of functions and methods.
+- Change the data structures used within the program, as long as it does not break any other rule.
+- Add new functions and methods.
 
 #### Don't
 
-* Change the declaration of existing functions and methods.
-* Change the types of parameters or return values of existing functions and methods.
-* Change testcases or remove test cases.
-
+- Change the declaration of existing functions and methods.
+- Change the types of parameters or return values of existing functions and methods.
+- Change testcases or remove test cases.
 
 ## How to Submit
+
+> Before you submit, double check that each of your answers contains: Why you selected that part of the code, Why you think that code can be improved, What you changed in the code, and What the performance gain is or isn't.
 
 Submit your repository URL below. This should look something like: `https://github.com/minprog-platforms/your_repo_name`.
