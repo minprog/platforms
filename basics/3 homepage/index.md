@@ -26,62 +26,7 @@ If you have any questions about the lectures, please post a question!
 
 ## Getting Started
 
-In this course, we'll use GitHub Classroom to distribute project starter files. To begin this project:
-
-1. [Click here](https://classroom.github.com/a/fnfmL6vS) to go to the GitHub Classroom page for starting the assignment.
-2. Click the green "Accept this assignment" button. This will create a GitHub repository for your project. Recall that a git repository is just a location where your code will be stored and which can be used to keep track of changes you make to your code over time.
-3. Click on the link that follows "Your assignment has been created here", which will direct you to the GitHub repository page for your project. It may take a few seconds for GitHub to finish creating your repository.
-4. Now, you should be looking at a GitHub repository titled uva-webapps/homepage-username, where username is your GitHub username. This will be the repository to which you will push all of your code while working on your project. You will commit directly to this repository.
-5. Head on over to the "settings" tab of your GitHub repo, then click the "pages" pane. Once there, change the source to gh-pages and press save. You should now see the URL at which your GitHub pages website will (soon) live! But first, we'll need to add some HTML to your repository.
-
-
-### Your First Webpage
-
-Okay, let's add a simple webpage to your repository. First, on your working repository page (https://github.com/uva-webapps/homepage-username), click on the green "Clone or download" button. Copy the "Clone with HTTPS" link to your clipboard (if familiar with SSH, you can use that instead).
-
-Open the Terminal.
-
-`cd` to a directory where you want to put your project and run
-
-    git clone repository_url homepage
-
-where `repository_url` is the link you just copied from GitHub. You might be prompted for your GitHub username and password.
-
-
-Go ahead and run `cd homepage` to enter your repository. Now, run
-
-    touch index.html
-
-to create a new `index.html` file in your repository. Open the file with your
-favorite text editor. Then, paste in the following contents:
-
-    <!DOCTYPE html>
-    <html>
-        <head>
-            <title>My Webpage</title>
-        </head>
-        <body>
-            Hello, world!
-        </body>
-    </html>
-
-Then, save your `index.html` file.
-
-Okay, it's time to push our HTML file to your repository on GitHub! In your terimal window, in your project0 directory, run:
-
-    git add index.html
-
-to let `git` know that you want to include `index.html` in your next commit to this repository. Now, run:
-
-    git commit -m "Add first webpage"
-
-to commit your changes to this repository. The string after `-m` is your commit message, a short written description of the changes you've made in this commit. Writing succinct, informative commit messages will help you refer back to old changes later!
-
-Now, let's push our changes online. Run:
-
-    git push
-
-and your commit should be pushed to GitHub, and deployed to GitHub Pages. If you check your repository page on GitHub, and then check the GitHub Pages link that was generated for you earlier, you should see a webpage that just says "Hello, world!" with a title of "My Webpage." Your webpage is now deployed to the internet!
+[Download profile.zip to get your starter files](profile.zip)
 
 ## Requirements
 
@@ -99,30 +44,33 @@ subject to the following requirements:
 * Your stylesheet(s) must use at least five different CSS properties, and at
   least five different types of CSS selectors. You must use the `#id` selector
   at least once, and the `.class` selector at least once.
-* Your stylesheet(s) must include at least one mobile-responsive `@media` query,
-  such that something about the styling changes for smaller screens.
-* You must use Bootstrap 4 on your website, taking advantage of at least one
-  Bootstrap [component](https://getbootstrap.com/docs/4.3/components/),
+* You must use Bootstrap 5.1 on your website, taking advantage of at least one
+  Bootstrap [component](https://getbootstrap.com/docs/5.1/components/),
   and using at least two Bootstrap columns for layout purposes using
-  Bootstrap's [grid model](https://getbootstrap.com/docs/4.3/layout/grid/).
+  Bootstrap's [grid model](https://getbootstrap.com/docs/5.1/layout/grid/).
 * Your stylesheets must use at least one SCSS variable, at least one example of
   SCSS nesting, and at least one use of SCSS inheritance.
 * In `README.md`, include a short writeup describing your project, what's
   contained in each file, and (optionally) any other additional information the
   staff should know about your project.
-* Also in `README.md`, prominently feature a link to the live GitHub Pages version of your homepage.
+* Images may not be larger than 1MB.
 
 Note that not all of the above requirements are covered in the [html lecture](/basics/html), some will
 be introduced in the [git lecture](/basics/git).
 
 ## Tips
 
-* You can view your webpages offline by opening the `.html` files with your web browser.
+*   You can view your webpages offline by opening the `.html` files with your web browser.
 
-> Under WSL on Windows, you can open up `.html` files by either right-clicking them from within Visual Studio Code and then by clicking `open in explorer`. Or by running `explorer.exe .` in the terminal. Both methods open up the Windows File Explorer and from there you can open the html files in your browser.
+*   Under WSL on Windows, you can open up `.html` files by either right-clicking them from within Visual Studio Code and then by clicking `open in explorer`. Or by running `explorer.exe .` in the terminal. Both methods open up the Windows File Explorer and from there you can open the html files in your browser.
+
+*   In the CS50 IDE, you can start a server to view the site by running
+
+        $ http-server
+
+    in the terminal window and clicking on the link that appears.
+
 
 ## How to Submit
 
-You should have submitted your repository's URL while starting the project, in the "Starting the project" section, above!
-
-Example: `https://github.com/uva-webapps/homepage-username`
+Zip your stuff (make sure that images are not >1MB!).

@@ -3,11 +3,7 @@ short_name: Platform
 language: nl
 
 links:
-    '[people-fill] Assistentie': 'https://balie.mprog.nl/planner/6-programmeerbalie-platforms'
-    '[chat] Spreekuur': 'https://balie.mprog.nl/planner/3-spreekuur-minor'
-    '[people] Wonder': https://www.wonder.me/r?id=fda7b5fa-2394-48bb-99ac-ff7d13c847b6
-
-acknowledgements:
-    - 'Based on CS50 from https://cs50.harvard.edu/x/2021/ -- Copyright 2011--2021, David J. Malan.'
+    '[people-fill] Assistentie': https://balie.mprog.nl/planner/6-programmeerbalie-platforms
+    '[people] Wonder': https://app.wonder.me/?spaceId=fda7b5fa-2394-48bb-99ac-ff7d13c847b6
 
 license: <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.

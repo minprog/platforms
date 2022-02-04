@@ -8,58 +8,46 @@ In dit vak maak je kennis met verschillende platforms om programmeerproblemen aa
 Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze cursus start.
 
 
-## Onderwerpen
+## Onderwerpen en deadlines
 
-Er komen vijf verschillende modules voorbij met uiteenlopende onderwerpen:
+Er komen vijf verschillende modules voorbij met uiteenlopende onderwerpen. Dit vak start razendsnel! Let op de eerste deadline.
 
-1. **Basics**, het opzetten van een ontwikkelomgeving, het gebruik van git, het opzetten van een webpagina en het schrijven van een README
-2. **SQL**, het leren gebruiken van een relationele database
-3. **Datastructuren en Complexiteit**, afwegingen maken tussen het gebruik van verschillende datastructuren en de invloed op de computationele complexiteit
-4. **Scraping & Data analyse**, automatisch data vergaren vanaf het web en deze transformeren en visualiseren
-5. **Code Tools**, stijl in orde krijgen met linters, type checkers, software testen en run-time performance analyseren met profilers
+| Onderwerp | **Uiterste deadline**{: style="hyphens: none; white-space: nowrap; font-weight: bold;"} |
+| - | -: |
+| **Basics**, het opzetten van een ontwikkelomgeving, het gebruik van git, het opzetten van een webpagina en het schrijven van een README | 14 februari 2022 |
+| **SQL**, het leren gebruiken van een relationele database om data te beheren en te analyseren door middel van het schrijven van queries | 14 februari 2022 |
+| **Datastructuren en Complexiteit**, afwegingen maken tussen het gebruik van verschillende datastructuren en de invloed op de computationele complexiteit | 28 februari 2022 |
+| **Scraping & Data-analyse**, automatisch data vergaren vanaf het web en deze transformeren en visualiseren | 14 maart 2022 |
+| **Code Tools**, stijl in orde krijgen met linters, type checkers, software testen en run-time performance analyseren met profilers | 28 maart 2022 |
 
-Modules 1 en 2 duren ieder een week en de overige modules duren ieder twee weken. Dit zal je ook terugzien in de weekindeling in de kantlijn.
+Modules 1 en 2 duren samen ruim een week en de overige modules duren ieder twee weken.
 
 
 ## Docenten en contact
 
 Je docent is Martijn Stegeman, en de assistenten zijn Marijn Doeve en Alwan Rashid.
 
-Er zijn iedere week twee werkcolleges op locatie. De tijden en locatie vind je op [datanose.nl/#course[99713]](https://datanose.nl/#course[99713]).
-
-Er is een Slack kanaal voor het vak en daarvoor krijg je in de eerste week een uitnodiging. Dit kanaal is bedoeld voor snel asynchroon contact met andere studenten en met de assistenten & docenten.
-
-- Voor vragen over de stof, hulp met programmeren en technische ondersteuning zijn er op dinsdag, donderdag en vrijdag virtuele office hours van 14:00-16:00 via Zoom. Hiervoor stel je een vraag via het vraagteken op deze website en deel je jouw Zoom-link. 
-- Als je niet weet hoe je een vraag moet stellen of je weet niet hoe je moet beginnen met iets, is Slack de aangewezen plek. 
-- Voor vragen over regeltjes, het maken van persoonlijke afspraken en het op de hoogte houden van de docenten over het later inleveren stuur je een mail naar <help@mprog.nl>.
+- Er zijn iedere week twee **werkcolleges op locatie**. De tijden en locatie vind je op <https://datanose.nl/103382.course>. Het is *verplicht* één van beide bij te wonen, behalve in uitzonderlijke situaties (het volgen van andere vakken is geen uitzonderlijke situatie). Deze bijeenkomsten zijn verreweg je beste mogelijkheid voor hulp; zowel voor moeilijke bugs als "ik weet niet hoe te beginnen".
+- Er is een **virtueel lokaal** in Wonder waar je medestudenten kunt ontmoeten en hulp vragen aan de assistenten. Dat laatste kan alleen op bepaalde tijden (nog niet bekend). Maak een assistentie-afspraak via de knop op deze website.
+- Voor **vragen over regeltjes**, het maken van persoonlijke afspraken en het op de hoogte houden van de docenten over je voortgang stuur je een mail naar <help@mprog.nl>.
 
 
-## Verwachtingen
+## Minimumeisen
 
-Bij dit vak werk je aan verschillende soorten opdrachten:
+Alle opdrachten netjes af en werkend inleveren is de eerste eis om het vak te halen. Daarnaast is het nodig dat je *zichtbaar* actief meedoet en leert van het vak. Dat doe je onder andere op de volgende manieren:
 
-* **Samenwerkopdrachten** doe je samen met een medestudent. Deze opdrachten helpen je met het inkomen in een nieuwe tool of techniek.
-* **Individuele opdrachten** bouwen op die ervaring. Je doet ze alleen, waarbij je altijd hulp kunt krijgen van de docenten en assistenten.
-
-Alle opdrachten netjes af en werkend inleveren is de basiseis om het vak te halen. Daarnaast is het nodig dat je *zichtbaar* actief meedoet en leert van het vak. Dat doe je onder andere op de volgende manieren:
-
-1. meedoen aan alle wekelijkse werkcolleges
-2. actief vragen stellen of beantwoorden via Slack of video-assistentie
-3. laag scoren op de “plagiaatschaal”
+1. meedoen aan minimaal één werkcollege per week
+2. actief vragen stellen en hulp vragen
+3. het bijhouden van een procesboek
+4. laag scoren op de "plagiaatschaal"
 
 Op die manier kunnen we een goed beeld vormen van jouw voortgang en constateren dat je aan de leerdoelen van het vak hebt voldaan. Er is daarom ook niet voorzien in een schriftelijk tentamen. Dat is natuurlijk een prettig einde van het vak, maar legt wel meer verantwoordelijkheid bij jou om zichtbaar te leren.
 
 
-## Eindcijfer
+## Cijfers
 
 Voordat je een eindcijfer kunt krijgen moet je alle opdrachten werkend hebben ingeleverd en aan alle bovengenoemde verwachtingen hebben voldaan, tenzij je een *schriftelijke* uitzondering hebt gekregen van de examinator of coördinator. Voel je vrij om te overleggen of jouw omstandigheden een uitzondering rechtvaardigen (via een mail naar help@mprog.nl). We denken graag mee!
 
-Lukt het niet om systematisch laag te scoren op de plagiaatschaal, dan moet je je opdrachten bij de afloop van het vak presenteren en er vragen over beantwoorden, zodat er geconstateerd kan worden dat je voldoet aan de leerdoelen. Ben je niet systematisch aanwezig of doe je niet systematisch mee, dan kun je het vak niet halen.
-
-
-## Cijfers
-
-Dit is een breed vak met uiteenlopende onderwerpen en opdrachtsvormen. Deze worden dan ook op verschillende manieren nagekeken.
 
 | Opdracht               | Beoordeling |                                      |
 | ---------------------- | ----------- | ------------------------------------ |
@@ -83,6 +71,16 @@ De eerste 50% verdien je door punten te halen voor de verschillende opdrachten. 
 De tweede 50% van het eindcijfer zijn de cijfers voor verschillende opdrachten. Om een cijfer te krijgen voor deze opdrachten moeten ze volledig af zijn, je moet alle onderdelen zinvol hebben geprobeerd. Het cijfer bestaat dan vaak uit een deel correctness, dat is simpelweg hoeveel van de opdracht is correct. Daarnaast wordt ook het design en de style van de code meegenomen.
 
 
+## Aanwezigheid
+
+Aanwezigheid bij één werkcollege per week is verplicht. Ben je niet systematisch aanwezig of doe je niet systematisch mee, dan kun je het vak **niet** halen. Denk daarbij aan wegblijven van de colleges zonder overleg, pauzeren van inleveren zonder overleg. Je kunt natuurlijk wel op elk moment proberen alsnog te overleggen.
+
+
+## Procesboek
+
+Tijdens het volgen van het vak hou je een procesboek bij, waarin je per opdracht documenteert welke dingen je hebt geleerd die jou opvielen, maar ook welke bronnen je hebt gebruikt en wat voor soort hulp je hebt gevraagd: opstarten, nare bugs, ideeën opdoen? Allemaal vermelden! 
+
+
 ## Samenwerken
 
 Je mag met je medestudenten (en anderen) communiceren in het Nederlands of Engels over je werk in deze cursus, maar niet in de vorm van meer dan een paar regels Python, JavaScript, HTML en dergelijke talen. Als je twijfelt of je manier van werken in deze correct is, neem gerust contact op met de docenten.
@@ -102,39 +100,6 @@ Wat betreft fraude en plagiaat volgen we in deze cursus de richtlijnen van de Un
 
 ## Herkansen
 
-Onderstaande regelingen zijn wat streng geformuleerd, maar het is niet de bedoeling dat ze echt nodig zijn! Als je doorzet en de opdrachten afmaakt dan zou je de cursus gewoon moeten halen. Maak je er dus niet teveel zorgen over, maar neem wel direct contact op met je mentor als je denkt dat je in de problemen komt met de planning en/of je cijfers. Ook de coördinator spreekt graag met je als je advies nodig hebt.
+Bij dit vak gaat herkansen vooral over de situatie waarin je stopt met opdrachten maken of erg gaat achterlopen. Het is niet mogelijk opdrachten nog in te leveren na de deadlines die genoemd zijn in deze studiewijzer.
 
-<details markdown="1"><summary markdown="span">Ik heb alles werkend, maar sta een onvoldoende en wil herkansen</summary>
-
-  Dit betekent dat je onvoldoende aandacht hebt besteed aan de kwaliteit van je programma's. De herkansing komt erop neer dat je dit alsnog doet. Deze vorm van herkansing kan alleen direct na bekendmaking van de eindcijfers.
-
-  - Alle individuele opdrachten, ook die voldoende waren, moeten opnieuw worden ingeleverd.
-
-  - Het maximumcijfer is in dit geval een 6.0 en wordt alleen toegekend als alle opdrachten aantoonbaar van voldoende kwaliteit zijn (waarmee je aantoont het betreffende leerdoel gehaald te hebben).
-</details>
-
-<details markdown="1"><summary markdown="span">Ik heb een opdracht niet werkend ingeleverd en wil herkansen</summary>
-
-  Dit betekent dat je ergens tijdens het vak een opdracht niet af hebt gemaakt, hiervoor geen duidelijke reden had, en geen contact hebt gezocht op het moment dat het niet lukte.
-
-  - Herkansen kan pas vanaf het eerstvolgende semester waarin het vak wordt gegeven.
-
-  - Alle modules die niet af waren (en dus niet beoordeeld) moeten opnieuw of alsnog worden ingeleverd.
-
-  - Modules die af en beoordeeld waren mogen niet opnieuw worden ingestuurd. Het oude cijfer blijft staan, met uitzondering van opdrachten die zijn vervangen door nieuwe.
-
-  - Vernieuwde opdrachten moeten op moment van herkansen gewoon gedaan worden.
-
-  - Alle nieuwe beoordelingen vinden plaats zoals gangbaar op het moment van herkansen.
-</details>
-
-<details markdown="1"><summary markdown="span">Ik heb niet aan de verwachtingen van het vak voldaan en wil herkansen</summary>
-
-  Dit betekent dat je niet mee hebt gedaan met verplichte onderdelen of op een andere manier geen contact hebt onderhouden.
-
-  - Herkansen kan pas vanaf het eerstvolgende semester waarin het vak wordt gegeven.
-
-  - Er moet een concrete afspraak zijn over het inhalen van minimumeisen vóór je start. Neem hiervoor contact op met de docenten.
-
-  - Alle opdrachten moeten opnieuw gedaan worden indien de samenstelling inmiddels is veranderd.
-</details>
+Herkansen kan daarom de eerstvolgende keer dat het vak wordt gegeven in het **volgende semester**. Dit vak wordt echter vanaf september 2022 vervangen door een ander vak. Je kunt dus niet zomaar alle opdrachten meenemen.

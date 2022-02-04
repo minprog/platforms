@@ -1,27 +1,25 @@
 Welkom:
     Lees hier even rustig door de studiewijzer om te ontdekken hoe het vak in elkaar zit: /syllabus
 
-Week 1 (Basics):
+Week 1 (Git, Web and SQL):
+    Startup:
+        Procesboek: /procesboek
     Maandag:
-        'Videocollege: HTML [theory]': /basics/html
-        'Workshop: Development Enviroment [practice]': /basics/workshop
+        'Videocollege: HTML [3u]': /basics/html
+        'Workshop: Development Enviroment [2u]': /basics/workshop
     Dinsdag:
-        'Videocollege: Git [theory]': /basics/git
+        'Videocollege: Git [1u]': /basics/git
+        'Workshop: Using Git in a terminal [1u]': /basics/terminal
     Woensdag:
-        'Opdracht: Homepage [assignment]': /basics/homepage
-        'Workshop: Using Git in a terminal [practice]': /basics/terminal
+        'Opdracht: Homepage [4u]': /basics/homepage
     Donderdag:
-        'Opdracht: Markdown [assignment]': /basics/markdown
-
-Week 2 (SQL):
-    Maandag:
-        "Lecture: SQL [theory]": /sql/lecture
-    Dinsdag:
-        "Implement Movies [assignment]": /sql/movies
-    Donderdag:
-        "Implement Fiftyville [assignment]": /sql/fiftyville
-
-Week 3 (Data structures):
+        "Lecture: SQL [4u]": /sql/lecture
+    Vrijdag:
+        "Implement Movies [3u]": /sql/movies
+        "Implement Fiftyville [3u]": /sql/fiftyville
+    Afronding week:
+        Inleveren procesboek: /procesboek/week1
+Week 2-3 (Data structures):
     # Introduction: /data-structures/
     Maandag:
         Complexity [theory]: /data-structures/python/efficiency
@@ -41,7 +39,8 @@ Week 3 (Data structures):
         Complexity questions 2 [assignment]: /data-structures/questions2
     Donderdag:
         Jaccard [assignment]: /data-structures/jaccard
-    
+    Afronding week 2:
+        Inleveren procesboek: /procesboek/week2
 Week 4 (Scraping Data):
     Maandag:
         Indexing words [assignment]: /data-structures/word-index
