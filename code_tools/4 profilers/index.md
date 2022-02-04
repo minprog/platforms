@@ -156,7 +156,7 @@ And finally, some advice:
 
 ## What to do
 
-Improve the code in seven different ways. For each, write down:
+Improve the code in seven **different** ways. For each, write down:
 
 - Why you selected that part of the code.
 - Why you think that code can be improved.
