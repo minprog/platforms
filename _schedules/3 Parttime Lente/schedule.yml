@@ -22,58 +22,57 @@ Week 1 (Git, Web and SQL):
 Week 2-3 (Data structures):
   # Introduction: /data-structures/
   Maandag:
-    Complexity [theory]: /data-structures/python/efficiency
-    Complexity questions 1 [assignment]: /data-structures/questions1
-    Dictionaries [theory]: /data-structures/python/dictionaries/use
-    Dictionaries [practice]: /data-structures/python/dictionaries/use/practice
-    Efficiency of dictionaries [theory]: /data-structures/python/dictionaries/complexity
-    Efficiency of dictionaries [practice]: /data-structures/python/dictionaries/complexity/practice
+    Complexity [1u]: /data-structures/python/efficiency
+    Complexity questions 1 [1u]: /data-structures/questions1
+    Dictionaries theory [0.5u]: /data-structures/python/dictionaries/use
+    Dictionaries practice [0.5u]: /data-structures/python/dictionaries/use/practice
+    Efficiency of dictionaries [0.5u]: /data-structures/python/dictionaries/complexity
+    Efficiency of dictionaries [0.5u]: /data-structures/python/dictionaries/complexity/practice
   Dinsdag:
-    Tuples [theory]: /data-structures/python/tuples
-    Sets [theory]: /data-structures/python/sets
-    Sets [practice]: /data-structures/python/sets/practice
-    List slicing and indexing [theory]: /data-structures/python/slicing
+    Tuples [0.5u]: /data-structures/python/tuples
+    Sets [0.5u]: /data-structures/python/sets
+    Sets [0.5u]: /data-structures/python/sets/practice
+    List slicing and indexing [0.5u]: /data-structures/python/slicing
   Woensdag:
-    Applying big O in your code [theory]: /data-structures/python/big-o
-    Improving count_occurrence [theory]: /data-structures/python/big-o-example
-    Complexity questions 2 [assignment]: /data-structures/questions2
+    Applying big O in your code [0.5u]: /data-structures/python/big-o
+    Improving count_occurrence [0.5u]: /data-structures/python/big-o-example
+    Complexity questions 2 [1u]: /data-structures/questions2
   Donderdag:
-    Jaccard [assignment]: /data-structures/jaccard
+    Jaccard [3u]: /data-structures/jaccard
+  Vrijdag:
+    Indexing words [4u]: /data-structures/word-index
   Afronding week 2:
     Inleveren procesboek: /procesboek/week2
 Week 4 (Scraping Data):
   Maandag:
-    Indexing words [assignment]: /data-structures/word-index
+    Pandas [8u]: "/scraping-data/pandas"
   Woensdag:
-    Pandas [assignment]: "/scraping-data/pandas"
-  Vrijdag:
-    Scraping [assignment]: "/scraping-data/scraping"
+    Scraping [10u]: "/scraping-data/scraping"
   # Submit your solutions: /submit/complexity
 
 Week 5 (Scraping Data):
   Maandag:
-    Transforming [assignment]: "/scraping-data/transforming"
+    Transforming [3u]: "/scraping-data/transforming"
   Woensdag:
-    Visualizing [assignment]: "/scraping-data/visualizing"
+    Visualizing [6u]: "/scraping-data/visualizing"
   Donderdag:
-    Crawling [assignment]: "/scraping-data/crawling"
+    Crawling [10u]: "/scraping-data/crawling"
 
 Week 6 (Code Tools):
   Maandag (Linters):
-    Style [assignment]: "/code_tools/linters/style"
-  Dinsdag (Linters):
-    Cyclomatic Complexity [assignment]: "/code_tools/linters/cyclomatic_complexity"
-  Woensdag (Type Checkers):
-    Theory [theory]: "/code_tools/type_checkers/theory"
-    Assignment [assignment]: "/code_tools/type_checkers/type_hints"
-  Donderdag (Testers):
-    Theory [theory]: "/code_tools/testers/theory"
-    Rotate [practice]: "/code_tools/testers/rotate"
-
+    Style [2u]: "/code_tools/linters/style"
+    Cyclomatic Complexity [2u]: "/code_tools/linters/cyclomatic_complexity"
+  Dinsdag (Type Checkers):
+    Theory [1u]: "/code_tools/type_checkers/theory"
+    Assignment [2u]: "/code_tools/type_checkers/type_hints"
+  Woensdag (Testers):
+    Theory [2u]: "/code_tools/testers/theory"
+    Rotate [3u]: "/code_tools/testers/rotate"
+  Vrijdag (Testers):
+    Tennis [6u]: "/code_tools/testers/tennis"
+  
 Week 7 (Code Tools):
   Maandag (Testers):
-    Tennis [assignment]: "/code_tools/testers/tennis"
-  Dinsdag (Testers):
-    Cash [assignment]: "/code_tools/testers/testing"
+    Cash [6u]: "/code_tools/testers/testing"
   Woensdag (Profilers):
-    Sudoku [assignment]: "/code_tools/profilers"
+    Sudoku [8u]: "/code_tools/profilers"
