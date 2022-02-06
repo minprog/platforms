@@ -53,7 +53,7 @@ De cursus bestaat uit modules (weken). Alle modules tellen even zwaar mee voor h
 | Movies                | 1 punt                             |
 | Fiftyville            | 1 punt                             |
 
-Homepage: 1 punt als aan alle onderstaande eisen is voldaan. 2 punten bij een exceptionele website. Exceptioneel is significant meer moeite in de opdracht gestoken en duidelijk verder gegaan dan de geboden stof.
+Homepage: 1 punt als *precies* aan alle eisen in de opdracht is voldaan. 2 punten bij een exceptionele website. Exceptioneel is significant meer moeite in de opdracht gestoken en duidelijk verder gegaan dan de geboden stof.
 
 | Week 2 (wordt nog aangepast) | Beoordeling |                                    |
 | --------------------- | ----------- | ---------------------------------- |
