@@ -10,69 +10,85 @@ Week 1 (Git, Web and SQL):
   Dinsdag:
     "Videocollege: Git [1u]": /basics/git
     "Workshop: Using Git in a terminal [1u]": /basics/terminal
+    "Opdracht: Homepage [4u]": /basics/homepage
   Woensdag:
-    "Opdracht: Homepage (punten) [4u]": /basics/homepage
-  Donderdag:
     "Lecture: SQL [4u]": /sql/lecture
-  Vrijdag:
-    "Implement Movies (punten) [3u]": /sql/movies
-    "Implement Fiftyville (punten) [3u]": /sql/fiftyville
+  Donderdag en vrijdag:
+    "Implement Movies [5u]": /sql/movies
+    "Implement Fiftyville [5u]": /sql/fiftyville
   Afronding week:
     Inleveren procesboek: /procesboek/week1
-Week 2-3 (Data structures):
-  # Introduction: /data-structures/
-  Maandag:
+
+Week 2 (Datastructuren):
+  Startup:
+    Procesboek: /procesboek
+  Dinsdag:
     Complexity [1u]: /data-structures/python/efficiency
-    Complexity questions 1 (punten) [1u]: /data-structures/questions1
+    Complexity questions 1 [1u]: /data-structures/questions1
     Dictionaries theory [0.5u]: /data-structures/python/dictionaries/use
     Dictionaries practice [0.5u]: /data-structures/python/dictionaries/use/practice
     Efficiency of dictionaries [0.5u]: /data-structures/python/dictionaries/complexity
     Efficiency of dictionaries [0.5u]: /data-structures/python/dictionaries/complexity/practice
-  Dinsdag:
+  Woensdag:
     Tuples [0.5u]: /data-structures/python/tuples
     Sets [0.5u]: /data-structures/python/sets
     Sets [0.5u]: /data-structures/python/sets/practice
     List slicing and indexing [0.5u]: /data-structures/python/slicing
-  Woensdag:
     Applying big O in your code [0.5u]: /data-structures/python/big-o
     Improving count_occurrence [0.5u]: /data-structures/python/big-o-example
     Complexity questions 2 (punten) [1u]: /data-structures/questions2
   Donderdag:
-    Jaccard (punten) [3u]: /data-structures/jaccard
+    Jaccard [3u]: /data-structures/jaccard
   Vrijdag:
-    Indexing words (cijfer) [5u]: /data-structures/word-index
+    Indexing words [5u]: /data-structures/word-index
   Afronding week 2:
     Inleveren procesboek: /procesboek/week2
-Week 4 (Scraping Data):
-  Maandag:
-    Pandas (punten) [8u]: "/scraping-data/pandas"
-  Woensdag:
-    Scraping (cijfer) [10u]: "/scraping-data/scraping"
-  # Submit your solutions: /submit/complexity
 
-Week 5 (Scraping Data):
-  Maandag:
-    Transforming (cijfer) [3u]: "/scraping-data/transforming"
-  Woensdag:
-    Visualizing (cijfer) [6u]: "/scraping-data/visualizing"
-  Donderdag:
-    Crawling (cijfer) [10u]: "/scraping-data/crawling"
+Week 3 (Data & Scraping):
+  Startup:
+    Procesboek: /procesboek
+  Dinsdag en woensdag:
+    Pandas [8u]: "/scraping-data/pandas"
+  Donderdag en vrijdag:
+    Scraping [10u]: "/scraping-data/scraping"
+  Afronding week 3:
+    Inleveren procesboek: /procesboek/week3
 
-Week 6 (Code Tools):
-  Maandag (Linters):
-    Style (punten) [2u]: "/code_tools/linters/style"
+Week 5 (Data Processing):
+  Startup:
+    Procesboek: /procesboek
+  Dinsdag:
+    Transforming [3u]: "/scraping-data/transforming"
+  Woensdag:
+    Visualizing [6u]: "/scraping-data/visualizing"
+  Donderdag en vrijdag:
+    Crawling [10u]: "/scraping-data/crawling"
+  Afronding week 3:
+    Inleveren procesboek: /procesboek/week5
+
+Week 6 (Codekwaliteit):
+  Startup:
+    Procesboek: /procesboek
+  Dinsdag (Linters):
+    Style [2u]: "/code_tools/linters/style"
     Cyclomatic Complexity [2u]: "/code_tools/linters/cyclomatic_complexity"
-  Dinsdag (Type Checkers):
+  Woensdag (Type Checkers):
     Theory [1u]: "/code_tools/type_checkers/theory"
-    Assignment (punten) [2u]: "/code_tools/type_checkers/type_hints"
-  Woensdag (Testers):
-    Theory [2u]: "/code_tools/testers/theory"
-    Rotate (punten) [3u]: "/code_tools/testers/rotate"
-  Vrijdag (Testers):
-    Tennis (cijfer) [6u]: "/code_tools/testers/tennis"
-  
-Week 7 (Code Tools):
-  Maandag (Testers):
-    Cash (cijfer) [8u]: "/code_tools/testers/testing"
-  Woensdag (Profilers):
+    Assignment [2u]: "/code_tools/type_checkers/type_hints"
+  Donderdag en vrijdag (Profilers):
     Sudoku (cijfer) [10u]: "/code_tools/profilers"
+  Afronding week 3:
+    Inleveren procesboek: /procesboek/week6
+
+Week 7 (Testing):
+  Startup:
+    Procesboek: /procesboek
+  Dinsdag:
+    Theory [2u]: "/code_tools/testers/theory"
+    Rotate [3u]: "/code_tools/testers/rotate"
+  Woensdag:
+    Tennis [6u]: "/code_tools/testers/tennis"
+  Donderdag en vrijdag:
+    Cash [8u]: "/code_tools/testers/testing"
+  Afronding week 3:
+    Inleveren procesboek: /procesboek/week7

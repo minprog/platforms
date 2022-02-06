@@ -10,15 +10,15 @@ Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze 
 
 Er komen vijf verschillende modules voorbij met uiteenlopende onderwerpen. Dit vak start razendsnel! Let op de eerste deadline.
 
-| Onderwerp                                                                                                                                                | **Uiterste deadline**{: style="hyphens: none; white-space: nowrap; font-weight: bold;"} |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------: |
-| **Basics**, het opzetten van een ontwikkelomgeving, het gebruik van git, het opzetten van een webpagina en het schrijven van een README                  |                                                                        14 februari 2022 |
-| **SQL**, het leren gebruiken van een relationele database om data te beheren en te analyseren door middel van het schrijven van queries                  |                                                                        14 februari 2022 |
-| **Datastructuren en Complexiteit**, afwegingen maken tussen het gebruik van verschillende datastructuren en de invloed op de computationele complexiteit |                                                                        28 februari 2022 |
-| **Scraping & Data-analyse**, automatisch data vergaren vanaf het web en deze transformeren en visualiseren                                               |                                                                           14 maart 2022 |
-| **Code Tools**, stijl in orde krijgen met linters, type checkers, software testen en run-time performance analyseren met profilers                       |                                                                           28 maart 2022 |
-
-Modules 1 en 2 duren samen ruim een week en de overige modules duren ieder twee weken.
+| Onderwerp | **Uiterste deadline**{: style="hyphens: none; white-space: nowrap; font-weight: bold;"} |
+| - | -: |
+| **Git, Web en SQL**, het opzetten van een ontwikkelomgeving, het gebruik van git, het opzetten van een webpagina en het gebruik van SQL | 14 februari 2022 |
+| **Datastructuren**, afwegingen maken tussen het gebruik van verschillende datastructuren en de invloed op de computationele complexiteit | 21 februari 2022 |
+| **Data & Scraping**, data verwerken in Python met Pandas; en geautomatiseerd data vergaren vanaf het web | 28 februari 2022 |
+| -- | -- |
+| **Data Processing**, automatisch data vergaren vanaf het web en deze transformeren en visualiseren | 14 maart 2022 |
+| **Codekwaliteit**, stijl op orde krijgen met linters, type checkers; en run-time performance analyseren en verbeteren met profilers | 21 maart 2022 |
+| **Testing**, geautomatiseerd testen van de correcte werking van je eigen programma's | 28 maart 2022 |
 
 ## Docenten en contact
 
