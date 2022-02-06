@@ -47,7 +47,7 @@ Voordat je een eindcijfer kunt krijgen moet je alle opdrachten werkend hebben in
 
 De cursus bestaat uit modules (weken). Alle modules tellen even zwaar mee voor het eindcijfer. Als je een module niet volledig en correct werkend inlevert op de bovenvermelde deadline krijg je *geen* punten voor die week.
 
-| Week 1                | Beoordeling   |
+| Week 1                |     |
 | --------------------- | ---------------------------------- |
 | Homepage              | 1--2 punten                        |
 | Movies                | 1 punt                             |
@@ -55,33 +55,33 @@ De cursus bestaat uit modules (weken). Alle modules tellen even zwaar mee voor h
 
 Homepage: 1 punt als *precies* aan alle eisen in de opdracht is voldaan. 2 punten bij een exceptionele website. Exceptioneel is significant meer moeite in de opdracht gestoken en duidelijk verder gegaan dan de geboden stof.
 
-| Week 2 (wordt nog aangepast) | Beoordeling |                                    |
-| --------------------- | ----------- | ---------------------------------- |
-| q1 complexity         | punten      | 1 punt                             |
-| q2 complexity         | punten      | 1 punt                             |
-| Jaccard               | punten      | 1 punt                             |
-| Indexing Words        | cijfer      | 50% correctness + 50% design/style |
+| Week 2 (wordt nog aangepast) |                                    |
+| --------------------- |  ---------------------------------- |
+| q1 complexity         |  1 punt                             |
+| q2 complexity         |  1 punt                             |
+| Jaccard               |  1 punt                             |
+| Indexing Words        |  50% correctness + 50% design/style |
 
-| Week 3 (wordt nog aangepast) | Beoordeling |                                    |
-| --------------------- | ----------- | ---------------------------------- |
-| Pandas                | punten      | 1 punt                             |
-| Scraping t/m ...      | cijfer      | 50% correctness + 50% design/style |
+| Week 3 (wordt nog aangepast) |                                     |
+| --------------------- | ---------------------------------- |
+| Pandas                | 1 punt                             |
+| Scraping t/m ...      | 50% correctness + 50% design/style |
 
-| Week 5 (wordt nog aangepast) | Beoordeling |                                    |
-| --------------------- | ----------- | ---------------------------------- |
-| ... t/m Crawling      | cijfer      | 50% correctness + 50% design/style |
+| Week 5 (wordt nog aangepast) |                                     |
+| --------------------- |  ---------------------------------- |
+| ... t/m Crawling      |  50% correctness + 50% design/style |
 
-| Week 6 (wordt nog aangepast) | Beoordeling |                                    |
-| --------------------- | ----------- | ---------------------------------- |
-| Linters               | punten      | 1 punt                             |
-| Type Checkers         | punten      | 1 punt                             |
-| Profilers             | cijfer      | 100% correctness                   |
+| Week 6 (wordt nog aangepast) |                                   |
+| --------------------- |  ---------------------------------- |
+| Linters               |  1 punt                             |
+| Type Checkers         |  1 punt                             |
+| Profilers             |  100% correctness                   |
 
-| Week 7 (wordt nog aangepast) | Beoordeling |                                    |
-| --------------------- | ----------- | ---------------------------------- |
-| Rotate                | punten      | 1 punt                             |
-| Tennis                | cijfer      | 100% correctness                   |
-| Cash                  | cijfer      | 100% correctness                   |
+| Week 7 (wordt nog aangepast) |                                  |
+| --------------------- | ---------------------------------- |
+| Rotate                | 1 punt                             |
+| Tennis                | 100% correctness                   |
+| Cash                  | 100% correctness                   |
 
 ## Aanwezigheid
 
