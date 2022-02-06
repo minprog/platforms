@@ -8,13 +8,15 @@ Programmeren 1 en Programmeren 2 moet je helemaal gehaald hebben vóór je deze 
 
 ## Onderwerpen en deadlines
 
-Er komen vijf verschillende modules voorbij met uiteenlopende onderwerpen. Dit vak start razendsnel! Let op de eerste deadline.
+Er komen modules voorbij met uiteenlopende onderwerpen. Dit vak start razendsnel, dus zorg dat je die eerste deadline niet mist! Er is geen mogelijkheid tot verder uitlopen dan de genoemde datums.
 
 | Onderwerp | **Uiterste deadline**{: style="hyphens: none; white-space: nowrap; font-weight: bold;"} |
 | - | -: |
 | **Git, Web en SQL**, het opzetten van een ontwikkelomgeving, het gebruik van git, het opzetten van een webpagina en het gebruik van SQL | 14 februari 2022 |
 | **Datastructuren**, afwegingen maken tussen het gebruik van verschillende datastructuren en de invloed op de computationele complexiteit | 21 februari 2022 |
 | **Data & Scraping**, data verwerken in Python met Pandas; en geautomatiseerd data vergaren vanaf het web | 28 februari 2022 |
+| -- | -- |
+| vrije week | |
 | -- | -- |
 | **Data Processing**, automatisch data vergaren vanaf het web en deze transformeren en visualiseren | 14 maart 2022 |
 | **Codekwaliteit**, stijl op orde krijgen met linters, type checkers; en run-time performance analyseren en verbeteren met profilers | 21 maart 2022 |
