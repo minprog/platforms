@@ -50,18 +50,23 @@ Voordat je een eindcijfer kunt krijgen moet je alle opdrachten werkend hebben in
 | Homepage              | punten      | 1 of 2 punten                      |
 | Movies                | punten      | 1 punt                             |
 | Fiftyville            | punten      | 1 punt                             |
-| Jaccard               | punten      | 1 punt                             |
+| -- | -- |
 | q1 complexity         | punten      | 1 punt                             |
 | q2 complexity         | punten      | 1 punt                             |
+| Jaccard               | punten      | 1 punt                             |
 | Indexing Words        | cijfer      | 50% correctness + 50% design/style |
+| -- | -- |
 | Pandas                | punten      | 1 punt                             |
 | Scraping t/m Crawling | cijfer      | 50% correctness + 50% design/style |
+| -- | -- |
 | Linters               | punten      | 1 punt                             |
 | Type Checkers         | punten      | 1 punt                             |
+| Profilers             | cijfer      | 100% correctness                   |
+| -- | -- |
 | Rotate                | punten      | 1 punt                             |
 | Tennis                | cijfer      | 100% correctness                   |
 | Cash                  | cijfer      | 100% correctness                   |
-| Profilers             | cijfer      | 100% correctness                   |
+| -- | -- |
 
 Het eindcijfer is opgebouwd uit twee delen.
 
