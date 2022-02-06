@@ -47,9 +47,7 @@ Voordat je een eindcijfer kunt krijgen moet je alle opdrachten werkend hebben in
 
 De cursus bestaat uit modules (weken). Alle modules tellen even zwaar mee voor het eindcijfer. Als je een module niet volledig en correct werkend inlevert op de bovenvermelde deadline krijg je *geen* punten voor die week.
 
-**Week 1**
-
-| Opdracht              | Beoordeling |                                    |
+| Week 1                | Beoordeling |                                    |
 | --------------------- | ----------- | ---------------------------------- |
 | Homepage              | punten      | 1--2 punten                        |
 | Movies                | punten      | 1 punt                             |
@@ -57,39 +55,29 @@ De cursus bestaat uit modules (weken). Alle modules tellen even zwaar mee voor h
 
 Homepage: 1 punt als aan alle onderstaande eisen is voldaan. 2 punten bij een exceptionele website. Exceptioneel is significant meer moeite in de opdracht gestoken en duidelijk verder gegaan dan de geboden stof.
 
-**Week 2 (wordt nog aangepast)**
-
-| Opdracht              | Beoordeling |                                    |
+| Week 2 (wordt nog aangepast) | Beoordeling |                                    |
 | --------------------- | ----------- | ---------------------------------- |
 | q1 complexity         | punten      | 1 punt                             |
 | q2 complexity         | punten      | 1 punt                             |
 | Jaccard               | punten      | 1 punt                             |
 | Indexing Words        | cijfer      | 50% correctness + 50% design/style |
 
-**Week 3 (wordt nog aangepast)**
-
-| Opdracht              | Beoordeling |                                    |
+| Week 3 (wordt nog aangepast) | Beoordeling |                                    |
 | --------------------- | ----------- | ---------------------------------- |
 | Pandas                | punten      | 1 punt                             |
 | Scraping t/m ...      | cijfer      | 50% correctness + 50% design/style |
 
-**Week 5 (wordt nog aangepast)**
-
-| Opdracht              | Beoordeling |                                    |
+| Week 5 (wordt nog aangepast) | Beoordeling |                                    |
 | --------------------- | ----------- | ---------------------------------- |
 | ... t/m Crawling      | cijfer      | 50% correctness + 50% design/style |
 
-**Week 6 (wordt nog aangepast)**
-
-| Opdracht              | Beoordeling |                                    |
+| Week 6 (wordt nog aangepast) | Beoordeling |                                    |
 | --------------------- | ----------- | ---------------------------------- |
 | Linters               | punten      | 1 punt                             |
 | Type Checkers         | punten      | 1 punt                             |
 | Profilers             | cijfer      | 100% correctness                   |
 
-**Week 7 (wordt nog aangepast)**
-
-| Opdracht              | Beoordeling |                                    |
+| Week 7 (wordt nog aangepast) | Beoordeling |                                    |
 | --------------------- | ----------- | ---------------------------------- |
 | Rotate                | punten      | 1 punt                             |
 | Tennis                | cijfer      | 100% correctness                   |
