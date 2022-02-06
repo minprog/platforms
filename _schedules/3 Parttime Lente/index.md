@@ -45,34 +45,55 @@ Op die manier kunnen we een goed beeld vormen van jouw voortgang en constateren 
 
 Voordat je een eindcijfer kunt krijgen moet je alle opdrachten werkend hebben ingeleverd en aan alle bovengenoemde verwachtingen hebben voldaan, tenzij je een _schriftelijke_ uitzondering hebt gekregen van de examinator of coördinator. Voel je vrij om te overleggen of jouw omstandigheden een uitzondering rechtvaardigen (via een mail naar help@mprog.nl). We denken graag mee!
 
+De cursus bestaat uit modules (weken). Alle modules tellen even zwaar mee voor het eindcijfer. Als je een module niet volledig en correct werkend inlevert op de bovenvermelde deadline krijg je *geen* punten voor die week.
+
+**Week 1**
+
 | Opdracht              | Beoordeling |                                    |
 | --------------------- | ----------- | ---------------------------------- |
-| Homepage              | punten      | 1 of 2 punten                      |
+| Homepage              | punten      | 1--2 punten                        |
 | Movies                | punten      | 1 punt                             |
 | Fiftyville            | punten      | 1 punt                             |
-| -- | -- |
+
+Homepage: 1 punt als aan alle onderstaande eisen is voldaan. 2 punten bij een exceptionele website. Exceptioneel is significant meer moeite in de opdracht gestoken en duidelijk verder gegaan dan de geboden stof.
+
+**Week 2 (wordt nog aangepast)**
+
+| Opdracht              | Beoordeling |                                    |
+| --------------------- | ----------- | ---------------------------------- |
 | q1 complexity         | punten      | 1 punt                             |
 | q2 complexity         | punten      | 1 punt                             |
 | Jaccard               | punten      | 1 punt                             |
 | Indexing Words        | cijfer      | 50% correctness + 50% design/style |
-| -- | -- |
+
+**Week 3 (wordt nog aangepast)**
+
+| Opdracht              | Beoordeling |                                    |
+| --------------------- | ----------- | ---------------------------------- |
 | Pandas                | punten      | 1 punt                             |
-| Scraping t/m Crawling | cijfer      | 50% correctness + 50% design/style |
-| -- | -- |
+| Scraping t/m ...      | cijfer      | 50% correctness + 50% design/style |
+
+**Week 5 (wordt nog aangepast)**
+
+| Opdracht              | Beoordeling |                                    |
+| --------------------- | ----------- | ---------------------------------- |
+| ... t/m Crawling      | cijfer      | 50% correctness + 50% design/style |
+
+**Week 6 (wordt nog aangepast)**
+
+| Opdracht              | Beoordeling |                                    |
+| --------------------- | ----------- | ---------------------------------- |
 | Linters               | punten      | 1 punt                             |
 | Type Checkers         | punten      | 1 punt                             |
 | Profilers             | cijfer      | 100% correctness                   |
-| -- | -- |
+
+**Week 7 (wordt nog aangepast)**
+
+| Opdracht              | Beoordeling |                                    |
+| --------------------- | ----------- | ---------------------------------- |
 | Rotate                | punten      | 1 punt                             |
 | Tennis                | cijfer      | 100% correctness                   |
 | Cash                  | cijfer      | 100% correctness                   |
-| -- | -- |
-
-Het eindcijfer is opgebouwd uit twee delen.
-
-Allereerst verdien je voor de verschillende opdrachten punten. Daarvoor moet je de opdrachten volledig af en werkend inleveren. Deze punten zijn 30% van het eindcijfer. Er zijn tien punten in totaal en er is één bonuspunt te verdienen voor een exceptionele inzending van Homepage. Die bonuspunt is daarmee effectief een extra 0.3 op het eindcijfer.
-
-Het tweede deel en 70% van het eindcijfer zijn de cijfers voor verschillende opdrachten. Om een cijfer te krijgen voor deze opdrachten moeten ze volledig af zijn, je moet alle onderdelen zinvol hebben geprobeerd. Het cijfer bestaat dan vaak uit correctness, dat is simpelweg hoeveel van de opdracht is correct. Bij verschillende opdrachten wordt ook het design en de style van de code meegenomen.
 
 ## Aanwezigheid
 
