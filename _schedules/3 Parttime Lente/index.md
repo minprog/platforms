@@ -45,7 +45,7 @@ Op die manier kunnen we een goed beeld vormen van jouw voortgang en constateren 
 
 Voordat je een eindcijfer kunt krijgen moet je alle opdrachten werkend hebben ingeleverd en aan alle bovengenoemde verwachtingen hebben voldaan, tenzij je een _schriftelijke_ uitzondering hebt gekregen van de examinator of coördinator. Voel je vrij om te overleggen of jouw omstandigheden een uitzondering rechtvaardigen (via een mail naar help@mprog.nl). We denken graag mee!
 
-De cursus bestaat uit modules (weken). Alle modules tellen even zwaar mee voor het eindcijfer. Als je een module niet volledig en correct werkend inlevert op de bovenvermelde deadline krijg je *geen* punten voor die week.
+De cursus bestaat uit modules (weken). Alle modules tellen even zwaar mee voor het eindcijfer. Als je een module niet volledig en correct werkend inlevert op de bovenvermelde deadline krijg je *geen* punten voor die week. Er is geen mogelijkheid om het werk nog in te halen voor punten.
 
 | Week 1                |     |
 | --------------------- | ---------------------------------- |
