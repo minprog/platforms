@@ -47,11 +47,11 @@ Voordat je een eindcijfer kunt krijgen moet je alle opdrachten werkend hebben in
 
 De cursus bestaat uit modules (weken). Alle modules tellen even zwaar mee voor het eindcijfer. Als je een module niet volledig en correct werkend inlevert op de bovenvermelde deadline krijg je *geen* punten voor die week.
 
-| Week 1                | Beoordeling |                                    |
-| --------------------- | ----------- | ---------------------------------- |
-| Homepage              | punten      | 1--2 punten                        |
-| Movies                | punten      | 1 punt                             |
-| Fiftyville            | punten      | 1 punt                             |
+| Week 1                | Beoordeling   |
+| --------------------- | ---------------------------------- |
+| Homepage              | 1--2 punten                        |
+| Movies                | 1 punt                             |
+| Fiftyville            | 1 punt                             |
 
 Homepage: 1 punt als aan alle onderstaande eisen is voldaan. 2 punten bij een exceptionele website. Exceptioneel is significant meer moeite in de opdracht gestoken en duidelijk verder gegaan dan de geboden stof.
 
