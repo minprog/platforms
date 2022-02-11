@@ -55,12 +55,12 @@ De cursus bestaat uit modules (weken). Alle modules tellen even zwaar mee voor h
 
 Homepage: 1 punt als *precies* aan alle eisen in de opdracht is voldaan. 2 punten bij een exceptionele website. Exceptioneel is significant meer moeite in de opdracht gestoken en duidelijk verder gegaan dan de geboden stof.
 
-| Week 2                |                                                        |
-| --------------------- | ------------------------------------------------------ |
-| q1 complexity         | 1 punt voor zinvolle antwoorden                        |
-| q2 complexity         | 1 punt voor zinvolle antwoorden                        |
-| Jaccard               | 1 punt voor een goede implementatie                    |
-| Indexing Words        | 1--2 punten voor een goede of excellente implementatie |
+| Week 2                 |                                                        |
+| ---------------------- | ------------------------------------------------------ |
+| Complexity questions 1 | 1 punt voor (vrijwel) goede antwoorden                 |
+| Complexity questions 2 | 1 punt voor (vrijwel) goede antwoorden                 |
+| Jaccard                | 1 punt voor een goede implementatie                    |
+| Indexing Words         | 1--2 punten voor een goede of excellente implementatie |
 
 | Week 3 (wordt nog aangepast) |                                     |
 | --------------------- | ---------------------------------- |
