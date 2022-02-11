@@ -47,20 +47,20 @@ Voordat je een eindcijfer kunt krijgen moet je alle opdrachten werkend hebben in
 
 De cursus bestaat uit modules (weken). Alle modules tellen even zwaar mee voor het eindcijfer. Als je een module niet volledig en correct werkend inlevert op de bovenvermelde deadline krijg je *geen* punten voor die week. Er is geen mogelijkheid om het werk nog in te halen voor punten.
 
-| Week 1                |     |
-| --------------------- | ---------------------------------- |
-| Homepage              | 1--2 punten                        |
-| Movies                | 1 punt                             |
-| Fiftyville            | 1 punt                             |
+| Week 1                |             |
+| --------------------- | ------------|
+| Homepage              | 1--2 punten |
+| Movies                | 1 punt      |
+| Fiftyville            | 1 punt      |
 
 Homepage: 1 punt als *precies* aan alle eisen in de opdracht is voldaan. 2 punten bij een exceptionele website. Exceptioneel is significant meer moeite in de opdracht gestoken en duidelijk verder gegaan dan de geboden stof.
 
-| Week 2 (wordt nog aangepast) |                                    |
-| --------------------- |  ---------------------------------- |
-| q1 complexity         |  1 punt                             |
-| q2 complexity         |  1 punt                             |
-| Jaccard               |  1 punt                             |
-| Indexing Words        |  50% correctness + 50% design/style |
+| Week 2                |                                                        |
+| --------------------- | ------------------------------------------------------ |
+| q1 complexity         | 1 punt voor zinvolle antwoorden                        |
+| q2 complexity         | 1 punt voor zinvolle antwoorden                        |
+| Jaccard               | 1 punt voor een goede implementatie                    |
+| Indexing Words        | 1--2 punten voor een goede of excellente implementatie |
 
 | Week 3 (wordt nog aangepast) |                                     |
 | --------------------- | ---------------------------------- |

@@ -34,15 +34,7 @@ Where $$A$$ and $$B$$ are the bags of words.
 
 ## Assignment
 
-We have written some code that computes the Jaccard index of two text files.
-
-First, accept the assignment on [Github Classroom](https://classroom.github.com/a/1TVdRzPh). Click on the green "Clone or download" button. Copy the "Clone with HTTPS" link to your clipboard (if familiar with SSH, you can use that instead). `cd` to a directory where you want to put your project and run
-
-    git clone repository_url jaccard
-
-where `repository_url` is the link you just copied from GitHub. You might be prompted for your GitHub username and password.
-
-Go ahead and run `cd jaccard` to enter your repository.
+We have written some code that computes the Jaccard index of two text files. [Download the starter files](jaccard.zip), unzip and `cd` into the `jaccard` directory.
 
 You can run the program like so:
 
@@ -76,7 +68,3 @@ It is possible to make this run very fast (in under a second):
 ### Step 3: Analyze (again)
 
 Again, for every function in the file, write in the commentary its new big O complexity. Write it down so that it is easy to see both the original complexity and the improved one.
-
-## How to Submit
-
-Submit your repository URL below. This should look something like: `https://github.com/minprog-platforms/your_repo_name`.

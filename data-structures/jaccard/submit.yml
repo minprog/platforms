@@ -1,2 +1,4 @@
 name: jaccard
-url: true
+files:
+    required:
+        - jaccard.py

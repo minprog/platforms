@@ -1,2 +1,5 @@
 name: indexing_words
-url: true
+form: true
+files:
+    required:
+        - word_index.py
