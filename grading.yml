@@ -104,6 +104,7 @@ week1:
         homepage: 2
         movies: 1
         fiftyville: 1
+        pr1: 0
 
 week2:
     show_progress: true
@@ -112,9 +113,11 @@ week2:
         q2_data: 1
         jaccard: 1
         indexing_words: 2
+        pr2: 0
 
 week3:
     show_progress: true
     submits:
         pandas: 2
         scraping: 3
+        pr3: 0
