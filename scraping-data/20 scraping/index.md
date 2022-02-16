@@ -16,7 +16,7 @@ Admittedly a much less catchy question.
 
 ## Provided code
 
-We have provided some code to get you started. Accept [this GitHub classroom invite](https://classroom.github.com/a/nPKjKQym)
+We have provided some code to get you started. [Download here](scraping.zip).
 
 ## Libraries
 

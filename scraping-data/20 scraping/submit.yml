@@ -1,2 +1,4 @@
 name: scraping
-url: true
+files:
+    required:
+        - scraper.py
