@@ -62,10 +62,10 @@ Homepage: 1 punt als *precies* aan alle eisen in de opdracht is voldaan. 2 punte
 | Jaccard                | 1 punt voor een goede implementatie                    |
 | Indexing Words         | 1--2 punten voor een goede of excellente implementatie |
 
-| Week 3 (wordt nog aangepast) |                                     |
-| --------------------- | ---------------------------------- |
-| Pandas                | 1 punt                             |
-| Scraping t/m ...      | 50% correctness + 50% design/style |
+| Week 3                |                                                        |
+| --------------------- | ------------------------------------------------------ |
+| Pandas                | 2 punten                                               |
+| Scraping t/m ...      | 2--3 punten voor een goede of excellente implementatie |
 
 | Week 5 (wordt nog aangepast) |                                     |
 | --------------------- |  ---------------------------------- |

@@ -41,11 +41,24 @@ grades:
     testing_rotate: *punt1
     testing_tennis: *punt1
 
+    scraping:
+        type: float
+        subgrades:
+            points: integer
+        calculation: (points / 3.0 * 9 + 1).round(1)
+        hide_calculated: true
+
     indexing_words: *cijfer
     crawling: *cijfer
     testing_cash: *cijfer
     profilers: *cijfer
-    
+
+    pr1: *punt1
+    pr2: *punt1
+    pr3: *punt1
+    pr5: *punt1
+    pr6: *punt1
+    pr7: *punt1
 
 
 calculation:
@@ -53,6 +66,14 @@ calculation:
         punten: 50
         cijfers: 50
 
+calculation-sem2:
+    eindcijfer2:
+        week1: 1
+        week2: 1
+        week3: 1
+        week5: 1
+        week6: 1
+        week7: 1
 
 punten:
     show_progress: true
@@ -69,7 +90,6 @@ punten:
         testing_tennis: 0
         jaccard: 1
 
-
 cijfers:
     show_progress: true
     submits:
@@ -77,3 +97,24 @@ cijfers:
         crawling: 1
         testing_cash: 1
         profilers: 1
+
+week1:
+    show_progress: true
+    submits:
+        homepage: 2
+        movies: 1
+        fiftyville: 1
+
+week2:
+    show_progress: true
+    submits:
+        q1_data: 1
+        q2_data: 1
+        jaccard: 1
+        indexing_words: 2
+
+week3:
+    show_progress: true
+    submits:
+        pandas: 2
+        scraping: 3
