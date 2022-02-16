@@ -32,7 +32,7 @@ Je docent is Martijn Stegeman, en de assistenten zijn Marijn Doeve en Alwan Rash
 
 ## Minimumeisen
 
-Alle opdrachten netjes af en werkend inleveren is de eerste eis om het vak te halen. Daarnaast is het nodig dat je _zichtbaar_ actief meedoet en leert van het vak. Dat doe je onder andere op de volgende manieren:
+Een flink deel van de opdrachten netjes af en werkend inleveren is de eerste eis om het vak te halen. Daarnaast is het nodig dat je _zichtbaar_ actief meedoet en leert van het vak. Dat doe je onder andere op de volgende manieren:
 
 1. meedoen aan minimaal één werkcollege per week
 2. actief vragen stellen en hulp vragen
