@@ -1,2 +1,5 @@
 name: visualize
-url: true
+files:
+    required:
+        - visualize_years.py
+        - visualize_actors.py

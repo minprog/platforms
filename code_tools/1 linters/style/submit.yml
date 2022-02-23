@@ -1,2 +1,4 @@
 name: linters_style
-url: true
+files:
+    required:
+        - my_code.py

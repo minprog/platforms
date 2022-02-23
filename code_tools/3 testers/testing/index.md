@@ -31,7 +31,7 @@ At the end of the day, thirteen students submitted their work. You can find each
 
 ### What to do
 
-First accept [this GitHub Classroom invite](https://classroom.github.com/a/jDTBMQuw).
+[Download the distribution code](testing_cash.zip).
 
 Write unittests in Pytest to test this assignment. Mark each assignment as correct or incorrect below. In case the assignment is incorrect, write down why. Submit all your unittests in a file named `test_cash.py` on the bottom of this page. 
 
@@ -176,7 +176,3 @@ Hold on, before you jump right in, we have added some scaffolding to get you goi
 <input type="radio" name="form[correct13]" value="incorrect" required>
 <label for="correct13">incorrect</label><br/>
 <textarea name="form[explanation13]" rows="4" required> </textarea>
-
-## How to Submit
-
-Submit your repository URL below. This should look something like: `https://github.com/minprog-platforms/your_repo_name`.

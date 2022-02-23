@@ -1,3 +1,6 @@
 name: crawling
 form: true
-url: true
+files:
+    required:
+        - crawler.py
+        - visualize_languages.py

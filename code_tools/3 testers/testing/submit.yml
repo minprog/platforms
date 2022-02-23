@@ -1,3 +1,5 @@
 name: testing_cash
-url: true
 form: true
+files:
+    required:
+        - test_cash.py

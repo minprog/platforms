@@ -55,33 +55,50 @@ De cursus bestaat uit modules (weken). Alle modules tellen even zwaar mee voor h
 
 Homepage: 1 punt als *precies* aan alle eisen in de opdracht is voldaan. 2 punten bij een exceptionele website. Exceptioneel is significant meer moeite in de opdracht gestoken en duidelijk verder gegaan dan de geboden stof.
 
-| Week 2                 |                                                        |
-| ---------------------- | ------------------------------------------------------ |
-| Complexity questions 1 | 1 punt voor (vrijwel) goede antwoorden                 |
-| Complexity questions 2 | 1 punt voor (vrijwel) goede antwoorden                 |
-| Jaccard                | 1 punt voor een goede implementatie                    |
-| Indexing Words         | 1--2 punten voor een goede of excellente implementatie |
+| Week 2                 |                                        |
+| ---------------------- | -------------------------------------- |
+| Complexity questions 1 | 1 punt voor (vrijwel) goede antwoorden |
+| Complexity questions 2 | 1 punt voor (vrijwel) goede antwoorden |
+| Jaccard                | 1 punt voor een goede implementatie    |
+| Indexing Words         | 1--2 punten                            |
 
-| Week 3                |                                                        |
-| --------------------- | ------------------------------------------------------ |
-| Pandas                | 2 punten                                               |
-| Scraping t/m ...      | 2--3 punten voor een goede of excellente implementatie |
+Indexing Words: 1 punt als het programma werkt, maar de runtime complexiteit verder omlaag kan, 2 punten als het programma werkt en de runtime complexiteit niet verder omlaag kan.
 
-| Week 5 (wordt nog aangepast) |                                     |
-| --------------------- |  ---------------------------------- |
-| ... t/m Crawling      |  50% correctness + 50% design/style |
+| Week 3                |             |
+| --------------------- | ----------- |
+| Pandas                | 2 punten    |
+| Scraping              | 2--3 punten |
 
-| Week 6 (wordt nog aangepast) |                                   |
-| --------------------- |  ---------------------------------- |
-| Linters               |  1 punt                             |
-| Type Checkers         |  1 punt                             |
-| Profilers             |  100% correctness                   |
+Scraping: 2 punten voor een goede (correcte en redelijk nette) implementatie, 3 punten voor een excellente implementatie (uitgebreid gedocumenteerd, consistente stijl).
 
-| Week 7 (wordt nog aangepast) |                                  |
-| --------------------- | ---------------------------------- |
-| Rotate                | 1 punt                             |
-| Tennis                | 100% correctness                   |
-| Cash                  | 100% correctness                   |
+| Week 5                |                                          |
+| --------------------- | ---------------------------------------- |
+| Transforming          | 1 punt                                   |
+| Visualizing           | 2 punten                                 |
+| Crawling              | 4 punten (2 correctness, 2 design/style) |
+
+Bij deze module geldt dat alle code op een Pandas-achtige manier moet zijn geschreven. Hierbij schrijf je relatief weinig loops maar laat je operaties over aan Pandas. Voorwaarde voor het geven van punten bij deze module is dat gebruik is gemaakt van de mogelijkheden die Pandas biedt (omdat de module hier over gaat).
+
+Crawling: 2 punten voor een goede (correcte en redelijk nette) implementatie, 4 punten voor een excellente implementatie (uitgebreid gedocumenteerd, consistente stijl).
+
+| Week 6                         |          |
+| ------------------------------ | -------- |
+| Linters: style                 | 2 punt   |
+| Linters: cyclomatic complexity | 2 punt   |
+| Type Checkers                  | 2 punt   |
+| Profilers: Sudoku              | 6 punten |
+
+Linters en Type Checkers worden alleen op correctheid (en eventuele uitleg) nagekeken, maar een zekere minimum netheid wordt altijd vereist. Profilers: 1 punt voor iedere goed onderbouwde aanpassing.
+
+| Week 7   |          |
+| -------- | -------- |
+| Rotate   | 3 punten |
+| Tennis   | 5 punten |
+| Cash     | 5 punten |
+
+Opdrachten worden alleen op correctheid nagekeken, maar een zekere minimum netheid wordt altijd vereist. Rotate: 3 punten bij 7 correcte tests. Tennis: 4 punten voor correcte voorgeschreven tests, 5 punten als ook een zinvolle extra test is toegevoegd (met uitleg). Cash: 0.5 punt per goed onderbouwd antwoord.
+
+**Herhaling: alle modules tellen even zwaar mee voor het eindcijfer.** Dus het heeft geen zin om alle punten van alle modules bij elkaar op te tellen!
 
 ## Aanwezigheid
 

@@ -1,2 +1,4 @@
 name: transforming
-url: true
+files:
+    required:
+        - extract.py

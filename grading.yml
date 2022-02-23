@@ -32,15 +32,13 @@ grades:
     homepage: *punt23
     movies: *punt1automatic
     fiftyville: *punt1automatic
+
     q1_data: *punt1
     q2_data: *punt1
-    pandas: *punt23
-    linters_style: *punt1
-    type_hints: *punt1
     jaccard: *punt1
-    testing_rotate: *punt1
-    testing_tennis: *punt1
+    indexing_words: *cijfer
 
+    pandas: *punt23
     scraping:
         type: float
         subgrades:
@@ -48,10 +46,18 @@ grades:
         calculation: (points / 3.0 * 9 + 1).round(1)
         hide_calculated: true
 
-    indexing_words: *cijfer
+    transforming: *cijfer
+    visualize: *cijfer
     crawling: *cijfer
-    testing_cash: *cijfer
+
+    linters_style: *punt1
+    cyclomatic: *punt1
+    type_hints: *punt1
     profilers: *cijfer
+
+    testing_rotate: *punt1
+    testing_tennis: *punt1
+    testing_cash: *cijfer
 
     pr1: *punt1
     pr2: *punt1
@@ -76,7 +82,7 @@ calculation-sem2:
         week7: 1
 
 punten:
-    show_progress: true
+    # show_progress: true
     submits:
         homepage: 2
         movies: 1
@@ -91,7 +97,7 @@ punten:
         jaccard: 1
 
 cijfers:
-    show_progress: true
+    # show_progress: true
     submits:
         indexing_words: 1
         crawling: 1
@@ -121,3 +127,26 @@ week3:
         pandas: 2
         scraping: 3
         pr3: 0
+
+week5:
+    show_progress: true
+    submits:
+        transforming: 1
+        visualize: 2
+        crawling: 4
+        pr5: 0
+
+week6:
+    show_progress: true
+    submits:
+        linters_style: 2
+        cyclomatic: 2
+        type_hints: 2
+        profilers: 6
+
+week7:
+    show_progress: true
+    submits:
+        testing_rotate: 3
+        testing_tennis: 5
+        testing_cash: 5

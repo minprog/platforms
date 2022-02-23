@@ -38,8 +38,3 @@ Does the top 5 in your file correspond to what you find on IMDB?
 ## Done
 
 In the next step you will visualize the date to finally answer the question: What year had the best average IMDB rating for its top 5 movies?
-
-## How to submit
-
-Add `extract.py` to your git repository from the Scraping assignment. Then share the URL to your repository at GitHub once again below. This should look something like: `https://github.com/minprog-platforms/your_repo_name`.
-

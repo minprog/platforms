@@ -1,2 +1,5 @@
 name: profilers
-url: true
+form: true
+files:
+    required:
+        - sudoku.py
