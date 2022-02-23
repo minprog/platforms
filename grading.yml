@@ -143,6 +143,7 @@ week6:
         cyclomatic: 2
         type_hints: 2
         profilers: 6
+        pr6: 0
 
 week7:
     show_progress: true
@@ -150,3 +151,4 @@ week7:
         testing_rotate: 3
         testing_tennis: 5
         testing_cash: 5
+        pr7: 0
