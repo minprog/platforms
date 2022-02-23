@@ -13,7 +13,7 @@ It also allows to alternate code with text and explanation. The exercises will b
 
 ## Installing Jupyter (if needed)
 
-        pip install notebook
+        pip3 install notebook
 
 Or follow the *Jupyter* installation instructions [here](https://jupyter.org/install).
 
