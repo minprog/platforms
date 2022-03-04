@@ -76,6 +76,3 @@ And which language was the second most influential in the 2010s?
 
 <textarea name="form[2]" rows="1" required=""></textarea>
 
-## How to submit
-
-Add `crawler.py` and `visualize_languages.py` to your git repository from the Scraping assignment. Then share the URL to your repository at GitHub once again below. This should look something like: `https://github.com/minprog-platforms/your_repo_name`.
