@@ -60,8 +60,6 @@ By appending `# noqa: E501` to the end of the line, `flake8` will ignore this li
 
 ## What to do
 
-Accept [this GitHub Classroom assignment](https://classroom.github.com/a/8sJ_R49R)
-
 Take an old Python assignment of at least `100` LOC (lines of code) and make it compliant with PEP 8. Use `flake8` to check for any style errors. We will check for any type errors with this command:
 
     flake8 --max-line-length=127

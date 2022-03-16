@@ -196,5 +196,3 @@ Improve the code in seven **different** ways. For each, write down:
 ## How to Submit
 
 > Before you submit, double check that each of your answers contains: Why you selected that part of the code, Why you think that code can be improved, What you changed in the code, and What the performance gain is or isn't.
-
-Submit your repository URL below. This should look something like: `https://github.com/minprog-platforms/your_repo_name`.
