@@ -36,7 +36,7 @@ grades:
     q1_data: *punt1
     q2_data: *punt1
     jaccard: *punt1
-    indexing_words: *cijfer
+    indexing_words: *punt23
 
     pandas: *punt23
     scraping:
