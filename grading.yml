@@ -26,6 +26,12 @@ templates:
             grade: integer
         calculation: grade
         hide_calculated: true
+    3: &process
+        type: float
+        subgrades:
+            done: boolean
+        calculation: done
+        hide_calculated: true
 
 
 grades:
@@ -59,12 +65,12 @@ grades:
     testing_tennis: *punt1
     testing_cash: *cijfer
 
-    pr1: *punt1
-    pr2: *punt1
-    pr3: *punt1
-    pr5: *punt1
-    pr6: *punt1
-    pr7: *punt1
+    pr1: *process
+    pr2: *process
+    pr3: *process
+    pr5: *process
+    pr6: *process
+    pr7: *process
 
 
 calculation:
