@@ -2,3 +2,4 @@ name: testing_tennis
 files:
     required:
         - test_tennis.py
+        - tennis.py
