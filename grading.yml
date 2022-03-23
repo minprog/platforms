@@ -52,18 +52,39 @@ grades:
         calculation: (points / 3.0 * 9 + 1).round(1)
         hide_calculated: true
 
-    transforming: *cijfer
-    visualize: *cijfer
-    crawling: *cijfer
+    transforming: *punt1
+    visualize: *punt1
+    crawling:
+        type: float
+        subgrades:
+            correctness: integer
+            design: integer
+        calculation: ((design+correctness) / 6.0 * 9 + 1).round(1)
+        hide_calculated: true
 
     linters_style: *punt1
     cyclomatic: *punt1
     type_hints: *punt1
-    profilers: *cijfer
+    profilers:
+        type: float
+        subgrades:
+            points: integer
+        calculation: (points / 6.0 * 9 + 1).round(1)
+        hide_calculated: true
 
     testing_rotate: *punt1
-    testing_tennis: *punt1
-    testing_cash: *cijfer
+    testing_tennis:
+        type: float
+        subgrades:
+            points: integer
+        calculation: (points / 5.0 * 9 + 1).round(1)
+        hide_calculated: true
+    testing_cash:
+        type: float
+        subgrades:
+            points: integer
+        calculation: (points / 5.0 * 9 + 1).round(1)
+        hide_calculated: true
 
     pr1: *process
     pr2: *process
