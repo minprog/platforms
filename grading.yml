@@ -167,7 +167,7 @@ week6:
     show_progress: true
     submits:
         linters_style: 2
-        cyclomatic: 2
+        cyclomatic_complexity: 2
         type_hints: 2
         profilers: 6
         pr6: 0
