@@ -63,7 +63,7 @@ grades:
         hide_calculated: true
 
     linters_style: *punt1
-    cyclomatic: *punt1
+    cyclomatic_complexity: *punt1
     type_hints: *punt1
     profilers:
         type: float
