@@ -23,7 +23,7 @@ Er komen modules voorbij met uiteenlopende onderwerpen. Dit vak start razendsnel
 
 Je docent is Jelle van Assema.
 
-- Er zijn iedere week twee **werkcolleges op locatie**. De tijden en locatie vind je op <https://datanose.nl/103382.course>. Het is _verplicht_ één van beide bij te wonen, behalve in uitzonderlijke situaties (het volgen van andere vakken is geen uitzonderlijke situatie). Deze bijeenkomsten zijn verreweg je beste mogelijkheid voor hulp; zowel voor moeilijke bugs als "ik weet niet hoe te beginnen".
+- Het is verplicht om dagelijks aanwezig te zijn, in de regel tussen 10 en 17 uur. Mocht je klaar zijn met de wekelijkse opdrachten dan kun je wegblijven. Stuur **altijd** een mail als je wegblijft.
 - Voor **vragen over regeltjes**, het maken van persoonlijke afspraken en het op de hoogte houden van de docenten over je voortgang stuur je een mail naar <help@mprog.nl>.
 
 ## Minimumeisen
@@ -33,7 +33,6 @@ Een flink deel van de opdrachten netjes af en werkend inleveren is de eerste eis
 1. meedoen aan minimaal één werkcollege per week
 2. actief vragen stellen en hulp vragen
 3. het bijhouden van een procesboek
-4. laag scoren op de "plagiaatschaal"
 
 Op die manier kunnen we een goed beeld vormen van jouw voortgang en constateren dat je aan de leerdoelen van het vak hebt voldaan. Er is daarom ook niet voorzien in een schriftelijk tentamen. Dat is natuurlijk een prettig einde van het vak, maar legt wel meer verantwoordelijkheid bij jou om zichtbaar te leren.
 
