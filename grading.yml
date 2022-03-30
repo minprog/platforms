@@ -82,7 +82,7 @@ grades:
     testing_cash:
         type: float
         subgrades:
-            points: integer
+            points: float
         calculation: (points / 5.0 * 9 + 1).round(1)
         hide_calculated: true
 
