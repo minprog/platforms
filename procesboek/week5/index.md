@@ -6,4 +6,4 @@ Hiermee documenteer je je leerproces, ook op momenten dat wij (als docenten) er 
 
 Aan het eind van elke week lever je je bijgewerkte procesboek in, zodat wij kunnen meekijken met je proces. **Het procesboek moet altijd als PDF ingeleverd worden.**
 
-Dit is de inleverpagina van Week 5.
+Dit is de inleverpagina van Module 5.
