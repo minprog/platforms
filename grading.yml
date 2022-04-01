@@ -104,9 +104,9 @@ calculation-sem2:
         week1: 1
         week2: 1
         week3: 1
+        week4: 1
         week5: 1
         week6: 1
-        week7: 1
 
 punten:
     # show_progress: true
@@ -155,7 +155,7 @@ week3:
         scraping: 3
         pr3: 0
 
-week5:
+week4:
     show_progress: true
     submits:
         transforming: 1
@@ -163,7 +163,7 @@ week5:
         crawling: 4
         pr5: 0
 
-week6:
+week5:
     show_progress: true
     submits:
         linters_style: 2
@@ -172,7 +172,7 @@ week6:
         profilers: 6
         pr6: 0
 
-week7:
+week6:
     show_progress: true
     submits:
         testing_rotate: 3
