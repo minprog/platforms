@@ -30,7 +30,7 @@ Je docent is Jelle van Assema.
 
 Een flink deel van de opdrachten netjes af en werkend inleveren is de eerste eis om het vak te halen. Daarnaast is het nodig dat je _zichtbaar_ actief meedoet en leert van het vak. Dat doe je onder andere op de volgende manieren:
 
-1. meedoen aan minimaal één werkcollege per week
+1. dagelijks aanwezig zijn
 2. actief vragen stellen en hulp vragen
 3. het bijhouden van een procesboek
 
