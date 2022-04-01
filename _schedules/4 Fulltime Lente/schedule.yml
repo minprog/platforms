@@ -15,75 +15,76 @@ Week 1a (Git, Web and SQL):
     "Implement Movies [5u]": /sql/movies
   Woensdag:
     "Implement Fiftyville [5u]": /sql/fiftyville
-  Afronding week:
+  Harde deadline 1a woensdag:
     Inleveren procesboek 1: /procesboek/week1
 
 Week 1b (Datastructuren):
   Startup:
     Procesboek: /procesboek
-  Woensdag:
+  Donderdag:
     Complexity [1u]: /data-structures/python/efficiency
     Complexity questions 1 [1u]: /data-structures/questions1
     Dictionaries theory [0.5u]: /data-structures/python/dictionaries/use
     Dictionaries practice [0.5u]: /data-structures/python/dictionaries/use/practice
     Efficiency of dictionaries [0.5u]: /data-structures/python/dictionaries/complexity
     Efficiency of dictionaries [0.5u]: /data-structures/python/dictionaries/complexity/practice
-  Donderdag:
     Tuples [0.5u]: /data-structures/python/tuples
     Sets [0.5u]: /data-structures/python/sets
     Sets practice [0.5u]: /data-structures/python/sets/practice
     List slicing and indexing [0.5u]: /data-structures/python/slicing
     Applying big O in your code [0.5u]: /data-structures/python/big-o
     Improving count_occurrence [0.5u]: /data-structures/python/big-o-example
+  Vrijdag:
     Complexity questions 2 (punten) [1u]: /data-structures/questions2
     Jaccard [3u]: /data-structures/jaccard
-  Vrijdag:
+  Maandag:
     Indexing words [5u]: /data-structures/word-index
-  Afronding week 2:
+  Harde deadline 1b maandag:
     Inleveren procesboek 2: /procesboek/week2
 
 Week 2a (Data & Scraping):
   Startup:
     Procesboek: /procesboek
-  Maandag:
+  Maandag en dinsdag:
     Pandas [8u]: "/scraping-data/pandas"
-  Dinsdag:
+  Dinsdag en woensdag:
     Scraping [10u]: "/scraping-data/scraping"
-  Afronding week 3:
+  Harde deadline 2a woensdag:
     Inleveren procesboek 3: /procesboek/week3
 
 Week 2b (Data Processing):
   Startup:
     Procesboek: /procesboek
-  Woensdag:
+  Donderdag:
     Transforming [3u]: "/scraping-data/transforming"
     Visualizing [6u]: "/scraping-data/visualizing"
-  Donderdag en vrijdag:
+  Dinsdag en een stukje woensdag:
     Crawling [10u]: "/scraping-data/crawling"
-  Afronding week 5:
+  Harde deadline 2b woensdag:
     Inleveren procesboek 5: /procesboek/week5
 
 Week 3a (Codekwaliteit):
   Startup:
     Procesboek: /procesboek
-  Maandag:
+  Woensdag en donderdag:
     Style [2u]: "/code_tools/linters/style"
     Cyclomatic complexity [2u]: "/code_tools/linters/cyclomatic_complexity"
     Type checkers theory [1u]: "/code_tools/type_checkers/theory"
     Assignment [2u]: "/code_tools/type_checkers/type_hints"
-  Dinsdag:
+  Donderdag en vrijdag:
     Sudoku profiling (cijfer) [10u]: "/code_tools/profilers"
-  Afronding week 6:
+  Harde deadline 3a vrijdag:
     Inleveren procesboek 6: /procesboek/week6
 
 Week 3b (Testing):
   Startup:
     Procesboek: /procesboek
-  Woensdag:
+  Maandag:
     Theory [2u]: "/code_tools/testers/theory"
     Rotate [3u]: "/code_tools/testers/rotate"
-  Donderdag en vrijdag:
+  Dinsdag:
     Tennis [6u]: "/code_tools/testers/tennis"
+  Donderdag en vrijdag:
     Cash [8u]: "/code_tools/testers/testing"
-  Afronding week 7:
+  Harde deadline 3b vrijdag:
     Inleveren procesboek 7: /procesboek/week7
