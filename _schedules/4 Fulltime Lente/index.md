@@ -12,12 +12,12 @@ Er komen modules voorbij met uiteenlopende onderwerpen. Dit vak start razendsnel
 
 | Onderwerp | **Uiterste deadline**{: style="hyphens: none; white-space: nowrap; font-weight: bold;"} |
 | - | -: |
-| **Git, Web en SQL**, het opzetten van een ontwikkelomgeving, het gebruik van git, het opzetten van een webpagina en het gebruik van SQL | 5 april 2022 |
-| **Datastructuren**, afwegingen maken tussen het gebruik van verschillende datastructuren en de invloed op de computationele complexiteit | 8 april 2022 |
-| **Data & Scraping**, data verwerken in Python met Pandas; en geautomatiseerd data vergaren vanaf het web | 12 april 2022 |
-| **Data Processing**, automatisch data vergaren vanaf het web en deze transformeren en visualiseren | 15 april 2022 |
-| **Codekwaliteit**, stijl op orde krijgen met linters, type checkers; en run-time performance analyseren en verbeteren met profilers | 19 april 2022 |
-| **Testing**, geautomatiseerd testen van de correcte werking van je eigen programma's | 22 april 2022 |
+| **Git, Web en SQL**, het opzetten van een ontwikkelomgeving, het gebruik van git, het opzetten van een webpagina en het gebruik van SQL | 6 april 2022 |
+| **Datastructuren**, afwegingen maken tussen het gebruik van verschillende datastructuren en de invloed op de computationele complexiteit | 11 april 2022 |
+| **Data & Scraping**, data verwerken in Python met Pandas; en geautomatiseerd data vergaren vanaf het web | 13 april 2022 |
+| **Data Processing**, automatisch data vergaren vanaf het web en deze transformeren en visualiseren | 20 april 2022 |
+| **Codekwaliteit**, stijl op orde krijgen met linters, type checkers; en run-time performance analyseren en verbeteren met profilers | 22 april 2022 |
+| **Testing**, geautomatiseerd testen van de correcte werking van je eigen programma's | 29 april 2022 |
 
 ## Docenten en contact
 
