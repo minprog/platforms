@@ -15,7 +15,7 @@ Week 1a (Git, Web and SQL):
     "Implement Movies [5u]": /sql/movies
   Woensdag:
     "Implement Fiftyville [5u]": /sql/fiftyville
-  Harde deadline 1a woensdag:
+  Harde deadline 1a woensdag 6 april:
     Inleveren procesboek 1: /procesboek/week1
 
 Week 1b (Datastructuren):
@@ -39,7 +39,7 @@ Week 1b (Datastructuren):
     Jaccard [3u]: /data-structures/jaccard
   Maandag:
     Indexing words [5u]: /data-structures/word-index
-  Harde deadline 1b maandag:
+  Harde deadline 1b maandag 11 april:
     Inleveren procesboek 2: /procesboek/week2
 
 Week 2a (Data & Scraping):
@@ -49,7 +49,7 @@ Week 2a (Data & Scraping):
     Pandas [8u]: "/scraping-data/pandas"
   Dinsdag en woensdag:
     Scraping [10u]: "/scraping-data/scraping"
-  Harde deadline 2a woensdag:
+  Harde deadline 2a woensdag 13 april:
     Inleveren procesboek 3: /procesboek/week3
 
 Week 2b (Data Processing):
@@ -60,7 +60,7 @@ Week 2b (Data Processing):
     Visualizing [6u]: "/scraping-data/visualizing"
   Dinsdag en een stukje woensdag:
     Crawling [10u]: "/scraping-data/crawling"
-  Harde deadline 2b woensdag:
+  Harde deadline 2b woensdag 20 april:
     Inleveren procesboek 5: /procesboek/week5
 
 Week 3a (Codekwaliteit):
@@ -73,7 +73,7 @@ Week 3a (Codekwaliteit):
     Assignment [2u]: "/code_tools/type_checkers/type_hints"
   Donderdag en vrijdag:
     Sudoku profiling (cijfer) [10u]: "/code_tools/profilers"
-  Harde deadline 3a vrijdag:
+  Harde deadline 3a vrijdag 22 april:
     Inleveren procesboek 6: /procesboek/week6
 
 Week 3b (Testing):
@@ -86,5 +86,5 @@ Week 3b (Testing):
     Tennis [6u]: "/code_tools/testers/tennis"
   Donderdag en vrijdag:
     Cash [8u]: "/code_tools/testers/testing"
-  Harde deadline 3b vrijdag:
+  Harde deadline 3b vrijdag 29 april:
     Inleveren procesboek 7: /procesboek/week7
