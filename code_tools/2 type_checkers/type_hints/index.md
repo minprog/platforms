@@ -1,5 +1,7 @@
 # Type hints in Python
 
+> Please note that Python 3.8 does not support `x: list[int]` out of the box. If you're getting "TypeError: 'type' object is not subscriptable" please add `from __future__ import annotations` to the top of your file.
+
 <details markdown="1"><summary  markdown="span">Type hints</summary>
 A type hint in the simplest form looks like this:
 
@@ -20,13 +22,13 @@ That looks somewhat redundant, doesn't it? How can the _literal_ value `3` be an
 
     foo = 3
 
-Type inference does have its limitations, for instance `mypy`, a popular static type checker for Python, will not do any type inference in functions without type hints. To understand why, let's quickly look into function type hints. In the simplest form:
+Type inference does have its limitations, for instance `mypy`, a popular static type checker for Python, will not do any type inference in functions without type hints. To understand why let's quickly look into function type hints. In the simplest form:
 
     def add(a: int, b: int) -> int:
         c = a + b
         return c
 
-The syntax above is straight forward, use the colon (`:`) for parameter type hints, and the arrow (`->`) for the return type. Notice how the type of `c` is not annotated. It can be, but it is not needed. From the types of `a` and `b` and the `+` operation, `mypy` can infer the type of `c`. But what if we did not annotate this function. Well, in that case, `a` and `b` could be anything: `str`, `float`, `list`, you name it! This is where `mypy` draws a line, if you do not annotate a function, `mypy` will not even attempt to do type inference. Instead all variables will be of type `Any`.
+The syntax above is straightforward, use the colon (`:`) for parameter type hints, and the arrow (`->`) for the return type. Notice how the type of `c` is not annotated. It can be, but it is not needed. From the types of `a` and `b` and the `+` operation, `mypy` can infer the type of `c`. But what if we did not annotate this function. Well, in that case, `a` and `b` could be anything: `str`, `float`, `list`, you name it! This is where `mypy` draws a line, if you do not annotate a function, `mypy` will not even attempt to do type inference. Instead, all variables will be of type `Any`.
 
 What is `Any`? Well, anything really. It is an escape hatch of sorts that provides no information. Once `Any` gets involved type checking becomes rather impossible. What is `Any + int`? `Any`.
 
@@ -49,7 +51,7 @@ Integers, floats, booleans and strings are primitive data types. Built into the 
     numbers: list = [1, 2, 3]
     number = numbers.pop()
 
-Here is the catch, the type `list` does not tell _anything_ about what is in the `list`. So really what we have here is a `list` containing `Any`. In this case the type of `number` would be `Any` too.
+Here is the catch, the type `list` does not tell _anything_ about what is in the `list`. So really what we have here is a `list` containing `Any`. In this case, the type of `number` would be `Any` too.
 
 A `list` is a generic data type. It can store various types, but its operation will vary based on what you store. Simply put for a `list`, if you initially store integers in the list, you will later be able to retrieve integers from that list. This can be annotated as follows:
 
@@ -62,7 +64,7 @@ Let's take a quick look at `dict`. Dictionaries have two types, their keys and v
 
     grades: dict[str, int] = {"Martijn": 7, "Marleen": 8}
 
-Tuples are an immutable data structure, once initialized it cannot be changed. So it is known up front exactly what the type of each value in the tuple is going to be. Because of this the `tuple` type can a variable amount of generic anotations with exactly as many types as there are values. Like so:
+Tuples are an immutable data structure, once initialized it cannot be changed. So it is known upfront exactly what the type of each value in the tuple is going to be. Because of this the `tuple` type can a variable amount of generic annotations with exactly as many types as there are values. Like so:
 
     foo: tuple[int, float] = (7, 7.2)
     bar: tuple[int, float, str] = (8, 7.9, "hello world")
@@ -99,7 +101,7 @@ How do you write your own generic functions? In Python that requires type variab
     T = TypeVar('T')  # Can be anything
     N = TypeVar('N', int, float)  # Must be int or float
 
-Type variables can be unconstrained, like `T` above. In this case `T` can be any type at all. Or type variables can be constraint, like `N` above. In which case `N` can only be an `int` or a `float`. Type variables can come in place of actual types to create for instance generic functions:
+Type variables can be unconstrained, like `T` above. In this case, `T` can be any type at all. Or type variables can be constraint, like `N` above. In which case `N` can only be an `int` or a `float`. Type variables can come in place of actual types to create for instance generic functions:
 
     from typing import Iterable, TypeVar
 
@@ -146,7 +148,7 @@ There is no reason this implementation cannot work with other types of data stru
 
 Looking at the implementation of `sum`, all that is needed from `items` is that it works with a for-loop. Or more precisely, the data structure needs to be iterable.
 
-We could say that we only care about a property of the type of data structure, namely that it is iterable. We are not not necessarily interested in the concrete thing. Rather, if the type we insert into the function is somewhat list-like, the function should work just fine. In comes duck typing:
+We could say that we only care about a property of the type of data structure, namely that it is iterable. We are not necessarily interested in the concrete thing. Rather, if the type we insert into the function is somewhat list-like, the function should work just fine. In comes duck typing:
 
 > if it walks like a duck, swims like a duck, and quacks like a duck... it's a duck.
 
@@ -160,9 +162,9 @@ We need a type that can swim, or in our case a data structure that is iterable. 
             total += item
         return item
 
-Now any calls to `sum`, whether that'd be with a `tuple` or `set`, will all pass type checks. As all of these data structures are iterable! This form of abstract types is called structural subtyping. Alternatively, and probably easier to remember: **static duck typing**. This is done through creating a subtype that only contains some structural aspect of the original type. For instance, `Iterable` is a subtype with only the method `__iter__` (Python's hidden method for iterable things). So as long as the actual type implements `__iter__` any type check will pass.
+Now any calls to `sum`, whether that'd be with a `tuple` or `set`, will all pass type checks. As all of these data structures are iterable! This form of abstract types is called structural subtyping. Alternatively, and probably easier to remember: **static duck typing**. This is done by creating a subtype that only contains some structural aspect of the original type. For instance, `Iterable` is a subtype with only the method `__iter__` (Python's hidden method for iterable things). So as long as the actual type implements `__iter__` any type check will pass.
 
-The `typing` module provides more duck types, most notably: `Sequence` and `Mapping`. `Sequence` is a duck type for anything that keeps an order and is index-able. Lists and tuples are `Sequence`s, but a `set` for instance is not.
+The `typing` module provides more duck types, most notably: `Sequence` and `Mapping`. `Sequence` is a duck type for anything that keeps order and is index-able. Lists and tuples are `Sequence`s, but a `set` for instance is not.
 
     from typing import Sequence
 
@@ -178,7 +180,7 @@ The `typing` module provides more duck types, most notably: `Sequence` and `Mapp
 
 <details markdown="1"><summary  markdown="span">For the technically curious...</summary>
 
-These abstract data types are implemented as so called `Protocols`. See this [Python Enhancement Proposal](https://www.python.org/dev/peps/pep-0544/). Through these Protocols you can define your own duck types too. For instance:
+These abstract data types are implemented as so-called `Protocols`. See this [Python Enhancement Proposal](https://www.python.org/dev/peps/pep-0544/). Through these Protocols you can define your own duck types too. For instance:
 
     from typing import Iterable, Protocol
 
@@ -249,7 +251,7 @@ Duck typing is great and all, but what if we actually do want a duck, not someth
 
     class Student(User): pass
 
-Through this we can write functions that only accept specific types of users. For instance:
+Through this, we can write functions that only accept specific types of users. For instance:
 
     def view_grade(user: User) -> int: pass
     def add_grade(user: Staff) -> None: pass
@@ -260,11 +262,11 @@ This way the type checker will allow all three roles to view grades, but only th
 
 <details markdown="1"><summary  markdown="span">Special types</summary>
 
-There are some special cases that need special treating and you'll find these in the `typing` module! [Here are the docs](https://docs.python.org/3/library/typing.html#special-forms)
+There are some special cases that need special treatment and you'll find these in the `typing` module! [Here are the docs](https://docs.python.org/3/library/typing.html#special-forms)
 
 #### Union
 
-For instance, in some cases a function might be able to cope with multiple types. Effectively one type or the other. `Union` handles this like so:
+For instance, in some cases, a function might be able to cope with multiple types. Effectively one type or the other. `Union` handles this like so:
 
     from typing import Union
 

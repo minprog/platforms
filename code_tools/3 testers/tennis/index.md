@@ -6,6 +6,9 @@ The word spoken must begin with the last letter of the previous word. If you can
 
 As part of this new app, we need the function below:
 
+    from __future__ import annotations
+
+
     def guess(word: str, previous_words: list[str], time: float) -> bool:
         # TODO
         pass
@@ -14,14 +17,16 @@ As part of this new app, we need the function below:
 
 Implement the function above. This function should return False if any rule is broken, True otherwise. Raise a `ValueError` if the input is invalid.
 
+> Please note that only the guess function is required. So you don't have to write any `main` function.
+
 ## Step 2, test your implementation and improve if necessary
 
-This assignment is all about thoroughly testing one function `guess`. While doing so you might find bugs or cases you hadn't thought of while implementing the function. It is up to you to not only write the tests, but also improve the code in case you find any bugs.
+This assignment is all about thoroughly testing one function `guess`. While doing so you might find bugs or cases you hadn't thought of while implementing the function. It is up to you to not only write the tests but also improve the code in case you find any bugs.
 
-Write Pytest unnittests to test the function `guess` in a file called `test_tennis.py`. Be sure to test:
+Write Pytest unit tests to test the function `guess` in a file called `test_tennis.py`. Be sure to test:
 
 - Normal operation: normal input yields expected output
-- Edgecases, such as empty lists, one letter words, the number 0, etc.
+- Edge cases, such as empty lists, one letter words, the number 0, etc.
 - Handling of any illegal input
 
 > Important: You may assume that arguments to the function `guess` are always of the correct type. `word` will always be a string, `previous_words` will always be a list of strings and `time` a float. So there is no need to test for this.

@@ -23,13 +23,17 @@ Write a Python function to rotate a square matrix (a list of lists) 90 degrees c
 
 In case the matrix is not a square, raise a `NonSquareMatrixError`.
 
+    from __future__ import annotations
+
 
     class NonSquareMatrixError(Exception):
         pass
 
+
     def print_matrix(matrix: list[list[int]]) -> None:
         for row in matrix:
             print(row)
+
 
     def rotate(matrix: list[list[int]]) -> list[list[int]]:
         # TODO
