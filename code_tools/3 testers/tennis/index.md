@@ -14,9 +14,11 @@ As part of this new app, we need the function below:
 
 Implement the function above. This function should return False if any rule is broken, True otherwise. Raise a `ValueError` if the input is invalid.
 
+> Note that you don't have to implement the whole game! Just the function `guess` is described above.
+
 ## Step 2, test your implementation and improve if necessary
 
-This assignment is all about thoroughly testing one function `guess`. While doing so you might find bugs or cases you hadn't thought of while implementing the function. It is up to you to not only write the tests, but also improve the code in case you find any bugs.
+This assignment is all about thoroughly testing one function `guess`. While doing so you might find bugs or cases you hadn't thought of while implementing the function. It is up to you to not only write the tests, but also improve the code in case you stumble upon any bugs.
 
 Write Pytest unnittests to test the function `guess` in a file called `test_tennis.py`. Be sure to test:
 
