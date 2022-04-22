@@ -14,7 +14,7 @@ As part of this new app, we need the function below:
 
 Implement the function above. This function should return False if any rule is broken, True otherwise. Raise a `ValueError` if the input is invalid.
 
-> Note that you don't have to implement the whole game! Just the function `guess` is described above.
+> Note that you don't have to implement the whole game! Just the function `guess` as described above.
 
 ## Step 2, test your implementation and improve if necessary
 
