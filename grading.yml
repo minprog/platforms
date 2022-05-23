@@ -59,7 +59,7 @@ grades:
         subgrades:
             correctness: integer
             design: integer
-        calculation: ((design+correctness) / 6.0 * 9 + 1).round(1)
+        calculation: ((design+correctness) / 4.0 * 9 + 1).round(1)
         hide_calculated: true
 
     linters_style: *punt1
